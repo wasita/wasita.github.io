@@ -2308,7 +2308,7 @@ input[type="radio"]+label:before {
 
 .image.main {
 	display: block;
-	height: 20em;
+	height: 15em;
 	border-radius: 0;
 }
 
@@ -2741,7 +2741,7 @@ input[type="submit"].primary:active,
 input[type="reset"].primary:active,
 input[type="button"].primary:active,
 .button.primary:active {
-	background-color: #39c29d;
+	background-color: #ffb1de;
 }
 
 input[type="submit"].disabled,
@@ -2908,7 +2908,7 @@ input[type="button"]:disabled,
 }
 
 #header>nav ul li {
-	border-top: solid 2px #5ccfb1;
+	border-top: solid 2px #ffb1de;
 	display: block;
 	padding: 0;
 }
