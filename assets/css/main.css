@@ -3173,6 +3173,7 @@ input[type="button"]:disabled,
 		display: block;
 		font-weight: 700;
 		height: 44px;
+		background: #000000;
 		line-height: 44px;
 		padding: 0 1em;
 		width: 100%;
