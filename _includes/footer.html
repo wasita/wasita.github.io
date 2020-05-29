@@ -1,13 +1,11 @@
 <!-- Footer -->
 <div id="footer">
-  
+
   <!-- Copyright -->
   <ul class="copyright">
-    {% if site.title or site.author %}
-      <li>&copy; {{- site.title | default: site.author -}}. All rights reserved.</li>
-    {% endif %}
-    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-    <li>Jekyll integration: <a href="https://chrisbobbe.github.io/">Chris Bobbe</a></li>
+    {{ site.author }} © {{ site.time | date: '%Y' }} | built with
+    <a class="link" href="https://jekyllrb.com/">jekyll</a> using <a class="link"
+      href="https://github.com/chrisbobbe/jekyll-theme-prologue">prologue</a>
   </ul>
-  
+
 </div>
