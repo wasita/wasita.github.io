@@ -1,0 +1,31 @@
+# Note to self: if edit this, restart server
+# Site settings
+title: wasita
+subtitle:
+description: >- # this means to ignore newlines until "baseurl:"
+author: wasita mahaphanit
+email: wasita@brown.edu
+avatar: assets/images/wasi_avatar.png
+
+# Customize url and baseurl for site:
+baseurl:
+url:
+
+# Social settings
+twitter_url: https://twitter.com/mahaphanit
+facebook_url:
+googleplus_url:
+instagram_url:
+linkedin_url:
+github_url: https://github.com/wasita
+stackoverflow_url:
+pinterest_url:
+slack_url:
+dribbble_url:
+
+# Google Analytics Tracking ID goes here:
+google_analytics:
+
+# The following settings are NECESSARY for the Prologue theme to run:
+theme: jekyll-theme-prologue
+collections: [sections]
