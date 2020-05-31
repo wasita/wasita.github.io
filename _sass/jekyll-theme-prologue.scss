@@ -4,6 +4,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
+
 /*
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
@@ -23,11 +24,11 @@
 		boxModel: 'border',
 		grid: (gutters: (40px, 40px)),
 		conditionals: true,
-		containers: 1200px,
-		breakpoints: (wide: (containers: 1000px,
+		containers: 1400px,
+		breakpoints: (wide: (containers: 1200px,
 				grid: (gutters: (40px, 40px)),
 			),
-			normal: (containers: 900px,
+			normal: (containers: 960px,
 				grid: (gutters: (40px, 40px)),
 			),
 			narrow: (containers: 100%,
@@ -38,14 +39,15 @@
 			),
 			mobile: (containers: (100%, true),
 			))));
+
 /* Basic */
 
 body {
 	background: #fff;
 	font-family: "Lato",
 		sans-serif;
-	font-size: 16pt;
-	font-weight: 400;
+	font-size: 19pt;
+	font-weight: 300;
 	line-height: 1.75em;
 	color: #888;
 
@@ -65,7 +67,6 @@ select {
 	line-height: 1.75em;
 	color: #888;
 }
-
 
 h1,
 h2,
@@ -93,40 +94,8 @@ h6 a {
 }
 
 h2 {
-	color: #47143e;
-	text-align: left;
-	font-weight: 700;
-	font-size: 3.5em;
-	font-family: "Lato",
-		sans-serif;
-}
-
-h3 {
-	font-size: 1.5em;
-}
-
-h4 {
-	font-size: 1em;
-}
-
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-	color: inherit;
-	text-decoration: none;
-
-	strong {
-		color: #333;
-	}
-}
-
-h2 {
-	font-size: 3.5em;
-	line-height: 1.5em;
-	margin: .5em 3em 1em 0;
+	font-size: 2em;
+	letter-spacing: -1px;
 }
 
 h3 {
@@ -134,42 +103,12 @@ h3 {
 }
 
 header {
-	margin: .5em 3em 0 0;
+	margin: 0 0 2em 0;
 
-	header p {
-		color: #aaa;
-		position: relative;
-		margin: 0 0 2em 0;
+	>p {
+		margin: 1em 0 0 0;
 	}
-
-	header h2+p {
-		font-size: 1.25em;
-		margin-top: -0.5em;
-		line-height: 1.5em;
-	}
-
-	header h3+p {
-		font-size: 1.1em;
-		margin-top: -0.35em;
-		line-height: 1.5em;
-	}
-
-	header.major h2 {
-		color: #47143e;
-		font-size: 3.5em;
-	}
-
-	header.major h2+p {
-		color: #777;
-		font-size: 1.75em;
-		font-weight: 700;
-		margin-top: -0.75em;
-	}
-
 }
-
-
-
 
 footer {
 	margin: 2em 0 0 0;
@@ -194,7 +133,7 @@ a {
 	outline: 0;
 
 	&:hover {
-		color: #E27689;
+		color: #da7f87;
 		border-bottom-color: rgba(255, 255, 255, 0);
 	}
 }
@@ -227,8 +166,7 @@ code {
 
 pre {
 	-webkit-overflow-scrolling: touch;
-	font-family: "Lato",
-		sans-serif;
+	font-family: "Courier New", monospace;
 	font-size: 0.9em;
 	tab-size: 4;
 	margin: 0 0 2em 0;
@@ -248,10 +186,7 @@ blockquote {
 	font-style: italic;
 }
 
-p {
-	text-align: left
-}
-
+p,
 ul,
 ol,
 dl,
@@ -309,23 +244,22 @@ article {
 /* Image */
 
 .image {
-	// TO DO - center relative to header/nav
-	border-radius: 100%;
-	overflow: hidden;
 	display: inline-block;
+	border-radius: 100%; // circular avatar
+	overflow: hidden;
 	margin-bottom: 3em;
 
 	img {
+		display: block;
 		width: 100%;
 	}
 
 	&.avatar {
-		width: 170px;
-		height: 170px;
+		width: 140px;
+		height: 140px;
 
 		img {
-			width: 170px;
-			height: 170px;
+			width: 100%;
 		}
 	}
 
@@ -374,11 +308,10 @@ ul {
 
 		a {
 			display: inline-block;
-			width: 4em;
-			height: 4em;
-			line-height: 4em;
+			width: 2em;
+			height: 2em;
+			line-height: 2em;
 			text-align: center;
-			margin-bottom: 1.5em;
 			border: 0;
 		}
 	}
@@ -565,12 +498,12 @@ button,
 	box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 	color: #fff;
 	height: 100%;
-	width: 23em;
-	top: 0;
-	right: 0; // switch to left: 0; (and elsewhere) if want other side
+	left: 0;
 	overflow-y: auto;
 	position: fixed;
 	text-align: center;
+	top: 0;
+	width: 14.8em;
 
 	.top {
 		@include vendor('flex-grow', '1');
@@ -602,8 +535,8 @@ button,
 
 #logo {
 	position: relative;
-	margin: 2em 2em 1.5em 1.5em;
-	min-height: 10em;
+	// margin: 2em em 2em 2em;
+	min-height: 2em;
 	cursor: default;
 
 	a {
@@ -613,11 +546,11 @@ button,
 	h1 {
 		position: relative;
 		color: #fff;
-		font-family: "Lato", sans-serif;
-		font-weight: 1000;
-		font-size: 1.5em;
+		margin-top: .5em;
+		margin-bottom: 2em;
+		font-weight: 600;
+		font-size: 1em;
 		line-height: 1em;
-		margin-bottom: 1.5em;
 	}
 
 	p {
@@ -631,7 +564,10 @@ button,
 
 	.image {
 		position: relative;
-		// min-height: 10em; uncomment for hair-shaped avatar lol
+		max-height: 5em;
+		max-width: 5em;
+		margin: 2em 2em 2em 2em;
+		// left: 0;
 		top: 0;
 	}
 }
@@ -642,13 +578,12 @@ button,
 		margin-bottom: 0;
 
 		hr {
-			margin: auto 2em;
+			margin: auto 1.5em;
 		}
 
 		li {
 			a {
 				display: block;
-				text-align: center;
 				padding: 0.5em 1.5em 0.5em 1.5em;
 				color: rgba(255, 255, 255, 0.5);
 				text-decoration: none;
@@ -688,70 +623,37 @@ button,
 /* Footer */
 
 #footer {
-	// TO DO - make lighter grey
-	// display: inline-block;
-	display: inline-block;
+	margin-left: 375px;
+	text-align: center;
+	background-color: #dce3e2;
+	padding: 3em 0 4em 0;
+	box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 	font-size: 0.8em;
-	margin-left: 250px;
-	padding-left: 1em;
-	padding: 4em 0 2em 0;
 
 	.copyright {
 		cursor: default;
 		margin: 0;
 
 		li {
-			border-left: solid 1px #d4d4d4;
 			display: inline-block;
-			font-size: 0.8em;
+			line-height: 1em;
+			border-left: solid 1px rgba(128, 128, 128, 0.35);
+			padding: 0 0 0 0.5em;
+			margin: 0 0 0 0.5em;
 
 			&:first-child {
-				border-right: 0;
-				padding-right: 0;
-				margin-right: 0;
+				border-left: 0;
+				padding-left: 0;
+				margin-left: 0;
 			}
 		}
 	}
 }
 
-
-// #footer {
-// 	background: #fafafa;
-// 	border-top: 0;
-// 	color: #c0c0c0;
-// 	overflow: hidden;
-// 	padding: 4em 0 2em 0;
-// }
-
-// #footer .copyright {
-// 	line-height: 1em;
-// 	list-style: none;
-// 	padding: 0;
-// }
-
-// #footer .copyright li {
-// 	border-left: solid 1px #d4d4d4;
-// 	display: inline-block;
-// 	font-size: 0.8em;
-// 	margin-left: 1em;
-// 	padding-left: 1em;
-// }
-
-// #footer .copyright li:first-child {
-// 	border-left: 0;
-// 	margin-left: 0;
-// 	padding-left: 0;
-// }
-
-// #footer .copyright li a {
-// 	color: inherit;
-// }
-
-
 /* Main */
 
 #main {
-	margin-right: 23em; // width of panel/nav
+	margin-left: 375px;
 
 	>section {
 		text-align: center;
@@ -819,19 +721,19 @@ button,
 		}
 
 		&.shade-one {
-			background-color: #ffffff;
+			background-color: #81918E;
 		}
 
 		&.shade-two {
-			background-color: #ffffff;
+			background-color: #f5fafa;
 		}
 
 		&.shade-three {
-			background-color: #ffffff;
+			background-color: #ecf1f1;
 		}
 
 		&.shade-four {
-			background-color: #ffffff;
+			background-color: #e8edec;
 		}
 	}
 }
@@ -858,13 +760,13 @@ button,
 	/* Footer */
 
 	#footer {
-		margin-right: 300px;
+		margin-left: 300px;
 	}
 
 	/* Main */
 
 	#main {
-		margin-right: 300px;
+		margin-left: 300px;
 	}
 
 }
@@ -938,12 +840,15 @@ button,
 
 	#header {
 		width: 20%;
+		text-align: center;
 	}
 
 	#logo {
 		.image {
 			position: relative;
-			margin: 0 0 0.5em 0;
+			width: 70%;
+			height: 70%;
+			margin: 1.5 1em 2em 1em;
 		}
 	}
 
@@ -962,7 +867,7 @@ button,
 
 						&::before {
 							left: 100%;
-							margin-left: -1.25em;
+							// margin-left: -1.25em;
 							line-height: 2.25em;
 						}
 					}
@@ -986,6 +891,7 @@ button,
 }
 
 /* Narrower */
+// approx. half of my screen
 
 #headerToggle {
 	display: none;
@@ -1044,7 +950,7 @@ button,
 		-webkit-overflow-scrolling: touch;
 		display: block;
 		height: 100%;
-		right: 0;
+		left: 0;
 		overflow-y: auto;
 		position: fixed;
 		top: 0;
@@ -1067,9 +973,14 @@ button,
 		}
 	}
 
-	#logo {
-		margin: 1.5em 1.25em 1.25em 1.25em;
-	}
+	// #logo {
+	// 	.image {
+	// 		position: relative;
+	// 		width: 70%;
+	// 		height: 70%;
+	// 		margin: 1.5em 2em 2em 2em;
+	// 	}
+	// }
 
 	#nav {
 		ul {
@@ -1092,25 +1003,23 @@ button,
 		@include vendor('transition', 'transform #{_duration(header)} ease');
 		display: block;
 		height: 2.25em;
-		right: 0;
+		left: 0;
 		position: fixed;
-		font-family: "Lato",
-			sans-serif;
 		top: 0;
 		width: 3.25em;
-		z-index: _misc(z-index-base) - 1;
+		z-index: _misc(z-index-base) + 1;
 
 		.toggle {
 			position: absolute;
-			right: 0;
+			left: 0;
 			top: 0;
-			width: 100%;
-			height: 100%;
+			width: 90%;
+			height: 90%;
 			outline: 0;
 			border: 0;
 
 			&::before {
-				font-family: "Lato", sans-serif;
+				font-family: "Font Awesome 5 Free";
 				text-decoration: none;
 				font-style: normal;
 				font-weight: 900;
@@ -1124,7 +1033,7 @@ button,
 				border-radius: 0.35em;
 				text-align: center;
 				position: absolute;
-				right: 0.5em;
+				left: 0.5em;
 				top: 0.5em;
 				display: block;
 				width: 3.25em;
@@ -1149,6 +1058,16 @@ button,
 			}
 		}
 	}
+
+	#logo {
+		.image {
+			position: relative;
+			width: 70%;
+			height: 70%;
+			margin: 1.5em 2em 2em 2em;
+		}
+	}
+
 
 	/* Footer */
 
@@ -1193,7 +1112,6 @@ button,
 	h2 {
 		font-size: 1.5em;
 		letter-spacing: 0;
-		text-align: left;
 		font-weight: 300;
 	}
 
