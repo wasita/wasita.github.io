@@ -24,7 +24,8 @@
 		boxModel: 'border',
 		grid: (gutters: (40px, 40px)),
 		conditionals: true,
-		containers: 1400px,
+		// containers: 1400px,
+		containers: 42em,
 		breakpoints: (wide: (containers: 1200px,
 				grid: (gutters: (40px, 40px)),
 			),
@@ -50,6 +51,7 @@ body {
 	font-weight: 300;
 	line-height: 1.75em;
 	color: #888;
+	text-align: left;
 
 	&.is-loading * {
 		@include vendor('transition', 'none !important');
@@ -94,12 +96,33 @@ h6 a {
 }
 
 h2 {
-	font-size: 2em;
+	text-align: left;
+	font-size: 2.5em;
+	min-width: 2.2em;
 	letter-spacing: -1px;
+	margin: .5em 0 .5em .15em;
+	font-weight: 1000;
 }
 
 h3 {
-	font-size: 1.5em;
+	text-align: left;
+	font-size: 1em;
+	// padding-bottom: .5em;
+	// padding-top: .5em;
+	font-weight: 700;
+	margin: .5em 0 .5em .15em;
+}
+
+
+p {
+	text-align: left;
+	margin: .5em 0 .5em .15em;
+	font-family: "Lato",
+		sans-serif;
+	color: #888;
+	font-size: 16pt;
+	font-weight: 400;
+	line-height: 1.75em;
 }
 
 header {
@@ -111,6 +134,7 @@ header {
 }
 
 footer {
+	text-align: left;
 	margin: 2em 0 0 0;
 }
 
@@ -133,7 +157,7 @@ a {
 	outline: 0;
 
 	&:hover {
-		color: #da7f87;
+		color: #dca7e5;
 		border-bottom-color: rgba(255, 255, 255, 0);
 	}
 }
@@ -450,7 +474,7 @@ button,
 	}
 
 	&:active {
-		background-color: #7eaeac;
+		background-color: #dca7e5;
 	}
 }
 
@@ -612,7 +636,7 @@ button,
 					color: #fff;
 
 					span::before {
-						color: #e27689;
+						color: #dca7e5;
 					}
 				}
 			}
@@ -624,11 +648,13 @@ button,
 
 #footer {
 	margin-left: 375px;
-	text-align: center;
-	background-color: #dce3e2;
-	padding: 3em 0 4em 0;
+	position: relative;
+	text-align: left;
+	color: #c0c0c0;
+	background-color: #ffffff;
+	padding: 3em 0 4em 20em;
 	box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
-	font-size: 0.8em;
+	font-size: 0.6em;
 
 	.copyright {
 		cursor: default;
@@ -638,8 +664,8 @@ button,
 			display: inline-block;
 			line-height: 1em;
 			border-left: solid 1px rgba(128, 128, 128, 0.35);
-			padding: 0 0 0 0.5em;
-			margin: 0 0 0 0.5em;
+			padding: 0 0 0 0;
+			margin: 0 0 0 0;
 
 			&:first-child {
 				border-left: 0;
@@ -720,20 +746,21 @@ button,
 			}
 		}
 
+		// if want colored dividers btwn sections:
 		&.shade-one {
-			background-color: #81918E;
+			background-color: #ffffff;
 		}
 
 		&.shade-two {
-			background-color: #f5fafa;
+			background-color: #ffffff;
 		}
 
 		&.shade-three {
-			background-color: #ecf1f1;
+			background-color: #ffffff;
 		}
 
 		&.shade-four {
-			background-color: #e8edec;
+			background-color: #ffffff;
 		}
 	}
 }
@@ -972,15 +999,6 @@ button,
 			position: relative;
 		}
 	}
-
-	// #logo {
-	// 	.image {
-	// 		position: relative;
-	// 		width: 70%;
-	// 		height: 70%;
-	// 		margin: 1.5em 2em 2em 2em;
-	// 	}
-	// }
 
 	#nav {
 		ul {
