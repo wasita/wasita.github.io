@@ -104,10 +104,10 @@ h2 {
 	font-weight: 1000;
 	color: #d26972;
 
-	&:hover {
-		// color: #59194e;
-		font-variant-caps: all-small-caps;
-	}
+	// &:hover {
+	// 	// color: #59194e;
+	// 	font-variant-caps: all-small-caps;
+	// }
 
 }
 
@@ -165,6 +165,7 @@ a {
 
 	&:hover {
 		color: #dca7e5;
+		font-weight: bold;
 		border-bottom-color: rgba(255, 255, 255, 0);
 	}
 }
@@ -581,11 +582,6 @@ button,
 		font-weight: 600;
 		font-size: 1.25em;
 		line-height: 1em;
-
-		&:hover {
-			color: #f8e7f0;
-			font-variant-caps: all-small-caps;
-		}
 	}
 
 	p {
@@ -678,7 +674,7 @@ button,
 	font-size: 0.6em;
 
 	.copyright {
-		cursor: default;
+		cursor: pointer;
 		margin: 0;
 
 		li {
@@ -911,7 +907,7 @@ button,
 					padding-bottom: 0.5em;
 
 					span {
-						padding-right: 2.25em;
+						// padding-right: 2.25em;
 
 						&::before {
 							left: 100%;

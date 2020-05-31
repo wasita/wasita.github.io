@@ -21,7 +21,8 @@ section_items
     {%- assign _class = 'icon' -%}
     {%- endif -%}
     {%- comment -%}
-    <!-- page.url (no underscore) is the url of the current page-->{%- endcomment -%}
+    <!-- page.url (no underscore) is the url of the current page-->
+    {%- endcomment -%}
     {%- if _page.url == page.url -%}
     <li><a href="#" id="{{- _slug -}}" class="active">
         <span class="{{ _class }} {{ _icon }}">{{- _title -}}</span>
@@ -40,11 +41,7 @@ section_items
     <hr>{%- endif -%}
     {%- unless _sections == null -%}
     {%- for _sect in _sections -%}
-    {%- assign _title = _sect.title | default: _sect.layout | default: 'Untitled' -%}
-    {%- if _sect == _sections[0] -%}
-    <!-- ^ janky fix to show banner up top but remove from nav smh iteration in html -->
-    {%- assign _title = '' -%}
-    {%- endif -%}
+    {%- assign _title = _sect.title | default: _sect.layout | default: '' -%}
     {%- assign _slug = _title | slugify -%}
     {%- assign _icon = _sect.icon | default: 'fa-file' -%}
     {%- if _sect.icon-style == 'regular' -%}
