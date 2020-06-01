@@ -39,7 +39,7 @@ section_items
     {%- assign _sections = include.section_items | where_exp: "section", "section.hide != true" -%}
     {%- if _pages[0] and _sections[0] -%}
     <hr>{%- endif -%}
-    {%- unless _sections == null -%}
+    {%- unless _sections == null | _sections.hide == true -%}
     {%- for _sect in _sections -%}
     {%- assign _title = _sect.title | default: _sect.layout | default: '' -%}
     {%- assign _slug = _title | slugify -%}
