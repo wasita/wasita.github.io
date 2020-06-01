@@ -1,5 +1,6 @@
 /_site
 *.gem
 *.DS_Store
+*.code-workspace
 .sass-cache
 Gemfile.lock
