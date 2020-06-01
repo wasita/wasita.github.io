@@ -10,7 +10,7 @@ avatar: assets/images/wasi_avatar.png
 # Customize url and baseurl for site:
 # for local testing, leave empty
 # baseurl: /home
-url: https://wasita.github.io/
+url: https://wasita.github.io
 
 # Social settings
 twitter_url: https://twitter.com/mahaphanit
