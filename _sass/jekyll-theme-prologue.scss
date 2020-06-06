@@ -45,9 +45,10 @@
 
 /* Set Vars */
 :root {
-	--link-highlight-color: #efee9d;
-	// --link-highlight-color: #51c793;
+	--main-color: #d26972;
 	--body-text-color: #888;
+	--active-nav-color: #35b8aa;
+	--fa-icon-hover-color: #dca7e5;
 }
 
 
@@ -114,7 +115,7 @@ h2 {
 	letter-spacing: -1px;
 	margin: .75em 0 .5em .08em;
 	font-weight: 1000;
-	color: #d26972;
+	color: var(--main-color);
 
 }
 
@@ -131,7 +132,7 @@ p {
 	margin: .75em 0 .75em .15em;
 	font-family: "Lato",
 		sans-serif;
-	color: #888;
+	color: var(--body-text-color);
 	font-size: 14pt;
 	font-weight: 400;
 	line-height: 1.5em;
@@ -178,20 +179,19 @@ a {
 
 
 a.h {
+	@include vendor('transition', ('color 0.01s ease-in-out', 'border-bottom-color 0.35s ease-in-out'));
 	text-decoration: none;
 	color: inherit;
-	// border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
-	@include vendor('transition', ('color 0.35s ease-in-out', 'border-bottom-color 0.35s ease-in-out'));
+	border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
 	outline: 0;
 
 	&:hover {
-		background: linear-gradient(to bottom, var(--link-highlight-color) 0%,
-				var(--link-highlight-color) 100%);
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23c9c2ed' stroke-width='1.5' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
 		background-position: 0 100%;
+		background-size: auto 6px;
 		background-repeat: repeat-x;
-		// color: #000000; // if want to change text color on hover too
-		transition: background-size 6s;
-		background-size: 4px 80px;
+		text-decoration: none;
+		border-bottom: none;
 	}
 }
 
@@ -600,7 +600,7 @@ button,
 			@include vendor('transition', 'color 0.35s ease-in-out');
 
 			&:hover {
-				color: #a99ee3;
+				color: var(--fa-icon-hover-color);
 			}
 		}
 	}
@@ -691,7 +691,7 @@ button,
 					font-style: italic;
 					font-weight: bold;
 					font-variant-caps: all-small-caps; // color: #fff;
-					color: #35b8aa; // text color when section active
+					color: var(--active-nav-color); // text color when section active
 
 					span::before {
 						color: #dca7e5;
