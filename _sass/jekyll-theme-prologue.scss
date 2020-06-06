@@ -320,19 +320,19 @@ article {
 			width: 100%;
 		}
 
-		&.avatar:hover {
-			// swap w aerial hoop photo
-			content: url("../images/wasi_aerial_avatar.png");
+		// &.avatar:hover {
+		// swap w aerial hoop photo
+		// content: url("../images/wasi_aerial_avatar.png");
 
-			// make b&w on hover with css
-			// -webkit-filter: grayscale(100%);
-			// filter: grayscale(100%);
-			// -webkit-transition: .3s ease-in-out;
-			// transition: .3s ease-in-out;
-			// swap w b&w version
-			content: url("../images/wasi_avatar_5.png");
+		// make b&w on hover with css
+		// -webkit-filter: grayscale(100%);
+		// filter: grayscale(100%);
+		// -webkit-transition: .3s ease-in-out;
+		// transition: .3s ease-in-out;
+		// swap w b&w version
+		// content: url("../images/wasi_avatar_5.png");
 
-		}
+		// }
 
 	}
 
