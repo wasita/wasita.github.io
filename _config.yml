@@ -1,11 +1,11 @@
 # Note to self: if edit this, restart server
 # Site settings
 title: wasita
-subtitle:
+# subtitle:
 description: >- # this means to ignore newlines until "baseurl:"
 author: wasita mahaphanit
 email: wasita@brown.edu
-avatar: assets/images/wasi_avatar_3.png
+avatar: assets/images/avatar/wasi_3_color.png
 
 # Customize url and baseurl for site:
 # for local testing, leave empty
