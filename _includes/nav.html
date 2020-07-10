@@ -37,11 +37,13 @@ section_items
     {%- endfor -%}
     {%- endunless -%}
     {%- assign _sections = include.section_items | where_exp: "section", "section.hide != true" -%}
+    <!-- normally blog pages show up in this section... which is why you see the divider line -->
     {%- if _pages[0] and _sections[0] -%}
     <hr>{%- endif -%}
     {%- unless _sections == null | _sections.hide == true -%}
     {%- for _sect in _sections -%}
-    {%- assign _title = _sect.title | default: _sect.layout | default: '' -%}
+    {%- if _sect.hide-from-nav != true -%}
+    {%- assign _title = _sect.title | default: '' -%}
     {%- assign _slug = _title | slugify -%}
     {%- assign _icon = _sect.icon | default: 'fa-file' -%}
     {%- if _sect.icon-style == 'regular' -%}
@@ -53,6 +55,7 @@ section_items
     {%- endif -%}
     <li><a href="#{{- _slug -}}" id="{{- _slug -}}-link" class="scrolly"><span
           class="{{ _class }} {{ _icon }}">{{- _title -}}</span></a></li>
+    {%- endif -%}
     {%- endfor -%}
     {%- endunless -%}
   </ul>

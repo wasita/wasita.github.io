@@ -31,3 +31,7 @@ google_analytics: "UA-171673875-1"
 # theme: jekyll-theme-prologue
 remote_theme: chrisbobbe/jekyll-theme-prologue
 collections: [sections]
+
+# For CV
+style: davewhipp
+cv: /assets/pdfs/WasitaCV.pdf
