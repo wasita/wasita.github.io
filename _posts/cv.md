@@ -1,10 +1,9 @@
 ---
-title: ""
+title: "cv"
 auto-header: none
 icon: none
-layout: cv
+layout: post
 hide-from-nav: true
-hide: true
 ---
 
 # Isaac Newton
