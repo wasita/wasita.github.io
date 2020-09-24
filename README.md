@@ -1,5 +1,10 @@
 # wasita.github.io
 
+```
+jekyll serve
+```
+
+
 # Credits:
 
 ###### Hosting:
