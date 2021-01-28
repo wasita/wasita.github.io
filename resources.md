@@ -10,8 +10,10 @@ in our current era of information overload, it can be overwhelming to learn a ne
 - [useful web skills](https://andreasbm.github.io/web-skills/)
 
 - [the missing semester of your CS education](https://missing.csail.mit.edu/)
+  <br><br>helpful for learning more about the in-terminal text editor vim, terminal commands in general, git version control, and other misc. topics computer science courses don't explicitly cover.
 
 - [honeycomb (jsPsych + react + electron task creation boilerplate)](https://github.com/brown-ccv/honeycomb)
+  <br><br>Provenza, N.R., Gelin, L., **Mahaphanit, W.**, McGrath, M., Dastin-van Rijin, E., Fan, Y., Dhar, R., Frank, M.J., Restrepo, M.I., Goodman, W.K., and Borton, D. Honeycomb: a template for reproducible psychophysiological tasks for clinic, laboratory, and home use. Manuscript under Revision.
 
 - [python programming for psychologists](https://github.com/ContextLab/cs-for-psych)
 
@@ -23,12 +25,10 @@ in our current era of information overload, it can be overwhelming to learn a ne
 
 - [analyzing fMRI data (via dartbrains)](https://dartbrains.org)
 
-- [multivariate pattern analysis in python (pyMVPA)](http://www.pymvpa.org/)
-
 - [mathematics for machine learning](https://mml-book.github.io/)
 
 - [mathematical tools for neuroscience](https://github.com/ebatty/MathToolsforNeuroscience)
 
 - [statistics and data science](http://theoryandpractice.org/stats-ds-book/intro.html)
 
-- [essence of linear algebra (via 3Blue1Brown)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+- [the essence of linear algebra (via 3Blue1Brown)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
