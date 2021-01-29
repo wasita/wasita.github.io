@@ -1,0 +1,31 @@
+{
+  "name": "wasita.github.io",
+  "version": "1.0.0",
+  "description": "```\r jekyll serve\r ```",
+  "main": "index.js",
+  "dependencies": {
+    "husky": "^4.3.8"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wasita/wasita.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wasita/wasita.github.io/issues"
+  },
+  "homepage": "https://github.com/wasita/wasita.github.io#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
