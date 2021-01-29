@@ -25,7 +25,7 @@
   "homepage": "https://github.com/wasita/wasita.github.io#readme",
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "cz-emoji"
     }
   }
 }
