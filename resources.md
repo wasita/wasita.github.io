@@ -14,7 +14,7 @@ in our current era of information overload, it can be overwhelming to learn a ne
 
 - [honeycomb (jsPsych + react + electron task creation boilerplate)](https://github.com/brown-ccv/honeycomb)
   <br><br>have you ever programmed a task in say, matlab psychtoolbox or psychopy for in-lab use, and then gone through the trouble to program the same task in javascript for online crowdsourcing? ever wanted a task creation pipeline that would permit flexible online crowdsourcing and in-lab (with triggers) deployment all-in-one? or ever wondered how to send triggers in javascript? look no further! for now, you may consult the github repo above, and eventually the paper on this project will be out. for now, here's a citation:
-  <br><br>Provenza, N.R., Gelin, L., **Mahaphanit, W.**, McGrath, M., Dastin-van Rijin, E., Fan, Y., Dhar, R., Frank, M.J., Restrepo, M.I., Goodman, W.K., and Borton, D. Honeycomb: a template for reproducible psychophysiological tasks for clinic, laboratory, and home use. Manuscript under review.
+  <br><br>Provenza, N.R., Gelin, L., **Mahaphanit, W.**, McGrath, M., Dastin-van Rijin, E., Fan, Y., Dhar, R., Frank, M.J., Restrepo, M.I., Goodman, W.K., and Borton, D. Honeycomb: a template for reproducible psychophysiological tasks for clinic, laboratory, and home use. Invited revision at _Brazilian Journal of Psychiatry_.
 
 - [python programming for psychologists](https://github.com/ContextLab/cs-for-psych)
 
