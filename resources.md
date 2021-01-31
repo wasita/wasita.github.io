@@ -10,7 +10,8 @@ in our current era of information overload, it can be overwhelming to learn a ne
 - [useful web skills](https://andreasbm.github.io/web-skills/)
 
 - [the missing semester of your CS education](https://missing.csail.mit.edu/)
-  <br><br>helpful for learning more about the in-terminal text editor vim, terminal commands in general, git version control, and other misc. topics computer science courses don't explicitly cover.
+
+  - helpful for learning more about the in-terminal text editor vim, terminal commands in general, git version control, and other misc. topics computer science courses don't explicitly cover.
 
 - [commitizen](http://commitizen.github.io/cz-cli/) & [commitizen-emoji](https://github.com/ngryman/cz-emoji)
   <br><br>simplify & standardize your git commit messages and/or make them fun with some emojis!
