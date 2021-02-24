@@ -4,6 +4,15 @@
 jekyll serve
 ```
 
+```
+git add . 
+```
+```
+git cz
+```
+```
+git push
+```
 
 # Credits:
 
