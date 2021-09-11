@@ -3,7 +3,8 @@ title: research interests
 icon: none
 order: 3
 ---
-<p>i often think about how we cannot access or perceive another's reality due to our inability to
+
+<p>i often think about how we cannot access or perceive another's reality given our inability to
   share brains, rendering our experienced realities subjective and "incomplete." for this reason, i am primarily
   interested in the neurocomputational mechanisms underlying our brain's ability to extract relevant features from
   noisy environments (especially the social domain, where another person's mind is arguably the ultimate form of
