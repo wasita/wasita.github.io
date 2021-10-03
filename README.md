@@ -1,7 +1,9 @@
 # wasita.github.io
 
+### M1 chip-specific instructions
 ```
-jekyll serve
+arch -arch x86_64 bundle install
+arch -arch x86_64 bundle exec jekyll serve
 ```
 
 ```
