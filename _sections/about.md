@@ -13,4 +13,4 @@ order: 2
 formerly: lab manager of <a href="http://ski.clps.brown.edu" class="h">michael j. frank</a>'s <a href="http://lnccbrown.com" class="h">lab of neural computation + cognition</a> & \
 undergrad research assistant in <a href="https://www.shenhavlab.org" class="h">amitai shenhav's lab @ brown</a>
 
-outside of research, i enjoy scouring spotify for new releases, ruminating while showering, and playing league of legends. lately, i've been loving yoga classes and learning how to snowboard. in the pre-covid times, i enjoyed spending my time indoor rock climbing and <a href="https://www.instagram.com/wasiaerial/" class="h">training in lyra/aerial hoop</a>.
+outside of research, i enjoy ruminating while showering, <a href="/assets/images/misc/kitty-corners.png" class="h">cuddling with my kitty joji</a>, playing league of legends, and <a href="https://www.instagram.com/wasiaerial/" class="h">training in lyra/aerial hoop</a>. i've also been loving learning how to snowboard.
