@@ -6,7 +6,7 @@ icon: none
 order: 2
 ---
 
-## hi! i'm a phd student in <a href="http://lukejchang.com" class="h">luke j. chang</a>'s <a href="http://cosanlab.com" class="h">cosan lab @ dartmouth</a>.
+## hi! i'm a phd student in <br><a href="http://lukejchang.com" class="h">luke j. chang</a>'s <a href="http://cosanlab.com" class="h">cosan lab @ dartmouth</a>.
 
 formerly: lab manager of <a href="http://ski.clps.brown.edu" class="h">michael j. frank</a>'s <a href="http://lnccbrown.com" class="h">lab of neural computation + cognition</a> & \
 undergrad research assistant in <a href="https://www.shenhavlab.org" class="h">amitai shenhav's lab @ brown</a>.
