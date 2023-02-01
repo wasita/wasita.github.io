@@ -5,7 +5,7 @@ icon: none
 order: 3
 ---
 
-### - multi-user synchronized video watching chat app platform (to be linked)
+### - [multi-user synchronized video watching chat app platform](https://github.com/wasita/svelte-vid-sync-chat-app)
 
 ### - [interactive 2-player trust game](https://trust-game-demo.netlify.app/)
 
