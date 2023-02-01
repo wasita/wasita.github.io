@@ -11,6 +11,8 @@ order: 3
 
 ### - [women in network science (WiNS) membership database search site](https://wins-search.netlify.app/)
 
+### - [balloon effort task](https://github.com/lnccbrown/task-effort)
+
 ### - [honeycomb (jsPsych + react + electron task creation boilerplate)](https://brown-ccv.github.io/honeycomb-docs/)
 
 ### - [dartbrains jupyter book](https://dartbrains.org)
