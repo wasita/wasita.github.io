@@ -1,6 +1,6 @@
 ---
 layout: page
-title: technical contributions
+title: i like building stuff
 icon: none
 order: 3
 ---
@@ -9,7 +9,7 @@ order: 3
 
 ### - [interactive 2-player trust game](https://trust-game-demo.netlify.app/)
 
-### - [WiNS membership database search site](https://wins-search.netlify.app/)
+### - [women in network science (WiNS) membership database search site](https://wins-search.netlify.app/)
 
 ### - [honeycomb (jsPsych + react + electron task creation boilerplate)](https://brown-ccv.github.io/honeycomb-docs/)
 
