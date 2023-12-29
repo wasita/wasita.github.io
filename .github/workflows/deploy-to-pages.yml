@@ -1,19 +1,30 @@
 name: Deploy to GitHub Pages
-on: [push]
-permissions:
-  contents: write
+on:
+  push:
+    branches:
+      - main # Change this to your main branch name
+
 jobs:
   build-and-deploy:
-    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
-      - name: Install, Build & deploy
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+
+      - name: Install Dependencies and Build
         run: |
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/wasita/wasita.github.io.git
           npm install
-          npm run gh-pages -- -u "github-actions-bot <support+actions@github.com>"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: gh-pages # Specify the branch to publish to
+          force_orphan: true # Force push to the branch
