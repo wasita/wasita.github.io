@@ -1,7 +1,7 @@
 :root {
 	/* =~= Theme Properties =~= */
-	--theme-font-family-base: system-ui;
-	--theme-font-family-heading: system-ui;
+	--theme-font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	--theme-font-family-heading: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	--theme-font-color-base: 0 0 0;
 	--theme-font-color-dark: 255 255 255;
 	--theme-rounded-base: 12px;
@@ -22,9 +22,9 @@
 	--color-primary-200: 252 243 207; /* ⬅ #fcf3cf */
 	--color-primary-300: 250 236 178; /* ⬅ #faecb2 */
 	--color-primary-400: 247 222 120; /* ⬅ #f7de78 */
-	--color-primary-500: 243 208 62; /* ⬅ #F3d03e */
+	--color-primary-500: 255 159 255; /* ⬅ #ff9fff (black bg text color) */
 	--color-primary-600: 219 187 56; /* ⬅ #dbbb38 */
-	--color-primary-700: 182 156 47; /* ⬅ #b69c2f */
+	--color-primary-700: 129 98 255; /* ⬅ #8162ff (white bg text color) */ 
 	--color-primary-800: 146 125 37; /* ⬅ #927d25 */
 	--color-primary-900: 119 102 30; /* ⬅ #77661e */
 	/* secondary | #006B5E */
