@@ -46,6 +46,7 @@ declare module '$env/static/private' {
 	export const CONDA_SHLVL: string;
 	export const CONDA_PROMPT_MODIFIER: string;
 	export const TERM_PROGRAM_VERSION: string;
+	export const npm_package_optional: string;
 	export const COLOR: string;
 	export const rvm_hook: string;
 	export const TERM_SESSION_ID: string;
@@ -56,12 +57,14 @@ declare module '$env/static/private' {
 	export const rvm_gemstone_package_file: string;
 	export const npm_config_globalconfig: string;
 	export const CONDA_EXE: string;
+	export const npm_package_peer: string;
 	export const rvm_path: string;
 	export const SSH_AUTH_SOCK: string;
 	export const __CF_USER_TEXT_ENCODING: string;
 	export const npm_execpath: string;
 	export const rvm_proxy: string;
 	export const rvm_ruby_file: string;
+	export const npm_package_integrity: string;
 	export const _CE_CONDA: string;
 	export const rvm_silent_flag: string;
 	export const rvm_prefix: string;
@@ -87,18 +90,22 @@ declare module '$env/static/private' {
 	export const rvm_sdk: string;
 	export const npm_config_npm_version: string;
 	export const XPC_FLAGS: string;
+	export const npm_package_engines_node: string;
 	export const npm_config_node_gyp: string;
+	export const npm_package_dev: string;
 	export const RBENV_SHELL: string;
 	export const npm_package_version: string;
 	export const _CE_M: string;
 	export const XPC_SERVICE_NAME: string;
 	export const rvm_version: string;
+	export const npm_package_resolved: string;
 	export const rvm_script_name: string;
 	export const rvm_pretty_print_flag: string;
 	export const SHLVL: string;
 	export const HOME: string;
 	export const rvm_ruby_mode: string;
 	export const HOMEBREW_PREFIX: string;
+	export const npm_package_dev_optional: string;
 	export const FIG_SET_PARENT: string;
 	export const npm_config_cache: string;
 	export const CONDA_PYTHON_EXE: string;
@@ -120,7 +127,6 @@ declare module '$env/static/private' {
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
 	export const FIG_TERM: string;
-	export const NODE_ENV: string;
 }
 
 /**
@@ -170,6 +176,7 @@ declare module '$env/dynamic/private' {
 		CONDA_SHLVL: string;
 		CONDA_PROMPT_MODIFIER: string;
 		TERM_PROGRAM_VERSION: string;
+		npm_package_optional: string;
 		COLOR: string;
 		rvm_hook: string;
 		TERM_SESSION_ID: string;
@@ -180,12 +187,14 @@ declare module '$env/dynamic/private' {
 		rvm_gemstone_package_file: string;
 		npm_config_globalconfig: string;
 		CONDA_EXE: string;
+		npm_package_peer: string;
 		rvm_path: string;
 		SSH_AUTH_SOCK: string;
 		__CF_USER_TEXT_ENCODING: string;
 		npm_execpath: string;
 		rvm_proxy: string;
 		rvm_ruby_file: string;
+		npm_package_integrity: string;
 		_CE_CONDA: string;
 		rvm_silent_flag: string;
 		rvm_prefix: string;
@@ -211,18 +220,22 @@ declare module '$env/dynamic/private' {
 		rvm_sdk: string;
 		npm_config_npm_version: string;
 		XPC_FLAGS: string;
+		npm_package_engines_node: string;
 		npm_config_node_gyp: string;
+		npm_package_dev: string;
 		RBENV_SHELL: string;
 		npm_package_version: string;
 		_CE_M: string;
 		XPC_SERVICE_NAME: string;
 		rvm_version: string;
+		npm_package_resolved: string;
 		rvm_script_name: string;
 		rvm_pretty_print_flag: string;
 		SHLVL: string;
 		HOME: string;
 		rvm_ruby_mode: string;
 		HOMEBREW_PREFIX: string;
+		npm_package_dev_optional: string;
 		FIG_SET_PARENT: string;
 		npm_config_cache: string;
 		CONDA_PYTHON_EXE: string;
@@ -244,7 +257,6 @@ declare module '$env/dynamic/private' {
 		npm_node_execpath: string;
 		npm_config_prefix: string;
 		FIG_TERM: string;
-		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}
