@@ -32,12 +32,12 @@
 				</p>
 				<div class="mt-4">
 					<a
-						class="btn variant-ghost-primary"
+						class="btn variant-glass-primary"
 						href="https://brown-ccv.github.io/honeycomb-docs/"
 						target="_blank"
 						rel="noreferrer">visit honeycomb</a>
 					<a
-						class="btn variant-ghost-surface"
+						class="btn variant-glass-surface"
 						href="https://github.com/brown-ccv/honeycomb"
 						target="_blank"
 						rel="noreferrer">github repo</a>
