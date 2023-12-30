@@ -225,6 +225,12 @@ Object.defineProperty(exports, "Video", {
     return _video.Video;
   }
 });
+Object.defineProperty(exports, "WebError", {
+  enumerable: true,
+  get: function () {
+    return _webError.WebError;
+  }
+});
 Object.defineProperty(exports, "WebSocket", {
   enumerable: true,
   get: function () {
@@ -250,7 +256,7 @@ var _electron = require("./electron");
 var _locator = require("./locator");
 var _elementHandle = require("./elementHandle");
 var _fileChooser = require("./fileChooser");
-var _errors = require("../common/errors");
+var _errors = require("./errors");
 var _frame = require("./frame");
 var _input = require("./input");
 var _jsHandle = require("./jsHandle");
@@ -263,3 +269,4 @@ var _video = require("./video");
 var _worker = require("./worker");
 var _cdpSession = require("./cdpSession");
 var _playwright = require("./playwright");
+var _webError = require("./webError");

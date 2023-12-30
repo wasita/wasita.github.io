@@ -5,6 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.FrameSelectors = void 0;
 var _selectorParser = require("../utils/isomorphic/selectorParser");
+var _locatorGenerators = require("../utils/isomorphic/locatorGenerators");
 /**
  * Copyright (c) Microsoft Corporation.
  *
@@ -55,7 +56,7 @@ class FrameSelectors {
       mainWorld: true
     }, scope);
     // Be careful, |this.frame| can be different from |resolved.frame|.
-    if (!resolved) throw new Error(`Error: failed to find frame for selector "${selector}"`);
+    if (!resolved) throw new Error(`Failed to find frame for selector "${selector}"`);
     return await resolved.injected.evaluateHandle((injected, {
       info,
       scope
@@ -69,7 +70,7 @@ class FrameSelectors {
   async queryCount(selector) {
     const resolved = await this.resolveInjectedForSelector(selector);
     // Be careful, |this.frame| can be different from |resolved.frame|.
-    if (!resolved) throw new Error(`Error: failed to find frame for selector "${selector}"`);
+    if (!resolved) throw new Error(`Failed to find frame for selector "${selector}"`);
     return await resolved.injected.evaluate((injected, {
       info
     }) => {
@@ -107,6 +108,14 @@ class FrameSelectors {
   async resolveFrameForSelector(selector, options = {}, scope) {
     let frame = this.frame;
     const frameChunks = (0, _selectorParser.splitSelectorByFrame)(selector);
+    for (const chunk of frameChunks) {
+      (0, _selectorParser.visitAllSelectorParts)(chunk, (part, nested) => {
+        if (nested && part.name === 'internal:control' && part.body === 'enter-frame') {
+          const locator = (0, _locatorGenerators.asLocator)(this.frame._page.attribution.playwright.options.sdkLanguage, selector);
+          throw new _selectorParser.InvalidSelectorError(`Frame locators are not allowed inside composite locators, while querying "${locator}"`);
+        }
+      });
+    }
     for (let i = 0; i < frameChunks.length - 1; ++i) {
       const info = this._parseSelector(frameChunks[i], options);
       const context = await frame._context(info.world);

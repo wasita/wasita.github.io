@@ -3,11 +3,8 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.parseError = parseError;
 exports.parseSerializedValue = parseSerializedValue;
-exports.serializeError = serializeError;
 exports.serializeValue = serializeValue;
-var _errors = require("../common/errors");
 /**
  * Copyright (c) Microsoft Corporation.
  *
@@ -24,35 +21,6 @@ var _errors = require("../common/errors");
  * limitations under the License.
  */
 
-function serializeError(e) {
-  if (isError(e)) return {
-    error: {
-      message: e.message,
-      stack: e.stack,
-      name: e.name
-    }
-  };
-  return {
-    value: serializeValue(e, value => ({
-      fallThrough: value
-    }))
-  };
-}
-function parseError(error) {
-  if (!error.error) {
-    if (error.value === undefined) throw new Error('Serialized error must have either an error or a value');
-    return parseSerializedValue(error.value, undefined);
-  }
-  if (error.error.name === 'TimeoutError') {
-    const e = new _errors.TimeoutError(error.error.message);
-    e.stack = error.error.stack || '';
-    return e;
-  }
-  const e = new Error(error.error.message);
-  e.stack = error.error.stack || '';
-  e.name = error.error.name;
-  return e;
-}
 function parseSerializedValue(value, handles) {
   return innerParseSerializedValue(value, handles, new Map());
 }
@@ -71,6 +39,7 @@ function innerParseSerializedValue(value, handles, refs) {
   }
   if (value.d !== undefined) return new Date(value.d);
   if (value.u !== undefined) return new URL(value.u);
+  if (value.bi !== undefined) return BigInt(value.bi);
   if (value.r !== undefined) return new RegExp(value.r.p, value.r.f);
   if (value.a !== undefined) {
     const result = [];
@@ -131,6 +100,9 @@ function innerSerializeValue(value, handleSerializer, visitorInfo) {
   };
   if (typeof value === 'string') return {
     s: value
+  };
+  if (typeof value === 'bigint') return {
+    bi: value.toString()
   };
   if (isError(value)) {
     const error = value;

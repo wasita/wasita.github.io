@@ -53,6 +53,7 @@ function compareImages(mimeType, actualBuffer, expectedBuffer, options = {}) {
   if (!actualBuffer || !(actualBuffer instanceof Buffer)) return {
     errorMessage: 'Actual result should be a Buffer.'
   };
+  validateBuffer(expectedBuffer, mimeType);
   let actual = mimeType === 'image/png' ? _utilsBundle.PNG.sync.read(actualBuffer) : _utilsBundle.jpegjs.decode(actualBuffer, {
     maxMemoryUsageInMB: JPEG_JS_MAX_BUFFER_SIZE_IN_MB
   });
@@ -99,6 +100,15 @@ function compareImages(mimeType, actualBuffer, expectedBuffer, options = {}) {
     diff: _utilsBundle.PNG.sync.write(diff)
   };
   return null;
+}
+function validateBuffer(buffer, mimeType) {
+  if (mimeType === 'image/png') {
+    const pngMagicNumber = [137, 80, 78, 71, 13, 10, 26, 10];
+    if (buffer.length < pngMagicNumber.length || !pngMagicNumber.every((byte, index) => buffer[index] === byte)) throw new Error('could not decode image as PNG.');
+  } else if (mimeType === 'image/jpeg') {
+    const jpegMagicNumber = [255, 216];
+    if (buffer.length < jpegMagicNumber.length || !jpegMagicNumber.every((byte, index) => buffer[index] === byte)) throw new Error('could not decode image as JPEG.');
+  }
 }
 function compareText(actual, expectedBuffer) {
   if (typeof actual !== 'string') return {

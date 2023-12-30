@@ -36,13 +36,18 @@ class Tracing extends _channelOwner.ChannelOwner {
   async start(options = {}) {
     this._includeSources = !!options.sources;
     const traceName = await this._wrapApiCall(async () => {
-      await this._channel.tracingStart(options);
+      await this._channel.tracingStart({
+        name: options.name,
+        snapshots: options.snapshots,
+        screenshots: options.screenshots,
+        live: options._live
+      });
       const response = await this._channel.tracingStartChunk({
         name: options.name,
         title: options.title
       });
       return response.traceName;
-    });
+    }, true);
     await this._startCollectingStacks(traceName);
   }
   async startChunk(options = {}) {
@@ -63,13 +68,15 @@ class Tracing extends _channelOwner.ChannelOwner {
     this._stacksId = result.stacksId;
   }
   async stopChunk(options = {}) {
-    await this._doStopChunk(options.path);
+    await this._wrapApiCall(async () => {
+      await this._doStopChunk(options.path);
+    }, true);
   }
   async stop(options = {}) {
     await this._wrapApiCall(async () => {
       await this._doStopChunk(options.path);
       await this._channel.tracingStop();
-    });
+    }, true);
   }
   async _doStopChunk(filePath) {
     if (this._isTracing) {
