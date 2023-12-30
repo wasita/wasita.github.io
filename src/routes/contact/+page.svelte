@@ -14,6 +14,6 @@
 			rows="4"
 			id="message"
 			placeholder="write your message here..." />
-		<button class="btn variant-ghost-primary" type="submit">send</button>
+		<button class="btn variant-glass-primary" type="submit">send</button>
 	</form>
 </div>

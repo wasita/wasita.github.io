@@ -49,7 +49,7 @@
 		<nav class="px-4 py-6 list-nav">
 			<div class="flex items-center pb-6">
 				<h2 class="flex-1 pl-4 font-bold">menu</h2>
-				<button class="btn btn-icon-lg variant-ghost-surface" on:click={() => drawerStore.close()}>
+				<button class="btn btn-icon-lg variant-glass-surface" on:click={() => drawerStore.close()}>
 					x
 				</button>
 			</div>
@@ -58,8 +58,8 @@
 					<a
 						class="my-2 transition-all duration-200 btn btn-xl"
 						href="/"
-						class:variant-ghost-surface={currentRoute !== '/'}
-						class:variant-ghost-primary={currentRoute === '/'}
+						class:variant-glass-surface={currentRoute !== '/'}
+						class:variant-glass-primary={currentRoute === '/'}
 						on:click={() => drawerStore.close()}>
 						home
 					</a>
@@ -68,8 +68,8 @@
 					<a
 						class="my-2 transition-all duration-200 btn btn-xl"
 						href="/about"
-						class:variant-ghost-surface={!currentRoute.includes('/about')}
-						class:variant-ghost-primary={currentRoute.includes('/about')}
+						class:variant-glass-surface={!currentRoute.includes('/about')}
+						class:variant-glass-primary={currentRoute.includes('/about')}
 						on:click={() => drawerStore.close()}>
 						about
 					</a>
@@ -78,8 +78,8 @@
 					<a
 						class="my-2 transition-all duration-200 btn btn-xl"
 						href="/portfolio"
-						class:variant-ghost-surface={!currentRoute.includes('/portfolio')}
-						class:variant-ghost-primary={currentRoute.includes('/portfolio')}
+						class:variant-glass-surface={!currentRoute.includes('/portfolio')}
+						class:variant-glass-primary={currentRoute.includes('/portfolio')}
 						on:click={() => drawerStore.close()}>
 						portfolio
 					</a>
@@ -88,8 +88,8 @@
 					<a
 						class="my-2 transition-all duration-200 btn btn-xl"
 						href="/blog"
-						class:variant-ghost-surface={!currentRoute.includes('/blog')}
-						class:variant-ghost-primary={currentRoute.includes('/blog')}
+						class:variant-glass-surface={!currentRoute.includes('/blog')}
+						class:variant-glass-primary={currentRoute.includes('/blog')}
 						on:click={() => drawerStore.close()}>
 						blog
 					</a>
@@ -98,8 +98,8 @@
 					<a
 						class="my-2 transition-all duration-200 btn btn-xl"
 						href="/contact"
-						class:variant-ghost-surface={!currentRoute.includes('/contact')}
-						class:variant-ghost-primary={currentRoute.includes('/contact')}
+						class:variant-glass-surface={!currentRoute.includes('/contact')}
+						class:variant-glass-primary={currentRoute.includes('/contact')}
 						on:click={() => drawerStore.close()}>
 						contact
 					</a>
@@ -167,38 +167,38 @@
 					<LightSwitch />
 					<div class="items-center hidden space-x-3 lg:flex">
 						<a
-							class="transition-all duration-200 btn btn-sm hover:variant-ghost-primary"
+							class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
 							href="/"
-							class:variant-ghost-surface={currentRoute !== '/'}
-							class:variant-ghost-primary={currentRoute === '/'}>
+							class:variant-glass-surface={currentRoute !== '/'}
+							class:variant-glass-primary={currentRoute === '/'}>
 							home
 						</a>
 						<a
-							class="transition-all duration-200 btn btn-sm hover:variant-ghost-primary"
+							class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
 							href="/about"
-							class:variant-ghost-surface={!currentRoute.includes('/about')}
-							class:variant-ghost-primary={currentRoute.includes('/about')}>
+							class:variant-glass-surface={!currentRoute.includes('/about')}
+							class:variant-glass-primary={currentRoute.includes('/about')}>
 							about
 						</a>
 						<a
-							class="transition-all duration-200 btn btn-sm hover:variant-ghost-primary"
+							class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
 							href="/portfolio"
-							class:variant-ghost-surface={!currentRoute.includes('/portfolio')}
-							class:variant-ghost-primary={currentRoute.includes('/portfolio')}>
+							class:variant-glass-surface={!currentRoute.includes('/portfolio')}
+							class:variant-glass-primary={currentRoute.includes('/portfolio')}>
 							portfolio
 						</a>
 						<a
-							class="transition-all duration-200 btn btn-sm hover:variant-ghost-primary"
+							class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
 							href="/blog"
-							class:variant-ghost-surface={!currentRoute.includes('/blog')}
-							class:variant-ghost-primary={currentRoute.includes('/blog')}>
+							class:variant-glass-surface={!currentRoute.includes('/blog')}
+							class:variant-glass-primary={currentRoute.includes('/blog')}>
 							blog
 						</a>
 						<a
-							class="transition-all duration-200 btn btn-sm hover:variant-ghost-primary"
+							class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
 							href="/contact"
-							class:variant-ghost-surface={!currentRoute.includes('/contact')}
-							class:variant-ghost-primary={currentRoute.includes('/contact')}>
+							class:variant-glass-surface={!currentRoute.includes('/contact')}
+							class:variant-glass-primary={currentRoute.includes('/contact')}>
 							contact
 						</a>
 						<hr class="h-6 divider-vertical" />

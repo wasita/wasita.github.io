@@ -6,9 +6,9 @@
 
 <div
 	class="p-16 border rounded-xl border-surface-300 dark:border-surface-700 bg-surface-100 dark:bg-surface-800">
-	<div class="max-w-[65ch] mx-auto">
+	<div class="max-w-[80ch] mx-auto">
 		<div class="items-center block md:flex">
-			<Avatar width="w-32" src="images/wasi_icon.jpg" alt="avatar of wasita" class="mr-12" />
+			<Avatar width="w-32" src="images/wasi_icon.jpg" alt="wasita" class="mr-14" />
 			<div class="flex-1">
 				<h2 class="font-bold">wasita mahaphanit</h2>
 				<h4>phd student @ dartmouth college</h4>
@@ -23,7 +23,7 @@
 					formerly: lab manager of michael j. frank's <a href="https://www.lnccbrown.com/" target="_blank">lab of neural computation + cognition</a> & undergrad research assistant in <a href="https://www.shenhavlab.org/">amitai shenhav's lab @ brown</a>.
 				</p>
 				<p class="pt-4 text-justify">
-					outside of research, i enjoy ruminating while showering, <a href="https://github.com/wasita/wasita.github.io/blob/main/assets/images/misc/kitty-corners.png?raw=true">cuddling with my kitty joji</a>, playing baldur's gate 3, and training in lyra/aerial hoop. i've also been loving learning how to snowboard.
+					outside of research, i enjoy ruminating while showering, <a href="/images/kitty-corners.png">cuddling with my kitty joji</a>, playing baldur's gate 3, and training in <a href="https://www.instagram.com/wasiaerial/">aerial hoop</a>. i've also been loving learning how to snowboard.
 				</p>
 			</div>
 		</div>
