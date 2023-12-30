@@ -4,7 +4,9 @@ Personal website and blog.
 
 ## tech stack: made with ❤️ using
 
-- Svelte
+- Sveltekit
+- Svelte-MDX
 - TailwindCSS
+- SkeletonCSS
 - Vite
 - Playwright

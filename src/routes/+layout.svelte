@@ -251,7 +251,7 @@
 	<svelte:fragment slot="pageFooter">
 		<div class="container mx-auto">
 			<div
-				class="flex items-center justify-center p-4 mx-4 my-4 border bg-surface-100 dark:bg-surface-800 rounded-xl border-surface-300 dark:border-surface-700">
+				class="flex items-center justify-center p-4 mx-4 my-4 rounded-xl">
 				<p>wasita mahaphanit © {currentYear} | built with ♥ & svelte</p>
 			</div>
 		</div>
