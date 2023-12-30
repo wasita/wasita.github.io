@@ -2,10 +2,10 @@
 
 Personal website and blog.
 
-## tech stack: made with ❤️ using
+## made with ❤️ using
 
 - Sveltekit
-- Svelte-MDX
+- MDsveX
 - TailwindCSS
 - SkeletonCSS
 - Vite
