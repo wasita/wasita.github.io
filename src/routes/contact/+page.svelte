@@ -2,9 +2,9 @@
 <div class="container p-16 mx-auto my-4 rounded-xl">
 	<form action="https://formspree.io/f/xvoeogae" method="POST" class="space-y-1">
 		<label class="label" for="name">name</label>
-		<input class="input" type="text" name="name" id="name" placeholder="your name" />
+		<input class="input" type="text" name="name" id="name" placeholder="your name" required />
 		<label class="label" for="email">email</label>
-		<input class="input" type="email" name="_replyto" id="email" placeholder="youremail@provider.com" />
+		<input class="input" type="email" name="_replyto" id="email" placeholder="youremail@provider.com" required/>
 		<label class="label" for="subject">subject</label>
 		<input class="input" type="text" name="subject" id="subject" placeholder="subject" />
 		<label class="label" for="message">message</label>
@@ -13,7 +13,8 @@
 			name="message"
 			rows="4"
 			id="message"
-			placeholder="write your message here..." />
+			placeholder="write your message here..." 
+			required />
 		<button class="btn variant-glass-primary" type="submit">send</button>
 	</form>
 </div>
