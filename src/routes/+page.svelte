@@ -11,6 +11,6 @@
 			<a class="mt-4 btn variant-ghost-primary" href="/contact">get in touch</a>
 		</div>
 		
-		<img src="images/wasi_icon.jpg" alt="wasita" class="object-cover w-1/6 mx-auto rounded-xl h-1/6" />
+		<img src="images/wasi_icon.jpg" alt="wasita" class="object-cover w-1/4 mx-auto rounded-full" />
 	</div>
 </div>
