@@ -252,7 +252,7 @@
 		<div class="container mx-auto">
 			<div
 				class="flex items-center justify-center p-4 mx-4 my-4 rounded-xl">
-				<p>wasita mahaphanit © {currentYear} | built with ♥ & svelte</p>
+				<p>wasita mahaphanit © {currentYear} | built with 💜 & svelte</p>
 			</div>
 		</div>
 	</svelte:fragment>
