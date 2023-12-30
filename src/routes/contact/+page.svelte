@@ -1,5 +1,5 @@
 <h1 class="pt-4 pb-8 font-bold">contact</h1>
-<div class="container p-16 mx-auto my-4 border bg-surface-100 dark:bg-surface-800 rounded-xl border-surface-300 dark:border-surface-700">
+<div class="container p-16 mx-auto my-4 rounded-xl">
 	<form action="https://formspree.io/f/xvoeogae" method="POST" class="space-y-1">
 		<label class="label" for="name">name</label>
 		<input class="input" type="text" name="name" id="name" placeholder="your name" />

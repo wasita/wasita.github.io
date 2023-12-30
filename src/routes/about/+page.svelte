@@ -5,7 +5,7 @@
 <h1 class="pt-4 pb-8 font-bold">about me</h1>
 
 <div
-	class="p-16 border rounded-xl border-surface-300 dark:border-surface-700 bg-surface-100 dark:bg-surface-800">
+	class="p-16 rounded-xl">
 	<div class="max-w-[80ch] mx-auto">
 		<div class="items-center block md:flex">
 			<Avatar width="w-32" src="images/wasi_icon.jpg" alt="wasita" class="mr-14" />
