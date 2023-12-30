@@ -49,6 +49,46 @@
 <hr class="!border-t-2" />
 <div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
+		<img src="images/shared-reality-icon.png" alt="trust game" class="w-full lg:w-1/4" />
+		<div class="flex-1">
+			<div class="block lg:pl-12">
+				<h2 class="font-bold">interactive 2-player trust game</h2>
+				<h3>project author (2023-present)</h3>
+				<div class="py-2">
+					<span class="chip variant-soft-primary">
+						<span><Icon icon="simple-icons:svelte" /></span>
+						<span>svelte</span>
+					</span>
+					<span class="chip variant-soft-primary">
+						<span><Icon icon="mdi:tailwind" /></span>
+						<span>tailwind</span>
+					</span>
+					<span class="chip variant-soft-primary">
+						<span><Icon icon="mdi:firebase" /></span>
+						<span>firebase</span>
+					</span>
+				</div>
+				<p>
+					an implementation of a 2-player trust game from <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010028510000150">chang et al. (2010)</a>.
+				</p>
+				<p class="mt-2">
+					featured in the PBS NOVA episode "who's in control?".
+				</p>
+				<div class="mt-4">
+					<a
+						class="btn variant-glass-primary"
+						href="https://youtu.be/yQ6VOOd73MA?si=QDu3Q8fdWO6NlCal&t=1464"
+						target="_blank"
+						rel="noreferrer">watch episode
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<hr class="!border-t-2" />
+<div class="p-16 my-2 rounded-xl">
+	<div class="items-center block lg:flex">
 		<img src="https://pbs.twimg.com/profile_images/1405631877726105607/lkWahexX_400x400.jpg" alt="wins" class="w-full lg:w-1/4" />
 		<div class="flex-1">
 			<div class="block lg:pl-12">
@@ -125,7 +165,7 @@
 <hr class="!border-t-2" />
 <div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
-		<img src="https://github.com/ljchang/dartbrains/raw/master/images/logo/dartbrains_logo_square_transparent.png" alt="dartbrains logo" class="w-1/6 lg:w-1/6" />
+		<img src="https://github.com/ljchang/dartbrains/raw/master/images/logo/dartbrains_logo_square_transparent.png" alt="dartbrains logo" class="w-1/6 mx-10 lg:w-1/6" />
 		<div class="flex-1">
 			<div class="block lg:pl-12">
 				<h2 class="font-bold">dartbrains: intro to fmri</h2>
