@@ -12,7 +12,6 @@
 			<a class="mt-4 btn variant-glass-primary" href="/cv.pdf">cv</a>
 			<a class="mt-4 btn variant-glass-primary" href="/contact">get in touch</a>
 		</div>
-		
 		<img src="images/wasi_icon.jpg" alt="wasita" class="object-cover w-1/4 mx-auto transition-opacity duration-300 ease-in-out rounded-full hover:opacity-70" />
 	</div>
 </div>
