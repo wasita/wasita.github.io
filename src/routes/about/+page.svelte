@@ -19,10 +19,10 @@
 		</div>
 		<div class="flex my-4">
 			<div class="flex-1">
-				<p class="pt-4 text-justify">
+				<p class="pt-4 text-left">
 					formerly: lab manager of <a href="https://www.lnccbrown.com/" target="_blank">michael j. frank's lab of neural computation + cognition</a> & undergrad research assistant in <a href="https://www.shenhavlab.org/">amitai shenhav's lab @ brown</a>.
 				</p>
-				<p class="pt-4 text-justify">
+				<p class="pt-4 text-left">
 					outside of research, i enjoy ruminating while showering, <a href="/images/kitty-corners.png">cuddling with my kitty joji</a>, playing baldur's gate 3, and training in <a href="https://www.instagram.com/wasiaerial/">aerial hoop</a>. i've also been loving learning how to snowboard.
 				</p>
 			</div>
@@ -30,10 +30,10 @@
 		<div class="flex my-4">
 			<div class="flex-1">
 				<h2 class="pt-8 font-bold">research interests</h2>
-				<p class="pt-4 text-justify">
+				<p class="pt-4 text-left">
 					given our inability to share brains, i often think about how we cannot access or perceive another’s reality, rendering our experienced realities subjective and “incomplete.” with our individualized perspectives of the world and limited access to information (i.e., uncertainty), how do we then adaptively interact with other individuals and even collaborate with them to improve our mental models of the world? how does communication and other forms of interaction subserve this form of collaboration? and what are the computational mechanisms underlying these processes? my research is guided by these questions, and in answering them i use a combination of real-time multiplayer web experiments, natural language processing (NLP) tools, and computational modeling.
 				</p>
-				<p class="pt-4 text-justify">
+				<p class="pt-4 text-left">
 					in some of my pre-grad school projects, which have heavily informed my interests and training, i investigated 1) active information-seeking behavior and uncertainty computations in obsessive-compulsive disorder (OCD) through a bayesian lens and 2) how the influence of perceptual uncertainty on reward learning and episodic memory can be characterized by reinforcement learning models.
 				</p>
 			</div>
