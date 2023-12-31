@@ -8,7 +8,7 @@
 	class="p-16 rounded-xl">
 	<div class="max-w-[80ch] mx-auto">
 		<div class="items-center block md:flex">
-			<Avatar width="w-32" src="images/wasi_icon.jpg" alt="wasita" class="mx-12" />
+			<Avatar width="w-32" src="images/wasi_icon.jpg" alt="wasita" class="mx-12 transition-opacity duration-300 ease-in-out rounded-full hover:opacity-70" />
 			<div class="flex-1">
 				<h2 class="font-bold">wasita mahaphanit</h2>
 				<h4>phd student @ dartmouth college</h4>
