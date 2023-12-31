@@ -9,7 +9,7 @@
 				<a href="https://cosanlab.com/">cosan lab @ dartmouth</a>
 			</h3>
 			<a class="mt-4 btn variant-glass-primary" href="/about">about me</a>
-			<a class="mt-4 btn variant-glass-primary" href="/12-29-2023-WM-CV.pdf">cv</a>
+			<a class="mt-4 btn variant-glass-primary" href="/cv.pdf">cv</a>
 			<a class="mt-4 btn variant-glass-primary" href="/contact">get in touch</a>
 		</div>
 		

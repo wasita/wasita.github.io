@@ -114,6 +114,7 @@ declare module '$env/static/private' {
 	export const rvm_niceness: string;
 	export const DISPLAY: string;
 	export const rvm_ruby_bits: string;
+	export const rvm_recommended_ruby: string;
 	export const rvm_bin_flag: string;
 	export const rvm_only_path_flag: string;
 	export const SECURITYSESSIONID: string;
@@ -238,6 +239,7 @@ declare module '$env/dynamic/private' {
 		rvm_niceness: string;
 		DISPLAY: string;
 		rvm_ruby_bits: string;
+		rvm_recommended_ruby: string;
 		rvm_bin_flag: string;
 		rvm_only_path_flag: string;
 		SECURITYSESSIONID: string;

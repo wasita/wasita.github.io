@@ -5,10 +5,10 @@
 <h1 class="pt-4 pb-8 font-bold">i like building stuff</h1>
 <div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
-		<img src="images/shared-reality-icon.png" alt="chat app icon" class="w-full lg:w-1/4" />
+		<img src="images/shared-reality-icon.png" alt="dyad chat app icon" class="w-full lg:w-1/4 dark:invert" />
 		<div class="flex-1">
 			<div class="block lg:pl-12">
-				<h2 class="font-bold">server-less real-time dyadic chat app</h2>
+				<h2 class="font-bold">real-time dyadic chat app</h2>
 				<h3>project author (2023-present)</h3>
 				<div class="py-2">
 					<span class="chip variant-soft-primary">
@@ -25,7 +25,7 @@
 					</span>
 				</div>
 				<p>
-					to be released soon, this project is a platform for creating dyadic chat apps.
+					to be released soon, this project is a platform for creating dyadic chat apps using a server-less framework (i.e., no need for web sockets/socket.io for user-to-user communication).
 				</p>
 				<p class="mt-2">
 					presented in a talk at the 2023 MIND summer school in hanover, nh.
@@ -49,7 +49,36 @@
 <hr class="!border-t-2" />
 <div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
-		<img src="images/shared-reality-icon.png" alt="trust game" class="w-full lg:w-1/4" />
+		<img src="https://images.transistor.fm/file/transistor/images/show/12899/medium_1597678946-artwork.jpg" alt="svelte radio icon" class="w-full lg:w-1/4 dark:invert" />
+		<div class="flex-1">
+			<div class="block lg:pl-12">
+				<h2 class="font-bold">svelte radio podcast</h2>
+				<h3>episode guest (2023)</h3>
+				<div class="py-2">
+					<span class="chip variant-soft-primary">
+						<span><Icon icon="simple-icons:svelte" /></span>
+						<span>svelte</span>
+					</span>
+				</div>
+				<p>
+					had the opportunity to go on the <a href="https://www.svelteradio.com/">svelte radio podcast</a> with <a href="https://eshinjolly.com/">@ejolly</a> to talk about our experience with building web apps in svelte for our research!
+				</p>
+				<div class="mt-4">
+					<a
+						class="btn variant-glass-primary"
+						href="https://open.spotify.com/episode/3JzRDzPOylvhBSIj7jZLDz?si=3YDIJX3PQPisAHVLlMPK3Q"
+						target="_blank"
+						rel="noreferrer">listen to the episode
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<hr class="!border-t-2" />
+<div class="p-16 my-2 rounded-xl">
+	<div class="items-center block lg:flex">
+		<img src="images/shared-reality-icon.png" alt="dyad chat app icon" class="w-full lg:w-1/4 dark:invert" />
 		<div class="flex-1">
 			<div class="block lg:pl-12">
 				<h2 class="font-bold">interactive 2-player trust game</h2>
@@ -69,7 +98,7 @@
 					</span>
 				</div>
 				<p>
-					an implementation of a 2-player trust game from <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010028510000150">chang et al. (2010)</a>.
+					implementation of an interactive 2-player trust game à la <a href="https://www.sciencedirect.com/science/article/abs/pii/S0010028510000150">chang et al. (2010)</a>.
 				</p>
 				<p class="mt-2">
 					featured in the PBS NOVA episode "who's in control?".
@@ -89,7 +118,7 @@
 <hr class="!border-t-2" />
 <div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
-		<img src="https://pbs.twimg.com/profile_images/1405631877726105607/lkWahexX_400x400.jpg" alt="wins" class="w-full lg:w-1/4" />
+		<img src="https://pbs.twimg.com/profile_images/1405631877726105607/lkWahexX_400x400.jpg" alt="wins" class="w-full lg:w-1/4 dark:invert" />
 		<div class="flex-1">
 			<div class="block lg:pl-12">
 				<h2 class="font-bold">women in network science (WiNS) society members database</h2>
@@ -124,7 +153,7 @@
 		<img src="images/svsca.png" alt="chat app icon" class="w-full lg:w-1/4" />
 		<div class="flex-1">
 			<div class="block lg:pl-12">
-				<h2 class="font-bold">server-less multi-user synchronous video streaming & chat app platform</h2>
+				<h2 class="font-bold">multi-user synchronous video streaming & chat app platform</h2>
 				<h3>project author (2021-present)</h3>
 				<div class="py-2">
 					<span class="chip variant-soft-primary">
@@ -141,7 +170,7 @@
 					</span>
 				</div>
 				<p>
-					to be released soon, this project is a platform for creating multi-user synchronous video streaming and chat apps.
+					to be released soon, this project is a platform for creating multi-user chat apps with synchronous video streaming. implemented in a server-less framework (i.e., no need for web sockets/socket.io for user-to-user communication)
 				</p>
 				<p class="mt-2">
 					presented in a poster at 2023 SANS annual meeting in santa barbara, ca.
@@ -165,7 +194,7 @@
 <hr class="!border-t-2" />
 <div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
-		<img src="https://github.com/ljchang/dartbrains/raw/master/images/logo/dartbrains_logo_square_transparent.png" alt="dartbrains logo" class="w-1/6 mx-10 lg:w-1/6" />
+		<img src="https://github.com/ljchang/dartbrains/raw/master/images/logo/dartbrains_logo_square_transparent.png" alt="dartbrains logo" class="w-1/6 mx-10 lg:w-1/6 dark:invert" />
 		<div class="flex-1">
 			<div class="block lg:pl-12">
 				<h2 class="font-bold">dartbrains: intro to fmri</h2>
@@ -177,7 +206,7 @@
 					</span>
 				</div>
 				<p>
-					an introduction to fMRI analysis.
+					an introduction to fMRI preprocessing & analysis.
 				</p>
 				<div class="mt-4">
 					<a
@@ -198,7 +227,7 @@
 <hr class="!border-t-2" />
 <div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
-		<img src="https://cosanlab.github.io/info-theory-book/_static/soc_net.png" alt="info theory book for social neuroscientists" class="w-full lg:w-1/4" />
+		<img src="https://cosanlab.github.io/info-theory-book/_static/soc_net.png" alt="info theory book for social neuroscientists" class="w-full lg:w-1/4 dark:invert" />
 		<div class="flex-1">
 			<div class="block lg:pl-12">
 				<h2 class="font-bold">info theory for social neuroscientists</h2>
@@ -231,7 +260,7 @@
 <hr class="!border-t-2" />
 <div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
-		<img src="https://brown-ccv.github.io/honeycomb-docs/img/hexagon-regular.svg" alt="honeycomb" class="w-full lg:w-1/4" />
+		<img src="https://brown-ccv.github.io/honeycomb-docs/img/hexagon-regular.svg" alt="honeycomb" class="w-full lg:w-1/4 dark:invert" />
 		<div class="flex-1">
 			<div class="block lg:pl-12">
 				<h2 class="font-bold">honeycomb</h2>
