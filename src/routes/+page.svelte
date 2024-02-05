@@ -5,8 +5,8 @@
 		<div class="my-auto lg:w-3/4 lg:pl-24">
 			<h1 class="mb-4 font-bold">hi, i'm wasita.</h1>
 			<h3>
-				i'm a phd student in the
-				<a href="https://cosanlab.com/">cosan lab @ dartmouth</a>
+				i'm a phd candidate in the
+				<a href="https://cosanlab.com/">COSAN lab @ dartmouth</a>
 			</h3>
 			<a class="mt-4 btn variant-glass-primary" href="/about">about me</a>
 			<a class="mt-4 btn variant-glass-primary" href="/cv.pdf">cv</a>
