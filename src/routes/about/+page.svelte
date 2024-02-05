@@ -20,7 +20,7 @@
 		<div class="flex my-4">
 			<div class="flex-1">
 				<p class="pt-4 text-left">
-					i'm a phd candidate in the <a href="https://cosanlab.com/">COSAN lab</a>, where i work with <a href="https://pbs.dartmouth.edu/people/luke-j-chang-0">luke j. chang</a> and collaborate with <a href="https://wid.wisc.edu/people/robert-hawkins/">robert hawkins</a> and <a href="https://faculty-directory.dartmouth.edu/jonathan-s-phillips">jonathan phillips</a>.
+					i'm a phd candidate in the <a href="https://cosanlab.com/">cosan lab</a>, where i work with <a href="https://pbs.dartmouth.edu/people/luke-j-chang-0">luke j. chang</a> and collaborate with <a href="https://wid.wisc.edu/people/robert-hawkins/">robert hawkins</a> and <a href="https://faculty-directory.dartmouth.edu/jonathan-s-phillips">jonathan phillips</a>.
 				</p>
 				<p class="pt-4 text-left">
 					formerly: lab manager of <a href="https://www.lnccbrown.com/" target="_blank">michael j. frank's lab of neural computation + cognition</a> & undergrad research assistant in <a href="https://www.shenhavlab.org/">amitai shenhav's lab @ brown</a>.

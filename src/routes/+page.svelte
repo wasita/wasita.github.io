@@ -6,7 +6,7 @@
 			<h1 class="mb-4 font-bold">hi, i'm wasita.</h1>
 			<h3>
 				i'm a phd candidate in the
-				<a href="https://cosanlab.com/">COSAN lab @ dartmouth</a>
+				<a href="https://cosanlab.com/">cosan lab @ dartmouth</a>
 			</h3>
 			<a class="mt-4 btn variant-glass-primary" href="/about">about me</a>
 			<a class="mt-4 btn variant-glass-primary" href="/cv.pdf">cv</a>
