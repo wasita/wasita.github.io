@@ -11,7 +11,7 @@
 			<Avatar width="w-32" src="images/wasi_icon.jpg" alt="wasita" class="mx-12 transition-opacity duration-300 ease-in-out rounded-full hover:opacity-70" />
 			<div class="flex-1">
 				<h2 class="font-bold">wasita mahaphanit</h2>
-				<h4>phd student @ dartmouth college</h4>
+				<h4>phd candidate @ dartmouth college</h4>
 				<h6 class="text-purple-400">
 					i study collaboration & social interactions & communication
 				</h6>
@@ -20,10 +20,13 @@
 		<div class="flex my-4">
 			<div class="flex-1">
 				<p class="pt-4 text-left">
+					i'm a phd candidate in the <a href="https://cosanlab.com/">COSAN lab</a>, where i work with <a href="https://pbs.dartmouth.edu/people/luke-j-chang-0">luke j. chang</a> and collaborate with <a href="https://wid.wisc.edu/people/robert-hawkins/">robert hawkins</a> and <a href="https://faculty-directory.dartmouth.edu/jonathan-s-phillips">jonathan phillips</a>.
+				</p>
+				<p class="pt-4 text-left">
 					formerly: lab manager of <a href="https://www.lnccbrown.com/" target="_blank">michael j. frank's lab of neural computation + cognition</a> & undergrad research assistant in <a href="https://www.shenhavlab.org/">amitai shenhav's lab @ brown</a>.
 				</p>
 				<p class="pt-4 text-left">
-					outside of research, i enjoy ruminating while showering, <a href="/images/kitty-corners.png">cuddling with my kitty joji</a>, playing baldur's gate 3, and training in <a href="https://www.instagram.com/wasiaerial/">aerial hoop</a>. i've also been loving learning how to snowboard.
+					outside of research, i enjoy ruminating while showering, <a href="/images/kitty-corners.png">cuddling with my kitty joji</a>, <a href="https://www.youtube.com/watch?v=2p-5RXAitTI">playing baldur's gate 3</a>, and practicing <a href="https://www.instagram.com/wasiaerial/">aerial hoop</a>.
 				</p>
 			</div>
 		</div>
