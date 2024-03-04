@@ -247,6 +247,13 @@
 						</a>
 						<a
 							class="btn btn-sm variant-soft-surface hover:variant-soft-primary"
+							href="https://scholar.google.com/citations?user=1tZe-1gAAAAJ"
+							target="_blank"
+							rel="noreferrer">
+							<Icon icon="academicons:google-scholar-square" class="text-xl" />
+						</a>
+						<a
+							class="btn btn-sm variant-soft-surface hover:variant-soft-primary"
 							href="https://bsky.app/profile/wasita.bsky.social"
 							target="_blank"
 							rel="noreferrer">
