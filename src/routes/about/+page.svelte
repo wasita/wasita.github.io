@@ -34,14 +34,14 @@
 						Jonathan Phillips</a>. See my <a href="/research">research interests</a> page for more details.
 				</p>
 				<p class="pt-4 text-left">
-					<img src="https://ucc2413822d467847ba2a57bcb16.previews.dropboxusercontent.com/p/thumb/ACNy_mWyvEJZ9Dnia-nAbC7wpdcyfAzxmkR72M3uuYih2Z0Y5z88fZykzBjXhVpaMr7chH9sMHH57ULQv7XgehCmLawTJ6IVfvkPcjwMmROWeMidXQ-ojN2bwzhNQwrQgKYCNLLamj-dKfXW1SLl8LouksTx4D_BjzVTUwJNg9ZqBVJ0-1rQoJCISE_NY2icg3NAv-Ae4_Uwr735UAU2m9lk8hn944Mb3l3S3VOplEG8hYxqfNMpVLyU0fOu6XczsTXl1P4xx80bRWwlXNApL4IknGowxkVhMiQ-uKHiXdrA9xgo5eldapoEhi_VoP4ckHd9_0zIu4dtaeHxu64a8uQ1w7pUehxgiCaUVIWhMzCP-w/p.png" alt="lncc" class="w-24 float-left mr-4" />
+					<img src="https://ucc2413822d467847ba2a57bcb16.previews.dropboxusercontent.com/p/thumb/ACNy_mWyvEJZ9Dnia-nAbC7wpdcyfAzxmkR72M3uuYih2Z0Y5z88fZykzBjXhVpaMr7chH9sMHH57ULQv7XgehCmLawTJ6IVfvkPcjwMmROWeMidXQ-ojN2bwzhNQwrQgKYCNLLamj-dKfXW1SLl8LouksTx4D_BjzVTUwJNg9ZqBVJ0-1rQoJCISE_NY2icg3NAv-Ae4_Uwr735UAU2m9lk8hn944Mb3l3S3VOplEG8hYxqfNMpVLyU0fOu6XczsTXl1P4xx80bRWwlXNApL4IknGowxkVhMiQ-uKHiXdrA9xgo5eldapoEhi_VoP4ckHd9_0zIu4dtaeHxu64a8uQ1w7pUehxgiCaUVIWhMzCP-w/p.png" alt="lncc" class="w-24 float-left mr-4 dark:invert" />
 					Prior to graduate school, I worked as the lab manager of 
 					<a href="http://ski.clps.brown.edu/">Michael J. Frank</a>'s
 					<a href="https://www.lnccbrown.com/">Lab of Neural Computation + Cognition</a>.
 					My research focused on understanding how humans learn
 					and make decisions under uncertainty, particularly within the context of
 					psychiatric disorders and with a specific emphasis on obsessive compulsive disorder (OCD).
-					<img src="images/ShenhavLab_Logo.png" alt="shenhav lab logo" class="w-32 float-right" />
+					<img src="images/ShenhavLab_Logo.png" alt="shenhav lab logo" class="w-32 float-right dark:invert" />
 					Before that, I also worked as an undergraduate research assistant in
 					<a href="https://www.shenhavlab.org/">Amitai Shenhav's Lab</a>, where I studied performance monitoring and cognitive control
 					within the context of task-switching.
