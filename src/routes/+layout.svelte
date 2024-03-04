@@ -75,16 +75,6 @@
 				<li>
 					<a
 						class="my-2 transition-all duration-200 btn btn-xl"
-						href="/cv.pdf"
-						class:variant-glass-surface={!currentRoute.includes('/cv.pdf')}
-						class:variant-glass-primary={currentRoute.includes('/cv.pdf')}
-						on:click={() => drawerStore.close()}>
-						CV
-					</a>
-				</li>
-				<li>
-					<a
-						class="my-2 transition-all duration-200 btn btn-xl"
 						href="/portfolio"
 						class:variant-glass-surface={!currentRoute.includes('/portfolio')}
 						class:variant-glass-primary={currentRoute.includes('/portfolio')}
@@ -117,6 +107,16 @@
 				</li>
 			</ul>
 			<ul class="flex items-center content-center justify-center space-x-4">
+				<li>
+					<a
+						class="btn variant-soft-surface hover:variant-soft-primary"
+						href="/cv.pdf"
+						target="_blank"
+						rel="noreferrer"
+						on:click={() => drawerStore.close()}>
+						<Icon icon="academicons:cv-square" class="text-3xl" />
+					</a>
+				</li>
 				<li>
 					<a
 						class="btn variant-soft-surface hover:variant-soft-primary"
@@ -197,13 +197,6 @@
 						</a>
 						<a
 							class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
-							href="/cv.pdf"
-							class:variant-glass-surface={!currentRoute.includes('/cv.pdf')}
-							class:variant-glass-primary={currentRoute.includes('/cv.pdf')}>
-							CV
-						</a>
-						<a
-							class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
 							href="/portfolio"
 							class:variant-glass-surface={!currentRoute.includes('/portfolio')}
 							class:variant-glass-primary={currentRoute.includes('/portfolio')}>
@@ -224,6 +217,13 @@
 							Contact
 						</a>
 						<hr class="h-6 divider-vertical" />
+						<a
+							class="btn btn-sm variant-soft-surface hover:variant-soft-primary"
+							href="/cv.pdf"
+							target="_blank"
+							rel="noreferrer">
+							<Icon icon="academicons:cv-square" class="text-xl" />
+						</a>
 						<a
 							class="btn btn-sm variant-soft-surface hover:variant-soft-primary"
 							href="https://bsky.app/profile/wasita.bsky.social"
