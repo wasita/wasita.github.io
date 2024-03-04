@@ -14,8 +14,6 @@
 
 	let currentYear = new Date().getFullYear();
 
-
-
 	afterNavigate((params: any) => {
 		const isNewPage: boolean =
 			params.from && params.to && params.from.route.id !== params.to.route.id;
@@ -61,7 +59,7 @@
 						class:variant-glass-surface={currentRoute !== '/'}
 						class:variant-glass-primary={currentRoute === '/'}
 						on:click={() => drawerStore.close()}>
-						home
+						Home
 					</a>
 				</li>
 				<li>
@@ -71,7 +69,17 @@
 						class:variant-glass-surface={!currentRoute.includes('/about')}
 						class:variant-glass-primary={currentRoute.includes('/about')}
 						on:click={() => drawerStore.close()}>
-						about
+						About
+					</a>
+				</li>
+				<li>
+					<a
+						class="my-2 transition-all duration-200 btn btn-xl"
+						href="/cv.pdf"
+						class:variant-glass-surface={!currentRoute.includes('/cv.pdf')}
+						class:variant-glass-primary={currentRoute.includes('/cv.pdf')}
+						on:click={() => drawerStore.close()}>
+						CV
 					</a>
 				</li>
 				<li>
@@ -81,7 +89,7 @@
 						class:variant-glass-surface={!currentRoute.includes('/portfolio')}
 						class:variant-glass-primary={currentRoute.includes('/portfolio')}
 						on:click={() => drawerStore.close()}>
-						portfolio
+						Portfolio
 					</a>
 				</li>
 				<li>
@@ -91,7 +99,7 @@
 						class:variant-glass-surface={!currentRoute.includes('/blog')}
 						class:variant-glass-primary={currentRoute.includes('/blog')}
 						on:click={() => drawerStore.close()}>
-						blog
+						Blog
 					</a>
 				</li>
 				<li>
@@ -101,7 +109,7 @@
 						class:variant-glass-surface={!currentRoute.includes('/contact')}
 						class:variant-glass-primary={currentRoute.includes('/contact')}
 						on:click={() => drawerStore.close()}>
-						contact
+						Contact
 					</a>
 				</li>
 				<li>
@@ -171,35 +179,42 @@
 							href="/"
 							class:variant-glass-surface={currentRoute !== '/'}
 							class:variant-glass-primary={currentRoute === '/'}>
-							home
+							Home
 						</a>
 						<a
 							class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
 							href="/about"
 							class:variant-glass-surface={!currentRoute.includes('/about')}
 							class:variant-glass-primary={currentRoute.includes('/about')}>
-							about
+							About
+						</a>
+						<a
+							class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
+							href="/cv.pdf"
+							class:variant-glass-surface={!currentRoute.includes('/cv.pdf')}
+							class:variant-glass-primary={currentRoute.includes('/cv.pdf')}>
+							CV
 						</a>
 						<a
 							class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
 							href="/portfolio"
 							class:variant-glass-surface={!currentRoute.includes('/portfolio')}
 							class:variant-glass-primary={currentRoute.includes('/portfolio')}>
-							portfolio
+							Portfolio
 						</a>
 						<a
 							class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
 							href="/blog"
 							class:variant-glass-surface={!currentRoute.includes('/blog')}
 							class:variant-glass-primary={currentRoute.includes('/blog')}>
-							blog
+							Blog
 						</a>
 						<a
 							class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
 							href="/contact"
 							class:variant-glass-surface={!currentRoute.includes('/contact')}
 							class:variant-glass-primary={currentRoute.includes('/contact')}>
-							contact
+							Contact
 						</a>
 						<hr class="h-6 divider-vertical" />
 						<a
@@ -252,7 +267,9 @@
 		<div class="container mx-auto">
 			<div
 				class="flex items-center justify-center p-4 mx-4 my-4 rounded-xl">
-				<p>wasita mahaphanit © {currentYear} | built with 💜 & svelte</p>
+				<p>
+					Wasita Mahaphanit © {currentYear} | Built with Svelte, Tailwind, & 💜
+				</p>
 			</div>
 		</div>
 	</svelte:fragment>
