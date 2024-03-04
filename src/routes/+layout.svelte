@@ -190,6 +190,13 @@
 						</a>
 						<a
 							class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
+							href="/research"
+							class:variant-glass-surface={!currentRoute.includes('/research')}
+							class:variant-glass-primary={currentRoute.includes('/research')}>
+							Research
+						</a>
+						<a
+							class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
 							href="/cv.pdf"
 							class:variant-glass-surface={!currentRoute.includes('/cv.pdf')}
 							class:variant-glass-primary={currentRoute.includes('/cv.pdf')}>
