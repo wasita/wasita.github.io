@@ -275,7 +275,7 @@
 			<div
 				class="flex items-center justify-center p-4 mx-4 my-4 rounded-xl">
 				<p>
-					Wasita Mahaphanit © {currentYear} | Built with Svelte, Tailwind, & 💜
+					Wasita Mahaphanit © {currentYear} | Built with <span class="text-purple-400 text-xl">♥</span> ft. Svelte & Tailwind
 				</p>
 			</div>
 		</div>

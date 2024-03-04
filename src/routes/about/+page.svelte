@@ -3,12 +3,11 @@
 </script>
 
 <h1 class="pt-4 pb-8 font-bold">About Me</h1>
-
 <div
 	class="p-16 rounded-xl">
 	<div class="max-w-[80ch] mx-auto">
 		<div class="items-center block md:flex">
-			<Avatar width="w-32" src="images/wasi_icon.jpg" alt="wasita" class="mx-12 transition-opacity duration-300 ease-in-out rounded-full hover:opacity-70" />
+			<Avatar width="w-36" src="images/joji-cuddles.png" alt="wasita" class="mx-12 transition-opacity duration-300 ease-in-out rounded-full hover:opacity-70" />
 			<div class="flex-1">
 				<h2 class="font-bold">Wasita Mahaphanit</h2>
 				<h4>PhD candidate @ Dartmouth College</h4>
@@ -20,6 +19,7 @@
 		<div class="flex my-4">
 			<div class="flex-1">
 				<p class="pt-4 text-left">
+					<img src="images/cosan_logo.png" alt="cosan lab logo" class="w-28 float-right" />
 					I am currently a PhD candidate in the
 					<a href="https://cosanlab.com/">
 						Computational Social Affective Neuroscience (COSAN) Lab</a>, where I work with
@@ -31,37 +31,28 @@
 					</a>
 					and
 					<a href="https://faculty-directory.dartmouth.edu/jonathan-s-phillips">
-						Jonathan Phillips</a>. 
+						Jonathan Phillips</a>. See my <a href="/research">research interests</a> page for more details.
 				</p>
 				<p class="pt-4 text-left">
-					Given our inability to share brains, we cannot directly access or perceive
-					another's reality, which renders our experienced realities subjective
-					and inherently "incomplete". With our subjective perspectives of the world
-					and limited access to information causing uncertainty, how do we then
-					adaptively interact with other individuals and collaborate with
-					them to refine our mental models of the world? Verbal communication and other
-					forms of interaction play essential roles in facilitating this collaboration,
-					but what are the computational mechanisms underlying these processes? 
-					My research is guided by these questions, and in answering them I use a
-					combination of real-time multiplayer web experiments,
-					natural language processing (NLP) tools, and computational modeling.
-				</p>
-				<p class="pt-4 text-left">
+					<img src="https://ucc2413822d467847ba2a57bcb16.previews.dropboxusercontent.com/p/thumb/ACNy_mWyvEJZ9Dnia-nAbC7wpdcyfAzxmkR72M3uuYih2Z0Y5z88fZykzBjXhVpaMr7chH9sMHH57ULQv7XgehCmLawTJ6IVfvkPcjwMmROWeMidXQ-ojN2bwzhNQwrQgKYCNLLamj-dKfXW1SLl8LouksTx4D_BjzVTUwJNg9ZqBVJ0-1rQoJCISE_NY2icg3NAv-Ae4_Uwr735UAU2m9lk8hn944Mb3l3S3VOplEG8hYxqfNMpVLyU0fOu6XczsTXl1P4xx80bRWwlXNApL4IknGowxkVhMiQ-uKHiXdrA9xgo5eldapoEhi_VoP4ckHd9_0zIu4dtaeHxu64a8uQ1w7pUehxgiCaUVIWhMzCP-w/p.png" alt="lncc" class="w-24 float-left mr-4" />
 					Prior to graduate school, I worked as the lab manager of 
 					<a href="http://ski.clps.brown.edu/">Michael J. Frank</a>'s
 					<a href="https://www.lnccbrown.com/">Lab of Neural Computation + Cognition</a>.
 					My research focused on understanding how humans learn
 					and make decisions under uncertainty, particularly within the context of
 					psychiatric disorders and with a specific emphasis on obsessive compulsive disorder (OCD).
+					<img src="images/ShenhavLab_Logo.png" alt="shenhav lab logo" class="w-32 float-right" />
 					Before that, I also worked as an undergraduate research assistant in
 					<a href="https://www.shenhavlab.org/">Amitai Shenhav's Lab</a>, where I studied performance monitoring and cognitive control
 					within the context of task-switching.
 				</p>
 				<p class="pt-4 text-left">
+					I was born in Bangkok, Thailand, grew up in Maine, and then lived in Rhode Island for several years for college and work.
+					<img src="images/aerial_2017.webp" alt="aerial hoop" class="w-32 float-left mr-4 mt-2" />
 					Outside of research, I enjoy ruminating while showering,
-					cuddling with <a href="/images/kitty-corners.png">my kitty Joji</a>,
-					playing video games (currently obsessed with <a href="https://www.youtube.com/watch?v=2p-5RXAitTI">Baldur's Gate 3</a> and Persona 5 Royal), and practicing <a href="https://www.instagram.com/wasiaerial/">aerial hoop</a>.
-				</p>
+					cuddling with my kitty Joji (pictured above),
+					playing video games (currently obsessed with <a href="https://www.youtube.com/watch?v=2p-5RXAitTI">Baldur's Gate 3</a> and Persona 5 Royal).
+					In a past life, I practiced <a href="https://www.instagram.com/wasiaerial/">aerial hoop/lyra</a>.				</p>
 			</div>
 		</div>
 	</div>

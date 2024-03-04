@@ -23,5 +23,8 @@
 	],
 	"/portfolio": [
 		"src/routes/+layout.ts"
+	],
+	"/research": [
+		"src/routes/+layout.ts"
 	]
 }
