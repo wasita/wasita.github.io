@@ -43,6 +43,7 @@
 </svelte:head>
 
 <Drawer>
+	<!-- Mobile menu -->
 	{#if $drawerStore.id === 'menu'}
 		<nav class="px-4 py-6 list-nav">
 			<div class="flex items-center pb-6">
@@ -70,6 +71,16 @@
 						class:variant-glass-primary={currentRoute.includes('/about')}
 						on:click={() => drawerStore.close()}>
 						About
+					</a>
+				</li>
+				<li>
+					<a
+						class="my-2 transition-all duration-200 btn btn-xl"
+						href="/research"
+						class:variant-glass-surface={!currentRoute.includes('/research')}
+						class:variant-glass-primary={currentRoute.includes('/research')}
+						on:click={() => drawerStore.close()}>
+						Research
 					</a>
 				</li>
 				<li>
@@ -115,6 +126,16 @@
 						rel="noreferrer"
 						on:click={() => drawerStore.close()}>
 						<Icon icon="academicons:cv-square" class="text-3xl" />
+					</a>
+				</li>
+				<li>
+					<a
+						class="btn variant-soft-surface hover:variant-soft-primary"
+						href="https://scholar.google.com/citations?user=1tZe-1gAAAAJ"
+						target="_blank"
+						rel="noreferrer"
+						on:click={() => drawerStore.close()}>
+						<Icon icon="academicons:google-scholar-square" class="text-3xl" />
 					</a>
 				</li>
 				<li>
