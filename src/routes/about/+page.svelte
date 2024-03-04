@@ -50,7 +50,7 @@
 					I was born in Bangkok, Thailand, grew up in Maine, and then lived in Rhode Island for several years for college and work.
 					<img src="images/aerial_2017.webp" alt="aerial hoop" class="w-32 float-left mr-4 mt-2" />
 					Outside of research, I enjoy ruminating while showering,
-					cuddling with my kitty Joji (pictured above),
+					cuddling with my kitty Joji (pictured above), and
 					playing video games (currently obsessed with <a href="https://www.youtube.com/watch?v=2p-5RXAitTI">Baldur's Gate 3</a> and Persona 5 Royal).
 					In a past life, I practiced <a href="https://www.instagram.com/wasiaerial/">aerial hoop/lyra</a>.				</p>
 			</div>
