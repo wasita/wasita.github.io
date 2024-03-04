@@ -2,7 +2,7 @@
 	import { Avatar } from '@skeletonlabs/skeleton';
 </script>
 
-<h1 class="pt-4 pb-8 font-bold">about me</h1>
+<h1 class="pt-4 pb-8 font-bold">About Me</h1>
 
 <div
 	class="p-16 rounded-xl">
@@ -10,34 +10,57 @@
 		<div class="items-center block md:flex">
 			<Avatar width="w-32" src="images/wasi_icon.jpg" alt="wasita" class="mx-12 transition-opacity duration-300 ease-in-out rounded-full hover:opacity-70" />
 			<div class="flex-1">
-				<h2 class="font-bold">wasita mahaphanit</h2>
-				<h4>phd candidate @ dartmouth college</h4>
-				<h6 class="text-purple-400">
-					i study collaboration & social interactions & communication
-				</h6>
-			</div>
-		</div>
-		<div class="flex my-4">
-			<div class="flex-1">
-				<p class="pt-4 text-left">
-					i'm a phd candidate in the <a href="https://cosanlab.com/">cosan lab</a>, where i work with <a href="https://pbs.dartmouth.edu/people/luke-j-chang-0">luke j. chang</a> and collaborate with <a href="https://wid.wisc.edu/people/robert-hawkins/">robert hawkins</a> and <a href="https://faculty-directory.dartmouth.edu/jonathan-s-phillips">jonathan phillips</a>.
-				</p>
-				<p class="pt-4 text-left">
-					formerly: lab manager of <a href="https://www.lnccbrown.com/" target="_blank">michael j. frank's lab of neural computation + cognition</a> & undergrad research assistant in <a href="https://www.shenhavlab.org/">amitai shenhav's lab @ brown</a>.
-				</p>
-				<p class="pt-4 text-left">
-					outside of research, i enjoy ruminating while showering, <a href="/images/kitty-corners.png">cuddling with my kitty joji</a>, <a href="https://www.youtube.com/watch?v=2p-5RXAitTI">playing baldur's gate 3</a>, and practicing <a href="https://www.instagram.com/wasiaerial/">aerial hoop</a>.
+				<h2 class="font-bold">Wasita Mahaphanit</h2>
+				<h4>PhD candidate @ Dartmouth College</h4>
+				<p class="text-purple-400">
+					I study how we make sense of other people's minds and their shared experiences.
 				</p>
 			</div>
 		</div>
 		<div class="flex my-4">
 			<div class="flex-1">
-				<h2 class="pt-8 font-bold">research interests</h2>
 				<p class="pt-4 text-left">
-					given our inability to share brains, i often think about how we cannot access or perceive another’s reality, rendering our experienced realities subjective and “incomplete.” with our individualized perspectives of the world and limited access to information (i.e., uncertainty), how do we then adaptively interact with other individuals and even collaborate with them to improve our mental models of the world? how does communication and other forms of interaction subserve this form of collaboration? and what are the computational mechanisms underlying these processes? my research is guided by these questions, and in answering them i use a combination of real-time multiplayer web experiments, natural language processing (NLP) tools, and computational modeling.
+					I am currently a PhD candidate in the
+					<a href="https://cosanlab.com/">
+						Computational Social Affective Neuroscience (COSAN) Lab</a>, where I work with
+					<a href="https://pbs.dartmouth.edu/people/luke-j-chang-0">
+						Luke J. Chang</a>
+					and collaborate with
+					<a href="https://wid.wisc.edu/people/robert-hawkins/">
+						Robert Hawkins
+					</a>
+					and
+					<a href="https://faculty-directory.dartmouth.edu/jonathan-s-phillips">
+						Jonathan Phillips</a>. 
 				</p>
 				<p class="pt-4 text-left">
-					in some of my pre-grad school projects, which have heavily informed my interests and training, i investigated 1) active information-seeking behavior and uncertainty computations in obsessive-compulsive disorder (OCD) through a bayesian lens and 2) how the influence of perceptual uncertainty on reward learning and episodic memory can be characterized by reinforcement learning models.
+					Given our inability to share brains, we cannot directly access or perceive
+					another's reality, which renders our experienced realities subjective
+					and inherently "incomplete". With our subjective perspectives of the world
+					and limited access to information causing uncertainty, how do we then
+					adaptively interact with other individuals and collaborate with
+					them to refine our mental models of the world? Verbal communication and other
+					forms of interaction play essential roles in facilitating this collaboration,
+					but what are the computational mechanisms underlying these processes? 
+					My research is guided by these questions, and in answering them I use a
+					combination of real-time multiplayer web experiments,
+					natural language processing (NLP) tools, and computational modeling.
+				</p>
+				<p class="pt-4 text-left">
+					Prior to graduate school, I worked as the lab manager of 
+					<a href="http://ski.clps.brown.edu/">Michael J. Frank</a>'s
+					<a href="https://www.lnccbrown.com/">Lab of Neural Computation + Cognition</a>.
+					My research focused on understanding how humans learn
+					and make decisions under uncertainty, particularly within the context of
+					psychiatric disorders and with a specific emphasis on obsessive compulsive disorder (OCD).
+					Before that, I also worked as an undergraduate research assistant in
+					<a href="https://www.shenhavlab.org/">Amitai Shenhav's Lab</a>, where I studied performance monitoring and cognitive control
+					within the context of task-switching.
+				</p>
+				<p class="pt-4 text-left">
+					Outside of research, I enjoy ruminating while showering,
+					cuddling with <a href="/images/kitty-corners.png">my kitty Joji</a>,
+					playing video games (currently obsessed with <a href="https://www.youtube.com/watch?v=2p-5RXAitTI">Baldur's Gate 3</a> and Persona 5 Royal), and practicing <a href="https://www.instagram.com/wasiaerial/">aerial hoop</a>.
 				</p>
 			</div>
 		</div>
