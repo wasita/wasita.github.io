@@ -6,7 +6,7 @@
 	export let data;
 </script>
 
-<h1 class="pt-4 pb-8 font-bold">blog</h1>
+<h1 class="pt-4 pb-8 font-bold">Blog</h1>
 <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
 	{#each data.posts as post}
 		<a class="mx-auto my-4 overflow-hidden card bg-surface-100-800-token card-hover lg:mx-4" href={post.path}>
@@ -24,7 +24,7 @@
 			<footer>
 				<hr class="opacity-50" />
 				<div class="flex items-center justify-end p-4 space-x-4">
-					<figure
+					<!-- <figure
 						class="flex items-center justify-center w-8 overflow-hidden font-semibold rounded-full avatar aspect-square text-surface-50 isolate bg-surface-400-500-token"
 						data-testid="avatar">
 						<img
@@ -32,10 +32,10 @@
 							src="/images/wasi_icon.jpg"
 							alt=""
 							style="" />
-					</figure>
+					</figure> -->
 					<div class="flex items-center justify-between flex-auto align">
-						<h6 class="font-bold">wasita</h6>
-						<small>on {post.meta.date}</small>
+						<!-- <h6 class="font-bold">Wasita</h6> -->
+						<small>{post.meta.date}</small>
 					</div>
 				</div>
 			</footer>
