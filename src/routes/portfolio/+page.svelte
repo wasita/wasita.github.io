@@ -264,7 +264,7 @@
 <hr class="!border-t-2" />
 <div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
-		<img src="https://brown-ccv.github.io/honeycomb-docs/img/hexagon-regular.svg" alt="honeycomb" class="w-full lg:w-1/4 dark:invert" />
+		<img src="https://raw.githubusercontent.com/brown-ccv/honeycomb/cb829a5134086307de7ea53efc452c0d4425c06f/assets/bee.svg" alt="honeycomb" class="w-full lg:w-1/4 dark:invert" />
 		<div class="flex-1">
 			<div class="block lg:pl-12">
 				<h2 class="font-bold">Honeycomb</h2>
