@@ -52,7 +52,8 @@
 					Outside of research, I enjoy ruminating while showering,
 					cuddling with my kitty Joji (pictured above), and
 					playing video games (currently obsessed with <a href="https://www.youtube.com/watch?v=2p-5RXAitTI">Baldur's Gate 3</a> and Persona 5 Royal).
-					In a past life, I practiced <a href="https://www.instagram.com/wasiaerial/">aerial hoop/lyra</a>.				</p>
+					In a past life, I practiced <a href="https://www.instagram.com/wasiaerial/">aerial hoop/lyra</a>. Nowadays, I attend classes via the <a href="https://uvcircus.com/">UV Circus Collective</a>.
+				</p>
 			</div>
 		</div>
 	</div>

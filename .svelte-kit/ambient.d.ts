@@ -26,8 +26,6 @@
  * ```
  */
 declare module '$env/static/private' {
-	export const LC_FIG_SET_PARENT: string;
-	export const FIG_PID: string;
 	export const MANPATH: string;
 	export const rvm_use_flag: string;
 	export const rvm_bin_path: string;
@@ -39,7 +37,6 @@ declare module '$env/static/private' {
 	export const rvm_gemstone_url: string;
 	export const TERM: string;
 	export const SHELL: string;
-	export const FIGTERM_SESSION_ID: string;
 	export const rvm_docs_type: string;
 	export const HOMEBREW_REPOSITORY: string;
 	export const TMPDIR: string;
@@ -52,7 +49,6 @@ declare module '$env/static/private' {
 	export const TERM_SESSION_ID: string;
 	export const npm_config_noproxy: string;
 	export const npm_config_local_prefix: string;
-	export const FIG_SET_PARENT_CHECK: string;
 	export const NVM_DIR: string;
 	export const USER: string;
 	export const rvm_gemstone_package_file: string;
@@ -60,6 +56,7 @@ declare module '$env/static/private' {
 	export const CONDA_EXE: string;
 	export const rvm_path: string;
 	export const SSH_AUTH_SOCK: string;
+	export const Q_SET_PARENT_CHECK: string;
 	export const __CF_USER_TEXT_ENCODING: string;
 	export const npm_execpath: string;
 	export const rvm_proxy: string;
@@ -74,9 +71,11 @@ declare module '$env/static/private' {
 	export const npm_package_json: string;
 	export const _: string;
 	export const XML_CATALOG_FILES: string;
+	export const LaunchInstanceID: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_init_module: string;
 	export const CONDA_PREFIX: string;
+	export const SHELL_PID: string;
 	export const __CFBundleIdentifier: string;
 	export const npm_command: string;
 	export const TTY: string;
@@ -100,7 +99,6 @@ declare module '$env/static/private' {
 	export const HOME: string;
 	export const rvm_ruby_mode: string;
 	export const HOMEBREW_PREFIX: string;
-	export const FIG_SET_PARENT: string;
 	export const npm_config_cache: string;
 	export const CONDA_PYTHON_EXE: string;
 	export const LOGNAME: string;
@@ -113,14 +111,15 @@ declare module '$env/static/private' {
 	export const INFOPATH: string;
 	export const HOMEBREW_CELLAR: string;
 	export const rvm_niceness: string;
+	export const Q_TERM: string;
+	export const QTERM_SESSION_ID: string;
 	export const DISPLAY: string;
 	export const rvm_ruby_bits: string;
-	export const rvm_recommended_ruby: string;
 	export const rvm_bin_flag: string;
 	export const rvm_only_path_flag: string;
+	export const SECURITYSESSIONID: string;
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
-	export const FIG_TERM: string;
 	export const NODE_ENV: string;
 }
 
@@ -151,8 +150,6 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
-		LC_FIG_SET_PARENT: string;
-		FIG_PID: string;
 		MANPATH: string;
 		rvm_use_flag: string;
 		rvm_bin_path: string;
@@ -164,7 +161,6 @@ declare module '$env/dynamic/private' {
 		rvm_gemstone_url: string;
 		TERM: string;
 		SHELL: string;
-		FIGTERM_SESSION_ID: string;
 		rvm_docs_type: string;
 		HOMEBREW_REPOSITORY: string;
 		TMPDIR: string;
@@ -177,7 +173,6 @@ declare module '$env/dynamic/private' {
 		TERM_SESSION_ID: string;
 		npm_config_noproxy: string;
 		npm_config_local_prefix: string;
-		FIG_SET_PARENT_CHECK: string;
 		NVM_DIR: string;
 		USER: string;
 		rvm_gemstone_package_file: string;
@@ -185,6 +180,7 @@ declare module '$env/dynamic/private' {
 		CONDA_EXE: string;
 		rvm_path: string;
 		SSH_AUTH_SOCK: string;
+		Q_SET_PARENT_CHECK: string;
 		__CF_USER_TEXT_ENCODING: string;
 		npm_execpath: string;
 		rvm_proxy: string;
@@ -199,9 +195,11 @@ declare module '$env/dynamic/private' {
 		npm_package_json: string;
 		_: string;
 		XML_CATALOG_FILES: string;
+		LaunchInstanceID: string;
 		npm_config_userconfig: string;
 		npm_config_init_module: string;
 		CONDA_PREFIX: string;
+		SHELL_PID: string;
 		__CFBundleIdentifier: string;
 		npm_command: string;
 		TTY: string;
@@ -225,7 +223,6 @@ declare module '$env/dynamic/private' {
 		HOME: string;
 		rvm_ruby_mode: string;
 		HOMEBREW_PREFIX: string;
-		FIG_SET_PARENT: string;
 		npm_config_cache: string;
 		CONDA_PYTHON_EXE: string;
 		LOGNAME: string;
@@ -238,14 +235,15 @@ declare module '$env/dynamic/private' {
 		INFOPATH: string;
 		HOMEBREW_CELLAR: string;
 		rvm_niceness: string;
+		Q_TERM: string;
+		QTERM_SESSION_ID: string;
 		DISPLAY: string;
 		rvm_ruby_bits: string;
-		rvm_recommended_ruby: string;
 		rvm_bin_flag: string;
 		rvm_only_path_flag: string;
+		SECURITYSESSIONID: string;
 		npm_node_execpath: string;
 		npm_config_prefix: string;
-		FIG_TERM: string;
 		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
