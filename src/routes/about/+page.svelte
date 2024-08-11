@@ -19,17 +19,17 @@
 		<div class="flex my-4">
 			<div class="flex-1">
 				<p class="pt-4 text-left">
-					<img src="images/cosan_logo.png" alt="cosan lab logo" class="w-28 float-right" />
+					<img src="images/cosan_logo.png" alt="cosan logo" class="w-24 float-left mr-4 dark:invert" />
+					<img src="images/soilab.png" alt="soilab logo" class="w-28 float-right" />
 					I am currently a PhD candidate in the
 					<a href="https://cosanlab.com/">
-						Computational Social Affective Neuroscience (COSAN) Lab</a>, where I work with
+						Computational Social Affective Neuroscience (COSAN) Lab</a>, co-advised by
 					<a href="https://pbs.dartmouth.edu/people/luke-j-chang-0">
 						Luke J. Chang</a>
-					and collaborate with
-					<a href="https://wid.wisc.edu/people/robert-hawkins/">
-						Robert Hawkins
-					</a>
 					and
+					<a href="https://wid.wisc.edu/people/robert-hawkins/">
+						Robert Hawkins</a>.
+					I also collaborate with
 					<a href="https://faculty-directory.dartmouth.edu/jonathan-s-phillips">
 						Jonathan Phillips</a>. See my <a href="/research">research interests</a> page for more details.
 				</p>
@@ -51,8 +51,10 @@
 					<img src="images/aerial_2017.webp" alt="aerial hoop" class="w-32 float-left mr-4 mt-2" />
 					Outside of research, I enjoy ruminating while showering,
 					cuddling with my kitty Joji (pictured above), and
-					playing video games (currently obsessed with <a href="https://www.youtube.com/watch?v=2p-5RXAitTI">Baldur's Gate 3</a> and Persona 5 Royal).
-					In a past life, I practiced <a href="https://www.instagram.com/wasiaerial/">aerial hoop/lyra</a>.				</p>
+					playing video games (currently obsessed with <a href="https://www.youtube.com/watch?v=2p-5RXAitTI">Baldur's Gate 3</a>).
+					In a past life, I practiced <a href="https://www.instagram.com/wasiaerial/">aerial hoop/lyra</a> regularly.
+					Nowadays, I attend <a href="https://uvcircus.com/">UVCC</a> workshops when I can.
+				</p>
 			</div>
 		</div>
 	</div>
