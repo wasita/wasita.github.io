@@ -19,17 +19,21 @@
 		<div class="flex my-4">
 			<div class="flex-1">
 				<p class="pt-4 text-left">
-					<img src="images/cosan_logo.png" alt="cosan logo" class="w-24 float-left mr-4 dark:invert" />
-					<img src="images/soilab.png" alt="soilab logo" class="w-28 float-right" />
-					I am currently a PhD candidate in the
+					<img src="images/cosan_logo.png" alt="cosan logo" class="w-24 float-left mr-4" />
+					<img src="images/soilab.png" alt="soilab logo" class="w-28 float-right dark:invert" />
+					I am currently a PhD candidate in Cognitive Neuroscience at Dartmouth College, working in
+					the
 					<a href="https://cosanlab.com/">
-						Computational Social Affective Neuroscience (COSAN) Lab</a>, co-advised by
+						Computational Social Affective Neuroscience (COSAN) Lab
+					</a> and affiliated with the
+					<a href="https://socialinteractionlab.github.io">
+						Social Interaction Lab (SoIL)</a>. I am co-advised by
 					<a href="https://pbs.dartmouth.edu/people/luke-j-chang-0">
 						Luke J. Chang</a>
 					and
-					<a href="https://wid.wisc.edu/people/robert-hawkins/">
-						Robert Hawkins</a>.
-					I also collaborate with
+					<a href="https://rdhawkins.com">
+						Robert Hawkins</a>, and
+					I collaborate with
 					<a href="https://faculty-directory.dartmouth.edu/jonathan-s-phillips">
 						Jonathan Phillips</a>. See my <a href="/research">research interests</a> page for more details.
 				</p>
