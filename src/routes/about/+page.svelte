@@ -20,8 +20,8 @@
 			<div class="flex-1">
 				<p class="pt-4 text-left">
 					<img src="images/cosan_logo.png" alt="cosan logo" class="w-24 float-left mr-4" />
-					<img src="images/soilab.png" alt="soilab logo" class="w-28 float-right dark:invert" />
-					I am currently a PhD candidate in Cognitive Neuroscience at Dartmouth College, working in
+					<img src="images/soilab.png" alt="soilab logo" class="w-28 float-right ml-4 dark:invert" />
+					I am currently a 4th year PhD candidate in the <a href="https://pbs.dartmouth.edu/">Psychological & Brain Sciences department</a> at Dartmouth College, working in
 					the
 					<a href="https://cosanlab.com/">
 						Computational Social Affective Neuroscience (COSAN) Lab

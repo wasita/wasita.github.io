@@ -39,7 +39,7 @@
 </script>
 
 <svelte:head>
-	<title>wasita.space</title>
+	<title>✨ wasita.space ✨</title>
 </svelte:head>
 
 <Drawer>
