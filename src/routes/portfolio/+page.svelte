@@ -198,7 +198,7 @@
 <hr class="!border-t-2" />
 <div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
-		<img src="https://github.com/ljchang/dartbrains/raw/master/images/logo/dartbrains_logo_square_transparent.png" alt="dartbrains logo" class="w-1/6 mx-10 lg:w-1/6 dark:invert" />
+		<img src="https://github.com/ljchang/dartbrains/raw/master/images/logo/dartbrains_logo_square_transparent.png" alt="dartbrains logo" class="mx-10 my-10 scale-150 dark:invert" />
 		<div class="flex-1">
 			<div class="block lg:pl-12">
 				<h2 class="font-bold">DartBrains: Intro to fMRI</h2>
