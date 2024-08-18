@@ -27,13 +27,11 @@
 						Computational Social Affective Neuroscience (COSAN) Lab
 					</a> and affiliated with the
 					<a href="https://socialinteractionlab.github.io">
-						Social Interaction Lab (SoIL)</a>. I am co-advised by
+						Social Interaction Lab (SoIL)</a>. I work with
 					<a href="https://pbs.dartmouth.edu/people/luke-j-chang-0">
-						Luke J. Chang</a>
-					and
+						Luke J. Chang</a>,
 					<a href="https://rdhawkins.com">
 						Robert Hawkins</a>, and
-					I collaborate with
 					<a href="https://faculty-directory.dartmouth.edu/jonathan-s-phillips">
 						Jonathan Phillips</a>. See my <a href="/research">research interests</a> page for more details.
 				</p>
