@@ -5,21 +5,21 @@
 <h1 class="pt-4 pb-8 font-bold lowercase">About Me</h1>
 <div
 	class="p-16 rounded-xl">
-	<div class="max-w-[80ch] mx-auto">
+	<div class="max-w-[80ch] mx-auto lowercase">
 		<div class="items-center block md:flex">
 			<Avatar width="w-36" src="images/joji-cuddles.png" alt="wasita" class="mx-12 transition-opacity duration-300 ease-in-out rounded-full hover:opacity-70" />
 			<div class="flex-1">
-				<h2 class="font-bold lowercase">Wasita Mahaphanit</h2>
+				<h2 class="font-bold">Wasita Mahaphanit</h2>
 				<h4 class="lowercase">PhD candidate @ Dartmouth College</h4>
-				<p class="text-purple-400 lowercase">
+				<p class="text-purple-400">
 					I study how we make sense of other people's minds and their shared experiences.
 				</p>
 			</div>
 		</div>
 		<div class="flex my-4">
 			<div class="flex-1">
-				<p class="pt-4 text-left lowercase">
-					<img src="images/cosan_logo.png" alt="cosan logo" class="w-24 float-left mr-4" />
+				<p class="pt-4 text-left">
+					<img src="images/cosan_logo.png" alt="cosan logo" class="w-28 float-left mr-4" />
 					<img src="images/soilab.png" alt="soilab logo" class="w-28 float-right ml-4 dark:invert" />
 					I am currently a 4th year PhD candidate in the <a href="https://pbs.dartmouth.edu/">Psychological & Brain Sciences department</a> at Dartmouth College, working in
 					the
@@ -35,7 +35,7 @@
 					<a href="https://faculty-directory.dartmouth.edu/jonathan-s-phillips">
 						Jonathan Phillips</a>. See my <a href="/research">research interests</a> page for more details.
 				</p>
-				<p class="pt-4 text-left lowercase">
+				<p class="pt-4 text-left">
 					<img src="images/lncc_logo.png" alt="lncc" class="w-24 float-left mr-4 dark:invert" />
 					Prior to graduate school, I worked as the lab manager of 
 					<a href="http://ski.clps.brown.edu/">Michael J. Frank</a>'s
@@ -48,7 +48,7 @@
 					<a href="https://www.shenhavlab.org/">Amitai Shenhav's Lab</a>, where I studied performance monitoring and cognitive control
 					within the context of task-switching.
 				</p>
-				<p class="pt-4 text-left lowercase">
+				<p class="pt-4 text-left">
 					I was born in Bangkok, Thailand, grew up in Maine, and then lived in Rhode Island for several years for college and work.
 					<img src="images/aerial_2017.webp" alt="aerial hoop" class="w-32 float-left mr-4 mt-2" />
 					Outside of research, I enjoy ruminating while showering,
