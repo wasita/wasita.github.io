@@ -1,11 +1,7 @@
-<script>
-	import { Avatar } from '@skeletonlabs/skeleton';
-</script>
-
-<h1 class="pt-4 pb-8 font-bold">Research Interests</h1>
+<h1 class="pt-4 pb-8 font-bold lowercase">Research Interests</h1>
 
 <div
-	class="p-16 rounded-xl">
+	class="p-16 rounded-xl lowercase">
 	<div class="max-w-[80ch] mx-auto">
 		<div class="flex my-4">
 			<div class="flex-1">

@@ -6,8 +6,8 @@
 	export let data;
 </script>
 
-<h1 class="pt-4 pb-8 font-bold">Blog</h1>
-<div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+<h1 class="pt-4 pb-8 font-bold lowercase">Blog</h1>
+<div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 lowercase">
 	{#each data.posts as post}
 		<a class="mx-auto my-4 overflow-hidden card bg-surface-100-800-token card-hover lg:mx-4" href={post.path}>
 			<header>

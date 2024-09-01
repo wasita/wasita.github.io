@@ -45,7 +45,7 @@
 <Drawer>
 	<!-- Mobile menu -->
 	{#if $drawerStore.id === 'menu'}
-		<nav class="px-4 py-6 list-nav">
+		<nav class="px-4 py-6 list-nav lowercase">
 			<div class="flex items-center pb-6">
 				<h2 class="flex-1 pl-4 font-bold">menu</h2>
 				<button class="btn btn-icon-lg variant-glass-surface" on:click={() => drawerStore.close()}>
@@ -185,7 +185,7 @@
 
 <AppShell regionPage="relative" slotPageHeader="sticky top-0 z-10">
 	<svelte:fragment slot="pageHeader">
-		<div class="bg-surface-50 dark:bg-surface-900 backdrop-blur-xl">
+		<div class="bg-surface-50 dark:bg-surface-900 backdrop-blur-xl lowercase">
 			<AppBar background="none" class="container py-4 mx-auto">
 				<svelte:fragment slot="lead">
 					<a href="/">
@@ -301,7 +301,7 @@
 	<svelte:fragment slot="pageFooter">
 		<div class="container mx-auto">
 			<div
-				class="flex items-center justify-center p-4 mx-4 my-4 rounded-xl">
+				class="flex items-center justify-center p-4 mx-4 my-4 rounded-xl lowercase">
 				<p>
 					Wasita Mahaphanit © {currentYear} | Built with <span class="text-purple-400 text-xl">♥</span> ft. Svelte & Tailwind
 				</p>
