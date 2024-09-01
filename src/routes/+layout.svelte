@@ -39,7 +39,7 @@
 </script>
 
 <svelte:head>
-	<title>✨ wasita.space ✨</title>
+	<title>wasita.space</title>
 </svelte:head>
 
 <Drawer>
@@ -117,7 +117,7 @@
 					<hr class="w-24 mx-auto my-4 divider" />
 				</li>
 			</ul>
-			<ul class="flex items-center content-center justify-center space-x-4">
+			<ul class="grid grid-cols-3 gap-2 items-center justify-center content-center">
 				<li>
 					<a
 						class="btn variant-soft-surface hover:variant-soft-primary"
