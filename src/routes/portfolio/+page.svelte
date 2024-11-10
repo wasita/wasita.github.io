@@ -2,8 +2,8 @@
 	import Icon from '@iconify/svelte';
 </script>
 
-<h1 class="pt-4 pb-8 font-bold lowercase">I like building stuff</h1>
-<div class="p-16 my-2 rounded-xl lowercase">
+<h1 class="pt-4 pb-8 font-bold">I like building stuff</h1>
+<div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
 		<img src="images/shared-reality-icon.png" alt="dyad chat app icon" class="w-full lg:w-1/4 dark:invert" />
 		<div class="flex-1">
@@ -47,7 +47,7 @@
 	</div>
 </div>
 <hr class="!border-t-2" />
-<div class="p-16 my-2 rounded-xl lowercase">
+<div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
 		<img src="https://images.transistor.fm/file/transistor/images/show/12899/medium_1597678946-artwork.jpg" alt="svelte radio icon" class="w-full lg:w-1/4 dark:invert" />
 		<div class="flex-1">
@@ -78,7 +78,7 @@
 	</div>
 </div>
 <hr class="!border-t-2" />
-<div class="p-16 my-2 rounded-xl lowercase">
+<div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
 		<img src="images/shared-reality-icon.png" alt="dyad chat app icon" class="w-full lg:w-1/4 dark:invert" />
 		<div class="flex-1">
@@ -119,7 +119,7 @@
 	</div>
 </div>
 <hr class="!border-t-2" />
-<div class="p-16 my-2 rounded-xl lowercase">
+<div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
 		<img src="https://pbs.twimg.com/profile_images/1405631877726105607/lkWahexX_400x400.jpg" alt="wins" class="w-full lg:w-1/4 dark:invert" />
 		<div class="flex-1">
@@ -151,7 +151,7 @@
 	</div>
 </div>
 <hr class="!border-t-2" />
-<div class="p-16 my-2 rounded-xl lowercase">
+<div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
 		<img src="images/svsca.png" alt="chat app icon" class="w-full lg:w-1/4" />
 		<div class="flex-1">
@@ -196,7 +196,7 @@
 	</div>
 </div>
 <hr class="!border-t-2" />
-<div class="p-16 my-2 rounded-xl lowercase">
+<div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
 		<img src="https://github.com/ljchang/dartbrains/raw/master/images/logo/dartbrains_logo_square_transparent.png" alt="dartbrains logo" class="mx-10 my-10 scale-150 dark:invert" />
 		<div class="flex-1">
@@ -229,7 +229,7 @@
 	</div>
 </div>
 <hr class="!border-t-2" />
-<div class="p-16 my-2 rounded-xl lowercase">
+<div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
 		<img src="https://cosanlab.github.io/info-theory-book/_static/soc_net.png" alt="info theory book for social neuroscientists" class="w-full lg:w-1/4" />
 		<div class="flex-1">
@@ -262,7 +262,7 @@
 	</div>
 </div>
 <hr class="!border-t-2" />
-<div class="p-16 my-2 rounded-xl lowercase">
+<div class="p-16 my-2 rounded-xl">
 	<div class="items-center block lg:flex">
 		<img src="https://raw.githubusercontent.com/brown-ccv/honeycomb/cb829a5134086307de7ea53efc452c0d4425c06f/assets/bee.svg" alt="honeycomb" class="w-full lg:w-1/4 dark:invert" />
 		<div class="flex-1">
