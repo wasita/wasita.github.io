@@ -4,8 +4,8 @@
 	<div class="flex flex-col-reverse lg:flex-row">
 		<!-- <div class="my-auto lg:w-2/4 lg:pl-24 mt-6 lg:mt-0"> -->
 		 <div class="my-auto lg:w-2/4 lg:pl-24">
-			<h1 class="mb-4 font-bold lowercase">Hi, I'm Wasita.</h1>
-			<h3 class="lowercase">
+			<h1 class="mb-4 font-bold">Hi, I'm Wasita.</h1>
+			<h3>
 				PhD candidate studying how we make sense of other people's minds and our shared experiences
 			</h3>
 		</div>

@@ -1,7 +1,7 @@
-<h1 class="pt-4 pb-8 font-bold lowercase">Research Interests</h1>
+<h1 class="pt-4 pb-8 font-bold">Research Interests</h1>
 
 <div
-	class="p-16 rounded-xl lowercase">
+	class="p-16 rounded-xl">
 	<div class="max-w-[80ch] mx-auto">
 		<div class="flex my-4">
 			<div class="flex-1">
@@ -9,17 +9,16 @@
 					I study how we make sense of other people's minds and their shared experiences.
 				</h3>
 				<p class="pt-4 text-left">
-					Given our inability to share brains, we cannot directly access or perceive
-					another's reality, which renders our experienced realities subjective
-					and inherently "incomplete". With our subjective perspectives of the world
-					and limited access to information causing uncertainty, how do we then
-					adaptively interact with other individuals and collaborate with
-					them to refine our mental models of the world? Verbal communication and other
-					forms of interaction play essential roles in facilitating this collaboration,
-					but what are the computational mechanisms underlying these processes? 
-					My research is guided by these questions, and in answering them I use a
-					combination of real-time multiplayer web experiments,
-					natural language processing (NLP) tools, and computational modeling (primarily Bayesian inference).
+					Our subjective realities are inherently limited, shaped by our personal perspectives and incomplete access to the experiences of others.
+					How do we overcome the limitations of our own perspective to understand the minds of others and the shared experiences we have with them?
+				</p>
+				<p class="pt-4 text-left">
+					To bridge the gap between our subjective realities, I study how we infer others' mental states through their communication behavior and how we align our mental states with others to achieve shared goals.
+					These processes are foundational not only for coordinating actions with others but also for building and maintaining meaningful social connections.
+				</p>
+				<p class="pt-4 text-left">
+					By leveraging real-time multiplayer web experiments, natural language processing (NLP), and computational modeling (primarily Bayesian cognitive modeling),
+					I investigate the cognitive mechanisms that support our ability to co-construct mental models of the world with others.
 				</p>
 			</div>
 		</div>
