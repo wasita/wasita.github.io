@@ -21,7 +21,7 @@
 				<p class="pt-4 text-left">
 					<img src="images/cosan_logo.png" alt="cosan logo" class="w-28 float-left mr-4" />
 					<img src="images/soilab.png" alt="soilab logo" class="w-28 float-right ml-4 dark:invert" />
-					I am currently a 4th year PhD candidate in the <a href="https://pbs.dartmouth.edu/">Psychological & Brain Sciences department</a> at Dartmouth College, working in
+					I am currently a 5th year PhD candidate in the <a href="https://pbs.dartmouth.edu/">Psychological & Brain Sciences department</a> at Dartmouth College, working in
 					the
 					<a href="https://cosanlab.com/">
 						Computational Social Affective Neuroscience (COSAN) Lab
@@ -49,12 +49,12 @@
 					within the context of task-switching.
 				</p>
 				<p class="pt-4 text-left">
-					I was born in Bangkok, Thailand, grew up in Maine, and then lived in Rhode Island for several years for college and work.
+					I was born in Thailand, grew up in Maine, and then lived in Rhode Island for several years for college and work.
 					<img src="images/aerial_2017.webp" alt="aerial hoop" class="w-32 float-left mr-4 mt-2" />
 					Outside of research, I enjoy ruminating while showering,
 					cuddling with my kitty Joji (pictured above), and
-					playing video games (currently obsessed with <a href="https://www.youtube.com/watch?v=2p-5RXAitTI">Baldur's Gate 3</a>).
-					In a past life, I practiced <a href="https://www.instagram.com/wasiaerial/">aerial hoop/lyra</a> regularly.
+					playing video games (currently <a href="https://www.youtube.com/watch?v=2p-5RXAitTI">Baldur's Gate 3</a> and <a href="https://www.youtube.com/watch?v=xj-MRvcXHgw">Elden Ring</a>).
+					In a past life, I practiced <a href="https://www.instagram.com/wasiaerial/">aerial hoop/lyra</a>.
 					Nowadays, I attend <a href="https://uvcircus.com/">UVCC</a> workshops when I can.
 				</p>
 			</div>
