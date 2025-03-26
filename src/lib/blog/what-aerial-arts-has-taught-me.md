@@ -26,7 +26,7 @@ A prime example of this is from 2017, when I was an undergraduate. I saw [someon
 
 That talk didn't just inspire me, it gave me a direction. I've since made multi-user web apps the cornerstone of how I collect data, and I can say with absolute certainty that this is the approach I want to keep building on. It's not that I've mastered it, but I know what excites me and what I aspire to get better at. That clarity has been a compass when everything else feels uncertain.
 
-I've come full-circle even: four years after seeing that 2017 talk, I began my PhD in the same lab as the person who gave that talk. The spark I felt as an undergrad wasn't just a passing fascination; it has evolved into a research path and a methodological identity I still feel deeply connected to.
+I've come full-circle: four years after seeing that 2017 talk, I began my PhD in the same lab where the speaker had been a graduate student. The spark I felt as an undergrad wasn't just a passing fascination; it has evolved into a research path and a methodological identity I still feel deeply connected to.
 
 And on a more practical level, it's also become something I can rely on. If I'm feeling unmotivated or stuck in the ambiguity of an analysis, lost in the weeds of parameterizing a model or interpreting noisy results, I know I can return to the concrete, satisfying act of programming. There's comfort in the structure of a web app: the clarity of an interface, the logic of an interaction, the visible progress of something coming together. It grounds me. It reminds me what I can build when everything else feels murky.
 
