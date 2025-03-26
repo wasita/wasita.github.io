@@ -82,4 +82,4 @@ I don't train as often anymore, but aerial will always be one of my first loves,
 
 Maybe this is an admission of vanity, but when I feel down about my ability in academia, I sometimes rewatch old aerial performance videos. I think about all the times I flailed and fell before finally getting it. I think about how progress doesn't always look like progress until, suddenly, it does.
 
-If you fall enough times, you'll eventually fly.
+If you fall enough times, eventually--you fly.
