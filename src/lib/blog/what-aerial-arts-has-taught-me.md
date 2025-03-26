@@ -1,14 +1,14 @@
 ---
-title: Knowledge transfer from one passion to another
+title: Falling, failing, flying
 date: March 2025
 cover: /images/aerial_2017.png
-excerpt: Lessons learned from my favorite pastime
+excerpt: Transferring knowledge from one passion to another.
 visible: true
 ---
 
 Maybe this is an admission of vanity, but when I feel down about my ability in academia, I sometimes rewatch my old aerial performance videos. I think about all the times I flailed and fell before finally getting it. It reminds me that learning rarely feels graceful while it's happening.
 
-This got me thinking about how deeply my years of training in aerial arts have shaped the way I approach research. Strength, resilience, choreography, communication, community--lessons I learned on the hoop in the air continue to ground me in the lab. So here's a reflection on what one passion taught me about another.
+This got me thinking about how deeply my years of training in aerial arts have shaped the way I approach research. Strength, resilience, choreography, communication, community--lessons I learned on the hoop continue to ground me in the lab. So here's a reflection on what one passion taught me about another.
 
 <p align="center">
   <img src="/images/clown_university.png" width="100%">
@@ -26,7 +26,7 @@ A prime example of this is from 2017, when I was an undergraduate. I saw [someon
 
 That talk didn't just inspire me, it gave me a direction. I've since made multi-user web apps the cornerstone of how I collect data, and I can say with absolute certainty that this is the approach I want to keep building on. It's not that I've mastered it, but I know what excites me and what I aspire to get better at. That clarity has been a compass when everything else feels uncertain.
 
-Coming full-circle, I now do my PhD in the same lab as the person who gave that talk. The spark I felt as an undergrad wasn't just a passing fascination; it has evolved into a research path and a methodological identity I still feel deeply connected to.
+Having come full-circle, I now do my PhD in the same lab as the person who gave that talk. The spark I felt as an undergrad wasn't just a passing fascination; it has evolved into a research path and a methodological identity I still feel deeply connected to.
 
 And on a more practical level, it's also become something I can rely on. If I'm feeling unmotivated or stuck in the ambiguity of an analysis, lost in the weeds of parameterizing a model or interpreting noisy results, I know I can return to the concrete, satisfying act of programming. There's comfort in the structure of a web app: the clarity of an interface, the logic of an interaction, the visible progress of something coming together. It grounds me. It reminds me what I can build when everything else feels murky.
 
@@ -44,7 +44,7 @@ That lesson has only grown more relevant since starting graduate school. Researc
 
 ## Learning from different management styles
 
-Serving on the aerial club's executive board exposed me early on in how leadership style shapes group dynamics. For a couple of years, I was the social media chair--designing performance posters, creating Facebook events, and coordinating with photographers for our shows. But beyond those tasks, I was part of the broader decision-making team that kept the club running behind the scenes.
+Serving on the aerial club's executive board exposed me early on to how leadership style shapes group dynamics. For a couple of years, I was the social media chair--designing performance posters, creating Facebook events, and coordinating with photographers for our shows. But beyond those tasks, I was part of the broader decision-making team that kept the club running behind the scenes.
 
 I wasn't president, but I worked closely with the people who were. Each one brought a distinct approach to leadership. Some were assertive and highly structured, quick to make decisions and stick to timelines. Others were more easygoing and collaborative, inviting input and encouraging flexibility, even if it slowed things down. I saw how those choices affected the club's morale, participation, and momentum. Too much control could stifle creativity; too little could lead to disorganization and frustration. The best leaders found a balance, or at least knew when to adapt based on the moment and the people involved.
 
@@ -84,7 +84,7 @@ That shared understanding didn't just make things easier either, it made things 
 Reflecting on this now, I'm reminded of research on how people learn to coordinate through shared procedural abstractions. In particular, [McCarthy et al. (2021)](https://arxiv.org/abs/2107.00077) found that when people repeatedly collaborate on a physical assembly task, they naturally begin to develop increasingly concise instructions by grounding language in shared, task-relevant conceptual structures. Over time, they form ad-hoc conventions that compress complex procedures into higher-level abstractions. That dynamic felt deeply familiar: K and I started with careful, explicit instructions, then gradually built up a shared vocabulary, rooted in mutual experience, that enabled seamless, efficient coordination. Our “Tweedle Dee” wasn't just a name; it was a scaffold for joint understanding and collaborative movement. It was also creative expression that neither of us could have achieved alone.
 
 ![group photo](/images/aerial_group_photo.jpg)
-_A group photo of the aerial club from our water-themed show. K and I performed a "mermaid pirate love story" which you watch [here](https://www.youtube.com/watch?v=77QowxvQCk4)_.
+_A group photo of the aerial club from our water-themed show. K and I performed a "mermaid pirate love story" which you can watch [here](https://www.youtube.com/watch?v=77QowxvQCk4)_.
 
 ## An interdisciplinary community of misfits
 
