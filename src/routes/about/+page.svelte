@@ -2,7 +2,7 @@
 	import { Avatar } from '@skeletonlabs/skeleton';
 </script>
 
-<h1 class="pt-4 pb-8 font-bold ">About Me</h1>
+<h1 class="pt-4 pb-8 font-bold">About Me</h1>
 <div
 	class="p-16 rounded-xl">
 	<div class="max-w-[80ch] mx-auto">
@@ -24,14 +24,14 @@
 					I am currently a 5th year PhD candidate in the <a href="https://pbs.dartmouth.edu/">Psychological & Brain Sciences department</a> at Dartmouth College, working in
 					the
 					<a href="https://cosanlab.com/">
-						Computational Social Affective Neuroscience (COSAN) Lab
-					</a> and affiliated with the
-					<a href="https://socialinteractionlab.github.io">
-						Social Interaction Lab (SoIL)</a>. I work with
+						Computational Social Affective Neuroscience (COSAN) Lab</a>, where I work with
 					<a href="https://pbs.dartmouth.edu/people/luke-j-chang-0">
-						Luke J. Chang</a>,
-					<a href="https://rdhawkins.com">
-						Robert Hawkins</a>, and
+						Luke J. Chang</a>
+					and collaborate with
+					<a href="https://wid.wisc.edu/people/robert-hawkins/">
+						Robert Hawkins
+					</a>
+					and
 					<a href="https://faculty-directory.dartmouth.edu/jonathan-s-phillips">
 						Jonathan Phillips</a>. See my <a href="/research">research interests</a> page for more details.
 				</p>
