@@ -6,17 +6,21 @@ excerpt: Lessons learned from my favorite pastime
 visible: true
 ---
 
+Maybe this is an admission of vanity, but when I feel down about my ability in academia, I sometimes rewatch my old aerial performance videos. I think about all the times I flailed and fell before finally getting it. I think about how progress doesn't always look like progress--until, _suddenly_, it does.
+
+This got me thinking about how deeply my years of training in aerial arts have shaped the way I approach research. Strength, resilience, choreography, communication, community--lessons I learned on the hoop continue to ground me in the lab. So here's a reflection on what one passion taught me about another.
+
 <p align="center">
   <img src="/images/clown_university.png" width="100%">
 </p>
 
-During my college's Accepted Students Day, I saw my first partner acro performance. Something about it, maybe the challenge or the drama, instantly captivated me. It also helped that one of the first friends I made was a flying trapeze instructor, and together we motivated each other as we gradually infiltrated the campus aerial club. I kept up with aerial arts throughout college and into my post-bacc, drawn to how it demanded strength, creativity, and _somehow_ made use of my stubbornness. Looking back now, I see so many parallels between my aerial practice and my approach to research. This is my attempt to put that into words.
+During my college's Accepted Students Day, I saw my first partner acro performance. Something about it, maybe the challenge or the drama, instantly captivated me. It also helped that one of the first friends I made was a flying trapeze instructor, and together we motivated each other as we gradually infiltrated the campus aerial club. I kept up with aerial arts throughout college and into my post-bacc, drawn to how it demanded strength, creativity, and _somehow_ made use of my stubbornness.
 
 ## Early specialization
 
 Our college aerial club thankfully offered a few disciplines to sample when starting out: aerial hoop, trapeze, silks, rope, and partner acro. I'd always been naturally flexible but lacked strength, so anything that required me to hold myself up for long periods (i.e., everything but hoop and trapeze) wasn't very appealing. I immediately gravitated toward aerial hoop and chose to focus on it. It was the only apparatus I ever performed on, and I have no regrets about not branching out or potentially being a "one-trick pony."
 
-The parallel here is that I learned something fundamental about myself: I'm pretty decisive about what I like and don't like. Whether it's based on what comes naturally or what I find intuitively enjoyable, I tend to stick to my preferences--or, to borrow some jargon from my research field, I'm "internally consistent." That same tendency shows up in my research life, especially in the methods and approaches I gravitate toward.
+That instinct to fully commit to what draws me in shows up in other areas of my life, too. I'm pretty decisive about what I like and don't like. Whether it's based on what comes naturally or what I find intuitively enjoyable, I tend to stick to my preferences--or, to borrow some jargon from my research field, I'm "internally consistent."
 
 A prime example of this is from 2017, when I saw [someone](https://eshinjolly.com/) give a talk about their gossip study, where they built a multi-player web app. The moment I saw that, I vowed to learn web development so I could build my own multi-user interfaces someday, and that approach has since become a foundational method in my research. It's not that I've mastered them, but I know what excites me and what I aspire to get better at. That sense of direction has helped keep me grounded when everything else feels uncertain.
 
@@ -28,7 +32,7 @@ My favorite move I taught myself was the hip hang (pictured above). It may look 
 
 I'd fall and get frustrated. But I kept trying. And trying. And trying. Until one day, my muscles remembered what my mind couldn't quite grasp, and I somehow just did it. Eventually, that black spot went numb. It no longer hurt.
 
-Research feels the same way a lot of the time. There are stretches where you're just banging your head against a wall, spinning your wheels, repeatedly trying things that don't quite work. But if you keep at it long enough--adjusting here, trusting your instincts there--you eventually find the hold.
+Aerial taught me that grit isn't glamorous. It's repetitive, often invisible, and rarely feels like progress in the moment. That lesson became even more valuable once I started graduate school. Research often feels the same way: you're spinning your wheels, revisiting the same questions, trying things that don't quite work. But if you keep at it long enough--adjusting here, trusting your instincts there--you eventually find the hold.
 
 ## Learning from different management styles
 
@@ -61,14 +65,14 @@ That lesson became especially clear when I started performing with K, my duo hoo
 
 We learned to mirror, share weight, and build shapes together. But more than anything, we learned how to communicate. In the beginning, we had to talk through every detail: what move we were trying, who initiated it, where we'd make contact, and how we'd time our transitions. Communication was constant and deliberate.
 
-And as we developed routines together, we also developed our own internal vocabulary. Since naming conventions in aerial aren't standardized, especially in duo work, we created a kind of partner-specific shorthand. One example is a move we called “Tweedle Dee,” which we borrowed from a YouTube routine we once saw, where the performers played Tweedle Dee and Tweedle Dum in an Alice in Wonderland–themed act. To anyone else, that name would be meaningless. But to us, “Tweedle Dee” instantly evoked a full sequence of coordinated movement: who initiated it, how it unfolded, where our weight shifted, what tempo to follow. It was an abstraction, a compact label for something deeply embodied.
+And as we developed routines together, we also developed our own internal vocabulary. Since naming conventions in aerial aren't standardized, especially in duo work, we created a kind of partner-specific shorthand. One example is a move we called “Tweedle Dee,” which we borrowed from [a YouTube routine](https://www.youtube.com/watch?v=gDKwNW8JBcw) we once saw, where the performers played Tweedle Dee and Tweedle Dum in an Alice in Wonderland–themed act. To anyone else, that name would be meaningless. But to us, “Tweedle Dee” instantly evoked a full sequence of coordinated movement: who initiated it, how it unfolded, where our weight shifted, what tempo to follow. It was an abstraction, a compact label for something deeply embodied.
 
 Over time, this vocabulary allowed us to move together more fluidly, without having to explain every detail. Eventually, we didn't need to talk at all. By the time we performed our final duo act, we were in sync from start to finish, able to anticipate each other's timing, weight shifts, and intentions with near-perfect precision.
 
 Reflecting on this now, I'm reminded of research on how people learn to coordinate through shared procedural abstractions. In particular, [McCarthy et al. (2021)](https://arxiv.org/abs/2107.00077) found that when people repeatedly collaborate on a physical assembly task, they naturally begin to develop increasingly concise instructions by grounding language in shared, task-relevant conceptual structures. Over time, they form ad-hoc conventions that compress complex procedures into higher-level abstractions. That dynamic felt deeply familiar: K and I started with careful, explicit instructions, then gradually built up a shared vocabulary, rooted in mutual experience, that enabled seamless, efficient coordination. Our “Tweedle Dee” wasn't just a name; it was a scaffold for joint understanding and collaborative movement.
 
-![group photo](/images/aerial_group_photo_blurred_faces.png)
-_A group photo of the aerial club from our water-themed show, with all faces but my own blurred for privacy._
+![group photo](/images/aerial_group_photo.jpg)
+_A group photo of the aerial club from our water-themed show. K and I performed a "mermaid pirate love story" which you watch [here](https://www.youtube.com/watch?v=77QowxvQCk4)_
 
 ## An interdisciplinary community of misfits
 
@@ -78,8 +82,8 @@ In academia, finding that kind of community isn't always easy. It can feel isola
 
 ## Curtain call
 
-I don't train as often anymore, but aerial will always be one of my first loves, and I still hope to settle down somewhere with a studio nearby. It taught me to persist through pain, to experiment boldly, to communicate clearly, and to seek out communities where I feel seen. Those lessons continue to shape how I approach my research.
+So maybe it’s not vanity that brings me back to those old performance videos. Maybe it's a way of remembering who I am and who I've always been becoming.
 
-Maybe this is an admission of vanity, but when I feel down about my ability in academia, I sometimes rewatch old aerial performance videos. I think about all the times I flailed and fell before finally getting it. I think about how progress doesn't always look like progress until, suddenly, it does.
+Aerial taught me to persist through pain, to experiment boldly, to communicate clearly, and to seek out communities where I feel seen. It reminded me that mastery doesn't come from sudden insight, but from daily practice, in both body and mind. That naming things is hard. That collaboration is learned. That being weird is wonderful.
 
-If you fall enough times, eventually--you fly.
+And it reminds me, still, that progress often feels like flailing-—until, one day, you're flying.
