@@ -8,7 +8,7 @@ visible: true
 
 Maybe this is an admission of vanity, but when I feel down about my ability in academia, I sometimes rewatch my old aerial performance videos. I think about all the times I flailed and fell before finally getting it. It reminds me that learning rarely feels graceful while it's happening.
 
-This got me thinking about how deeply my years of training in aerial arts have shaped the way I approach research. Strength, resilience, choreography, communication, community--lessons I learned on the hoop continue to ground me in the lab. So here's a reflection on what one passion taught me about another.
+This got me thinking about how deeply my years of training in aerial arts have shaped the way I approach research. Strength, resilience, choreography, communication, community--lessons I learned on the hoop in the air continue to ground me in the lab. So here's a reflection on what one passion taught me about another.
 
 <p align="center">
   <img src="/images/clown_university.png" width="100%">
