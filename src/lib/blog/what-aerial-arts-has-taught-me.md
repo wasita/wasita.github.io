@@ -22,7 +22,7 @@ A prime example of this is from 2017, when I saw [someone](https://eshinjolly.co
 
 ![hip hang](/images/aerial_12_2015.jpg)
 
-## Hip Hang: Just Keep Trying
+## Just keep trying
 
 My favorite move I taught myself was the hip hang (pictured above). It may look simple, but getting into it was a whole other story. My body didn't understand the mechanics. I kept falling out of the move, bruising my hip again and again from the pain until a black spot bloomed where my hip met the hoop.
 
@@ -30,7 +30,7 @@ I'd fall and get frustrated. But I kept trying. And trying. And trying. Until on
 
 Research feels the same way a lot of the time. There are stretches where you're just banging your head against a wall, spinning your wheels, repeatedly trying things that don't quite work. But if you keep at it long enough--adjusting here, trusting your instincts there--you eventually find the hold.
 
-## Learning from Different Management Styles
+## Learning from different management styles
 
 Being part of the aerial club's executive board gave me a front-row seat to how different leadership styles play out in practice. For a couple of years, I served as the social media chair. I designed performance posters, created Facebook events, and coordinated with photographers for our shows. Beyond those responsibilities though, I was part of the broader decision-making team that kept the club running.
 
@@ -40,7 +40,7 @@ Just like club presidents, PIs vary widely in how they manage people and project
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2ruVDzLTR3SvMzVRSn1Pyk?utm_source=generator&theme=0" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-## Choreographing My Own Path
+## Choreographing my own path
 
 Once I'd gotten the basics down, I started choreographing my own routines. There's something empowering about stringing moves together into a sequence that feels truly yours. Unlike more formal dance disciplines, where a single choreographer teaches the group a set routine, aerial often invites improvisation and experimentation. You pick your own music, and you are your own choreographer.
 
@@ -76,7 +76,7 @@ Aerial communities tend to attract people who never quite fit into traditional m
 
 In academia, finding that kind of community isn't always easy. It can feel isolating, especially if you don't see yourself reflected in your cohort or your field. But the aerial world gave me a blueprint: it taught me what it feels like to belong, and what it takes to create that kind of space for others.
 
-## Curtain Call
+## Curtain call
 
 I don't train as often anymore, but aerial will always be one of my first loves, and I still hope to settle down somewhere with a studio nearby. It taught me to persist through pain, to experiment boldly, to communicate clearly, and to seek out communities where I feel seen. Those lessons continue to shape how I approach my research.
 
