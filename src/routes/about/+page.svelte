@@ -2,7 +2,7 @@
 	import { Avatar } from '@skeletonlabs/skeleton';
 </script>
 
-<h1 class="pt-4 pb-8 font-bold ">About Me</h1>
+<h1 class="pt-4 pb-8 font-bold">About Me</h1>
 <div
 	class="p-16 rounded-xl">
 	<div class="max-w-[80ch] mx-auto">
@@ -19,19 +19,17 @@
 		<div class="flex my-4">
 			<div class="flex-1">
 				<p class="pt-4 text-left">
-					<img src="images/cosan_logo.png" alt="cosan logo" class="w-28 float-left mr-4" />
-					<img src="images/soilab.png" alt="soilab logo" class="w-28 float-right ml-4 dark:invert" />
-					I am currently a 4th year PhD candidate in the <a href="https://pbs.dartmouth.edu/">Psychological & Brain Sciences department</a> at Dartmouth College, working in
-					the
+					<img src="images/cosan_logo.png" alt="cosan lab logo" class="w-28 float-right" />
+					I am currently a PhD candidate in the
 					<a href="https://cosanlab.com/">
-						Computational Social Affective Neuroscience (COSAN) Lab
-					</a> and affiliated with the
-					<a href="https://socialinteractionlab.github.io">
-						Social Interaction Lab (SoIL)</a>. I work with
+						Computational Social Affective Neuroscience (COSAN) Lab</a>, where I work with
 					<a href="https://pbs.dartmouth.edu/people/luke-j-chang-0">
-						Luke J. Chang</a>,
-					<a href="https://rdhawkins.com">
-						Robert Hawkins</a>, and
+						Luke J. Chang</a>
+					and collaborate with
+					<a href="https://wid.wisc.edu/people/robert-hawkins/">
+						Robert Hawkins
+					</a>
+					and
 					<a href="https://faculty-directory.dartmouth.edu/jonathan-s-phillips">
 						Jonathan Phillips</a>. See my <a href="/research">research interests</a> page for more details.
 				</p>
@@ -53,9 +51,8 @@
 					<img src="images/aerial_2017.webp" alt="aerial hoop" class="w-32 float-left mr-4 mt-2" />
 					Outside of research, I enjoy ruminating while showering,
 					cuddling with my kitty Joji (pictured above), and
-					playing video games (currently obsessed with <a href="https://www.youtube.com/watch?v=2p-5RXAitTI">Baldur's Gate 3</a>).
-					In a past life, I practiced <a href="https://www.instagram.com/wasiaerial/">aerial hoop/lyra</a> regularly.
-					Nowadays, I attend <a href="https://uvcircus.com/">UVCC</a> workshops when I can.
+					playing video games (currently obsessed with <a href="https://www.youtube.com/watch?v=2p-5RXAitTI">Baldur's Gate 3</a> and Persona 5 Royal).
+					In a past life, I practiced <a href="https://www.instagram.com/wasiaerial/">aerial hoop/lyra</a>. Nowadays, I attend classes via the <a href="https://uvcircus.com/">UV Circus Collective</a>.
 				</p>
 			</div>
 		</div>

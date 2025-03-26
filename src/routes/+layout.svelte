@@ -121,7 +121,7 @@
 				<li>
 					<a
 						class="btn variant-soft-surface hover:variant-soft-primary"
-						href="/cv.pdf"
+						href="https://wasita-mahaphanit-cv.netlify.app"
 						target="_blank"
 						rel="noreferrer"
 						on:click={() => drawerStore.close()}>
@@ -240,7 +240,7 @@
 						<hr class="h-6 divider-vertical" />
 						<a
 							class="btn btn-sm variant-soft-surface hover:variant-soft-primary"
-							href="/cv.pdf"
+							href="https://wasita-mahaphanit-cv.netlify.app"
 							target="_blank"
 							rel="noreferrer">
 							<Icon icon="academicons:cv-square" class="text-xl" />
