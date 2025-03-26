@@ -22,9 +22,11 @@ When I first joined our college aerial club, we were encouraged to sample from a
 
 That tendency to commit early and stick with what feels right extends beyond aerial. I'm someone who, once drawn to something, goes all in. Whether it's based on what comes naturally or what I find intuitively enjoyable, I tend to stay loyal to my preferences--or, to borrow some jargon from my field, I'm "internally consistent."
 
-A prime example of this is from 2017, when I saw [someone](https://eshinjolly.com/) give a talk about their gossip study, where they built a multi-player web app. The moment I saw it, something clicked. I knew I wanted to build interfaces like that, to allow people to interact in real time, so we can study communication and coordination as they unfold.
+A prime example of this is from 2017, when I was an undergraduate. I saw [someone](https://eshinjolly.com/) give a talk about their gossip study, where they built a multi-player web app. The moment I saw it, something clicked. I knew I wanted to build interfaces like that, to allow people to interact in real time, so we can study communication and coordination as they unfold.
 
 That talk didn't just inspire me, it gave me a direction. I've since made multi-user web apps the cornerstone of how I collect data, and I can say with absolute certainty that this is the approach I want to keep building on. It's not that I've mastered it, but I know what excites me and what I aspire to get better at. That clarity has been a compass when everything else feels uncertain.
+
+Coming full-circle, I now do my PhD in the same lab as the person who gave that talk. The spark I felt as an undergrad wasn't just a passing fascination; it has evolved into a research path and a methodological identity I still feel deeply connected to.
 
 And on a more practical level, it's also become something I can rely on. If I'm feeling unmotivated or stuck in the ambiguity of an analysis, lost in the weeds of parameterizing a model or interpreting noisy results, I know I can return to the concrete, satisfying act of programming. There's comfort in the structure of a web app: the clarity of an interface, the logic of an interaction, the visible progress of something coming together. It grounds me. It reminds me what I can build when everything else feels murky.
 
