@@ -70,9 +70,9 @@ Reflecting on this now, I'm reminded of research on how people learn to coordina
 ![group photo](/images/aerial_group_photo_blurred_faces.png)
 _A group photo of the aerial club from our water-themed show, with all faces but my own blurred for privacy._
 
-## A Community of Misfits
+## An interdisciplinary community of misfits
 
-Aerial communities tend to attract people who never quite fit into traditional molds—queer folks, neurodivergent folks, shy people, loud people, former athletes, artists, oddballs. Everyone's weird in their own way, and no one's trying to hide it. That environment was one of the first where I felt truly safe to take up space.
+Aerial communities tend to attract people who never quite fit into traditional molds--a safe haven for anyone who's ever wanted to abandon societal expectations and “run away to the circus.” Everyone is weird in their own way, and no one's trying to hide it. In our club especially, people came from wildly different backgrounds and levels of experience. Some were former dancers like myself, while others had been professional circus performaners, gymnasts, frisbee players, or even tree climbers. That eclectic environment was one of the first where I felt truly comfortable taking up space.
 
 In academia, finding that kind of community isn't always easy. It can feel isolating, especially if you don't see yourself reflected in your cohort or your field. But the aerial world gave me a blueprint: it taught me what it feels like to belong, and what it takes to create that kind of space for others.
 
