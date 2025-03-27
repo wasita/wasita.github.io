@@ -28,7 +28,7 @@ That talk didn't just inspire me, it gave me a direction. Since then, I've made 
 
 Now, I've come full-circle: four years after seeing that 2017 talk, I began my PhD in January 2021 in the same lab where the speaker had been a graduate student. The spark I felt as an undergrad wasn't fleeting; it has evolved into a research path, a mentorship-friendship with the speaker, and a methodological identity I still feel deeply connected to.
 
-And on a more practical level, it's also become something I can rely on. If I'm feeling unmotivated or stuck in the ambiguity of an analysis, lost in the weeds of parameterizing a model or interpreting noisy results, I know I can return to the concrete, satisfying act of programming. There's comfort in the structure of a web app: the clarity of an interface, the logic of an interaction, the visible progress of something coming together. It grounds me. It reminds me what I can build when everything else feels murky.
+And on a more practical level, it's also become something I can rely on. If I'm feeling unmotivated or stuck in the ambiguity of an analysis, lost in the weeds of parameterizing a model or interpreting noisy results, I know I can return to the concrete, satisfying act of programming experiments. There's comfort in the structure of a web app: the sleekness of an interface, the visible progress of something coming together. It grounds me. It reminds me what I can build when everything else feels murky.
 
 ![hip hang](/images/aerial_12_2015.jpg)
 
