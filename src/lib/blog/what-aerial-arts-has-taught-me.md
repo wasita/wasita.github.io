@@ -6,7 +6,7 @@ excerpt: Transferring knowledge from one passion to another.
 visible: true
 ---
 
-Maybe this is an admission of vanity, but when I feel down about my ability in academia, I sometimes rewatch my old aerial performance videos. I think about all the times I flailed and fell before finally getting it. It reminds me that learning rarely feels graceful while it's happening.
+Maybe this is an admission of vanity, but when I feel down about my ability in academia, I sometimes rewatch my old aerial performance videos. I think about all the times I fell before finally getting it. It reminds me that learning rarely feels graceful while it's happening.
 
 This got me thinking about how deeply my years of training in aerial arts have shaped the way I approach research. Strength, resilience, choreography, communication, community--lessons I learned on the hoop continue to ground me in the lab. So here's a reflection on what one passion taught me about another.
 
@@ -14,53 +14,83 @@ This got me thinking about how deeply my years of training in aerial arts have s
   <img src="/images/clown_university.png" width="100%">
 </p>
 
-During my college's Accepted Students Day, I saw my first partner acro performance. Something about it, maybe the challenge or the drama, instantly captivated me. It also helped that one of the first friends I made was a flying trapeze instructor, and together we motivated each other as we gradually infiltrated the campus aerial club. I kept up with aerial arts throughout college and into my post-bacc, drawn to how it demanded strength, creativity, and _somehow_ made use of my stubbornness.
-
 ## Finding stability in early specialization
 
-When I first joined our college aerial club, we were encouraged to sample from a variety of disciplines: aerial hoop, trapeze, silks, rope, and partner acro. I'd always been naturally flexible but lacked upper-body strength, so anything that required me to hold myself up for long periods (i.e., everything but hoop and trapeze) wasn't particularly appealing. I immediately gravitated toward aerial hoop and chose to focus on it. It was the only apparatus I ever performed on, and I have no regrets about not branching out or potentially being a "one-trick pony."
+During my college's Accepted Students Day, I saw my first partner acro performance. Something about it, maybe the challenge or the novelty, instantly captivated me. It also helped that one of the first friends I made was a flying trapeze instructor, and together we motivated each other as we gradually infiltrated the campus aerial club. I kept up with aerial arts throughout college and into my post-bacc, drawn to how it demanded discipline, creativity, and _somehow_ made use of my stubbornness.
 
-That tendency to commit early and stick with what feels right extends beyond aerial. I'm someone who, once drawn to something, goes all in. Whether it's based on what comes naturally or what I find intuitively enjoyable, I tend to stay loyal to my preferences--or, to borrow some jargon from my field, I'm "internally consistent."
+Early on, we were encouraged to try a variety of disciplines: aerial hoop, trapeze, silks, rope, and partner acro. I'd always been naturally flexible but lacked upper-body strength, so anything that required me to hold myself up for long periods (i.e., everything but hoop and trapeze) wasn't particularly appealing. I immediately gravitated toward aerial hoop and chose to specialize in it. It was the only apparatus I ever performed on, and I've never regretting not branching out being what some might call a "one-trick pony."
 
-A prime example of this is from 2017, when I was an undergraduate. I saw [someone](https://eshinjolly.com/) give a talk about their gossip study, where they built a multi-player web app. The moment I saw it, something clicked. I knew I wanted to build interfaces like that, to allow people to interact in real time, so we can study communication and coordination as they unfold.
+That tendency to commit early and stay committed extends beyond aerial. I'm someone who, once drawn to something, goes all in. Whether it's based on what comes naturally or what I find intuitively enjoyable, I tend to stay loyal to my preferences--or, to borrow some jargon from my field, I'm "internally consistent."
 
-That talk didn't just inspire me, it gave me a direction. I've since made multi-user web apps the cornerstone of how I collect data, and I can say with absolute certainty that this is the approach I want to keep building on. It's not that I've mastered it, but I know what excites me and what I aspire to get better at. That clarity has been a compass when everything else feels uncertain.
+A similar impactful moment happened in 2017, when I was an undergraduate. I saw [someone](https://eshinjolly.com/) give a talk about their gossip study, where they built a multi-player web app to study real-time social interactions. The moment I saw it, something clicked. I knew I wanted to do that kind of work, to build interactive platforms that allow us to study communication and coordination as they unfold.
 
-I've come full-circle: four years after seeing that 2017 talk, I began my PhD in the same lab where the speaker had been a graduate student. The spark I felt as an undergrad wasn't just a passing fascination; it has evolved into a research path and a methodological identity I still feel deeply connected to.
+That talk didn't just inspire me, it gave me a direction. Since then, I've made multi-user web apps my primary approach for data collection. It's not that I've mastered it, but I know what excites me and what I aspire to get better at. That clarity has been a compass when everything else feels uncertain.
+
+Now, I've come full-circle: four years after seeing that 2017 talk, I began my PhD in January 2021 in the same lab where the speaker had been a graduate student. The spark I felt as an undergrad wasn't fleeting; it has evolved into a research path, a mentorship-friendship with the speaker, and a methodological identity I still feel deeply connected to.
 
 And on a more practical level, it's also become something I can rely on. If I'm feeling unmotivated or stuck in the ambiguity of an analysis, lost in the weeds of parameterizing a model or interpreting noisy results, I know I can return to the concrete, satisfying act of programming. There's comfort in the structure of a web app: the clarity of an interface, the logic of an interaction, the visible progress of something coming together. It grounds me. It reminds me what I can build when everything else feels murky.
 
 ![hip hang](/images/aerial_12_2015.jpg)
 
-## Just keep trying
+## Weaponizing stubbornness to grow
 
-My favorite move I taught myself was the hip hang (pictured above). It may look simple, but getting into it was a whole other story. My body didn't understand the mechanics. Each initial attempt ended with me sliding out of the hoop, bruising my hip again and again until a dark spot bloomed where the metal pressed into bone.
+My favorite move I taught myself was the hip hang (pictured above). It may look simple, but getting into it was a whole other story. My body didn't understand the mechanics. Initial attempts ended with me sliding out of the hoop, bruising my hip again and again until a black spot bloomed where the metal pressed into bone.
 
-I'd get frustrated, then try again. And again. And again. For a long time, it felt like I was just failing--like my body and the move were speaking two different languages. But then, one day, something shifted. My muscles remembered what my mind couldn't quite grasp, and I lifted into the shape. Eventually, that bruised spot went numb. While still black, it no longer hurt.
+I'd get frustrated, then try again. And again. And again. For a long time, it felt like I was just failing--like my body and the hoop were speaking two different languages. But then, one day, something shifted. My muscles remembered what my mind couldn't quite grasp, and I lifted into the shape. Eventually, that bruised spot went numb. Still black, but no longer painful.
 
-Aerial taught me that grit isn't glamorous. It's not dramatic or cinematic. It's boring. Repetitive. Often invisible. Progress usually feels like stagnation until--_suddenly_--it doesn't.
+Aerial taught me that grit isn't glamorous. It's boring. Repetitive. Often invisible. Progress usually feels like stagnation until--_suddenly_--it doesn't.
 
-That lesson has only grown more relevant since starting graduate school. Research often feels the same: like you're spinning your wheels, revisiting the same questions, trying variations that still don't quite work. But if you stay with it, tweaking your approach, listening to your instincts, persisting despite the bruises, you eventually find the hold.
+Research can sometimes feel the same, like you're spinning your wheels: revisiting the same questions, trying variations that still don't quite work. But if you stay with it, tweaking your approach and listening to your instincts, you eventually find the hold.
 
-## Learning from different management styles
+## Leveling up to overcome the flatland fallacy
 
-Serving on the aerial club's executive board exposed me early on to how leadership style shapes group dynamics. For a couple of years, I was the social media chair--designing performance posters, creating Facebook events, and coordinating with photographers for our shows. But beyond those tasks, I was part of the broader decision-making team that kept the club running behind the scenes.
+Learning in aerial is rarely linear. Everyone comes in with a different set of “stats”: strength, flexibility, coordination, musicality, technique. Some people pick things up quickly because they’re strong; others, because they’re fearless or unusually bendy. But no one starts off good at everything. You build capacity one attribute at a time, and as you do, new possibilities unlock. Gain flexibility, and you can enter new shapes. Gain strength, and you can hold positions that were once out of reach.
 
-I wasn't president, but I worked closely with the people who were. Each one brought a distinct approach to leadership. Some were assertive and highly structured, quick to make decisions and stick to timelines. Others were more easygoing and collaborative, inviting input and encouraging flexibility, even if it slowed things down. I saw how those choices affected the club's morale, participation, and momentum. Too much control could stifle creativity; too little could lead to disorganization and frustration. The best leaders found a balance, or at least knew when to adapt based on the moment and the people involved.
+Research works the same way. We all come in with different skillsets, and growing as a researcher means leveling up in those areas over time. Improving your writing might help you share your findings more clearly. Strengthening your modeling chops might let you ask deeper, more precise questions. Each new skill expands what you're capable of doing and understanding.
 
-This experience has deeply shaped how I think about academic mentorship. PIs, like club presidents, vary widely in how they lead. Some provide structure and top-down direction; others offer freedom but little guidance. Learning to work under (and around) different styles has helped me navigate research environments with more self-awareness and adaptability. I've come to understand what kind of structure helps me thrive, and where I need to create it for myself.
+This progression relates to [this paper on the flatland fallacy](https://onlinelibrary.wiley.com/doi/10.1111/tops.12404), which argues that many psychological theories suffer from an oversimplified, low-dimensional view of complex human phenomena. Like the Flatlanders in Edwin Abbott’s novella—creatures who live in two dimensions and can’t imagine a third—we too can become trapped by the limits of our own cognitive tools. But, as [Jolly](https://eshinjolly.com) and my [PhD advisor](https://lukejchang.com/) argue, one way out is through developing the technical skills that allow us to build more expressive, higher-dimensional models of behavior.
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2ruVDzLTR3SvMzVRSn1Pyk?utm_source=generator&theme=0" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+In other words, leveling up quantitatively isn’t just about checking a box or signaling competence—it’s about expanding the theoretical space we’re able to explore. Just as gaining strength or flexibility in aerial lets you access more dynamic movement vocabulary, building fluency in formal modeling, programming, or statistics gives you access to richer and more precise scientific questions.
+
+The more dimensions you can perceive and work in, the more fully you can understand the system you're trying to model—whether that system is the human mind or the movement of your own body in the air.
+
+### Stat Sheet: Aerialist vs. Academic
+
+| Attribute         | Aerialist 🎪                    | Academic 🧠                     |
+|------------------|----------------------------------|----------------------------------|
+| **Strength**      | Pull-ups, hangs, dynamic beats   | Debugging through 20 tabs of Stack Overflow |
+| **Flexibility**   | Backbends, splits, toe points    | Adapting to reviewer comments you don’t agree with |
+| **Coordination**  | Clean transitions, timing drops  | Syncing multiple analyses with multiple deadlines |
+| **Musicality**    | Hitting the beat, emoting mid-spin | Presenting your research with ✨style✨ |
+| **Technique**     | Clean lines, pointed toes        | Clean code, clear figures, and precise wording |
+| **Endurance**     | Holding a pose while smiling     | Sitting through 3-hour meetings with no snacks |
+| **Risk tolerance**| Drops, spins, upside-down leaps  | Submitting to a top-tier journal anyway |
+| **Creativity**    | Choreographing your own routine  | Designing your own study, model, or theoretical argument |
+
+🛠 **Leveling up** in any one of these opens up what’s possible in performance—or in research. Whether it’s nailing a back balance or building a probabilistic model, progress is incremental, skill by skill. And every new move (or method) becomes part of your toolkit.
+
+## Adapting to different management styles
+
+Serving on the aerial club's executive board exposed me early on to how leadership style shapes group dynamics. I wasn't president, but for a few years, I worked closely with the people who were. Each one brought a distinct approach to leadership. Some were assertive and highly structured, quick to make decisions and stick to timelines. Others were more easygoing and collaborative, inviting input and encouraging flexibility, even if it slowed things down. I saw how those choices affected the club's morale, participation, and momentum. Too much control could stifle member cooperation and creativity; too little could lead to disorganization and frustration. The best leaders found a balance, or at least knew when to adapt based on the moment and the people involved.
+
+PIs, like club presidents, vary widely in how they lead. Some provide structure and top-down direction; others offer freedom but little guidance. Learning to work under (and around) different styles has helped me navigate research environments with more self-awareness and adaptability. I've come to understand what kind of structure helps me thrive, and where I need to create it for myself.
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2ruVDzLTR3SvMzVRSn1Pyk?utm_source=generator&theme=0" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+</iframe>
 
 ## Choreographing my own path
 
-Once I had the basics down, I started choreographing my own routines. There's something deeply empowering about stringing moves together into a sequence that felt entirely mine. Unlike more formal dance disciplines, where a single choreographer teaches the group a set routine, aerial often encourages improvisation and experimentation. You pick your own music. You build your own story. You are your own choreographer.
+Once I had the basics down, I started choreographing my own routines. There's something deeply empowering about stringing moves together into a sequence that felt entirely mine. Unlike more formal dance disciplines, where a single choreographer teaches the group a set routine, aerial often encourages independence and experimentation. You pick your own music. You build your own story. You are your own choreographer.
 
 I used to walk to class with earbuds in, listening to the playlist of songs I wanted to perform to. I'd imagine which transitions would hit with which lyrics, where a drop might land most dramatically, or how a pose could stretch just long enough to echo a swelling chorus. It was part puzzle, part daydream, part embodiment.
 
-That creative freedom within a set of physical constraints mirrors how I've come to approach my research. One of the paradoxically liberating and anxiety-inducing things about graduate school is how little structure there really is. Every PhD experience is unique yet "the same" in that it highly depends on the individual. There's no universal syllabus, no choreography to follow.
+But my choreography didn’t emerge in a vacuum. It was shaped by my own physical constraints: what I was strong enough to hold, flexible enough to reach, or coordinated enough to execute safely. Some transitions were simply off-limits to me. Others became possible only after weeks of training. But those limits didn’t feel like failures. They gave my creativity structure. They pushed me to be resourceful: to find alternatives, to highlight my strengths, to build something that felt expressive because it was tailored to me. The constraints are what made it mine.
 
-But that's also where the opportunity lies. Leaning into that autonomy and learning to choreograph my own research journey has helped me feel less overwhelmed by the unknown, and more confident in what I can create. Like in aerial, I've come to trust that constraint can fuel creativity, and that structure doesn't have to be handed to you in order to be meaningful.
+I’ve come to see research in the same way. One of the paradoxically liberating and anxiety-inducing things about graduate school is how little structure there really is. There’s no universal syllabus, no choreography to follow. Every PhD is “the same” in that it’s largely shaped by the individual. The questions you ask, the methods you choose, and the collaborations you form often depend on what you bring to the table.
+
+And like in aerial, what you bring includes your own constraints: your skills, your tools, your interests, your limitations. Maybe you don’t have access to fancy equipment. Maybe your stats knowledge is still developing. Maybe your dataset is messier than you’d like. But those boundaries don’t have to hold you back—they can shape the work in meaningful ways. They give your research its character, its rhythm, its form.
+
+Leaning into that autonomy—and learning to choreograph my own research journey—has helped me feel less overwhelmed by the unknown and more confident in what I can create. Like in aerial, I’ve come to trust that constraint can fuel creativity, and that structure doesn’t have to be handed to you in order to be meaningful. Sometimes, what makes the work yours is precisely what you had to work around to make it happen.
 
 ![tweedle dee](/images/tweedle_dee.gif)
 _K and I performing our "Tweedle Dee" move on the lyra (which is another name for aerial hoop!)_
@@ -100,11 +130,11 @@ But aerial gave me a blueprint for what belonging can feel like. It showed me th
 
 So maybe it's not vanity that brings me back to those old performance videos. Maybe it's a way of remembering who I am and who I've always been becoming.
 
-Aerial taught me to persist through pain, to experiment boldly, to communicate with care, and to seek out communities where I feel seen. It reminded me that mastery isn't about sudden flashes of brilliance, but about showing up, day after day, even when the progress feels invisible. That naming things is messy. That collaboration is something you build. That being weird isn't something to overcome but instead something to offer.
+Aerial taught me to persist through pain, to experiment boldly, to communicate with care, and to seek out communities where I feel seen. It reminded me that mastery isn't about sudden flashes of brilliance, but about showing up, day after day, even when the progress feels invisible. It taught me how to choreograph within constraints to create something expressive not in spite of my limits, but because of them. It showed me that strength and flexibility aren’t just physical traits; they’re learnable dimensions that unlock new possibilities, whether on a hoop or in a research program.
 
-These lessons didn't stay in the studio. They've followed me into the lab, into my writing, into my collaborations and the questions I care about. They shape how I move through academia: not with perfect grace, but with a kind of practiced stubbornness. A willingness to try again.
+These lessons didn't stay in the studio. They've followed me into the lab, into my methodological approaches, into the questions I care about. They shape how I move through academia: not with perfect grace, but with a kind of practiced stubbornness. A willingness to try again.
 
-And when I feel lost or inadequate, I return to those memories, not just for nostalgia, but for perspective. I remember how many times I flailed before I flew. How much of progress looks like failure until one day it doesn't.
+And when I feel lost or inadequate, I return to those memories, not just for nostalgia, but for perspective. I remember how many times I flailed before I flew. How much of progress looks like failure until, one day, it doesn't, and how growth came from repetition, not brilliance.
 
 Because if you fall enough times, and keep getting back up--you don't just survive it.
 You learn to fly.
