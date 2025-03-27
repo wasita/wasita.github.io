@@ -18,7 +18,7 @@ This got me thinking about how deeply my years of training in aerial arts have s
 
 During my college's Accepted Students Day, I saw my first partner acro performance. Something about it, maybe the challenge or the novelty, instantly captivated me. It also helped that one of the first friends I made was a flying trapeze instructor, and together we motivated each other as we gradually infiltrated the campus aerial club. I kept up with aerial arts throughout college and into my post-bacc, drawn to how it demanded discipline, creativity, and _somehow_ made use of my stubbornness.
 
-Early on, we were encouraged to try a variety of disciplines: aerial hoop, trapeze, silks, rope, and partner acro. I'd always been naturally flexible but lacked upper-body strength, so anything that required me to hold myself up for long periods (i.e., everything but hoop and trapeze) wasn't particularly appealing. I immediately gravitated toward aerial hoop and chose to specialize in it. It was the only apparatus I ever performed on, and I've never regretting not branching out being what some might call a "one-trick pony."
+Early on, we were encouraged to try a variety of disciplines: aerial hoop, trapeze, silks, rope, and partner acro. I'd always been naturally flexible but lacked upper-body strength, so anything that required me to hold myself up for long periods (i.e., everything but hoop and trapeze) wasn't particularly appealing. I immediately gravitated toward aerial hoop and chose to specialize in it. It was the only apparatus I ever performed on, and I've never regretting not branching out or being what some might call a "one-trick pony."
 
 That tendency to commit early and stay committed extends beyond aerial. I'm someone who, once drawn to something, goes all in. Whether it's based on what comes naturally or what I find intuitively enjoyable, I tend to stay loyal to my preferences--or, to borrow some jargon from my field, I'm "internally consistent."
 
@@ -40,7 +40,7 @@ I'd get frustrated, then try again. And again. And again. For a long time, it fe
 
 Aerial taught me that grit isn't glamorous. It's boring. Repetitive. Often invisible. Progress usually feels like stagnation until--_suddenly_--it doesn't.
 
-Research can sometimes feel the same, like you're spinning your wheels: revisiting the same questions, trying variations that still don't quite work. But if you stay with it, tweaking your approach and listening to your instincts, you eventually find the hold.
+Research can sometimes feel the same: like you're spinning your wheels, revisiting the same questions, trying variations that still don't quite work. But if you stay with it, tweaking your approach and listening to your instincts, you eventually find the hold.
 
 ## Leveling up to overcome the flatland fallacy
 
@@ -134,7 +134,7 @@ Aerial taught me to persist through pain, to experiment boldly, to communicate w
 
 These lessons didn't stay in the studio. They've followed me into the lab, into my methodological approaches, into the questions I care about. They shape how I move through academia: not with perfect grace, but with a kind of practiced stubbornness. A willingness to try again.
 
-And when I feel lost or inadequate, I return to those memories, not just for nostalgia, but for perspective. I remember how many times I flailed before I flew. How much of progress looks like failure until, one day, it doesn't, and how growth came from repetition, not brilliance.
+And when I feel lost or inadequate, I return to those memories, not just for nostalgia, but for perspective. I remember how many times I flailed before I flew. How much of progress looks like failure until, one day, it doesn't. How growth came from repetition, not brilliance.
 
 Because if you fall enough times, and keep getting back up--you don't just survive it.
 You learn to fly.
