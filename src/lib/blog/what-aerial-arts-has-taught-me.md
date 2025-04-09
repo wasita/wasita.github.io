@@ -1,6 +1,6 @@
 ---
 title: Falling, failing, flying
-date: March 2025
+date: April 2025
 cover: /images/aerial_2017.png
 excerpt: Transferring knowledge from one passion to another.
 visible: true
