@@ -22,7 +22,7 @@ Early on, we were encouraged to try a variety of disciplines: aerial hoop, trape
 
 I'm someone who, once drawn to something, goes all in. Whether it's based on instinct or stubbornness (likely both), I tend to stay loyal to my preferences--or, to borrow some jargon from my field, I'm "internally consistent."
 
-Which brings me to 2017, back when I was an undergraduate. I saw [someone](https://eshinjolly.com/) give a talk about their gossip study, where they built a multi-player web app to study real-time social interactions. The moment I saw it, I thought _this is what I want to do_. to build interactive platforms that allow us to study communication and coordination as they unfold.
+Which brings me to 2017, back when I was an undergraduate. I saw [someone](https://eshinjolly.com/) give a talk about their gossip study, where they built a multi-player web app to study real-time social interactions. The moment I saw it, I thought _this is what I want to do_--to build interactive experiments that allow us to study communication and coordination as they unfold.
 
 That talk didn't just inspire me, it gave me a direction. Since then, I've made multi-user web apps my only approach for data collection. It's not that I've mastered it, but I know what excites me and what I aspire to get better at. That clarity has been a compass when everything else feels uncertain.
 
