@@ -11,7 +11,7 @@ Maybe this is an admission of vanity, but when I feel defeated by academia, I re
 This got me thinking about how deeply my years of training in aerial arts have shaped the way I approach research. So here's my attempt at articulating what one passion taught me about another.
 
 <p align="center">
-  <img src="/images/clown_university.png" width="100%">
+  <img src="/images/clown_university.png" width="100%" alt="The Brown University crest replaced with the text 'Clown University'">
 </p>
 
 ## Finding stability in early specialization
@@ -60,7 +60,7 @@ Serving on the aerial club's executive board exposed me early on to how leadersh
 
 PIs, like club presidents, vary widely in how they lead. Some provide structure and top-down direction; others offer freedom but little guidance. Learning to work under (and around) different styles has helped me navigate research environments with more self-awareness and adaptability. I've come to understand what kind of structure helps me thrive, and where I need to create it for myself.
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2ruVDzLTR3SvMzVRSn1Pyk?utm_source=generator&theme=0" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2ruVDzLTR3SvMzVRSn1Pyk?utm_source=generator&theme=0" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="My spotify playlist of aerial performance songs">
 </iframe>
 
 ## Choreographing my own path
@@ -75,7 +75,7 @@ Research is like that too. One of the paradoxically liberating and anxiety-induc
 
 Leaning into that autonomy, learning to choreograph my own research journey, has helped me feel less overwhelmed by the unknown and more confident in what I can create. Imperfect but uniquely mine.
 
-![tweedle dee](/images/tweedle_dee.gif)
+![K and I performing our Tweedle Dee move on the lyra](/images/tweedle_dee.gif)
 _K (above) and I (below) performing our "Tweedle Dee" move on the lyra (which is another name for aerial hoop!)_
 
 ## Collaborating closely to form ad-hoc conventions
