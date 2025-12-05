@@ -61,7 +61,7 @@
 <div class="p-16 my-2 rounded-xl">
   <div class="items-center block lg:flex">
     <img
-      src="https://images.transistor.fm/file/transistor/images/show/12899/medium_1597678946-artwork.jpg"
+      src="https://img.transistor.fm/XvUzSZo5_h8Ls9Cwd7_q97Vy3AE5dqTn3lUnWYA4qCU/rs:fit:600:288:1/q:60/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9sb2dv/cy9zaXRlLzQ5MTIv/bG9nby10cmFuc2lz/dG9yLnBuZw.webp"
       alt="svelte radio icon"
       class="w-full lg:w-1/4 dark:invert"
     />
