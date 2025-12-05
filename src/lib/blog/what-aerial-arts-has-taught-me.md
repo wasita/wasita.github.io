@@ -80,7 +80,7 @@ _K (above) and I (below) performing our "Tweedle Dee" move on the lyra (which is
 
 ## Collaborating closely to form ad-hoc conventions
 
-One of the quirks of aerial, especially compared to more formalized disciplines like ballet, is that there isn't a universal naming system.  In ballet, a _tendu_ is always a _tendu_. But in aerial, the same move might be called a "gazelle," a "stag," or something else entirely.
+One of the quirks of aerial, especially compared to more formalized disciplines like ballet, is that there isn't a universal naming system. In ballet, a _tendu_ is always a _tendu_. But in aerial, the same move might be called a "gazelle," a "stag," or something else entirely.
 
 You can imagine how this lack of standardization can be confusing or inefficient: learning and teaching moves requires you to reach a consensus on a naming convention, to reduce uncertainty. It forces you to describe things precisely, to ask questions, to check your assumptions. It's not unlike working in interdisciplinary research, where the same term can mean different things to different people (e.g., What is a [_representation_](https://link.springer.com/article/10.1007/s11229-020-02793-y)?). You can't take shared vocabulary for granted. You have to build it.
 

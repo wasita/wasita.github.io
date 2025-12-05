@@ -1,27 +1,42 @@
-import { json } from '@sveltejs/kit';
+import { json } from "@sveltejs/kit";
+import type { RequestHandler } from "./$types";
 
-const fetchPosts = async () => {
-	const allPostFiles = import.meta.glob('$lib/blog/*.md');
+interface PostMetadata {
+  title: string;
+  date: string;
+  published: boolean;
+  [key: string]: unknown;
+}
 
-	const allPosts = await Promise.all(
-		Object.entries(allPostFiles).map(async ([path, resolver]) => {
-			const { metadata } = await resolver();
-			const postPath = path.slice(9, -3);
+interface Post {
+  meta: PostMetadata;
+  path: string;
+}
 
-			return { meta: metadata, path: postPath };
-		})
-	);
+const fetchPosts = async (): Promise<Post[]> => {
+  const allPostFiles = import.meta.glob("$lib/blog/*.md");
 
-	return allPosts;
+  const allPosts = await Promise.all(
+    Object.entries(allPostFiles).map(async ([path, resolver]) => {
+      const { metadata } = (await resolver()) as { metadata: PostMetadata };
+      const postPath = path.slice(9, -3);
+
+      return { meta: metadata, path: postPath };
+    }),
+  );
+
+  return allPosts;
 };
 
-export async function GET({ params }) {
-	const allPosts = await fetchPosts();
-	const sortedPosts = allPosts.sort((a, b) => new Date(b.meta.date) - new Date(a.meta.date));
-	const amount = params.amount;
-	if (params.amount === 'all') {
-		return json(sortedPosts);
-	}
-	const posts = amount ? sortedPosts.slice(0, amount) : sortedPosts;
-	return json(posts);
-}
+export const GET: RequestHandler = async ({ params }) => {
+  const allPosts = await fetchPosts();
+  const sortedPosts = allPosts.sort(
+    (a, b) => new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime(),
+  );
+  const amount = params.amount;
+  if (params.amount === "all") {
+    return json(sortedPosts);
+  }
+  const posts = amount ? sortedPosts.slice(0, parseInt(amount)) : sortedPosts;
+  return json(posts);
+};

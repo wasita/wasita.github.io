@@ -1,9 +1,8 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import '$lib/theme.css';
-	import '@skeletonlabs/skeleton/styles/all.css';
 	import '../app.postcss';
-	import { AppShell, AppBar, Avatar, Drawer, drawerStore } from '@skeletonlabs/skeleton';
+	import { AppShell, AppBar, Avatar, Drawer, getDrawerStore, initializeStores } from '@skeletonlabs/skeleton';
 	import type { DrawerSettings } from '@skeletonlabs/skeleton';
 	import Icon from '@iconify/svelte';
 	import { fly } from 'svelte/transition';
@@ -13,6 +12,10 @@
 
 
 	let currentYear = new Date().getFullYear();
+	
+	// Initialize Skeleton stores
+	initializeStores();
+	const drawerStore = getDrawerStore();
 
 	afterNavigate((params: any) => {
 		const isNewPage: boolean =
