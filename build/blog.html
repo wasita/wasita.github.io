@@ -4,19 +4,31 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
+
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-TKN7CL3631"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-TKN7CL3631');
+		</script>
+
 		
-		<link href="./_app/immutable/assets/0.d7115dbc.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/0.108dc9be.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/ProgressBar.4f1e9ba5.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.9b6b945a.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.2c20dfef.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.7387db50.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.021dd606.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.f54bd387.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.5f3607f7.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e2829df6.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.1ea9c9c9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.eedd497e.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.7a51ea0b.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.a4192956.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.9da00a8b.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/ProgressBar.svelte_svelte_type_style_lang.6cb8fb43.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Icon.ce781b77.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/4.69935ca3.js"><title>wasita.space</title><!-- HEAD_svelte-1l2xmqr_START --><!-- HEAD_svelte-1l2xmqr_END --><!-- HEAD_svelte-1fqad1o_START --><!-- HTML_TAG_START --><script>(function setInitialClassState() {
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.e6c4053e.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.28c5c4e1.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/ProgressBar.svelte_svelte_type_style_lang.574a4f8f.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/spread.84d39b6c.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Icon.aa8bcc83.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/4.183e401b.js"><title>wasita.space</title><!-- HEAD_svelte-1l2xmqr_START --><!-- HEAD_svelte-1l2xmqr_END --><!-- HEAD_svelte-1fqad1o_START --><!-- HTML_TAG_START --><script>(function setInitialClassState() {
   const elemHtmlClasses = document.documentElement.classList;
   const condLocalStorageUserPrefs = localStorage.getItem("modeUserPrefers") === "false";
   const condLocalStorageUserPrefsExists = !("modeUserPrefers" in localStorage);
@@ -29,94 +41,11 @@
 })();</script><!-- HTML_TAG_END --><!-- HEAD_svelte-1fqad1o_END -->
 	</head>
 	<body data-sveltekit-preload-data="hover" data-theme="skeleton">
-		<div style="display: contents" class="h-full overflow-hidden">
-
-
-
-
-
-
-
-
-
-<div id="appShell" class="w-full h-full flex flex-col overflow-hidden " data-testid="app-shell">
-	
-
-	
-	<div class="flex-auto w-full h-full flex overflow-hidden">
-		
-
-		
-		<div id="page" class="relative flex-1 overflow-x-hidden flex flex-col">
-			<header id="page-header" class="flex-none sticky top-0 z-10"><div class="bg-surface-50 dark:bg-surface-900 backdrop-blur-xl"><div class="app-bar flex flex-col none  space-y-4 p-4  container py-4 mx-auto" data-testid="app-bar" role="toolbar" aria-label="" aria-labelledby="">
-	<div class="app-bar-row-main grid items-center grid-cols-[auto_1fr_auto] gap-4 ">
-		<div class="app-bar-slot-lead flex-none flex justify-between items-center "><a href="/"><figure class="avatar flex aspect-square text-surface-50 font-semibold justify-center items-center overflow-hidden isolate bg-surface-400-500-token w-16  rounded-full   " data-testid="avatar"><img class="avatar-image w-full h-full object-cover" style="" src="/favicon.png" alt=""></figure></a></div>
-		
-		<div class="app-bar-slot-default flex-auto "></div>
-		
-		<div class="app-bar-slot-trail flex-none flex items-center space-x-4 ">
-
-<div class="lightswitch-track cursor-pointer transition-all duration-[200ms] w-12 h-6 ring-[1px] ring-surface-500/30 rounded-token bg-surface-900 " role="switch" aria-label="Light Switch" aria-checked="false" title="Toggle Light Mode" tabindex="0">
-	<div class="lightswitch-thumb aspect-square scale-[0.8] flex justify-center items-center transition-all duration-[200ms] h-6 rounded-token bg-surface-50 ">
-		<svg class="lightswitch-icon w-[70%] aspect-square fill-surface-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path></svg></div></div>
-					<div class="items-center hidden space-x-3 lg:flex"><a class="transition-all duration-200 btn btn-sm hover:variant-glass-primary variant-glass-surface" href="/">Home
-						</a>
-						<a class="transition-all duration-200 btn btn-sm hover:variant-glass-primary variant-glass-surface" href="/about">About
-						</a>
-						<a class="transition-all duration-200 btn btn-sm hover:variant-glass-primary variant-glass-surface" href="/research">Research
-						</a>
-						<a class="transition-all duration-200 btn btn-sm hover:variant-glass-primary variant-glass-surface" href="/portfolio">Portfolio
-						</a>
-						<a class="transition-all duration-200 btn btn-sm hover:variant-glass-primary  variant-glass-primary" href="/blog">Blog
-						</a>
-						<a class="transition-all duration-200 btn btn-sm hover:variant-glass-primary variant-glass-surface" href="/contact">Contact
-						</a>
-						<hr class="h-6 divider-vertical">
-						<a class="btn btn-sm variant-soft-surface hover:variant-soft-primary" href="https://wasita-mahaphanit-cv.netlify.app" target="_blank" rel="noreferrer"></a>
-						<a class="btn btn-sm variant-soft-surface hover:variant-soft-primary" href="https://scholar.google.com/citations?user=1tZe-1gAAAAJ" target="_blank" rel="noreferrer"></a>
-						<a class="btn btn-sm variant-soft-surface hover:variant-soft-primary" href="https://bsky.app/profile/wasita.bsky.social" target="_blank" rel="noreferrer"></a>
-						<a class="btn btn-sm variant-soft-surface hover:variant-soft-primary" href="https://twitter.com/mahaphanit" target="_blank" rel="noreferrer"></a>
-						<a class="btn btn-sm variant-soft-surface hover:variant-soft-primary" href="https://linkedin.com/in/wasita-mahaphanit" target="_blank" rel="noreferrer"></a>
-						<a class="btn btn-sm variant-soft-surface hover:variant-soft-primary" href="https://github.com/wasita" target="_blank" rel="noreferrer"></a></div>
-					<div class="flex lg:hidden"><button class="px-0 btn"></button></div>
-				</div></div>
-	
-	</div></div>
-	</header>
-
-			
-			<main id="page-content" class="flex-auto "><div class="container px-4 mx-auto">
-
-
-
-<h1 class="pt-4 pb-8 font-bold">Blog</h1>
-<div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4"><a class="mx-auto my-4 overflow-hidden card bg-surface-100-800-token card-hover lg:mx-4" href="blog/web-dev-approaches-for-studying-social-interactions"><header><img src="https://plus.unsplash.com/premium_photo-1677252438450-b779a923b0f6?q=80&amp;w=2380&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="object-cover w-full h-48" alt="Post"></header>
-			<div class="p-4 space-y-4"><h4 data-toc-ignore="" class="font-bold">Web dev approaches for studying social interactions</h4>
-				<article><p>(placeholder) musings &amp; lessons learned</p>
-				</article></div>
-			<footer><hr class="opacity-50">
-				<div class="flex items-center justify-end p-4 space-x-4">
-					<div class="flex items-center justify-between flex-auto align">
-						<small>December 29, 2023</small></div>
-				</div></footer>
-		</a></div></div></main>
-
-			
-			<footer id="page-footer" class="flex-none "><div class="container mx-auto"><div class="flex items-center justify-center p-4 mx-4 my-4 rounded-xl"><p>Wasita Mahaphanit © 2024 | Built with <span class="text-purple-400 text-xl">♥</span> ft. Svelte &amp; Tailwind
-				</p></div></div>
-	</footer></div>
-
-		
-		</div>
-
-	
-	</div>
-
-
-			<script type="application/json" data-sveltekit-fetched data-url="/api/posts/all">{"status":200,"statusText":"","headers":{},"body":"[{\"meta\":{\"title\":\"Web dev approaches for studying social interactions\",\"date\":\"December 29, 2023\",\"cover\":\"https://plus.unsplash.com/premium_photo-1677252438450-b779a923b0f6?q=80&w=2380&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\",\"excerpt\":\"(placeholder) musings & lessons learned\"},\"path\":\"blog/web-dev-approaches-for-studying-social-interactions\"}]"}</script>
+		<div style="display: contents" class="h-full overflow-hidden">     <div id="appShell" class="w-full h-full flex flex-col overflow-hidden " data-testid="app-shell">   <div class="flex-auto w-full h-full flex overflow-hidden">   <div id="page" class="relative flex-1 overflow-x-hidden flex flex-col"> <header id="page-header" class="flex-none sticky top-0 z-10"><div class="bg-surface-50 dark:bg-surface-900 backdrop-blur-xl"><div class="app-bar flex flex-col none  space-y-4 p-4  container py-4 mx-auto" data-testid="app-bar" role="toolbar" aria-label="" aria-labelledby=""> <div class="app-bar-row-main grid items-center grid-cols-[auto_1fr_auto] gap-4 "> <div class="app-bar-slot-lead flex-none flex justify-between items-center "><a href="/"><figure class="avatar flex aspect-square text-surface-50 font-semibold justify-center items-center overflow-hidden isolate bg-surface-400-500-token w-16  rounded-full   " data-testid="avatar"><img class="avatar-image w-full h-full object-cover" style="" src="/favicon.png" alt=""></figure></a></div>  <div class="app-bar-slot-default flex-auto "></div>  <div class="app-bar-slot-trail flex-none flex items-center space-x-4 "> <div class="lightswitch-track cursor-pointer transition-all duration-[200ms] w-12 h-6 ring-[1px] ring-surface-500/30 rounded-token bg-surface-900 " role="switch" aria-label="Light Switch" aria-checked="false" title="Toggle Light Mode" tabindex="0"> <div class="lightswitch-thumb aspect-square scale-[0.8] flex justify-center items-center transition-all duration-[200ms] h-6 rounded-token bg-surface-50 "> <svg class="lightswitch-icon w-[70%] aspect-square fill-surface-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path></svg></div></div> <div class="items-center hidden space-x-3 lg:flex"><a class="transition-all duration-200 btn btn-sm hover:variant-glass-primary variant-glass-surface" href="/" data-svelte-h="svelte-3duse1">Home</a> <a class="transition-all duration-200 btn btn-sm hover:variant-glass-primary variant-glass-surface" href="/about" data-svelte-h="svelte-151sv43">About</a> <a class="transition-all duration-200 btn btn-sm hover:variant-glass-primary variant-glass-surface" href="/research" data-svelte-h="svelte-v0rl0p">Research</a> <a class="transition-all duration-200 btn btn-sm hover:variant-glass-primary variant-glass-surface" href="/portfolio" data-svelte-h="svelte-1w9f7rx">Portfolio</a> <a class="transition-all duration-200 btn btn-sm hover:variant-glass-primary  variant-glass-primary" href="/blog" data-svelte-h="svelte-7yuav7">Blog</a> <a class="transition-all duration-200 btn btn-sm hover:variant-glass-primary variant-glass-surface" href="/contact" data-svelte-h="svelte-1l32ft">Contact</a> <hr class="h-6 divider-vertical"> <a class="btn btn-sm variant-soft-surface hover:variant-soft-primary" href="https://wasita-mahaphanit-cv.netlify.app" target="_blank" rel="noreferrer"></a> <a class="btn btn-sm variant-soft-surface hover:variant-soft-primary" href="https://scholar.google.com/citations?user=1tZe-1gAAAAJ" target="_blank" rel="noreferrer"></a> <a class="btn btn-sm variant-soft-surface hover:variant-soft-primary" href="https://bsky.app/profile/wasita.bsky.social" target="_blank" rel="noreferrer"></a> <a class="btn btn-sm variant-soft-surface hover:variant-soft-primary" href="https://twitter.com/mahaphanit" target="_blank" rel="noreferrer"></a> <a class="btn btn-sm variant-soft-surface hover:variant-soft-primary" href="https://linkedin.com/in/wasita-mahaphanit" target="_blank" rel="noreferrer"></a> <a class="btn btn-sm variant-soft-surface hover:variant-soft-primary" href="https://github.com/wasita" target="_blank" rel="noreferrer"></a></div> <div class="flex lg:hidden"><button class="px-0 btn"></button></div> </div></div>  </div></div> </header>  <main id="page-content" class="flex-auto "><div class="container px-4 mx-auto">  <h1 class="pt-4 pb-8 font-bold" data-svelte-h="svelte-oqpj7w">Blog</h1> <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4"><a class="mx-auto my-4 overflow-hidden card bg-surface-100-800-token card-hover lg:mx-4" href="blog/what-aerial-arts-has-taught-me"><header><img src="/images/aerial_2017.png" class="object-cover w-full h-48" alt="Post"></header> <div class="p-4 space-y-4"><h4 data-toc-ignore="" class="font-bold">Knowledge transfer from one passion to another</h4> <article><p>Lessons learned from my favorite pastime</p> </article></div> <footer><hr class="opacity-50"> <div class="flex items-center justify-end p-4 space-x-4"><div class="flex items-center justify-between flex-auto align"><small>Last updated: March 2025</small></div> </div></footer> </a></div></div></main>  <footer id="page-footer" class="flex-none "><div class="container mx-auto"><div class="flex items-center justify-center p-4 mx-4 my-4 rounded-xl"><p>Wasita Mahaphanit © 2025 | Built with <span class="text-purple-400 text-xl" data-svelte-h="svelte-gvyucf">♥</span> ft. Svelte &amp; Tailwind</p></div></div> </footer></div>  </div>  </div> 
+			<script type="application/json" data-sveltekit-fetched data-url="/api/posts/all">{"status":200,"statusText":"","headers":{},"body":"[{\"meta\":{\"title\":\"Knowledge transfer from one passion to another\",\"date\":\"March 2025\",\"cover\":\"/images/aerial_2017.png\",\"excerpt\":\"Lessons learned from my favorite pastime\",\"visible\":true},\"path\":\"blog/what-aerial-arts-has-taught-me\"},{\"meta\":{\"title\":\"An ode to Jolly\",\"date\":\"May 2024\",\"cover\":\"https://images.unsplash.com/photo-1605153278835-0a5db5801a54?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\",\"excerpt\":\"A tribute to one of my longtime science role models.\",\"visible\":false},\"path\":\"blog/an-ode-to-jolly\"},{\"meta\":{\"title\":\"Web dev approaches for studying social interactions\",\"date\":\"December 29, 2023\",\"cover\":\"https://plus.unsplash.com/premium_photo-1677252438450-b779a923b0f6?q=80&w=2380&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\",\"excerpt\":\"(placeholder) musings & lessons learned\",\"visible\":false},\"path\":\"blog/web-dev-approaches-for-studying-social-interactions\"}]"}</script>
 			<script>
 				{
-					__sveltekit_eadjqu = {
+					__sveltekit_1q9ycd4 = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -126,8 +55,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.9b6b945a.js"),
-						import("./_app/immutable/entry/app.f54bd387.js")
+						import("./_app/immutable/entry/start.5f3607f7.js"),
+						import("./_app/immutable/entry/app.7a51ea0b.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 4],
