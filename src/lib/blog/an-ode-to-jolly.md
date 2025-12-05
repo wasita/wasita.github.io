@@ -8,7 +8,7 @@ visible: false
 
 ## Points I want to make (in stream of consciousness)
 
-- As a baby scientist, a mere junior in undergrad, I had the privilege of attending my very first conference: the New England Research on Decision-Makin (NERD) in 2017. It was the first time the conference was held, and even more miraculously my alma mater was hosting that year, so I was able to sneak into the conference in exchange for "helping with cleanup". I distinctly remember seeing 
+- As a baby scientist, a mere junior in undergrad, I had the privilege of attending my very first conference: the New England Research on Decision-Makin (NERD) in 2017. It was the first time the conference was held, and even more miraculously my alma mater was hosting that year, so I was able to sneak into the conference in exchange for "helping with cleanup". I distinctly remember seeing
 
 - And since Eshin inspired me to delve into the wonderful wild west of the web in the first place, I figured writing a blog post on my site (written with Svelte & Tailwind, as I have been converted by him to use as my tools of choice) was only fitting.
 
