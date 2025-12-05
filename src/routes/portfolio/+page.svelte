@@ -33,12 +33,12 @@
 				<div class="mt-4">
 					<a
 						class="btn variant-ghost-primary"
-						href=""
+						href="#"
 						target="_blank"
 						rel="noreferrer">TBA</a>
 					<a
 						class="btn variant-ghost-primary"
-						href=""
+						href="#"
 						target="_blank"
 						rel="noreferrer">GitHub (private)</a>
 				</div>
@@ -182,12 +182,12 @@
 				<div class="mt-4">
 					<a
 						class="btn variant-ghost-primary"
-						href=""
+						href="#"
 						target="_blank"
 						rel="noreferrer">TBA</a>
 					<a
 						class="btn variant-ghost-primary"
-						href=""
+						href="#"
 						target="_blank"
 						rel="noreferrer">GitHub (private)</a>
 				</div>
