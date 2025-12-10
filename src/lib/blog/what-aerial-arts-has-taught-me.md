@@ -96,7 +96,7 @@ That shared understanding didn't just make things easier, it made things better.
 
 Reflecting on this now, I'm reminded of research on coordination and shared understanding. In particular, [McCarthy & Hawkins, et al., 2021](https://arxiv.org/abs/2107.00077) studied how people develop their own shorthand when working together on physical tasks, much like K and I did. They found that over time, people naturally create their own language for complex movements, building up shared understanding through experience. That dynamic felt exactly like our journey: starting with careful, explicit instructions, then gradually building up our own vocabulary that let us move together seamlessly. Our "Tweedle Dee" wasn't just a name; it was a scaffold for joint understanding and collaborative movement. It was also creative expression that neither of us could have achieved alone.
 
-![group photo](/images/aerial_group_photo.jpg)
+![Aerial club members posing together](/images/aerial_group_photo.jpg)
 _A group photo of the aerial club from our water-themed show. K and I performed a "mermaid pirate love story" which you can watch [here](https://www.youtube.com/watch?v=77QowxvQCk4)_.
 
 ## An interdisciplinary community of misfits

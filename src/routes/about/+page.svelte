@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { Avatar } from "@skeletonlabs/skeleton";
 </script>
 
@@ -34,7 +34,7 @@
             alt="soilab logo"
             class="w-28 float-right ml-4 dark:invert"
           />
-          I am currently a 5th year PhD candidate in the
+          I am currently a final-year PhD candidate (expected graduation: May 2026) in the
           <a href="https://pbs.dartmouth.edu/"
             >Psychological & Brain Sciences department</a
           >
@@ -42,11 +42,11 @@
           <a href="https://cosanlab.com/">
             Computational Social Affective Neuroscience (COSAN) Lab</a
           >, where I work with
-          <a href="https://pbs.dartmouth.edu/people/luke-j-chang-0">
+          <a href="https://pbs.dartmouth.edu/people/luke-j-chang">
             Luke J. Chang</a
           >
           and collaborate with
-          <a href="https://wid.wisc.edu/people/robert-hawkins/">
+          <a href="https://profiles.stanford.edu/robert-hawkins">
             Robert Hawkins
           </a>
           and
