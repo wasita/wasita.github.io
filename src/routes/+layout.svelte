@@ -1,23 +1,16 @@
 <script lang="ts">
   import { page } from "$app/stores";
   import "$lib/theme.css";
-  import "@skeletonlabs/skeleton/styles/all.css";
   import "../app.postcss";
-  import {
-    AppShell,
-    AppBar,
-    Avatar,
-    Drawer,
-    drawerStore,
-  } from "@skeletonlabs/skeleton";
-  import type { DrawerSettings } from "@skeletonlabs/skeleton";
   import Icon from "@iconify/svelte";
-  import { fly } from "svelte/transition";
+  import { fly, fade } from "svelte/transition";
   import { cubicIn, cubicOut } from "svelte/easing";
   import { afterNavigate } from "$app/navigation";
-  import { LightSwitch } from "@skeletonlabs/skeleton";
+  import { browser } from "$app/environment";
 
   let currentYear = new Date().getFullYear();
+  let mobileMenuOpen = false;
+  let darkMode = browser ? document.documentElement.classList.contains("dark") : false;
 
   afterNavigate((params: any) => {
     const isNewPage: boolean =
@@ -26,18 +19,25 @@
     if (isNewPage && elemPage !== null) {
       elemPage.scrollTop = 0;
     }
+    mobileMenuOpen = false;
   });
 
-  const menu: DrawerSettings = {
-    id: "menu",
-    position: "right",
-    bgDrawer: "bg-surface-100 dark:bg-surface-800 dark:text-white",
-    bgBackdrop: "backdrop-blur",
-    width: "w-full",
-    padding: "p-4",
-    rounded: "rounded-xl",
-    border: "border border-surface-300 dark:border-surface-700",
-  };
+  function toggleDarkMode() {
+    darkMode = !darkMode;
+    if (browser) {
+      document.documentElement.classList.toggle("dark", darkMode);
+      localStorage.setItem("theme", darkMode ? "dark" : "light");
+    }
+  }
+
+  // Initialize dark mode from localStorage
+  if (browser) {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme === "dark" || (!savedTheme && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+      document.documentElement.classList.add("dark");
+      darkMode = true;
+    }
+  }
 
   $: currentRoute = $page.url.pathname;
   export let data;
@@ -47,300 +47,308 @@
   <title>wasita.space</title>
 </svelte:head>
 
-<Drawer>
-  <!-- Mobile menu -->
-  {#if $drawerStore.id === "menu"}
-    <nav class="px-4 py-6 list-nav">
+<!-- Mobile menu drawer -->
+{#if mobileMenuOpen}
+  <div
+    class="fixed inset-0 z-50 lg:hidden"
+    transition:fade={{ duration: 200 }}
+  >
+    <!-- Backdrop -->
+    <button
+      class="absolute inset-0 bg-black/50 backdrop-blur-sm"
+      on:click={() => (mobileMenuOpen = false)}
+      aria-label="Close menu"
+    ></button>
+
+    <!-- Menu panel -->
+    <nav
+      class="absolute right-0 top-0 h-full w-full max-w-sm bg-surface-100 dark:bg-surface-800 p-6 shadow-xl"
+      transition:fly={{ x: 300, duration: 300, easing: cubicOut }}
+    >
       <div class="flex items-center pb-6">
-        <h2 class="flex-1 pl-4 font-bold">menu</h2>
+        <h2 class="flex-1 pl-4 font-bold text-lg">Menu</h2>
         <button
-          class="btn btn-icon-lg variant-glass-surface"
-          on:click={() => drawerStore.close()}
+          class="btn btn-icon btn-glass"
+          on:click={() => (mobileMenuOpen = false)}
+          aria-label="Close menu"
         >
-          x
+          <Icon icon="mdi:close" class="text-xl" />
         </button>
       </div>
-      <ul>
+
+      <ul class="space-y-2">
         <li>
           <a
-            class="my-2 transition-all duration-200 btn btn-xl"
+            class="btn btn-xl {currentRoute === '/' ? 'btn-glass-primary' : 'btn-glass'}"
             href="/"
-            class:variant-glass-surface={currentRoute !== "/"}
-            class:variant-glass-primary={currentRoute === "/"}
-            on:click={() => drawerStore.close()}
           >
             Home
           </a>
         </li>
         <li>
           <a
-            class="my-2 transition-all duration-200 btn btn-xl"
+            class="btn btn-xl {currentRoute.includes('/about') ? 'btn-glass-primary' : 'btn-glass'}"
             href="/about"
-            class:variant-glass-surface={!currentRoute.includes("/about")}
-            class:variant-glass-primary={currentRoute.includes("/about")}
-            on:click={() => drawerStore.close()}
           >
             About
           </a>
         </li>
         <li>
           <a
-            class="my-2 transition-all duration-200 btn btn-xl"
+            class="btn btn-xl {currentRoute.includes('/research') ? 'btn-glass-primary' : 'btn-glass'}"
             href="/research"
-            class:variant-glass-surface={!currentRoute.includes("/research")}
-            class:variant-glass-primary={currentRoute.includes("/research")}
-            on:click={() => drawerStore.close()}
           >
             Research
           </a>
         </li>
         <li>
           <a
-            class="my-2 transition-all duration-200 btn btn-xl"
+            class="btn btn-xl {currentRoute.includes('/portfolio') ? 'btn-glass-primary' : 'btn-glass'}"
             href="/portfolio"
-            class:variant-glass-surface={!currentRoute.includes("/portfolio")}
-            class:variant-glass-primary={currentRoute.includes("/portfolio")}
-            on:click={() => drawerStore.close()}
           >
             Portfolio
           </a>
         </li>
         <li>
           <a
-            class="my-2 transition-all duration-200 btn btn-xl"
+            class="btn btn-xl {currentRoute.includes('/blog') ? 'btn-glass-primary' : 'btn-glass'}"
             href="/blog"
-            class:variant-glass-surface={!currentRoute.includes("/blog")}
-            class:variant-glass-primary={currentRoute.includes("/blog")}
-            on:click={() => drawerStore.close()}
           >
             Blog
           </a>
         </li>
         <li>
           <a
-            class="my-2 transition-all duration-200 btn btn-xl"
+            class="btn btn-xl {currentRoute.includes('/contact') ? 'btn-glass-primary' : 'btn-glass'}"
             href="/contact"
-            class:variant-glass-surface={!currentRoute.includes("/contact")}
-            class:variant-glass-primary={currentRoute.includes("/contact")}
-            on:click={() => drawerStore.close()}
           >
             Contact
           </a>
         </li>
-        <li>
-          <hr class="w-24 mx-auto my-4 divider" />
-        </li>
       </ul>
-      <ul
-        class="grid grid-cols-3 gap-2 items-center justify-center content-center"
-      >
+
+      <hr class="my-6 divider" />
+
+      <ul class="grid grid-cols-3 gap-2">
         <li>
           <a
-            class="btn variant-soft-surface hover:variant-soft-primary"
+            class="btn btn-soft hover:btn-soft-primary"
             href="https://wasita-mahaphanit-cv.netlify.app"
             target="_blank"
             rel="noreferrer"
-            on:click={() => drawerStore.close()}
           >
             <Icon icon="academicons:cv-square" class="text-3xl" />
           </a>
         </li>
         <li>
           <a
-            class="btn variant-soft-surface hover:variant-soft-primary"
+            class="btn btn-soft hover:btn-soft-primary"
             href="https://scholar.google.com/citations?user=1tZe-1gAAAAJ"
             target="_blank"
             rel="noreferrer"
-            on:click={() => drawerStore.close()}
           >
             <Icon icon="academicons:google-scholar-square" class="text-3xl" />
           </a>
         </li>
         <li>
           <a
-            class="btn variant-soft-surface hover:variant-soft-primary"
+            class="btn btn-soft hover:btn-soft-primary"
             href="https://bsky.app/profile/wasita.bsky.social"
             target="_blank"
             rel="noreferrer"
-            on:click={() => drawerStore.close()}
           >
             <Icon icon="simple-icons:bluesky" class="text-3xl" />
           </a>
         </li>
         <li>
           <a
-            class="btn variant-soft-surface hover:variant-soft-primary"
+            class="btn btn-soft hover:btn-soft-primary"
             href="https://twitter.com/mahaphanit"
             target="_blank"
             rel="noreferrer"
-            on:click={() => drawerStore.close()}
           >
             <Icon icon="mdi:twitter" class="text-3xl" />
           </a>
         </li>
         <li>
           <a
-            class="btn variant-soft-surface hover:variant-soft-primary"
+            class="btn btn-soft hover:btn-soft-primary"
             href="https://linkedin.com/in/wasita-mahaphanit"
             target="_blank"
             rel="noreferrer"
-            on:click={() => drawerStore.close()}
           >
             <Icon icon="mdi:linkedin" class="text-3xl" />
           </a>
         </li>
         <li>
           <a
-            class="btn btn-sm variant-soft-surface hover:variant-soft-primary"
+            class="btn btn-soft hover:btn-soft-primary"
             href="https://github.com/wasita"
             target="_blank"
             rel="noreferrer"
-            on:click={() => drawerStore.close()}
           >
             <Icon icon="mdi:github" class="text-3xl" />
           </a>
         </li>
       </ul>
     </nav>
-  {/if}
-</Drawer>
+  </div>
+{/if}
 
-<AppShell regionPage="relative" slotPageHeader="sticky top-0 z-10">
-  <svelte:fragment slot="pageHeader">
-    <div class="bg-surface-50 dark:bg-surface-900 backdrop-blur-xl">
-      <AppBar background="none" class="container py-4 mx-auto">
-        <svelte:fragment slot="lead">
-          <a href="/">
-            <Avatar src="/favicon.png" />
+<!-- Main layout -->
+<div class="flex flex-col h-full bg-surface-50 dark:bg-surface-900 text-surface-900 dark:text-white">
+  <!-- Header -->
+  <header class="sticky top-0 z-10 bg-surface-50/80 dark:bg-surface-900/80 backdrop-blur-xl">
+    <nav class="container mx-auto flex items-center justify-between py-4 px-4">
+      <!-- Logo -->
+      <a href="/">
+        <img src="/favicon.png" alt="Wasita" class="w-12 h-12 avatar" />
+      </a>
+
+      <!-- Right side -->
+      <div class="flex items-center gap-2">
+        <!-- Dark mode toggle -->
+        <button
+          class="btn btn-sm btn-soft"
+          on:click={toggleDarkMode}
+          aria-label="Toggle dark mode"
+        >
+          {#if darkMode}
+            <Icon icon="mdi:weather-sunny" class="text-xl" />
+          {:else}
+            <Icon icon="mdi:weather-night" class="text-xl" />
+          {/if}
+        </button>
+
+        <!-- Desktop nav -->
+        <div class="hidden lg:flex items-center gap-2">
+          <a
+            class="btn btn-sm {currentRoute === '/' ? 'btn-glass-primary' : 'btn-glass'}"
+            href="/"
+          >
+            Home
           </a>
-        </svelte:fragment>
-        <svelte:fragment slot="trail">
-          <LightSwitch />
-          <div class="items-center hidden space-x-3 lg:flex">
-            <a
-              class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
-              href="/"
-              class:variant-glass-surface={currentRoute !== "/"}
-              class:variant-glass-primary={currentRoute === "/"}
-            >
-              Home
-            </a>
-            <a
-              class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
-              href="/about"
-              class:variant-glass-surface={!currentRoute.includes("/about")}
-              class:variant-glass-primary={currentRoute.includes("/about")}
-            >
-              About
-            </a>
-            <a
-              class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
-              href="/research"
-              class:variant-glass-surface={!currentRoute.includes("/research")}
-              class:variant-glass-primary={currentRoute.includes("/research")}
-            >
-              Research
-            </a>
-            <a
-              class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
-              href="/portfolio"
-              class:variant-glass-surface={!currentRoute.includes("/portfolio")}
-              class:variant-glass-primary={currentRoute.includes("/portfolio")}
-            >
-              Portfolio
-            </a>
-            <a
-              class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
-              href="/blog"
-              class:variant-glass-surface={!currentRoute.includes("/blog")}
-              class:variant-glass-primary={currentRoute.includes("/blog")}
-            >
-              Blog
-            </a>
-            <a
-              class="transition-all duration-200 btn btn-sm hover:variant-glass-primary"
-              href="/contact"
-              class:variant-glass-surface={!currentRoute.includes("/contact")}
-              class:variant-glass-primary={currentRoute.includes("/contact")}
-            >
-              Contact
-            </a>
-            <hr class="h-6 divider-vertical" />
-            <a
-              class="btn btn-sm variant-soft-surface hover:variant-soft-primary"
-              href="https://wasita-mahaphanit-cv.netlify.app"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icon icon="academicons:cv-square" class="text-xl" />
-            </a>
-            <a
-              class="btn btn-sm variant-soft-surface hover:variant-soft-primary"
-              href="https://scholar.google.com/citations?user=1tZe-1gAAAAJ"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icon icon="academicons:google-scholar-square" class="text-xl" />
-            </a>
-            <a
-              class="btn btn-sm variant-soft-surface hover:variant-soft-primary"
-              href="https://bsky.app/profile/wasita.bsky.social"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icon icon="simple-icons:bluesky" class="text-xl" />
-            </a>
-            <a
-              class="btn btn-sm variant-soft-surface hover:variant-soft-primary"
-              href="https://twitter.com/mahaphanit"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icon icon="mdi:twitter" class="text-xl" />
-            </a>
-            <a
-              class="btn btn-sm variant-soft-surface hover:variant-soft-primary"
-              href="https://linkedin.com/in/wasita-mahaphanit"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icon icon="mdi:linkedin" class="text-xl" />
-            </a>
-            <a
-              class="btn btn-sm variant-soft-surface hover:variant-soft-primary"
-              href="https://github.com/wasita"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icon icon="mdi:github" class="text-xl" />
-            </a>
-          </div>
-          <div class="flex lg:hidden">
-            <button class="px-0 btn" on:click={() => drawerStore.open(menu)}>
-              <Icon icon="mdi:menu" class="text-2xl" />
-            </button>
-          </div>
-        </svelte:fragment>
-      </AppBar>
-    </div>
-  </svelte:fragment>
-  {#key data.pathname}
-    <div
-      class="container px-4 mx-auto"
-      in:fly={{ easing: cubicOut, y: 10, duration: 150, delay: 200 }}
-      out:fly={{ easing: cubicIn, y: 10, duration: 150 }}
-    >
-      <slot />
-    </div>
-  {/key}
-  <svelte:fragment slot="pageFooter">
-    <div class="container mx-auto">
-      <div class="flex items-center justify-center p-4 mx-4 my-4 rounded-xl">
-        <p>
-          Wasita Mahaphanit © {currentYear} | Built with
-          <span class="text-purple-400 text-xl">♥</span> ft. Svelte & Tailwind
-        </p>
+          <a
+            class="btn btn-sm {currentRoute.includes('/about') ? 'btn-glass-primary' : 'btn-glass'}"
+            href="/about"
+          >
+            About
+          </a>
+          <a
+            class="btn btn-sm {currentRoute.includes('/research') ? 'btn-glass-primary' : 'btn-glass'}"
+            href="/research"
+          >
+            Research
+          </a>
+          <a
+            class="btn btn-sm {currentRoute.includes('/portfolio') ? 'btn-glass-primary' : 'btn-glass'}"
+            href="/portfolio"
+          >
+            Portfolio
+          </a>
+          <a
+            class="btn btn-sm {currentRoute.includes('/blog') ? 'btn-glass-primary' : 'btn-glass'}"
+            href="/blog"
+          >
+            Blog
+          </a>
+          <a
+            class="btn btn-sm {currentRoute.includes('/contact') ? 'btn-glass-primary' : 'btn-glass'}"
+            href="/contact"
+          >
+            Contact
+          </a>
+
+          <div class="h-6 divider-vertical mx-2"></div>
+
+          <a
+            class="btn btn-sm btn-soft hover:btn-soft-primary"
+            href="https://wasita-mahaphanit-cv.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="CV"
+          >
+            <Icon icon="academicons:cv-square" class="text-xl" />
+          </a>
+          <a
+            class="btn btn-sm btn-soft hover:btn-soft-primary"
+            href="https://scholar.google.com/citations?user=1tZe-1gAAAAJ"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Google Scholar"
+          >
+            <Icon icon="academicons:google-scholar-square" class="text-xl" />
+          </a>
+          <a
+            class="btn btn-sm btn-soft hover:btn-soft-primary"
+            href="https://bsky.app/profile/wasita.bsky.social"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Bluesky"
+          >
+            <Icon icon="simple-icons:bluesky" class="text-xl" />
+          </a>
+          <a
+            class="btn btn-sm btn-soft hover:btn-soft-primary"
+            href="https://twitter.com/mahaphanit"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Twitter"
+          >
+            <Icon icon="mdi:twitter" class="text-xl" />
+          </a>
+          <a
+            class="btn btn-sm btn-soft hover:btn-soft-primary"
+            href="https://linkedin.com/in/wasita-mahaphanit"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+          >
+            <Icon icon="mdi:linkedin" class="text-xl" />
+          </a>
+          <a
+            class="btn btn-sm btn-soft hover:btn-soft-primary"
+            href="https://github.com/wasita"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+          >
+            <Icon icon="mdi:github" class="text-xl" />
+          </a>
+        </div>
+
+        <!-- Mobile menu button -->
+        <button
+          class="btn btn-icon btn-soft lg:hidden"
+          on:click={() => (mobileMenuOpen = true)}
+          aria-label="Open menu"
+        >
+          <Icon icon="mdi:menu" class="text-2xl" />
+        </button>
       </div>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main id="page" class="flex-1 overflow-y-auto">
+    {#key data.pathname}
+      <div
+        class="container px-4 mx-auto"
+        in:fly={{ easing: cubicOut, y: 10, duration: 150, delay: 200 }}
+        out:fly={{ easing: cubicIn, y: 10, duration: 150 }}
+      >
+        <slot />
+      </div>
+    {/key}
+  </main>
+
+  <!-- Footer -->
+  <footer class="container mx-auto">
+    <div class="flex items-center justify-center p-4 mx-4 my-4 rounded-xl">
+      <p>
+        Wasita Mahaphanit &copy; {currentYear} | Built with
+        <span class="text-purple-400 text-xl">&hearts;</span> ft. Svelte & Tailwind
+      </p>
     </div>
-  </svelte:fragment>
-</AppShell>
+  </footer>
+</div>

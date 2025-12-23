@@ -41,7 +41,7 @@
       required
     />
     <button
-      class="btn variant-glass-primary hover:variant-ghost-primary"
+      class="btn btn-glass-primary hover:opacity-80"
       type="submit">Send</button
     >
   </form>

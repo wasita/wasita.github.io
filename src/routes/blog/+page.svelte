@@ -11,7 +11,7 @@
   {#each data.posts as post}
     {#if post.meta.visible == true}
       <a
-        class="mx-auto my-4 overflow-hidden card bg-surface-100-800-token card-hover lg:mx-4"
+        class="mx-auto my-4 card card-hover lg:mx-4"
         href={post.path}
       >
         <header>

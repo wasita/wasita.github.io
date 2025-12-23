@@ -15,15 +15,15 @@
         <h2 class="font-bold">Real-time dyadic chat app</h2>
         <h3>Project Author (2023-Present)</h3>
         <div class="py-2">
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="simple-icons:svelte" /></span>
             <span>svelte</span>
           </span>
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="mdi:tailwind" /></span>
             <span>tailwind</span>
           </span>
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="mdi:firebase" /></span>
             <span>firebase</span>
           </span>
@@ -41,13 +41,13 @@
         </p>
         <div class="mt-4">
           <a
-            class="btn variant-ghost-primary"
+            class="btn btn-ghost-primary"
             href="#"
             target="_blank"
             rel="noreferrer">TBA</a
           >
           <a
-            class="btn variant-ghost-primary"
+            class="btn btn-ghost-primary"
             href="#"
             target="_blank"
             rel="noreferrer">GitHub (private)</a
@@ -70,7 +70,7 @@
         <h2 class="font-bold">Svelte Radio Podcast</h2>
         <h3>Episode Guest (2023)</h3>
         <div class="py-2">
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="simple-icons:svelte" /></span>
             <span>svelte</span>
           </span>
@@ -86,7 +86,7 @@
         </p>
         <div class="mt-4">
           <a
-            class="btn variant-ghost-primary"
+            class="btn btn-ghost-primary"
             href="https://open.spotify.com/episode/3JzRDzPOylvhBSIj7jZLDz?si=3YDIJX3PQPisAHVLlMPK3Q"
             target="_blank"
             rel="noreferrer"
@@ -110,15 +110,15 @@
         <h2 class="font-bold">Interactive 2-player trust game</h2>
         <h3>Project Author (2023-Present)</h3>
         <div class="py-2">
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="simple-icons:svelte" /></span>
             <span>svelte</span>
           </span>
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="mdi:tailwind" /></span>
             <span>tailwind</span>
           </span>
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="mdi:firebase" /></span>
             <span>firebase</span>
           </span>
@@ -135,7 +135,7 @@
         </p>
         <div class="mt-4">
           <a
-            class="btn variant-ghost-primary"
+            class="btn btn-ghost-primary"
             href="https://youtu.be/yQ6VOOd73MA?si=QDu3Q8fdWO6NlCal&t=1464"
             target="_blank"
             rel="noreferrer"
@@ -161,11 +161,11 @@
         </h2>
         <h3>Project Author (2022-Present)</h3>
         <div class="py-2">
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="ri:javascript-line" /></span>
             <span>javascript</span>
           </span>
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="carbon:html" /></span>
             <span>html</span>
           </span>
@@ -176,7 +176,7 @@
         </p>
         <div class="mt-4">
           <a
-            class="btn variant-ghost-primary"
+            class="btn btn-ghost-primary"
             href="https://sites.google.com/view/womeninnetworkscience/society/membership/membership-list?authuser=0"
             target="_blank"
             rel="noreferrer">Visit the WiNS members database</a
@@ -197,15 +197,15 @@
         </h2>
         <h3>Project Author (2021-Present)</h3>
         <div class="py-2">
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="simple-icons:svelte" /></span>
             <span>svelte</span>
           </span>
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="mdi:tailwind" /></span>
             <span>tailwind</span>
           </span>
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="mdi:firebase" /></span>
             <span>firebase</span>
           </span>
@@ -221,13 +221,13 @@
         </p>
         <div class="mt-4">
           <a
-            class="btn variant-ghost-primary"
+            class="btn btn-ghost-primary"
             href="#"
             target="_blank"
             rel="noreferrer">TBA</a
           >
           <a
-            class="btn variant-ghost-primary"
+            class="btn btn-ghost-primary"
             href="#"
             target="_blank"
             rel="noreferrer">GitHub (private)</a
@@ -250,7 +250,7 @@
         <h2 class="font-bold">DartBrains: Intro to fMRI</h2>
         <h3>Contributor (2021-Present)</h3>
         <div class="py-2">
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="simple-icons:jupyter" /></span>
             <span>jupyter book</span>
           </span>
@@ -258,13 +258,13 @@
         <p>An introduction to fMRI preprocessing & analysis.</p>
         <div class="mt-4">
           <a
-            class="btn variant-ghost-primary"
+            class="btn btn-ghost-primary"
             href="https://dartbrains.org/content/intro.html"
             target="_blank"
             rel="noreferrer">Visit DartBrains</a
           >
           <a
-            class="btn variant-ghost-primary"
+            class="btn btn-ghost-primary"
             href="https://github.com/ljchang/dartbrains"
             target="_blank"
             rel="noreferrer">GitHub</a
@@ -287,7 +287,7 @@
         <h2 class="font-bold">Info theory for Social Neuroscientists</h2>
         <h3>Contributor (2022)</h3>
         <div class="py-2">
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="simple-icons:jupyter" /></span>
             <span>jupyter book</span>
           </span>
@@ -298,13 +298,13 @@
         </p>
         <div class="mt-4">
           <a
-            class="btn variant-ghost-primary"
+            class="btn btn-ghost-primary"
             href="https://cosanlab.github.io/info-theory-book/intro.html"
             target="_blank"
             rel="noreferrer">Visit site</a
           >
           <a
-            class="btn variant-ghost-primary"
+            class="btn btn-ghost-primary"
             href="https://github.com/cosanlab/info-theory-book"
             target="_blank"
             rel="noreferrer">GitHub</a
@@ -327,15 +327,15 @@
         <h2 class="font-bold">Honeycomb</h2>
         <h3>Software Developer (2019-2021)</h3>
         <div class="py-2">
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="mdi:react" /></span>
             <span>react</span>
           </span>
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="logos:electron" /></span>
             <span>electron</span>
           </span>
-          <span class="chip variant-ghost-primary">
+          <span class="chip">
             <span><Icon icon="mdi:firebase" /></span>
             <span>firebase</span>
           </span>
@@ -351,21 +351,21 @@
         </p>
         <div class="mt-4">
           <a
-            class="btn variant-ghost-primary"
+            class="btn btn-ghost-primary"
             href="https://pubmed.ncbi.nlm.nih.gov/34320125/"
             target="_blank"
             rel="noreferrer"
             >Paper
           </a>
           <a
-            class="btn variant-ghost-primary"
+            class="btn btn-ghost-primary"
             href="https://brown-ccv.github.io/honeycomb-docs/"
             target="_blank"
             rel="noreferrer"
             >Documentation
           </a>
           <a
-            class="btn variant-ghost-primary"
+            class="btn btn-ghost-primary"
             href="https://github.com/brown-ccv/honeycomb"
             target="_blank"
             rel="noreferrer"

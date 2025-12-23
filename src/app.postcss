@@ -1,5 +1,86 @@
-/*place global styles here */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
 html,
 body {
   @apply h-full overflow-hidden;
+}
+
+/* Custom button styles */
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 font-medium transition-all duration-200;
+}
+
+.btn-sm {
+  @apply px-3 py-1.5 text-sm;
+}
+
+.btn-xl {
+  @apply px-6 py-3 text-lg w-full;
+}
+
+.btn-icon {
+  @apply p-2;
+}
+
+/* Glass variants */
+.btn-glass {
+  @apply bg-surface-200/50 dark:bg-surface-700/50 backdrop-blur-sm hover:bg-surface-300/60 dark:hover:bg-surface-600/60;
+}
+
+.btn-glass-primary {
+  @apply bg-primary-500/20 dark:bg-primary-400/20 backdrop-blur-sm text-primary-700 dark:text-primary-500;
+}
+
+/* Soft variants */
+.btn-soft {
+  @apply bg-surface-200 dark:bg-surface-700 hover:bg-surface-300 dark:hover:bg-surface-600;
+}
+
+.btn-soft-primary {
+  @apply bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-400 hover:bg-primary-200 dark:hover:bg-primary-800/40;
+}
+
+/* Card styles */
+.card {
+  @apply rounded-xl bg-surface-100 dark:bg-surface-800 overflow-hidden;
+}
+
+.card-hover {
+  @apply transition-all duration-200 hover:scale-[1.02] hover:shadow-lg;
+}
+
+/* Form styles */
+.input {
+  @apply w-full rounded-xl border border-surface-300 dark:border-surface-600 bg-surface-50 dark:bg-surface-800 px-4 py-2 focus:border-primary-500 focus:ring-primary-500 dark:focus:border-primary-400 dark:focus:ring-primary-400;
+}
+
+.label {
+  @apply block text-sm font-medium mb-1;
+}
+
+/* Divider */
+.divider {
+  @apply border-t border-surface-300 dark:border-surface-600;
+}
+
+.divider-vertical {
+  @apply border-l border-surface-300 dark:border-surface-600;
+}
+
+/* Avatar */
+.avatar {
+  @apply rounded-full object-cover;
+}
+
+/* Chip styles */
+.chip {
+  @apply inline-flex items-center gap-1.5 px-3 py-1 text-sm rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-400;
+}
+
+/* Ghost button variant */
+.btn-ghost-primary {
+  @apply text-primary-700 dark:text-primary-400 hover:bg-primary-100 dark:hover:bg-primary-900/30;
 }
