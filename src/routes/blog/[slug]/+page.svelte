@@ -2,14 +2,14 @@
   let { data } = $props();
 </script>
 
-<article class="prose dark:prose-invert mx-auto">
+<article class="prose prose-lg dark:prose-invert max-w-4xl mx-auto px-4">
   <div
-    class="card text-center bg-cover"
+    class="rounded-xl text-center bg-cover mb-8 overflow-hidden"
     style="background-image: url({data.cover});"
   >
-    <div class="w-full h-full px-12 bg-surface-800 bg-opacity-80">
-      <h1 class="pt-20 pb-4 font-bold text-white">{data.title}</h1>
-      <p class="pb-20 text-white">Published: {data.date}</p>
+    <div class="w-full h-full px-8 py-16 bg-gray-900/80">
+      <h1 class="text-3xl md:text-4xl font-bold text-white mb-4">{data.title}</h1>
+      <p class="text-gray-200">Published: {data.date}</p>
     </div>
   </div>
   <data.content />

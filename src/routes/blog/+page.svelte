@@ -7,11 +7,11 @@
 </script>
 
 <h1 class="pt-4 pb-8 font-bold">Blog</h1>
-<div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+<div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
   {#each data.posts as post}
     {#if post.meta.visible == true}
       <a
-        class="mx-auto my-4 overflow-hidden card bg-surface-100-800-token card-hover lg:mx-4"
+        class="block overflow-hidden rounded-xl bg-gray-100 dark:bg-gray-800 hover:shadow-lg hover:scale-[1.02] transition-all duration-200"
         href={post.path}
       >
         <header>
@@ -21,21 +21,15 @@
             alt="Post"
           />
         </header>
-        <div class="p-4 space-y-4">
-          <h4 data-toc-ignore="" class="font-bold">{post.meta.title}</h4>
-          <article>
-            <p>
-              {post.meta.excerpt}
-            </p>
-          </article>
+        <div class="p-4 space-y-2">
+          <h4 class="font-bold text-lg">{post.meta.title}</h4>
+          <p class="text-gray-600 dark:text-gray-300 text-sm">
+            {post.meta.excerpt}
+          </p>
         </div>
-        <footer>
-          <hr class="opacity-50" />
-          <div class="flex items-center justify-end p-4 space-x-4">
-            <div class="flex items-center justify-between flex-auto align">
-              <small>Last updated: {post.meta.date}</small>
-            </div>
-          </div>
+        <footer class="px-4 pb-4">
+          <hr class="opacity-30 mb-3" />
+          <small class="text-gray-500 dark:text-gray-400">Last updated: {post.meta.date}</small>
         </footer>
       </a>
     {/if}

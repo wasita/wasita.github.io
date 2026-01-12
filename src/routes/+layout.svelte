@@ -1,11 +1,12 @@
 <script lang="ts">
   import { page } from "$app/stores";
   import "../app.css";
-  import { Avatar } from "@skeletonlabs/skeleton-svelte";
-  import Icon from "@iconify/svelte";
+    import Icon from "@iconify/svelte";
   import { fly } from "svelte/transition";
   import { cubicIn, cubicOut } from "svelte/easing";
-  import { afterNavigate } from "$app/navigation";
+  import { afterNavigate, onNavigate } from "$app/navigation";
+  import { onMount } from "svelte";
+  import { browser } from "$app/environment";
   import type { Snippet } from "svelte";
 
   // Props using Svelte 5 runes
@@ -20,6 +21,11 @@
   // Derived state
   let currentRoute = $derived($page.url.pathname);
 
+  // Initialize dark mode from DOM on mount
+  onMount(() => {
+    isDark = document.documentElement.classList.contains("dark");
+  });
+
   afterNavigate((params: { from: { route: { id: string } } | null; to: { route: { id: string } } | null }) => {
     const isNewPage = params.from && params.to && params.from.route.id !== params.to.route.id;
     const elemPage = document.querySelector("#page");
@@ -32,7 +38,11 @@
 
   function toggleDarkMode() {
     isDark = !isDark;
-    document.documentElement.classList.toggle("dark", isDark);
+    if (browser) {
+      document.documentElement.classList.toggle("dark", isDark);
+      // Persist preference
+      localStorage.setItem("theme", isDark ? "dark" : "light");
+    }
   }
 
   function closeMobileMenu() {
@@ -54,7 +64,7 @@
     tabindex="0"
   >
     <div
-      class="absolute right-0 top-0 h-full w-80 bg-surface-100 dark:bg-surface-800 p-6"
+      class="absolute right-0 top-0 h-full w-80 bg-gray-100 dark:bg-gray-800 text-black dark:text-white p-6"
       onclick={(e) => e.stopPropagation()}
       onkeydown={() => {}}
       role="dialog"
@@ -62,9 +72,9 @@
       tabindex="-1"
     >
       <div class="flex items-center pb-6">
-        <h2 class="flex-1 font-bold text-lg">Menu</h2>
+        <h2 class="flex-1 font-bold text-lg text-black dark:text-white">Menu</h2>
         <button
-          class="btn preset-filled-surface-500"
+          class="px-3 py-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600"
           onclick={closeMobileMenu}
         >
           <Icon icon="mdi:close" class="text-xl" />
@@ -73,7 +83,7 @@
       <ul class="space-y-2">
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-colors {currentRoute === '/' ? 'bg-primary-500 text-white' : 'hover:bg-surface-200 dark:hover:bg-surface-700'}"
+            class="block py-3 px-4 rounded-lg transition-colors {currentRoute === '/' ? 'bg-purple-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}"
             href="/"
             onclick={closeMobileMenu}
           >
@@ -82,7 +92,7 @@
         </li>
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-colors {currentRoute.includes('/about') ? 'bg-primary-500 text-white' : 'hover:bg-surface-200 dark:hover:bg-surface-700'}"
+            class="block py-3 px-4 rounded-lg transition-colors {currentRoute.includes('/about') ? 'bg-purple-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}"
             href="/about"
             onclick={closeMobileMenu}
           >
@@ -91,7 +101,7 @@
         </li>
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-colors {currentRoute.includes('/research') ? 'bg-primary-500 text-white' : 'hover:bg-surface-200 dark:hover:bg-surface-700'}"
+            class="block py-3 px-4 rounded-lg transition-colors {currentRoute.includes('/research') ? 'bg-purple-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}"
             href="/research"
             onclick={closeMobileMenu}
           >
@@ -100,7 +110,7 @@
         </li>
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-colors {currentRoute.includes('/portfolio') ? 'bg-primary-500 text-white' : 'hover:bg-surface-200 dark:hover:bg-surface-700'}"
+            class="block py-3 px-4 rounded-lg transition-colors {currentRoute.includes('/portfolio') ? 'bg-purple-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}"
             href="/portfolio"
             onclick={closeMobileMenu}
           >
@@ -109,7 +119,7 @@
         </li>
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-colors {currentRoute.includes('/blog') ? 'bg-primary-500 text-white' : 'hover:bg-surface-200 dark:hover:bg-surface-700'}"
+            class="block py-3 px-4 rounded-lg transition-colors {currentRoute.includes('/blog') ? 'bg-purple-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}"
             href="/blog"
             onclick={closeMobileMenu}
           >
@@ -118,7 +128,7 @@
         </li>
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-colors {currentRoute.includes('/contact') ? 'bg-primary-500 text-white' : 'hover:bg-surface-200 dark:hover:bg-surface-700'}"
+            class="block py-3 px-4 rounded-lg transition-colors {currentRoute.includes('/contact') ? 'bg-purple-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}"
             href="/contact"
             onclick={closeMobileMenu}
           >
@@ -126,11 +136,11 @@
           </a>
         </li>
       </ul>
-      <hr class="my-6 border-surface-300 dark:border-surface-600" />
+      <hr class="my-6 border-gray-300 dark:border-gray-600" />
       <ul class="grid grid-cols-3 gap-2">
         <li>
           <a
-            class="btn preset-outlined-surface-500 w-full"
+            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-700"
             href="https://wasita-mahaphanit-cv.netlify.app"
             target="_blank"
             rel="noreferrer"
@@ -140,7 +150,7 @@
         </li>
         <li>
           <a
-            class="btn preset-outlined-surface-500 w-full"
+            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-700"
             href="https://scholar.google.com/citations?user=1tZe-1gAAAAJ"
             target="_blank"
             rel="noreferrer"
@@ -150,7 +160,7 @@
         </li>
         <li>
           <a
-            class="btn preset-outlined-surface-500 w-full"
+            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-700"
             href="https://bsky.app/profile/wasita.bsky.social"
             target="_blank"
             rel="noreferrer"
@@ -160,7 +170,7 @@
         </li>
         <li>
           <a
-            class="btn preset-outlined-surface-500 w-full"
+            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-700"
             href="https://twitter.com/mahaphanit"
             target="_blank"
             rel="noreferrer"
@@ -170,7 +180,7 @@
         </li>
         <li>
           <a
-            class="btn preset-outlined-surface-500 w-full"
+            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-700"
             href="https://linkedin.com/in/wasita-mahaphanit"
             target="_blank"
             rel="noreferrer"
@@ -180,7 +190,7 @@
         </li>
         <li>
           <a
-            class="btn preset-outlined-surface-500 w-full"
+            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-700"
             href="https://github.com/wasita"
             target="_blank"
             rel="noreferrer"
@@ -194,20 +204,20 @@
 {/if}
 
 <!-- Main layout -->
-<div class="h-full flex flex-col overflow-hidden">
+<div class="h-full flex flex-col overflow-hidden bg-white dark:bg-gray-900 text-black dark:text-white">
   <!-- Header -->
-  <header class="sticky top-0 z-10 bg-surface-50 dark:bg-surface-900 backdrop-blur-xl">
+  <header class="sticky top-0 z-10 bg-gray-50 dark:bg-gray-900 backdrop-blur-xl">
     <div class="container mx-auto py-4 px-4 flex items-center justify-between">
       <!-- Logo -->
       <a href="/">
-        <Avatar src="/favicon.png" name="Wasita" class="size-10" />
+        <img src="/favicon.png" alt="Wasita" class="w-10 h-10 rounded-full" />
       </a>
 
       <!-- Desktop nav + actions -->
       <div class="flex items-center gap-3">
         <!-- Dark mode toggle -->
         <button
-          class="btn preset-outlined-surface-500 size-10 p-0"
+          class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800"
           onclick={toggleDarkMode}
           aria-label="Toggle dark mode"
         >
@@ -217,42 +227,42 @@
         <!-- Desktop navigation -->
         <nav class="hidden lg:flex items-center gap-2">
           <a
-            class="btn btn-sm {currentRoute === '/' ? 'preset-filled-primary-500' : 'preset-outlined-surface-500'}"
+            class="btn btn-sm {currentRoute === '/' ? 'bg-purple-500 text-white' : 'preset-outlined-surface-500'}"
             href="/"
           >
             Home
           </a>
           <a
-            class="btn btn-sm {currentRoute.includes('/about') ? 'preset-filled-primary-500' : 'preset-outlined-surface-500'}"
+            class="btn btn-sm {currentRoute.includes('/about') ? 'bg-purple-500 text-white' : 'preset-outlined-surface-500'}"
             href="/about"
           >
             About
           </a>
           <a
-            class="btn btn-sm {currentRoute.includes('/research') ? 'preset-filled-primary-500' : 'preset-outlined-surface-500'}"
+            class="btn btn-sm {currentRoute.includes('/research') ? 'bg-purple-500 text-white' : 'preset-outlined-surface-500'}"
             href="/research"
           >
             Research
           </a>
           <a
-            class="btn btn-sm {currentRoute.includes('/portfolio') ? 'preset-filled-primary-500' : 'preset-outlined-surface-500'}"
+            class="btn btn-sm {currentRoute.includes('/portfolio') ? 'bg-purple-500 text-white' : 'preset-outlined-surface-500'}"
             href="/portfolio"
           >
             Portfolio
           </a>
           <a
-            class="btn btn-sm {currentRoute.includes('/blog') ? 'preset-filled-primary-500' : 'preset-outlined-surface-500'}"
+            class="btn btn-sm {currentRoute.includes('/blog') ? 'bg-purple-500 text-white' : 'preset-outlined-surface-500'}"
             href="/blog"
           >
             Blog
           </a>
           <a
-            class="btn btn-sm {currentRoute.includes('/contact') ? 'preset-filled-primary-500' : 'preset-outlined-surface-500'}"
+            class="btn btn-sm {currentRoute.includes('/contact') ? 'bg-purple-500 text-white' : 'preset-outlined-surface-500'}"
             href="/contact"
           >
             Contact
           </a>
-          <hr class="h-6 border-l border-surface-300 dark:border-surface-600 mx-1" />
+          <hr class="h-6 border-l border-gray-300 dark:border-gray-600 mx-1" />
           <a
             class="btn btn-sm preset-outlined-surface-500"
             href="https://wasita-mahaphanit-cv.netlify.app"
@@ -305,7 +315,7 @@
 
         <!-- Mobile menu button -->
         <button
-          class="btn preset-outlined-surface-500 lg:hidden"
+          class="px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 lg:hidden"
           onclick={() => (mobileMenuOpen = true)}
           aria-label="Open menu"
         >

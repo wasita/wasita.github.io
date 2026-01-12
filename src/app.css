@@ -1,5 +1,9 @@
 /* Tailwind 4 + Skeleton v3 setup */
 @import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+/* Configure dark mode to use class strategy */
+@custom-variant dark (&:where(.dark, .dark *));
 
 /* Custom theme overrides - preserve your custom colors */
 :root {
@@ -18,8 +22,9 @@ body {
   @apply h-full overflow-hidden;
 }
 
-/* Custom link hover effects */
-a:hover {
+/* Custom link and button hover effects */
+a:hover,
+button.gradient-hover:hover {
   background: radial-gradient(ellipse at bottom, #99f6e4, #93c5fd, #c4b5fd);
   text-shadow: -0.15em 0.15em 0.42em #fff, 0.15em -0.15em 0.31em #fff,
     -0.15em -0.15em 1.3em #fff;
@@ -27,7 +32,8 @@ a:hover {
   transition: all 0.1s ease-in-out 0s;
 }
 
-.dark a:hover {
+.dark a:hover,
+.dark button.gradient-hover:hover {
   background: radial-gradient(ellipse at bottom, #99f6e4, #93c5fd, #c4b5fd);
   text-shadow: -0.15em 0.15em 0.42em #000, 0.15em -0.15em 0.31em #000,
     -0.15em -0.15em 1.3em #000;

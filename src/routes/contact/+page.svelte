@@ -1,48 +1,58 @@
 <h1 class="pt-4 pb-8 font-bold">Contact</h1>
-<div class="container p-16 mx-auto my-4 rounded-xl">
+<div class="max-w-xl mx-auto p-8 my-4 rounded-xl bg-gray-100 dark:bg-gray-800">
   <form
     action="https://formspree.io/f/xvoeogae"
     method="POST"
-    class="space-y-1"
+    class="flex flex-col gap-4"
   >
-    <label class="label" for="name">Name</label>
-    <input
-      class="input"
-      type="text"
-      name="name"
-      id="name"
-      placeholder="your name"
-      required
-    />
-    <label class="label" for="email">E-mail</label>
-    <input
-      class="input"
-      type="email"
-      name="_replyto"
-      id="email"
-      placeholder="youremail@provider.com"
-      required
-    />
-    <label class="label" for="subject">Subject</label>
-    <input
-      class="input"
-      type="text"
-      name="subject"
-      id="subject"
-      placeholder="subject"
-    />
-    <label class="label" for="message">Message</label>
-    <textarea
-      class="input"
-      name="message"
-      rows="4"
-      id="message"
-      placeholder="write your message here..."
-      required
-    ></textarea>
+    <div class="flex flex-col gap-1">
+      <label class="font-medium text-sm" for="name">Name</label>
+      <input
+        class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500"
+        type="text"
+        name="name"
+        id="name"
+        placeholder="your name"
+        required
+      />
+    </div>
+    <div class="flex flex-col gap-1">
+      <label class="font-medium text-sm" for="email">E-mail</label>
+      <input
+        class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500"
+        type="email"
+        name="_replyto"
+        id="email"
+        placeholder="youremail@provider.com"
+        required
+      />
+    </div>
+    <div class="flex flex-col gap-1">
+      <label class="font-medium text-sm" for="subject">Subject</label>
+      <input
+        class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500"
+        type="text"
+        name="subject"
+        id="subject"
+        placeholder="subject"
+      />
+    </div>
+    <div class="flex flex-col gap-1">
+      <label class="font-medium text-sm" for="message">Message</label>
+      <textarea
+        class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500 resize-y"
+        name="message"
+        rows="4"
+        id="message"
+        placeholder="write your message here..."
+        required
+      ></textarea>
+    </div>
     <button
-      class="btn variant-glass-primary hover:variant-ghost-primary"
-      type="submit">Send</button
+      class="gradient-hover mt-2 inline-block px-4 py-2 rounded-lg border border-purple-500 text-purple-500 transition-colors"
+      type="submit"
     >
+      Send
+    </button>
   </form>
 </div>

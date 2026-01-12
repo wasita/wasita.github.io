@@ -1,15 +1,11 @@
-<script lang="ts">
-  import { Avatar } from "@skeletonlabs/skeleton-svelte";
-</script>
-
 <h1 class="pt-4 pb-8 font-bold">About Me</h1>
 <div class="p-16 rounded-xl">
   <div class="max-w-[80ch] mx-auto">
     <div class="items-center block md:flex">
-      <Avatar
-        src="images/joji-cuddles.png"
-        name="Wasita"
-        class="mx-12 size-36 transition-opacity duration-300 ease-in-out hover:opacity-70"
+      <img
+        src="/images/joji-cuddles.png"
+        alt="Wasita"
+        class="mx-12 w-36 h-36 rounded-full object-cover transition-opacity duration-300 ease-in-out hover:opacity-70"
       />
       <div class="flex-1">
         <h2 class="font-bold">Wasita Mahaphanit</h2>
@@ -24,12 +20,12 @@
       <div class="flex-1">
         <p class="pt-4 text-left">
           <img
-            src="images/cosan_logo.png"
+            src="/images/cosan_logo.png"
             alt="cosan logo"
             class="w-28 float-left mr-4"
           />
           <img
-            src="images/soilab.png"
+            src="/images/soilab.png"
             alt="soilab logo"
             class="w-28 float-right ml-4 dark:invert"
           />
@@ -55,7 +51,7 @@
         </p>
         <p class="pt-4 text-left">
           <img
-            src="images/lncc_logo.png"
+            src="/images/lncc_logo.png"
             alt="lncc"
             class="w-24 float-left mr-4 dark:invert"
           />
@@ -68,7 +64,7 @@
           psychiatric disorders and with a specific emphasis on obsessive
           compulsive disorder (OCD).
           <img
-            src="images/ShenhavLab_Logo.png"
+            src="/images/ShenhavLab_Logo.png"
             alt="shenhav lab logo"
             class="w-32 float-right dark:invert"
           />
@@ -81,7 +77,7 @@
           I was born in Thailand, grew up in Maine, and then lived in Rhode
           Island for several years for college and work.
           <img
-            src="images/aerial_2017.webp"
+            src="/images/aerial_2017.webp"
             alt="aerial hoop"
             class="w-32 float-left mr-4 mt-2"
           />

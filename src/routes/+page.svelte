@@ -1,6 +1,6 @@
 <!-- Home page -->
 <div
-  class="items-center justify-center px-12 py-6 mx-auto rounded-xl lg:py-12 dark:text-white"
+  class="items-center justify-center px-12 py-6 mx-auto rounded-xl lg:py-12 text-black dark:text-white"
 >
   <div class="flex flex-col-reverse lg:flex-row">
     <!-- <div class="my-auto lg:w-2/4 lg:pl-24 mt-6 lg:mt-0"> -->
@@ -12,7 +12,7 @@
       </h3>
     </div>
     <img
-      src="images/wasi_icon.jpg"
+      src="/images/wasi_icon.jpg"
       alt="wasita"
       class="object-cover w-2/3 mb-10 mx-auto transition-opacity duration-300 ease-in-out rounded-full hover:opacity-70 lg:w-1/4"
     />
