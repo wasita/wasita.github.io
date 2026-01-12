@@ -8,5 +8,5 @@
       class="w-1/4 mx-auto"
     />
   </figure>
-  <a href="/" class="mt-4 btn variant-glass-primary">Back to Home</a>
+  <a href="/" class="mt-4 inline-block px-4 py-2 rounded-lg border border-purple-500 text-purple-500 hover:bg-purple-500 hover:text-white transition-colors">Back to Home</a>
 </div>
