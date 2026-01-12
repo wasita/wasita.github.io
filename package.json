@@ -44,9 +44,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@rollup/rollup-darwin-arm64": "^4.55.1",
-    "@skeletonlabs/skeleton-svelte": "^4.9.0",
-    "@tailwindcss/postcss": "^4.1.18",
-    "skeleton": "^4.9.0"
+    "@tailwindcss/postcss": "^4.1.18"
   }
 }
