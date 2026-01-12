@@ -4,6 +4,97 @@
 
 <h1 class="pt-4 pb-8 font-bold">I like building stuff</h1>
 <div class="p-16 my-2 rounded-xl">
+    <!-- magic-garden -->
+  <div class="items-center block lg:flex">
+    <img
+      src="https://magicgarden.gg/version/d25e1fe/thumbnail_share_2x1.webp"
+      alt="magic-garden icon"
+      class="w-full lg:w-1/4 dark:invert"
+    />
+    <div class="flex-1">
+      <div class="block lg:pl-12">
+        <h2 class="font-bold">Magic Garden Game Bot</h2>
+        <h3>Project Author (2025-Present)</h3>
+        <div class="py-2">
+          <span class="chip variant-ghost-primary">
+            <span><Icon icon="simple-icons:python" /></span>
+            <span>python</span>
+          </span>
+          <span class="chip variant-ghost-primary">
+            <span><Icon icon="mdi:ocr" /></span>
+            <span>ocr</span>
+          </span>
+          <span class="chip variant-ghost-primary">
+            <span><Icon icon="devicon-plain:opencv-wordmark" /></span>
+            <span>opencv</span>
+          </span>
+        </div>
+        <p>
+          A bot that automates the process of buying crops and eggs in the Magic Garden game.
+        </p>
+        <div class="mt-4">
+          <a
+            class="btn variant-ghost-primary"
+            href="https://github.com/wasita/magic-garden"
+            target="_blank"
+            rel="noreferrer">GitHub</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr class="!border-t-2" />
+<div class="p-16 my-2 rounded-xl">
+  <!-- Send2Kobo -->
+  <div class="items-center block lg:flex">
+    <img
+      src="images/ereader.png"
+      alt="eReader icon"
+      class="w-full lg:w-1/4 dark:invert"
+    />
+    <div class="flex-1">
+      <div class="block lg:pl-12">
+        <h2 class="font-bold">Send2Kobo</h2>
+        <h3>Project Author (2025-Present)</h3>
+        <div class="py-2">
+          <span class="chip variant-ghost-primary">
+            <span><Icon icon="simple-icons:svelte" /></span>
+            <span>svelte</span>
+          </span>
+          <span class="chip variant-ghost-primary">
+            <span><Icon icon="mdi:tailwind" /></span>
+            <span>tailwind</span>
+          </span>
+          <span class="chip variant-ghost-primary">
+            <span><Icon icon="mdi:firebase" /></span>
+            <span>firebase</span>
+          </span>
+        </div>
+        <p>
+          This website is a simple tool that allows you to send books to your Kobo eReader without having to directly connect to it. Upload PDF and EPUB files and the website, navigate to the site on your eReader, and your books will be available for download.
+        </p>
+        <div class="mt-4">
+                    <a
+            class="btn variant-ghost-primary"
+            href="https://send-2-kobo.web.app/"
+            target="_blank"
+            rel="noreferrer">Website</a
+          >
+          <a
+            class="btn variant-ghost-primary"
+            href="https://github.com/wasita/send2kobo"
+            target="_blank"
+            rel="noreferrer">GitHub</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr class="!border-t-2" />
+<div class="p-16 my-2 rounded-xl">
+  <!-- Dyadic chat app -->
   <div class="items-center block lg:flex">
     <img
       src="images/shared-reality-icon.png"
@@ -12,7 +103,7 @@
     />
     <div class="flex-1">
       <div class="block lg:pl-12">
-        <h2 class="font-bold">Real-time dyadic chat app</h2>
+        <h2 class="font-bold">Real-time dyadic chat app template</h2>
         <h3>Project Author (2023-Present)</h3>
         <div class="py-2">
           <span class="chip variant-ghost-primary">
@@ -40,17 +131,15 @@
           NH.
         </p>
         <div class="mt-4">
-          <a
+          <button
             class="btn variant-ghost-primary"
-            href="#"
-            target="_blank"
-            rel="noreferrer">TBA</a
+            disabled
+            aria-label="To be announced">TBA</button
           >
-          <a
+          <button
             class="btn variant-ghost-primary"
-            href="#"
-            target="_blank"
-            rel="noreferrer">GitHub (private)</a
+            disabled
+            aria-label="GitHub repository is private">GitHub (private)</button
           >
         </div>
       </div>
@@ -59,6 +148,7 @@
 </div>
 <hr class="!border-t-2" />
 <div class="p-16 my-2 rounded-xl">
+  <!-- Svelte Radio Podcast -->
   <div class="items-center block lg:flex">
     <img
       src="https://img.transistor.fm/XvUzSZo5_h8Ls9Cwd7_q97Vy3AE5dqTn3lUnWYA4qCU/rs:fit:600:288:1/q:60/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9sb2dv/cy9zaXRlLzQ5MTIv/bG9nby10cmFuc2lz/dG9yLnBuZw.webp"
@@ -99,6 +189,7 @@
 </div>
 <hr class="!border-t-2" />
 <div class="p-16 my-2 rounded-xl">
+  <!-- Interactive 2-player trust game -->
   <div class="items-center block lg:flex">
     <img
       src="images/shared-reality-icon.png"
@@ -148,6 +239,7 @@
 </div>
 <hr class="!border-t-2" />
 <div class="p-16 my-2 rounded-xl">
+  <!-- WiNS members database -->
   <div class="items-center block lg:flex">
     <img
       src="https://pbs.twimg.com/profile_images/1405631877726105607/lkWahexX_400x400.jpg"
@@ -188,6 +280,7 @@
 </div>
 <hr class="!border-t-2" />
 <div class="p-16 my-2 rounded-xl">
+  <!-- Multi-user synchronous video streaming & chat app platform -->
   <div class="items-center block lg:flex">
     <img src="images/svsca.png" alt="chat app icon" class="w-full lg:w-1/4" />
     <div class="flex-1">
@@ -220,17 +313,15 @@
           Barbara, CA.
         </p>
         <div class="mt-4">
-          <a
+          <button
             class="btn variant-ghost-primary"
-            href="#"
-            target="_blank"
-            rel="noreferrer">TBA</a
+            disabled
+            aria-label="To be announced">TBA</button
           >
-          <a
+          <button
             class="btn variant-ghost-primary"
-            href="#"
-            target="_blank"
-            rel="noreferrer">GitHub (private)</a
+            disabled
+            aria-label="GitHub repository is private">GitHub (private)</button
           >
         </div>
       </div>
@@ -239,6 +330,7 @@
 </div>
 <hr class="!border-t-2" />
 <div class="p-16 my-2 rounded-xl">
+  <!-- DartBrains: Intro to fMRI -->
   <div class="items-center block lg:flex">
     <img
       src="https://github.com/ljchang/dartbrains/raw/master/images/logo/dartbrains_logo_square_transparent.png"
@@ -276,6 +368,7 @@
 </div>
 <hr class="!border-t-2" />
 <div class="p-16 my-2 rounded-xl">
+  <!-- Info theory for Social Neuroscientists -->
   <div class="items-center block lg:flex">
     <img
       src="https://cosanlab.github.io/info-theory-book/_static/soc_net.png"
@@ -316,6 +409,7 @@
 </div>
 <hr class="!border-t-2" />
 <div class="p-16 my-2 rounded-xl">
+  <!-- Honeycomb -->
   <div class="items-center block lg:flex">
     <img
       src="https://raw.githubusercontent.com/brown-ccv/honeycomb/cb829a5134086307de7ea53efc452c0d4425c06f/assets/bee.svg"
