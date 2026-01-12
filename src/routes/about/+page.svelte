@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Avatar } from "@skeletonlabs/skeleton";
+  import { Avatar } from "@skeletonlabs/skeleton-svelte";
 </script>
 
 <h1 class="pt-4 pb-8 font-bold">About Me</h1>
@@ -7,10 +7,9 @@
   <div class="max-w-[80ch] mx-auto">
     <div class="items-center block md:flex">
       <Avatar
-        width="w-36"
         src="images/joji-cuddles.png"
-        alt="wasita"
-        class="mx-12 transition-opacity duration-300 ease-in-out rounded-full hover:opacity-70"
+        name="Wasita"
+        class="mx-12 size-36 transition-opacity duration-300 ease-in-out hover:opacity-70"
       />
       <div class="flex-1">
         <h2 class="font-bold">Wasita Mahaphanit</h2>

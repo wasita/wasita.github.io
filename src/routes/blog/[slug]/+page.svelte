@@ -1,5 +1,5 @@
-<script>
-  export let data;
+<script lang="ts">
+  let { data } = $props();
 </script>
 
 <article class="prose dark:prose-invert mx-auto">
@@ -12,5 +12,5 @@
       <p class="pb-20 text-white">Published: {data.date}</p>
     </div>
   </div>
-  <svelte:component this={data.content} />
+  <data.content />
 </article>

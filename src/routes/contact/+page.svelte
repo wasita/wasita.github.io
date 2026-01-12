@@ -39,7 +39,7 @@
       id="message"
       placeholder="write your message here..."
       required
-    />
+    ></textarea>
     <button
       class="btn variant-glass-primary hover:variant-ghost-primary"
       type="submit">Send</button

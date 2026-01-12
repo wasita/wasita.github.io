@@ -2,8 +2,8 @@
 	currently displays each blog post as a card with 2 columns
 -->
 
-<script>
-  export let data;
+<script lang="ts">
+  let { data } = $props();
 </script>
 
 <h1 class="pt-4 pb-8 font-bold">Blog</h1>
