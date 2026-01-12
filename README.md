@@ -4,9 +4,8 @@ Personal website and blog.
 
 ## made with ❤️ using
 
-- Sveltekit
-- MDsveX
-- TailwindCSS
-- SkeletonCSS
-- Vite
+- SvelteKit 2 + Svelte 5
+- mdsvex
+- Tailwind CSS 4
+- Vite 7
 - Playwright
