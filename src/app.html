@@ -5,6 +5,18 @@
     <link rel="icon" href="%sveltekit.assets%/favicon.png" />
     <meta name="viewport" content="width=device-width" />
 
+    <!-- Theme initialization (default to dark) -->
+    <script>
+      (function() {
+        const theme = localStorage.getItem('theme');
+        // Default to dark if no preference stored
+        if (theme === 'light') {
+          document.documentElement.classList.remove('dark');
+        }
+        // If theme is 'dark' or not set, dark class is already on html element
+      })();
+    </script>
+
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-TKN7CL3631"

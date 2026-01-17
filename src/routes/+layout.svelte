@@ -57,14 +57,14 @@
 <!-- Mobile menu overlay -->
 {#if mobileMenuOpen}
   <div
-    class="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm lg:hidden"
+    class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm lg:hidden"
     onclick={closeMobileMenu}
     onkeydown={(e) => e.key === "Escape" && closeMobileMenu()}
     role="button"
     tabindex="0"
   >
     <div
-      class="absolute right-0 top-0 h-full w-80 bg-gray-100 dark:bg-gray-800 text-black dark:text-white p-6"
+      class="absolute right-0 top-0 h-full w-80 bg-gray-100 dark:bg-[#0a0a0f] dark:border-l dark:border-purple-500/30 text-black dark:text-white p-6"
       onclick={(e) => e.stopPropagation()}
       onkeydown={() => {}}
       role="dialog"
@@ -72,18 +72,18 @@
       tabindex="-1"
     >
       <div class="flex items-center pb-6">
-        <h2 class="flex-1 font-bold text-lg text-black dark:text-white">Menu</h2>
+        <h2 class="flex-1 font-bold text-lg text-black dark:text-purple-300">Menu</h2>
         <button
-          class="px-3 py-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600"
+          class="px-3 py-2 rounded-lg bg-gray-200 dark:bg-purple-900/30 dark:border dark:border-purple-500/50 hover:bg-gray-300 dark:hover:bg-purple-900/50 transition-all duration-200"
           onclick={closeMobileMenu}
         >
-          <Icon icon="mdi:close" class="text-xl" />
+          <Icon icon="mdi:close" class="text-xl dark:text-purple-300" />
         </button>
       </div>
       <ul class="space-y-2">
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-colors {currentRoute === '/' ? 'bg-purple-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}"
+            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute === '/' ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-lg shadow-purple-500/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-pink-400'}"
             href="/"
             onclick={closeMobileMenu}
           >
@@ -92,7 +92,7 @@
         </li>
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-colors {currentRoute.includes('/about') ? 'bg-purple-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}"
+            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/about') ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-lg shadow-purple-500/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-pink-400'}"
             href="/about"
             onclick={closeMobileMenu}
           >
@@ -101,7 +101,7 @@
         </li>
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-colors {currentRoute.includes('/research') ? 'bg-purple-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}"
+            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/research') ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-lg shadow-purple-500/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-pink-400'}"
             href="/research"
             onclick={closeMobileMenu}
           >
@@ -110,7 +110,7 @@
         </li>
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-colors {currentRoute.includes('/portfolio') ? 'bg-purple-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}"
+            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/portfolio') ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-lg shadow-purple-500/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-pink-400'}"
             href="/portfolio"
             onclick={closeMobileMenu}
           >
@@ -119,7 +119,7 @@
         </li>
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-colors {currentRoute.includes('/blog') ? 'bg-purple-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}"
+            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/blog') ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-lg shadow-purple-500/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-pink-400'}"
             href="/blog"
             onclick={closeMobileMenu}
           >
@@ -128,7 +128,7 @@
         </li>
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-colors {currentRoute.includes('/contact') ? 'bg-purple-500 text-white' : 'hover:bg-gray-200 dark:hover:bg-gray-700'}"
+            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/contact') ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-lg shadow-purple-500/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-pink-400'}"
             href="/contact"
             onclick={closeMobileMenu}
           >
@@ -136,66 +136,66 @@
           </a>
         </li>
       </ul>
-      <hr class="my-6 border-gray-300 dark:border-gray-600" />
+      <hr class="my-6 border-gray-300 dark:border-purple-500/30" />
       <ul class="grid grid-cols-3 gap-2">
         <li>
           <a
-            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-700"
+            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-cyan-500/30 dark:hover:border-cyan-400 dark:hover:bg-cyan-900/20 transition-all duration-200"
             href="https://wasita-mahaphanit-cv.netlify.app"
             target="_blank"
             rel="noreferrer"
           >
-            <Icon icon="academicons:cv-square" class="text-2xl" />
+            <Icon icon="academicons:cv-square" class="text-2xl dark:text-cyan-300" />
           </a>
         </li>
         <li>
           <a
-            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-700"
+            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-cyan-500/30 dark:hover:border-cyan-400 dark:hover:bg-cyan-900/20 transition-all duration-200"
             href="https://scholar.google.com/citations?user=1tZe-1gAAAAJ"
             target="_blank"
             rel="noreferrer"
           >
-            <Icon icon="academicons:google-scholar-square" class="text-2xl" />
+            <Icon icon="academicons:google-scholar-square" class="text-2xl dark:text-cyan-300" />
           </a>
         </li>
         <li>
           <a
-            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-700"
+            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-cyan-500/30 dark:hover:border-cyan-400 dark:hover:bg-cyan-900/20 transition-all duration-200"
             href="https://bsky.app/profile/wasita.bsky.social"
             target="_blank"
             rel="noreferrer"
           >
-            <Icon icon="simple-icons:bluesky" class="text-2xl" />
+            <Icon icon="simple-icons:bluesky" class="text-2xl dark:text-cyan-300" />
           </a>
         </li>
         <li>
           <a
-            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-700"
+            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-cyan-500/30 dark:hover:border-cyan-400 dark:hover:bg-cyan-900/20 transition-all duration-200"
             href="https://twitter.com/mahaphanit"
             target="_blank"
             rel="noreferrer"
           >
-            <Icon icon="mdi:twitter" class="text-2xl" />
+            <Icon icon="mdi:twitter" class="text-2xl dark:text-cyan-300" />
           </a>
         </li>
         <li>
           <a
-            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-700"
+            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-cyan-500/30 dark:hover:border-cyan-400 dark:hover:bg-cyan-900/20 transition-all duration-200"
             href="https://linkedin.com/in/wasita-mahaphanit"
             target="_blank"
             rel="noreferrer"
           >
-            <Icon icon="mdi:linkedin" class="text-2xl" />
+            <Icon icon="mdi:linkedin" class="text-2xl dark:text-cyan-300" />
           </a>
         </li>
         <li>
           <a
-            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-200 dark:hover:bg-gray-700"
+            class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-cyan-500/30 dark:hover:border-cyan-400 dark:hover:bg-cyan-900/20 transition-all duration-200"
             href="https://github.com/wasita"
             target="_blank"
             rel="noreferrer"
           >
-            <Icon icon="mdi:github" class="text-2xl" />
+            <Icon icon="mdi:github" class="text-2xl dark:text-cyan-300" />
           </a>
         </li>
       </ul>
@@ -204,122 +204,128 @@
 {/if}
 
 <!-- Main layout -->
-<div class="h-full flex flex-col overflow-hidden bg-white dark:bg-gray-900 text-black dark:text-white">
+<div class="h-full flex flex-col overflow-hidden bg-white dark:bg-[#0a0a0f] text-black dark:text-gray-100">
   <!-- Header -->
-  <header class="sticky top-0 z-10 bg-gray-50 dark:bg-gray-900 backdrop-blur-xl">
+  <header class="sticky top-0 z-10 bg-gray-50/90 dark:bg-[#0a0a0f]/95 backdrop-blur-xl border-b border-gray-200 dark:border-purple-900/30">
     <div class="container mx-auto py-4 px-4 flex items-center justify-between">
       <!-- Logo -->
-      <a href="/">
-        <img src="/favicon.png" alt="Wasita" class="w-10 h-10 rounded-full" />
+      <a href="/" class="group">
+        <img src="/favicon.png" alt="Wasita" class="w-10 h-10 rounded-full transition-all duration-300 group-hover:ring-2 group-hover:ring-pink-500 dark:group-hover:ring-cyan-400 dark:group-hover:shadow-lg dark:group-hover:shadow-cyan-500/30" />
       </a>
 
       <!-- Desktop nav + actions -->
       <div class="flex items-center gap-3">
         <!-- Dark mode toggle -->
         <button
-          class="w-10 h-10 flex items-center justify-center rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800"
+          class="cyber-icon-btn flex"
           onclick={toggleDarkMode}
           aria-label="Toggle dark mode"
         >
-          <Icon icon={isDark ? "mdi:weather-sunny" : "mdi:weather-night"} class="text-xl" />
+          <Icon icon={isDark ? "mdi:weather-sunny" : "mdi:weather-night"} class="text-xl dark:text-cyan-300" />
         </button>
 
         <!-- Desktop navigation -->
-        <nav class="hidden lg:flex items-center gap-2">
+        <nav class="hidden lg:flex items-center gap-1">
           <a
-            class="btn btn-sm {currentRoute === '/' ? 'bg-purple-500 text-white' : 'preset-outlined-surface-500'}"
+            class="cyber-nav-link {currentRoute === '/' ? 'active' : ''}"
             href="/"
           >
             Home
           </a>
           <a
-            class="btn btn-sm {currentRoute.includes('/about') ? 'bg-purple-500 text-white' : 'preset-outlined-surface-500'}"
+            class="cyber-nav-link {currentRoute.includes('/about') ? 'active' : ''}"
             href="/about"
           >
             About
           </a>
           <a
-            class="btn btn-sm {currentRoute.includes('/research') ? 'bg-purple-500 text-white' : 'preset-outlined-surface-500'}"
+            class="cyber-nav-link {currentRoute.includes('/research') ? 'active' : ''}"
             href="/research"
           >
             Research
           </a>
           <a
-            class="btn btn-sm {currentRoute.includes('/portfolio') ? 'bg-purple-500 text-white' : 'preset-outlined-surface-500'}"
+            class="cyber-nav-link {currentRoute.includes('/portfolio') ? 'active' : ''}"
             href="/portfolio"
           >
             Portfolio
           </a>
           <a
-            class="btn btn-sm {currentRoute.includes('/blog') ? 'bg-purple-500 text-white' : 'preset-outlined-surface-500'}"
+            class="cyber-nav-link {currentRoute.includes('/blog') ? 'active' : ''}"
             href="/blog"
           >
             Blog
           </a>
           <a
-            class="btn btn-sm {currentRoute.includes('/contact') ? 'bg-purple-500 text-white' : 'preset-outlined-surface-500'}"
+            class="cyber-nav-link {currentRoute.includes('/contact') ? 'active' : ''}"
             href="/contact"
           >
             Contact
           </a>
-          <hr class="h-6 border-l border-gray-300 dark:border-gray-600 mx-1" />
+          <span class="text-purple-500/50 dark:text-purple-400/30 mx-2">//</span>
           <a
-            class="btn btn-sm preset-outlined-surface-500"
+            class="cyber-icon-btn flex"
             href="https://wasita-mahaphanit-cv.netlify.app"
             target="_blank"
             rel="noreferrer"
+            title="CV"
           >
-            <Icon icon="academicons:cv-square" class="text-lg" />
+            <Icon icon="academicons:cv-square" class="text-lg dark:text-cyan-300" />
           </a>
           <a
-            class="btn btn-sm preset-outlined-surface-500"
+            class="cyber-icon-btn flex"
             href="https://scholar.google.com/citations?user=1tZe-1gAAAAJ"
             target="_blank"
             rel="noreferrer"
+            title="Google Scholar"
           >
-            <Icon icon="academicons:google-scholar-square" class="text-lg" />
+            <Icon icon="academicons:google-scholar-square" class="text-lg dark:text-cyan-300" />
           </a>
           <a
-            class="btn btn-sm preset-outlined-surface-500"
+            class="cyber-icon-btn flex"
             href="https://bsky.app/profile/wasita.bsky.social"
             target="_blank"
             rel="noreferrer"
+            title="Bluesky"
           >
-            <Icon icon="simple-icons:bluesky" class="text-lg" />
+            <Icon icon="simple-icons:bluesky" class="text-lg dark:text-cyan-300" />
           </a>
           <a
-            class="btn btn-sm preset-outlined-surface-500"
+            class="cyber-icon-btn flex"
             href="https://twitter.com/mahaphanit"
             target="_blank"
             rel="noreferrer"
+            title="Twitter"
           >
-            <Icon icon="mdi:twitter" class="text-lg" />
+            <Icon icon="mdi:twitter" class="text-lg dark:text-cyan-300" />
           </a>
           <a
-            class="btn btn-sm preset-outlined-surface-500"
+            class="cyber-icon-btn flex"
             href="https://linkedin.com/in/wasita-mahaphanit"
             target="_blank"
             rel="noreferrer"
+            title="LinkedIn"
           >
-            <Icon icon="mdi:linkedin" class="text-lg" />
+            <Icon icon="mdi:linkedin" class="text-lg dark:text-cyan-300" />
           </a>
           <a
-            class="btn btn-sm preset-outlined-surface-500"
+            class="cyber-icon-btn flex"
             href="https://github.com/wasita"
             target="_blank"
             rel="noreferrer"
+            title="GitHub"
           >
-            <Icon icon="mdi:github" class="text-lg" />
+            <Icon icon="mdi:github" class="text-lg dark:text-cyan-300" />
           </a>
         </nav>
 
         <!-- Mobile menu button -->
         <button
-          class="px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 lg:hidden"
+          class="cyber-icon-btn flex lg:!hidden"
           onclick={() => (mobileMenuOpen = true)}
           aria-label="Open menu"
         >
-          <Icon icon="mdi:menu" class="text-2xl" />
+          <Icon icon="mdi:menu" class="text-2xl dark:text-cyan-300" />
         </button>
       </div>
     </div>
@@ -339,12 +345,12 @@
   </main>
 
   <!-- Footer -->
-  <footer class="py-4">
+  <footer class="py-4 border-t border-gray-200 dark:border-purple-900/30">
     <div class="container mx-auto">
       <div class="flex items-center justify-center p-4 mx-4 rounded-xl">
-        <p>
+        <p class="text-gray-600 dark:text-gray-400">
           Wasita Mahaphanit &copy; {currentYear} | Built with
-          <span class="text-purple-400 text-xl">&#9829;</span> ft. Svelte & Tailwind
+          <span class="text-pink-500 dark:text-pink-400 text-xl">&#9829;</span> ft. Svelte & Tailwind
         </p>
       </div>
     </div>

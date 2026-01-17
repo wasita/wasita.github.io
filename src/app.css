@@ -5,7 +5,7 @@
 /* Configure dark mode to use class strategy */
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* Custom theme overrides - preserve your custom colors */
+/* Cyberpunk color palette */
 :root {
   --global-hover-color: #000;
   --wisteria: #dca7e5;
@@ -14,6 +14,16 @@
   --black: #000;
   --white: #fff;
   --regent-st-blue: #a7d8e5;
+
+  /* Cyberpunk neon colors */
+  --neon-pink: #ff2a6d;
+  --neon-magenta: #d300c5;
+  --neon-purple: #9d4edd;
+  --neon-blue: #00d4ff;
+  --neon-cyan: #05ffa1;
+  --cyber-dark: #0a0a0f;
+  --cyber-darker: #05050a;
+  --cyber-grid: rgba(157, 78, 221, 0.1);
 }
 
 /* Global styles */
@@ -22,21 +32,374 @@ body {
   @apply h-full overflow-hidden;
 }
 
-/* Custom link and button hover effects */
-a:hover,
-button.gradient-hover:hover {
-  background: radial-gradient(ellipse at bottom, #99f6e4, #93c5fd, #c4b5fd);
-  text-shadow: -0.15em 0.15em 0.42em #fff, 0.15em -0.15em 0.31em #fff,
-    -0.15em -0.15em 1.3em #fff;
-  color: #000;
-  transition: all 0.1s ease-in-out 0s;
+/* Base text size bump */
+html {
+  font-size: 17px;
 }
 
-.dark a:hover,
-.dark button.gradient-hover:hover {
-  background: radial-gradient(ellipse at bottom, #99f6e4, #93c5fd, #c4b5fd);
-  text-shadow: -0.15em 0.15em 0.42em #000, 0.15em -0.15em 0.31em #000,
-    -0.15em -0.15em 1.3em #000;
+/* Cyberpunk grid background for dark mode */
+.dark body {
+  background-image:
+    linear-gradient(var(--cyber-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--cyber-grid) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* Neon glow utilities */
+.neon-glow-pink {
+  text-shadow: 0 0 5px var(--neon-pink), 0 0 10px var(--neon-pink), 0 0 20px var(--neon-pink);
+}
+
+.neon-glow-blue {
+  text-shadow: 0 0 5px var(--neon-blue), 0 0 10px var(--neon-blue), 0 0 20px var(--neon-blue);
+}
+
+.neon-glow-purple {
+  text-shadow: 0 0 5px var(--neon-purple), 0 0 10px var(--neon-purple), 0 0 20px var(--neon-purple);
+}
+
+.neon-border {
+  box-shadow: 0 0 5px var(--neon-purple), 0 0 10px var(--neon-purple), inset 0 0 5px rgba(157, 78, 221, 0.1);
+}
+
+/* Custom link and button hover effects - cyberpunk style */
+/* Exclude navigation elements and buttons from the global link hover */
+a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.group):hover,
+button.gradient-hover:hover {
+  background: linear-gradient(135deg, #ff2a6d, #d300c5, #9d4edd, #00d4ff);
+  background-size: 300% 300%;
+  animation: gradient-shift 0.5s ease;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   color: #fff;
-  transition: all 0.1s ease-in-out 0s;
+  transition: all 0.15s ease-in-out;
+}
+
+.dark a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.group):hover,
+.dark button.gradient-hover:hover {
+  background: linear-gradient(135deg, #ff2a6d, #d300c5, #9d4edd, #00d4ff);
+  background-size: 300% 300%;
+  animation: gradient-shift 0.5s ease;
+  text-shadow: 0 0 5px #fff, 0 0 10px var(--neon-pink), 0 0 20px var(--neon-blue);
+  color: #fff;
+  transition: all 0.15s ease-in-out;
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+/* Scanline effect for dark mode */
+.dark .scanlines::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.1) 2px,
+    rgba(0, 0, 0, 0.1) 4px
+  );
+  pointer-events: none;
+}
+
+/* Cyberpunk card styling */
+.cyber-card {
+  border: 1px solid rgba(157, 78, 221, 0.3);
+  background: linear-gradient(135deg, rgba(10, 10, 15, 0.9), rgba(20, 10, 30, 0.9));
+}
+
+.cyber-card:hover {
+  border-color: var(--neon-purple);
+  box-shadow: 0 0 20px rgba(157, 78, 221, 0.3), inset 0 0 20px rgba(157, 78, 221, 0.05);
+}
+
+/* Glitch effect for headings */
+@keyframes glitch {
+  0%, 100% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+}
+
+.glitch-hover:hover {
+  animation: glitch 0.3s ease infinite;
+}
+
+/* Cyberpunk Navigation Styles */
+.cyber-nav-link {
+  position: relative;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  transition: all 0.2s ease;
+  clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
+}
+
+.cyber-nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--neon-pink), var(--neon-purple), var(--neon-blue));
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.cyber-nav-link:hover::before,
+.cyber-nav-link.active::before {
+  width: 100%;
+}
+
+.dark .cyber-nav-link:hover::before,
+.dark .cyber-nav-link.active::before {
+  box-shadow: 0 0 10px var(--neon-pink), 0 0 20px var(--neon-purple);
+}
+
+.cyber-nav-link.active {
+  background: linear-gradient(135deg, rgba(255, 42, 109, 0.15), rgba(157, 78, 221, 0.15));
+  border: 1px solid rgba(255, 42, 109, 0.3);
+}
+
+.dark .cyber-nav-link.active {
+  background: linear-gradient(135deg, rgba(255, 42, 109, 0.2), rgba(157, 78, 221, 0.2));
+  border: 1px solid rgba(255, 42, 109, 0.5);
+  box-shadow: 0 0 15px rgba(255, 42, 109, 0.2), inset 0 0 15px rgba(255, 42, 109, 0.05);
+}
+
+/* Cyberpunk icon button */
+.cyber-icon-btn {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid rgba(100, 100, 120, 0.3);
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.dark .cyber-icon-btn {
+  border-color: rgba(157, 78, 221, 0.3);
+}
+
+.cyber-icon-btn:hover {
+  border-color: var(--neon-pink);
+  background: rgba(255, 42, 109, 0.1);
+}
+
+.dark .cyber-icon-btn:hover {
+  border-color: var(--neon-cyan);
+  background: rgba(0, 212, 255, 0.1);
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+}
+
+/* Decorative corner accents */
+.cyber-corner::before,
+.cyber-corner::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--neon-purple);
+}
+
+.cyber-corner::before {
+  top: -2px;
+  left: -2px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.cyber-corner::after {
+  bottom: -2px;
+  right: -2px;
+  border-left: none;
+  border-top: none;
+}
+
+/* Animated gradient border */
+@keyframes border-glow {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+.cyber-glow-border {
+  position: relative;
+}
+
+.cyber-glow-border::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px solid transparent;
+  background: linear-gradient(90deg, var(--neon-pink), var(--neon-purple), var(--neon-blue), var(--neon-cyan)) border-box;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  animation: border-glow 2s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* Cyberpunk Page Section */
+.cyber-section {
+  position: relative;
+  padding: 2rem;
+  margin: 1rem 0;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dark .cyber-section {
+  background: linear-gradient(135deg, rgba(10, 10, 15, 0.8), rgba(20, 10, 30, 0.6));
+  border: 1px solid rgba(157, 78, 221, 0.2);
+}
+
+.dark .cyber-section:hover {
+  border-color: rgba(157, 78, 221, 0.4);
+  box-shadow: 0 0 30px rgba(157, 78, 221, 0.1), inset 0 0 30px rgba(157, 78, 221, 0.02);
+}
+
+/* Corner decorations */
+.cyber-section::before,
+.cyber-section::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.cyber-section::before {
+  top: -1px;
+  left: -1px;
+  border-top-color: var(--neon-pink);
+  border-left-color: var(--neon-pink);
+}
+
+.cyber-section::after {
+  bottom: -1px;
+  right: -1px;
+  border-bottom-color: var(--neon-blue);
+  border-right-color: var(--neon-blue);
+}
+
+.dark .cyber-section:hover::before {
+  box-shadow: -5px -5px 15px rgba(255, 42, 109, 0.3);
+}
+
+.dark .cyber-section:hover::after {
+  box-shadow: 5px 5px 15px rgba(0, 212, 255, 0.3);
+}
+
+/* Cyberpunk project card */
+.cyber-project-card {
+  position: relative;
+  padding: 2rem;
+  margin: 1rem 0;
+  transition: all 0.3s ease;
+}
+
+.dark .cyber-project-card {
+  background: linear-gradient(135deg, rgba(10, 10, 15, 0.6), rgba(15, 5, 25, 0.4));
+  border-left: 3px solid var(--neon-purple);
+}
+
+.dark .cyber-project-card:hover {
+  border-left-color: var(--neon-pink);
+  background: linear-gradient(135deg, rgba(15, 10, 20, 0.8), rgba(20, 10, 35, 0.6));
+  box-shadow: -5px 0 20px rgba(255, 42, 109, 0.1);
+}
+
+/* Cyberpunk decorative line */
+.cyber-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--neon-purple), var(--neon-pink), var(--neon-blue), transparent);
+  margin: 2rem 0;
+}
+
+/* Cyberpunk image container */
+.cyber-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.dark .cyber-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(157, 78, 221, 0.1), transparent 50%, rgba(0, 212, 255, 0.1));
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.dark .cyber-image:hover::after {
+  opacity: 1;
+}
+
+/* Glowing text for headings */
+.dark .cyber-heading {
+  text-shadow: 0 0 20px rgba(255, 42, 109, 0.3), 0 0 40px rgba(157, 78, 221, 0.2);
+}
+
+/* Cyberpunk list bullets */
+.dark .cyber-list li::before {
+  content: '>';
+  color: var(--neon-cyan);
+  margin-right: 0.5rem;
+  font-family: monospace;
+}
+
+/* Terminal-style text */
+.cyber-terminal {
+  font-family: 'Courier New', Consolas, monospace;
+  letter-spacing: 0.05em;
+}
+
+/* Pulsing dot indicator */
+.cyber-pulse {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: var(--neon-cyan);
+  border-radius: 50%;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; box-shadow: 0 0 5px var(--neon-cyan); }
+  50% { opacity: 0.5; box-shadow: 0 0 20px var(--neon-cyan); }
+}
+
+/* Horizontal scanner line effect */
+.cyber-scanner {
+  position: relative;
+  overflow: hidden;
+}
+
+.dark .cyber-scanner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--neon-cyan), transparent);
+  animation: scan 3s linear infinite;
+  opacity: 0.5;
+}
+
+@keyframes scan {
+  0% { top: 0; }
+  100% { top: 100%; }
 }
