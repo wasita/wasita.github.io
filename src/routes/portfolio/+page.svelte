@@ -7,7 +7,7 @@
   <!-- magic-garden -->
   <div class="items-center block lg:flex">
     <img
-      src="https://magicgarden.gg/version/d25e1fe/thumbnail_share_2x1.webp"
+      src="/images/magic-garden.webp"
       alt="magic-garden icon"
       class="w-full lg:w-1/4 dark:invert"
     />
