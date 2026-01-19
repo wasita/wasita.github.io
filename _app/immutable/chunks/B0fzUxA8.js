@@ -1,0 +1,1 @@
+import{b as o,h as _,m as c,E as b,o as d,p,q as E,e as T,s as f}from"./DbMS5byJ.js";import{B as m}from"./DBpWbX6k.js";function v(t,i,h=!1){_&&c();var e=new m(t),u=h?b:0;function n(a,s){if(_){const l=d(t)===p;if(a===l){var r=E();T(r),e.anchor=r,f(!1),e.ensure(a,s),f(!0);return}}e.ensure(a,s)}o(()=>{var a=!1;i((s,r=!0)=>{a=!0,n(r,s)}),a||n(!1,null)},u)}export{v as i};
