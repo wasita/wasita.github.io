@@ -1,3 +1,7 @@
+<svelte:head>
+  <link rel="preload" as="image" href="/images/joji-cuddles.png" />
+</svelte:head>
+
 <h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl cyber-heading">
   <span class="bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-400 bg-clip-text text-transparent">About Me</span>
 </h1>
@@ -7,6 +11,8 @@
       <img
         src="/images/joji-cuddles.png"
         alt="Wasita"
+        width="144"
+        height="144"
         class="mx-12 w-36 h-36 rounded-full object-cover transition-all duration-300 ease-in-out hover:opacity-90 dark:ring-2 dark:ring-purple-500/50 dark:hover:ring-pink-500/50"
       />
       <div class="flex-1">
@@ -24,11 +30,19 @@
           <img
             src="/images/cosan_logo.png"
             alt="cosan logo"
+            width="112"
+            height="94"
+            loading="lazy"
+            decoding="async"
             class="w-28 float-left mr-4"
           />
           <img
             src="/images/soilab.png"
             alt="soilab logo"
+            width="112"
+            height="93"
+            loading="lazy"
+            decoding="async"
             class="w-28 float-right ml-4 dark:invert"
           />
           I am currently a final-year PhD candidate (expected graduation: May 2026) in the
@@ -55,6 +69,10 @@
           <img
             src="/images/lncc_logo.png"
             alt="lncc"
+            width="96"
+            height="130"
+            loading="lazy"
+            decoding="async"
             class="w-24 float-left mr-4 dark:invert"
           />
           Prior to graduate school, I worked as the lab manager of
@@ -68,6 +86,10 @@
           <img
             src="/images/ShenhavLab_Logo.png"
             alt="shenhav lab logo"
+            width="128"
+            height="60"
+            loading="lazy"
+            decoding="async"
             class="w-32 float-right dark:invert"
           />
           Before that, I also worked as an undergraduate research assistant in
@@ -81,6 +103,10 @@
           <img
             src="/images/aerial_2017.webp"
             alt="aerial hoop"
+            width="128"
+            height="171"
+            loading="lazy"
+            decoding="async"
             class="w-32 float-left mr-4 mt-2"
           />
           Outside of research, I enjoy ruminating while showering, cuddling with
