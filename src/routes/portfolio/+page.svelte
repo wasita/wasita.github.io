@@ -11,6 +11,8 @@
     <img
       src="/images/magic-garden.webp"
       alt="magic-garden icon"
+      loading="lazy"
+      decoding="async"
       class="w-full lg:w-1/4 dark:invert"
     />
     <div class="flex-1">
@@ -60,6 +62,8 @@
     <img
       src="/images/ereader.png"
       alt="eReader icon"
+      loading="lazy"
+      decoding="async"
       class="w-full lg:w-1/4 dark:invert"
     />
     <div class="flex-1">
@@ -117,6 +121,8 @@
     <img
       src="/images/shared-reality-icon.png"
       alt="dyad chat app icon"
+      loading="lazy"
+      decoding="async"
       class="w-full lg:w-1/4 dark:invert"
     />
     <div class="flex-1">
@@ -177,6 +183,8 @@
     <img
       src="https://img.transistor.fm/XvUzSZo5_h8Ls9Cwd7_q97Vy3AE5dqTn3lUnWYA4qCU/rs:fit:600:288:1/q:60/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9sb2dv/cy9zaXRlLzQ5MTIv/bG9nby10cmFuc2lz/dG9yLnBuZw.webp"
       alt="svelte radio icon"
+      loading="lazy"
+      decoding="async"
       class="w-full lg:w-1/4 dark:invert"
     />
     <div class="flex-1">
@@ -220,6 +228,8 @@
     <img
       src="/images/shared-reality-icon.png"
       alt="dyad chat app icon"
+      loading="lazy"
+      decoding="async"
       class="w-full lg:w-1/4 dark:invert"
     />
     <div class="flex-1">
@@ -276,6 +286,8 @@
     <img
       src="https://pbs.twimg.com/profile_images/1405631877726105607/lkWahexX_400x400.jpg"
       alt="wins"
+      loading="lazy"
+      decoding="async"
       class="w-full lg:w-1/4 dark:invert"
     />
     <div class="flex-1">
@@ -318,7 +330,7 @@
 <div class="cyber-project-card p-6 lg:p-12 my-2">
   <!-- Multi-user synchronous video streaming & chat app platform -->
   <div class="items-center block lg:flex">
-    <img src="/images/svsca.png" alt="chat app icon" class="w-full lg:w-1/4" />
+    <img src="/images/svsca.png" alt="chat app icon" loading="lazy" decoding="async" class="w-full lg:w-1/4" />
     <div class="flex-1">
       <div class="block lg:pl-12">
         <h2 class="font-bold text-xl lg:text-2xl">
@@ -377,6 +389,8 @@
     <img
       src="https://github.com/ljchang/dartbrains/raw/master/images/logo/dartbrains_logo_square_transparent.png"
       alt="dartbrains logo"
+      loading="lazy"
+      decoding="async"
       class="mx-10 my-10 scale-150 dark:invert"
     />
     <div class="flex-1">
@@ -417,6 +431,8 @@
     <img
       src="https://cosanlab.github.io/info-theory-book/_static/soc_net.png"
       alt="info theory book for social neuroscientists"
+      loading="lazy"
+      decoding="async"
       class="w-full lg:w-1/4"
     />
     <div class="flex-1">
@@ -460,6 +476,8 @@
     <img
       src="https://raw.githubusercontent.com/brown-ccv/honeycomb/cb829a5134086307de7ea53efc452c0d4425c06f/assets/bee.svg"
       alt="honeycomb"
+      loading="lazy"
+      decoding="async"
       class="w-full lg:w-1/4 dark:invert"
     />
     <div class="flex-1">

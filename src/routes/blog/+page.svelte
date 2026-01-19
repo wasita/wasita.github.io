@@ -17,8 +17,10 @@
         <header>
           <img
             src={post.meta.cover}
-            class="object-cover w-full h-48"
             alt="Post"
+            loading="lazy"
+            decoding="async"
+            class="object-cover w-full h-48"
           />
         </header>
         <div class="p-4 space-y-2">
