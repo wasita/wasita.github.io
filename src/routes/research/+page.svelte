@@ -1,12 +1,12 @@
 <h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl cyber-heading">
-  <span class="bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-400 bg-clip-text text-transparent">Research Interests</span>
+  <span class="bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">Research Interests</span>
 </h1>
 
 <div class="cyber-section p-6 lg:p-12">
   <div class="max-w-[80ch] mx-auto">
     <div class="flex my-4">
       <div class="flex-1">
-        <h3 class="text-pink-500 dark:text-pink-400 font-semibold text-lg lg:text-xl leading-relaxed">
+        <h3 class="text-fuchsia-400 dark:text-fuchsia-300 font-semibold text-lg lg:text-xl leading-relaxed">
           I study how people navigate uncertainty about other minds through interaction and conversation, and how the process of figuring each other out gives rise to social connection.
         </h3>
         <div class="text-base lg:text-lg leading-relaxed text-gray-700 dark:text-gray-300">

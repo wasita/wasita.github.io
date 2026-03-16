@@ -16,14 +16,14 @@
   --regent-st-blue: #a7d8e5;
 
   /* Cyberpunk neon colors */
-  --neon-pink: #ff2a6d;
-  --neon-magenta: #d300c5;
-  --neon-purple: #9d4edd;
+  --neon-pink: #e879f9;
+  --neon-magenta: #a78bfa;
+  --neon-purple: #22d3ee;
   --neon-blue: #00d4ff;
   --neon-cyan: #05ffa1;
   --cyber-dark: #0a0a0f;
   --cyber-darker: #05050a;
-  --cyber-grid: rgba(157, 78, 221, 0.1);
+  --cyber-grid: rgba(34, 211, 238, 0.1);
 }
 
 /* Global styles */
@@ -47,7 +47,7 @@ html {
 
 /* Neon glow utilities */
 .neon-glow-pink {
-  text-shadow: 0 0 5px var(--neon-pink), 0 0 10px var(--neon-pink), 0 0 20px var(--neon-pink);
+  text-shadow: 0 0 5px var(--neon-pink), 0 0 10px var(--neon-magenta), 0 0 20px var(--neon-purple);
 }
 
 .neon-glow-blue {
@@ -59,28 +59,32 @@ html {
 }
 
 .neon-border {
-  box-shadow: 0 0 5px var(--neon-purple), 0 0 10px var(--neon-purple), inset 0 0 5px rgba(157, 78, 221, 0.1);
+  box-shadow: 0 0 5px var(--neon-purple), 0 0 10px var(--neon-purple), inset 0 0 5px rgba(34, 211, 238, 0.1);
 }
 
 /* Custom link and button hover effects - cyberpunk style */
 /* Exclude navigation elements and buttons from the global link hover */
 a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.group):hover,
 button.gradient-hover:hover {
-  background: linear-gradient(135deg, #ff2a6d, #d300c5, #9d4edd, #00d4ff);
-  background-size: 300% 300%;
-  animation: gradient-shift 0.5s ease;
+  background: linear-gradient(135deg, #22d3ee, #a78bfa, #e879f9);
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 8px rgba(34, 211, 238, 0.4), 0 0 20px rgba(167, 139, 250, 0.3), 0 0 35px rgba(232, 121, 249, 0.2);
   color: #fff;
+  border-radius: 4px;
+  padding: 1px 4px;
+  margin: -1px -4px;
   transition: all 0.15s ease-in-out;
 }
 
 .dark a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.group):hover,
 .dark button.gradient-hover:hover {
-  background: linear-gradient(135deg, #ff2a6d, #d300c5, #9d4edd, #00d4ff);
-  background-size: 300% 300%;
-  animation: gradient-shift 0.5s ease;
+  background: linear-gradient(135deg, #22d3ee, #a78bfa, #e879f9);
   text-shadow: 0 0 5px #fff, 0 0 10px var(--neon-pink), 0 0 20px var(--neon-blue);
+  box-shadow: 0 0 10px rgba(34, 211, 238, 0.5), 0 0 25px rgba(167, 139, 250, 0.4), 0 0 45px rgba(232, 121, 249, 0.3);
   color: #fff;
+  border-radius: 4px;
+  padding: 1px 4px;
+  margin: -1px -4px;
   transition: all 0.15s ease-in-out;
 }
 
@@ -109,13 +113,13 @@ button.gradient-hover:hover {
 
 /* Cyberpunk card styling */
 .cyber-card {
-  border: 1px solid rgba(157, 78, 221, 0.3);
+  border: 1px solid rgba(34, 211, 238, 0.3);
   background: linear-gradient(135deg, rgba(10, 10, 15, 0.9), rgba(20, 10, 30, 0.9));
 }
 
 .cyber-card:hover {
   border-color: var(--neon-purple);
-  box-shadow: 0 0 20px rgba(157, 78, 221, 0.3), inset 0 0 20px rgba(157, 78, 221, 0.05);
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.3), inset 0 0 20px rgba(34, 211, 238, 0.05);
 }
 
 /* Glitch effect for headings */
@@ -166,14 +170,14 @@ button.gradient-hover:hover {
 }
 
 .cyber-nav-link.active {
-  background: linear-gradient(135deg, rgba(255, 42, 109, 0.15), rgba(157, 78, 221, 0.15));
-  border: 1px solid rgba(255, 42, 109, 0.3);
+  background: linear-gradient(135deg, rgba(232, 121, 249, 0.15), rgba(34, 211, 238, 0.15));
+  border: 1px solid rgba(232, 121, 249, 0.3);
 }
 
 .dark .cyber-nav-link.active {
-  background: linear-gradient(135deg, rgba(255, 42, 109, 0.2), rgba(157, 78, 221, 0.2));
-  border: 1px solid rgba(255, 42, 109, 0.5);
-  box-shadow: 0 0 15px rgba(255, 42, 109, 0.2), inset 0 0 15px rgba(255, 42, 109, 0.05);
+  background: linear-gradient(135deg, rgba(232, 121, 249, 0.2), rgba(34, 211, 238, 0.2));
+  border: 1px solid rgba(232, 121, 249, 0.5);
+  box-shadow: 0 0 15px rgba(232, 121, 249, 0.2), inset 0 0 15px rgba(232, 121, 249, 0.05);
 }
 
 /* Cyberpunk icon button */
@@ -189,12 +193,12 @@ button.gradient-hover:hover {
 }
 
 .dark .cyber-icon-btn {
-  border-color: rgba(157, 78, 221, 0.3);
+  border-color: rgba(34, 211, 238, 0.3);
 }
 
 .cyber-icon-btn:hover {
   border-color: var(--neon-pink);
-  background: rgba(255, 42, 109, 0.1);
+  background: rgba(232, 121, 249, 0.1);
 }
 
 .dark .cyber-icon-btn:hover {
@@ -260,12 +264,12 @@ button.gradient-hover:hover {
 
 .dark .cyber-section {
   background: linear-gradient(135deg, rgba(10, 10, 15, 0.8), rgba(20, 10, 30, 0.6));
-  border: 1px solid rgba(157, 78, 221, 0.2);
+  border: 1px solid rgba(34, 211, 238, 0.2);
 }
 
 .dark .cyber-section:hover {
-  border-color: rgba(157, 78, 221, 0.4);
-  box-shadow: 0 0 30px rgba(157, 78, 221, 0.1), inset 0 0 30px rgba(157, 78, 221, 0.02);
+  border-color: rgba(34, 211, 238, 0.4);
+  box-shadow: 0 0 30px rgba(34, 211, 238, 0.1), inset 0 0 30px rgba(34, 211, 238, 0.02);
 }
 
 /* Corner decorations */
@@ -294,7 +298,7 @@ button.gradient-hover:hover {
 }
 
 .dark .cyber-section:hover::before {
-  box-shadow: -5px -5px 15px rgba(255, 42, 109, 0.3);
+  box-shadow: -5px -5px 15px rgba(232, 121, 249, 0.3);
 }
 
 .dark .cyber-section:hover::after {
@@ -317,7 +321,7 @@ button.gradient-hover:hover {
 .dark .cyber-project-card:hover {
   border-left-color: var(--neon-pink);
   background: linear-gradient(135deg, rgba(15, 10, 20, 0.8), rgba(20, 10, 35, 0.6));
-  box-shadow: -5px 0 20px rgba(255, 42, 109, 0.1);
+  box-shadow: -5px 0 20px rgba(232, 121, 249, 0.1);
 }
 
 /* Cyberpunk decorative line */
@@ -337,7 +341,7 @@ button.gradient-hover:hover {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(157, 78, 221, 0.1), transparent 50%, rgba(0, 212, 255, 0.1));
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.1), transparent 50%, rgba(0, 212, 255, 0.1));
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -349,7 +353,7 @@ button.gradient-hover:hover {
 
 /* Glowing text for headings */
 .dark .cyber-heading {
-  text-shadow: 0 0 20px rgba(255, 42, 109, 0.3), 0 0 40px rgba(157, 78, 221, 0.2);
+  text-shadow: 0 0 20px rgba(232, 121, 249, 0.3), 0 0 40px rgba(34, 211, 238, 0.2);
 }
 
 /* Cyberpunk list bullets */

@@ -83,7 +83,7 @@
       <ul class="space-y-2">
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute === '/' ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-lg shadow-purple-500/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-pink-400'}"
+            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute === '/' ? 'bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-white shadow-lg shadow-fuchsia-400/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-fuchsia-400'}"
             href="/"
             onclick={closeMobileMenu}
           >
@@ -92,7 +92,7 @@
         </li>
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/about') ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-lg shadow-purple-500/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-pink-400'}"
+            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/about') ? 'bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-white shadow-lg shadow-fuchsia-400/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-fuchsia-400'}"
             href="/about"
             onclick={closeMobileMenu}
           >
@@ -101,7 +101,7 @@
         </li>
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/research') ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-lg shadow-purple-500/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-pink-400'}"
+            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/research') ? 'bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-white shadow-lg shadow-fuchsia-400/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-fuchsia-400'}"
             href="/research"
             onclick={closeMobileMenu}
           >
@@ -110,7 +110,7 @@
         </li>
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/portfolio') ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-lg shadow-purple-500/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-pink-400'}"
+            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/portfolio') ? 'bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-white shadow-lg shadow-fuchsia-400/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-fuchsia-400'}"
             href="/portfolio"
             onclick={closeMobileMenu}
           >
@@ -119,7 +119,7 @@
         </li>
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/blog') ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-lg shadow-purple-500/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-pink-400'}"
+            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/blog') ? 'bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-white shadow-lg shadow-fuchsia-400/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-fuchsia-400'}"
             href="/blog"
             onclick={closeMobileMenu}
           >
@@ -128,7 +128,7 @@
         </li>
         <li>
           <a
-            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/contact') ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-lg shadow-purple-500/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-pink-400'}"
+            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/contact') ? 'bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-white shadow-lg shadow-fuchsia-400/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-fuchsia-400'}"
             href="/contact"
             onclick={closeMobileMenu}
           >
@@ -210,7 +210,7 @@
     <div class="container mx-auto py-4 px-4 flex items-center justify-between">
       <!-- Logo -->
       <a href="/" class="group">
-        <img src="/favicon.png" alt="Wasita" class="w-10 h-10 rounded-full transition-all duration-300 group-hover:ring-2 group-hover:ring-pink-500 dark:group-hover:ring-cyan-400 dark:group-hover:shadow-lg dark:group-hover:shadow-cyan-500/30" />
+        <img src="/favicon.png" alt="Wasita" class="w-10 h-10 rounded-full transition-all duration-300 group-hover:ring-2 group-hover:ring-fuchsia-400 dark:group-hover:ring-cyan-400 dark:group-hover:shadow-lg dark:group-hover:shadow-cyan-500/30" />
       </a>
 
       <!-- Desktop nav + actions -->
@@ -350,7 +350,7 @@
       <div class="flex items-center justify-center p-4 mx-4 rounded-xl">
         <p class="text-gray-600 dark:text-gray-400">
           Wasita Mahaphanit &copy; {currentYear} | Built with
-          <span class="text-pink-500 dark:text-pink-400 text-xl">&#9829;</span> ft. Svelte & Tailwind
+          <span class="text-fuchsia-400 dark:text-fuchsia-300 text-xl">&#9829;</span> ft. Svelte & Tailwind
         </p>
       </div>
     </div>

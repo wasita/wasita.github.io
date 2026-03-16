@@ -5,7 +5,7 @@
   <div class="flex flex-col-reverse lg:flex-row items-center">
     <div class="my-auto lg:w-2/4 lg:pl-16">
       <h1 class="mb-4 font-bold text-3xl lg:text-4xl cyber-heading">
-        Hi, I'm <span class="bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-400 bg-clip-text text-transparent">Wasita</span>.
+        Hi, I'm <span class="bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">Wasita</span>.
       </h1>
       <p class="text-lg lg:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
         PhD candidate studying how people navigate uncertainty about other minds through interaction and conversation
@@ -18,7 +18,7 @@
     <img
       src="/images/wasi_icon.jpg"
       alt="wasita"
-      class="object-cover w-2/3 mb-10 mx-auto transition-all duration-300 ease-in-out rounded-full hover:opacity-90 lg:w-1/4 dark:ring-2 dark:ring-purple-500/50 dark:hover:ring-pink-500/50 dark:hover:shadow-lg dark:hover:shadow-purple-500/30"
+      class="object-cover w-2/3 mb-10 mx-auto transition-all duration-300 ease-in-out rounded-full hover:opacity-90 lg:w-1/4 dark:ring-2 dark:ring-cyan-400/50 dark:hover:ring-fuchsia-400/50 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/30"
     />
   </div>
 </div>

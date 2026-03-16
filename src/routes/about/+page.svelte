@@ -3,7 +3,7 @@
 </svelte:head>
 
 <h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl cyber-heading">
-  <span class="bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-400 bg-clip-text text-transparent">About Me</span>
+  <span class="bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">About Me</span>
 </h1>
 <div class="cyber-section p-6 lg:p-12">
   <div class="max-w-[80ch] mx-auto">
@@ -13,12 +13,12 @@
         alt="Wasita"
         width="144"
         height="144"
-        class="mx-12 w-36 h-36 rounded-full object-cover transition-all duration-300 ease-in-out hover:opacity-90 dark:ring-2 dark:ring-purple-500/50 dark:hover:ring-pink-500/50"
+        class="mx-12 w-36 h-36 rounded-full object-cover transition-all duration-300 ease-in-out hover:opacity-90 dark:ring-2 dark:ring-cyan-400/50 dark:hover:ring-fuchsia-400/50 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/30"
       />
       <div class="flex-1">
         <h2 class="font-bold text-xl lg:text-2xl">Wasita Mahaphanit</h2>
         <h4 class="text-base lg:text-lg text-gray-600 dark:text-gray-400">PhD candidate @ Dartmouth College</h4>
-        <p class="text-pink-500 dark:text-pink-400 text-base lg:text-lg mt-2">
+        <p class="text-fuchsia-400 dark:text-fuchsia-300 text-base lg:text-lg mt-2">
           I study how people navigate uncertainty about other minds through interaction and conversation, and how the process of figuring each other out gives rise to social connection.
         </p>
       </div>
@@ -81,7 +81,7 @@
           >. My research focused on understanding how humans learn and make
           decisions under uncertainty, particularly within the context of
           psychiatric disorders and with a specific emphasis on obsessive
-          compulsive disorder (OCD).
+          compulsive disorder.
           <img
             src="/images/ShenhavLab_Logo.png"
             alt="shenhav lab logo"

@@ -11,7 +11,7 @@
   {#each data.posts as post}
     {#if post.meta.visible == true}
       <a
-        class="block overflow-hidden rounded-xl bg-gray-100 dark:bg-gray-800 hover:shadow-lg hover:scale-[1.02] transition-all duration-200"
+        class="group block overflow-hidden rounded-xl bg-gray-100 dark:bg-gray-800 hover:shadow-[0_0_12px_rgba(34,211,238,0.3),0_0_24px_rgba(167,139,250,0.2),0_0_36px_rgba(232,121,249,0.15)] hover:scale-[1.02] transition-all duration-200"
         href={post.path}
       >
         <header>
