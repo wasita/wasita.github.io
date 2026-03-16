@@ -109,9 +109,12 @@ In academia, finding that kind of community isn't always easy. The structures ar
 
 But aerial gave me a blueprint for what belonging can feel like. It showed me the power of shared risk, mutual support, and celebrating difference as a strength. That experience informs how I try to show up in academic spaces now: seeking out collaborators who value openness and generosity, mentoring with empathy, and trying, when I can, to carve out small pockets of weirdness, honesty, and community for others.
 
-![K and I performing together, 2016](/images/kasita_2016.jpg)
+<div style="display: flex; gap: 1rem; align-items: center; margin-bottom: 0;">
+  <img src="/images/kasita_2016.jpg" alt="K and I performing together, 2016" style="width: 50%; border-radius: 8px; margin: 0;" />
+  <img src="/images/katsita_2017.jpg" alt="K and I performing together, 2017" style="width: 50%; border-radius: 8px; margin: 0;" />
+</div>
 
-![K and I performing together, 2017](/images/katsita_2017.jpg)
+_The KatSita classic, one year apart._
 
 ## Curtain call
 
