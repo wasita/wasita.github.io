@@ -8,8 +8,7 @@
         Hi, I'm <span class="bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-400 bg-clip-text text-transparent">Wasita</span>.
       </h1>
       <p class="text-lg lg:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-        PhD candidate studying how we make sense of other people's minds and our
-        shared experiences
+        PhD candidate studying how people navigate uncertainty about other minds through interaction and conversation
       </p>
       <div class="mt-6 flex items-center gap-2">
         <span class="cyber-pulse"></span>

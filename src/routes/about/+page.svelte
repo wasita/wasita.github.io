@@ -19,8 +19,7 @@
         <h2 class="font-bold text-xl lg:text-2xl">Wasita Mahaphanit</h2>
         <h4 class="text-base lg:text-lg text-gray-600 dark:text-gray-400">PhD candidate @ Dartmouth College</h4>
         <p class="text-pink-500 dark:text-pink-400 text-base lg:text-lg mt-2">
-          I study how we make sense of other people's minds and their shared
-          experiences.
+          I study how people navigate uncertainty about other minds through interaction and conversation, and how the process of figuring each other out gives rise to social connection.
         </p>
       </div>
     </div>
