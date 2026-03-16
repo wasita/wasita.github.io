@@ -22,9 +22,9 @@ Early on, we were encouraged to try a variety of disciplines: aerial hoop, trape
 
 I'm someone who, once drawn to something, goes all in. Whether it's based on instinct or stubbornness (likely both), I tend to stay loyal to my preferences—or, to borrow some jargon from my field, I'm "internally consistent."
 
-Which brings me to 2017, back when I was an undergraduate. I saw [someone](https://eshinjolly.com/) give a talk about their gossip study, where they built a multi-player web app to study real-time social interactions. The moment I saw it, I thought _this is what I want to do_—to build interactive experiments that allow us to study communication and coordination as they unfold.
+Which brings me to 2017, back when I was an undergraduate. I saw [someone](https://eshinjolly.com/) give a talk about their gossip study, where they built a multi-player web app to study real-time social interactions. The moment I saw it, I thought _this is what I want to do_, to build interactive experiments that allow us to study communication and coordination as they unfold.
 
-That talk didn't just inspire me, it gave me a direction. Since then, I've made multi-user web apps my only approach for data collection. It's not that I've mastered it, but I know what excites me and what I aspire to get better at. That clarity has been a compass when everything else feels uncertain.
+That talk didn't just inspire me, it gave me a direction. Since then, I've made multi-user web apps my only approach for data collection. I haven't mastered it, but I know what excites me and what I aspire to get better at. That clarity has been a compass when everything else feels uncertain.
 
 To make this story even better, four years after seeing that 2017 talk, I began my PhD in January 2021 in the same lab where the speaker had been a graduate student. What could have been a momentary spark had instead lit up a research path, a mentorship-friendship I treasure, and a methodological identity I still feel deeply connected to.
 
@@ -36,7 +36,7 @@ And on a more practical level, it's also become something I can rely on. If I'm 
 
 My favorite move I taught myself was the hip hang (pictured above). It may look simple, but getting into it was a whole other story. My body didn't understand the mechanics. Initial attempts ended with me sliding out of the hoop, bruising my hip again and again until a black spot bloomed where the metal pressed into bone.
 
-I'd get frustrated, try again. Get more frustrated, try harder. For a long time, it felt like I was just failing—like my body did not belong on the hoop in that way (shocker!). But then, one day, something shifted. My muscles solved what my mind couldn't quite grasp, and I lifted into the shape. Eventually, that bruised spot went numb. Still black, but no longer painful.
+I'd get frustrated, try again. Get more frustrated, try harder. For a long time, it felt like I was just failing, like my body did not belong on the hoop in that way (shocker!). But then, one day, something shifted. My muscles solved what my mind couldn't quite grasp, and I lifted into the shape. Eventually, that bruised spot went numb. Still black, but no longer painful.
 
 Aerial taught me that grit isn't glamorous. It's boring. Repetitive. Often invisible. Progress usually feels like stagnation until suddenly it just doesn't.
 
@@ -50,9 +50,9 @@ Research works the same way. We all come in with different skillsets, and growin
 
 This progression reminds me of [this paper on the "flatland fallacy"](https://onlinelibrary.wiley.com/doi/10.1111/tops.12404) written by [Jolly](https://eshinjolly.com) and [my PhD advisor](https://lukejchang.com). They argue that many psychological theories suffer from an oversimplified, low-dimensional view of complex human phenomena. Like the Flatlanders in Edwin Abbott's novella—creatures who live in two dimensions and can't imagine a third—we too can become trapped by the limits of our own cognitive tools. But they suggest that one way out is through developing the technical skills that allow us to build more expressive, higher-dimensional models of behavior.
 
-In other words, leveling up quantitatively isn't just about checking a box or signaling competence. It's about expanding the theoretical space we're able to explore and satisfactorily study. Just as gaining strength or flexibility in aerial lets you access more dynamic movement vocabulary, building fluency in formal modeling, programming, or statistics gives you access to richer and more precise scientific questions.
+In other words, leveling up quantitatively expands the theoretical space we're able to explore and satisfactorily study. Just as gaining strength or flexibility in aerial lets you access more dynamic movement vocabulary, building fluency in formal modeling, programming, or statistics gives you access to richer and more precise scientific questions.
 
-The more dimensions you can perceive and work in, the more fully you can understand the system you're trying to model—whether that system is the human mind or the movement of your own body in the air.
+The more dimensions you can perceive and work in, the more fully you can understand the system you're trying to model, whether that system is the human mind or the movement of your own body in the air.
 
 ## Adapting to different management styles
 
@@ -71,7 +71,7 @@ I used to walk to class with earbuds in, listening to the playlist of songs I wa
 
 But that creativity didn't emerge in a vacuum. It was shaped by my constraints: what I could physically pull off without injury. My routines were built around the edges of my ability, which meant they were uniquely mine. The limitations didn't hinder the work; they shaped it.
 
-Research is like that too. One of the paradoxically liberating and anxiety-inducing things about graduate school is how little structure there really is. There's no universal PhD syllabus, no choreography to follow. Every PhD is "the same" in that it's largely shaped by the individual. Just you, your tools, your questions. Your constraints. Maybe your dataset is messy. Maybe your modeling skills aren't where you want them to be. That doesn't make your work worse—-it makes it yours.
+Research is like that too. One of the paradoxically liberating and anxiety-inducing things about graduate school is how little structure there really is. There's no universal PhD syllabus, no choreography to follow. Every PhD is "the same" in that it's largely shaped by the individual. Just you, your tools, your questions. Your constraints. Maybe your dataset is messy. Maybe your modeling skills aren't where you want them to be. That's exactly what makes your work yours.
 
 Leaning into that autonomy, learning to choreograph my own research journey, has helped me feel less overwhelmed by the unknown and more confident in what I can create. Imperfect but uniquely mine.
 
@@ -92,7 +92,7 @@ And as we developed routines together, we also developed our own internal vocabu
 
 Over time, this vocabulary allowed us to move together more fluidly, without having to explain every detail. Eventually, we didn't need to talk at all. By the time we performed our final duo act, we were in sync, able to anticipate each other's timing, weight shifts, and intentions with near-perfect precision.
 
-That shared understanding didn't just make things easier, it made things better. Our routines reflected a partnership that had been built over years of trust, improvisation, and collaboration. Because our communication and movement were so tightly integrated, our performances had a kind of rhythm and playfulness that felt uniquely us. Compared to solo acts, our routines offered something more unexpected—more dynamic, more relational, more fun to watch (or so I have been told!)
+That shared understanding didn't just make things easier, it made things better. Our routines reflected a partnership that had been built over years of trust, improvisation, and collaboration. Because our communication and movement were so tightly integrated, our performances had a kind of rhythm and playfulness that felt uniquely us. Compared to solo acts, our routines offered something more unexpected: more dynamic, more relational, more fun to watch (or so I have been told!)
 
 Reflecting on this now, I'm reminded of research on coordination and shared understanding. In particular, [McCarthy & Hawkins, et al., 2021](https://arxiv.org/abs/2107.00077) studied how people develop their own shorthand when working together on physical tasks, much like K and I did. They found that over time, people naturally create their own language for complex movements, building up shared understanding through experience. That dynamic felt exactly like our journey: starting with careful, explicit instructions, then gradually building up our own vocabulary that let us move together seamlessly. Our "Tweedle Dee" wasn't just a name; it was a scaffold for joint understanding and collaborative movement. It was also creative expression that neither of us could have achieved alone.
 
@@ -101,9 +101,9 @@ _A group photo of the aerial club from our water-themed show. K and I performed 
 
 ## An interdisciplinary community of misfits
 
-One of the most unexpected gifts of aerial was the community it brought me into. Aerial spaces tend to attract people who never quite fit into traditional molds—a safe haven for anyone who's ever dreamed of abandoning societal expectations and "running off to the circus." It's a space where things are more strange, more creative, more free. Everyone is weird in their own way, and no one's trying to hide it.
+One of the most unexpected gifts of aerial was the community it brought me into. Aerial spaces tend to attract people who never quite fit into traditional molds, a safe haven for anyone who's ever dreamed of abandoning societal expectations and "running off to the circus." It's a space where things are more strange, more creative, more free. Everyone is weird in their own way, and no one's trying to hide it.
 
-Some of us came to the club from dance or gymnastics. Others had been circus performers, ultimate frisbee players, martial artists, or even tree climbers. Everyone brought their own skills, strengths, and styles, and there was room for all of it. That kind of eclectic, non-hierarchical energy made it one of the first spaces where I felt truly comfortable taking up space—not because I was the best, but because being different was the norm.
+Some of us came to the club from dance or gymnastics. Others had been circus performers, ultimate frisbee players, martial artists, or even tree climbers. Everyone brought their own skills, strengths, and styles, and there was room for all of it. That kind of eclectic, non-hierarchical energy made it one of the first spaces where I felt truly comfortable taking up space, because being different was the norm.
 
 In academia, finding that kind of community isn't always easy. The structures are more rigid. The pressure to conform and to be impressive in a specific way is much higher. If you don't see yourself reflected in your cohort, your department, or your field, it can feel deeply isolating.
 
@@ -111,7 +111,7 @@ But aerial gave me a blueprint for what belonging can feel like. It showed me th
 
 ## Curtain call
 
-So maybe it's not vanity that brings me back to those old performance videos. Maybe it's a way of remembering who I am and who I've always been becoming.
+So maybe what brings me back to those old performance videos is something deeper than vanity. Maybe it's a way of remembering who I am and who I've always been becoming.
 
 Aerial taught me to persist through pain, to experiment boldly, to communicate with care, and to seek out communities where I feel seen. These lessons have followed me into the lab, into my methodological approaches, into the questions I care about. They shape how I move through academia: not with perfect grace, but with a kind of practiced stubbornness. A relentless willingness to try again.
 
