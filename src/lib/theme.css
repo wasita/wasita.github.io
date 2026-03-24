@@ -102,7 +102,7 @@
   --regent-st-blue: #a7d8e5;
 }
 
-a:hover {
+a:not(.cyber-btn):hover {
   background: radial-gradient(ellipse at bottom, #99f6e4, #93c5fd, #c4b5fd);
   text-shadow: -0.15em 0.15em 0.42em #fff, 0.15em -0.15em 0.31em #fff,
     -0.15em -0.15em 1.3em #fff;
@@ -110,7 +110,7 @@ a:hover {
   transition: all 0.1s ease-in-out 0s;
 }
 
-.dark a:hover {
+.dark a:not(.cyber-btn):hover {
   background: radial-gradient(ellipse at bottom, #99f6e4, #93c5fd, #c4b5fd);
   text-shadow: -0.15em 0.15em 0.42em #000, 0.15em -0.15em 0.31em #000,
     -0.15em -0.15em 1.3em #000;

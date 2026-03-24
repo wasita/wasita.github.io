@@ -64,28 +64,29 @@ html {
 
 /* Custom link and button hover effects - cyberpunk style */
 /* Exclude navigation elements and buttons from the global link hover */
-a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.group):hover,
+/* Pre-apply padding/margin so hover doesn't shift geometry (prevents flicker) */
+a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.group):not(.cyber-btn),
+button.gradient-hover {
+  padding: 1px 4px;
+  margin: -1px -4px;
+  border-radius: 4px;
+  transition: all 0.15s ease-in-out;
+}
+
+a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.group):not(.cyber-btn):hover,
 button.gradient-hover:hover {
   background: linear-gradient(135deg, #22d3ee, #a78bfa, #e879f9);
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   box-shadow: 0 0 8px rgba(34, 211, 238, 0.4), 0 0 20px rgba(167, 139, 250, 0.3), 0 0 35px rgba(232, 121, 249, 0.2);
   color: #fff;
-  border-radius: 4px;
-  padding: 1px 4px;
-  margin: -1px -4px;
-  transition: all 0.15s ease-in-out;
 }
 
-.dark a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.group):hover,
+.dark a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.group):not(.cyber-btn):hover,
 .dark button.gradient-hover:hover {
   background: linear-gradient(135deg, #22d3ee, #a78bfa, #e879f9);
   text-shadow: 0 0 5px #fff, 0 0 10px var(--neon-pink), 0 0 20px var(--neon-blue);
   box-shadow: 0 0 10px rgba(34, 211, 238, 0.5), 0 0 25px rgba(167, 139, 250, 0.4), 0 0 45px rgba(232, 121, 249, 0.3);
   color: #fff;
-  border-radius: 4px;
-  padding: 1px 4px;
-  margin: -1px -4px;
-  transition: all 0.15s ease-in-out;
 }
 
 @keyframes gradient-shift {
