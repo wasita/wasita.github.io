@@ -44,7 +44,7 @@
             decoding="async"
             class="w-28 float-right ml-4 dark:invert"
           />
-          I am currently a final-year PhD candidate (expected graduation: May 2026) in the
+          I am currently a final-year PhD candidate (expected graduation: June 2026) in the
           <a href="https://pbs.dartmouth.edu/"
             >Psychological & Brain Sciences department</a
           >
