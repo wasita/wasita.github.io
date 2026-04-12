@@ -110,6 +110,15 @@
         </li>
         <li>
           <a
+            class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/publications') ? 'bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-white shadow-lg shadow-fuchsia-400/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-fuchsia-400'}"
+            href="/publications"
+            onclick={closeMobileMenu}
+          >
+            Publications
+          </a>
+        </li>
+        <li>
+          <a
             class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/portfolio') ? 'bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-white shadow-lg shadow-fuchsia-400/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-fuchsia-400'}"
             href="/portfolio"
             onclick={closeMobileMenu}
@@ -243,6 +252,12 @@
             href="/research"
           >
             Research
+          </a>
+          <a
+            class="cyber-nav-link {currentRoute.includes('/publications') ? 'active' : ''}"
+            href="/publications"
+          >
+            Publications
           </a>
           <a
             class="cyber-nav-link {currentRoute.includes('/portfolio') ? 'active' : ''}"
