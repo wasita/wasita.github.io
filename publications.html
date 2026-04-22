@@ -5,15 +5,13 @@
     <link rel="icon" href="./favicon.png" />
     <meta name="viewport" content="width=device-width" />
 
-    <!-- Theme initialization (default to dark) -->
+    <!-- Theme initialization: respect saved preference, fall back to system -->
     <script>
       (function() {
-        const theme = localStorage.getItem('theme');
-        // Default to dark if no preference stored
-        if (theme === 'light') {
-          document.documentElement.classList.remove('dark');
-        }
-        // If theme is 'dark' or not set, dark class is already on html element
+        const saved = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const useDark = saved ? saved === 'dark' : prefersDark;
+        document.documentElement.classList.toggle('dark', useDark);
       })();
     </script>
 
@@ -31,26 +29,26 @@
       gtag("config", "G-TKN7CL3631");
     </script>
 
-    <link href="./_app/immutable/entry/start.CL_HOQLN.js" rel="modulepreload">
-		<link href="./_app/immutable/chunks/C9EeNISr.js" rel="modulepreload">
+    <link href="./_app/immutable/entry/start.DJlUozCm.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/D7aCQdBS.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/B-OmOQQj.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/CD02haip.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/BqG03r29.js" rel="modulepreload">
-		<link href="./_app/immutable/entry/app.DCMjGCDd.js" rel="modulepreload">
+		<link href="./_app/immutable/entry/app.B-Rg7xYb.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/_ZKjNvk_.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/DDFHOWAA.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/DsnmJJEf.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/Cisy6XtA.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/DG_h21b9.js" rel="modulepreload">
-		<link href="./_app/immutable/nodes/0.DFBfrGpa.js" rel="modulepreload">
+		<link href="./_app/immutable/nodes/0.CizzL6pO.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/8rZBcCsQ.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/tpzJQS74.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/CXio9bia.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/i2v3XYwo.js" rel="modulepreload">
 		<link href="./_app/immutable/nodes/8.ZhWzPfQl.js" rel="modulepreload">
 		<link href="./_app/immutable/chunks/DJ0khdlC.js" rel="modulepreload">
-		<!--12qhfyh--><meta name="description" content="Wasita Mahaphanit — PhD candidate at Dartmouth studying how people navigate uncertainty about other minds through interaction and conversation."/> <meta property="og:title" content="wasita.space"/> <meta property="og:description" content="PhD candidate at Dartmouth studying how people navigate uncertainty about other minds through interaction and conversation."/> <meta property="og:image" content="https://wasita.space/images/wasi_icon.jpg"/> <meta property="og:url" content="https://wasita.space"/> <meta property="og:type" content="website"/> <meta name="twitter:card" content="summary"/> <meta name="twitter:title" content="wasita.space"/> <meta name="twitter:description" content="PhD candidate at Dartmouth studying how people navigate uncertainty about other minds through interaction and conversation."/> <meta name="twitter:image" content="https://wasita.space/images/wasi_icon.jpg"/><!----><!--1ix0gvc--><!----><title>Publications · wasita.space</title>
-		<link href="./_app/immutable/assets/0.BfX4eqFV.css" rel="stylesheet">
+		<!--12qhfyh--><meta name="description" content="Wasita Mahaphanit — PhD candidate at Dartmouth studying how people navigate uncertainty about other minds through interaction and conversation."/> <meta property="og:title" content="wasita.space"/> <meta property="og:description" content="PhD candidate at Dartmouth studying how people navigate uncertainty about other minds through interaction and conversation."/> <meta property="og:image" content="https://wasita.space/images/og-image.png"/> <meta property="og:image:width" content="1200"/> <meta property="og:image:height" content="630"/> <meta property="og:url" content="https://wasita.space"/> <meta property="og:type" content="website"/> <meta name="twitter:card" content="summary_large_image"/> <meta name="twitter:title" content="wasita.space"/> <meta name="twitter:description" content="PhD candidate at Dartmouth studying how people navigate uncertainty about other minds through interaction and conversation."/> <meta name="twitter:image" content="https://wasita.space/images/og-image.png"/><!----><!--1ix0gvc--><!----><title>Publications · wasita.space</title>
+		<link href="./_app/immutable/assets/0.vqPX56vY.css" rel="stylesheet">
   </head>
   <body data-sveltekit-preload-data="hover" data-theme="skeleton">
     <div style="display: contents" class="h-full overflow-hidden">
@@ -59,15 +57,15 @@
 			
 			<script>
 				{
-					__sveltekit_1tepp01 = {
+					__sveltekit_yii4kd = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.CL_HOQLN.js"),
-						import("./_app/immutable/entry/app.DCMjGCDd.js")
+						import("./_app/immutable/entry/start.DJlUozCm.js"),
+						import("./_app/immutable/entry/app.B-Rg7xYb.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 8],
