@@ -22,7 +22,7 @@
  <div class="flex-1">
  <div class="block lg:pl-12">
  <h2 class="font-bold text-xl lg:text-2xl">Magic Garden Game Bot</h2>
- <h3 class="text-base lg:text-lg text-gray-600 dark:text-gray-400">Project Author (2025-Present)</h3>
+ <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2025-Present)</h3>
  <div class="py-2">
  <span
  class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
@@ -73,7 +73,7 @@
  <div class="flex-1">
  <div class="block lg:pl-12">
  <h2 class="font-bold text-xl lg:text-2xl">Send2Kobo</h2>
- <h3 class="text-base lg:text-lg text-gray-600 dark:text-gray-400">Project Author (2025-Present)</h3>
+ <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2025-Present)</h3>
  <div class="py-2">
  <span
  class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
@@ -132,7 +132,7 @@
  <div class="flex-1">
  <div class="block lg:pl-12">
  <h2 class="font-bold text-xl lg:text-2xl">Real-time dyadic chat app template</h2>
- <h3 class="text-base lg:text-lg text-gray-600 dark:text-gray-400">Project Author (2023-Present)</h3>
+ <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2023-Present)</h3>
  <div class="py-2">
  <span
  class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
@@ -181,7 +181,7 @@
  <div class="flex-1">
  <div class="block lg:pl-12">
  <h2 class="font-bold text-xl lg:text-2xl">Svelte Radio Podcast</h2>
- <h3 class="text-base lg:text-lg text-gray-600 dark:text-gray-400">Episode Guest (2023)</h3>
+ <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Episode Guest (2023)</h3>
  <div class="py-2">
  <span
  class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
@@ -226,7 +226,7 @@
  <div class="flex-1">
  <div class="block lg:pl-12">
  <h2 class="font-bold text-xl lg:text-2xl">Interactive 2-player trust game</h2>
- <h3 class="text-base lg:text-lg text-gray-600 dark:text-gray-400">Project Author (2023-Present)</h3>
+ <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2023-Present)</h3>
  <div class="py-2">
  <span
  class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
@@ -286,7 +286,7 @@
  <h2 class="font-bold text-xl lg:text-2xl">
  Women in Network Science (WiNS) Society members database
  </h2>
- <h3 class="text-base lg:text-lg text-gray-600 dark:text-gray-400">Project Author (2022-Present)</h3>
+ <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2022-Present)</h3>
  <div class="py-2">
  <span
  class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
@@ -327,7 +327,7 @@
  <h2 class="font-bold text-xl lg:text-2xl">
  Multi-user synchronous video streaming & chat app platform
  </h2>
- <h3 class="text-base lg:text-lg text-gray-600 dark:text-gray-400">Project Author (2021-Present)</h3>
+ <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2021-Present)</h3>
  <div class="py-2">
  <span
  class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
@@ -374,7 +374,7 @@
  <div class="flex-1">
  <div class="block lg:pl-12">
  <h2 class="font-bold text-xl lg:text-2xl">DartBrains: Intro to fMRI</h2>
- <h3 class="text-base lg:text-lg text-gray-600 dark:text-gray-400">Contributor (2021-Present)</h3>
+ <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Contributor (2021-Present)</h3>
  <div class="py-2">
  <span
  class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
@@ -416,7 +416,7 @@
  <div class="flex-1">
  <div class="block lg:pl-12">
  <h2 class="font-bold text-xl lg:text-2xl">Info theory for Social Neuroscientists</h2>
- <h3 class="text-base lg:text-lg text-gray-600 dark:text-gray-400">Contributor (2022)</h3>
+ <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Contributor (2022)</h3>
  <div class="py-2">
  <span
  class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
@@ -461,7 +461,7 @@
  <div class="flex-1">
  <div class="block lg:pl-12">
  <h2 class="font-bold text-xl lg:text-2xl">Honeycomb</h2>
- <h3 class="text-base lg:text-lg text-gray-600 dark:text-gray-400">Software Developer (2019-2021)</h3>
+ <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Software Developer (2019-2021)</h3>
  <div class="py-2">
  <span
  class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"

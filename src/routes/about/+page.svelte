@@ -18,7 +18,7 @@
  />
  <div class="flex-1">
  <h2 class="font-bold text-xl lg:text-2xl">Wasita Mahaphanit</h2>
- <h3 class="text-base lg:text-lg text-gray-600 dark:text-gray-400">PhD candidate @ Dartmouth College</h3>
+ <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">PhD candidate @ Dartmouth College</h3>
  <p class="text-fuchsia-400 dark:text-fuchsia-300 text-base lg:text-lg mt-2">
  I study how people navigate uncertainty about other minds through interaction and conversation, and how the process of figuring each other out gives rise to social connection.
  </p>

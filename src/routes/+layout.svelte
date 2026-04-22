@@ -374,7 +374,7 @@
  <footer class="py-4 border-t border-gray-200 dark:border-purple-900/30">
  <div class="container mx-auto">
  <div class="flex items-center justify-center p-4 mx-4 rounded-xl">
- <p class="text-gray-600 dark:text-gray-400">
+ <p class="text-gray-700 dark:text-gray-300">
  Wasita Mahaphanit &copy; {currentYear} | Built with
  <span class="text-fuchsia-400 dark:text-fuchsia-300 text-xl">&#9829;</span> ft. Svelte & Tailwind
  </p>

@@ -37,7 +37,7 @@
  </div>
  <footer class="px-4 pb-4">
  <hr class="opacity-30 mb-3" />
- <small class="text-gray-500 dark:text-gray-400">Last updated: {post.meta.date}</small>
+ <small class="text-gray-700 dark:text-gray-300">Last updated: {post.meta.date}</small>
  </footer>
  </a>
  {/if}

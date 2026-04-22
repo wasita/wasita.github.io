@@ -12,7 +12,7 @@
  </p>
  <div class="mt-6 flex items-center gap-2">
  <span class="cyber-pulse"></span>
- <span class="text-sm text-gray-500 dark:text-gray-400 cyber-terminal">status: dissertating</span>
+ <span class="text-sm text-gray-700 dark:text-gray-300 cyber-terminal">status: dissertating</span>
  </div>
  </div>
  <img
