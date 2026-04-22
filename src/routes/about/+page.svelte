@@ -49,14 +49,14 @@
  <a href="https://pbs.dartmouth.edu/" target="_blank" rel="noreferrer"
  >Psychological & Brain Sciences department</a
  >
- at Dartmouth College, working in the
- <a href="https://cosanlab.com/" target="_blank" rel="noreferrer">
- Computational Social Affective Neuroscience (COSAN) Lab</a
- >, where I work with
+ at Dartmouth College, advised by
  <a href="https://pbs.dartmouth.edu/people/luke-j-chang" target="_blank" rel="noreferrer">
  Luke J. Chang</a
  >
- and collaborate with
+ in the
+ <a href="https://cosanlab.com/" target="_blank" rel="noreferrer">
+ Computational Social Affective Neuroscience (COSAN) Lab</a
+ >, and collaborating with
  <a href="https://profiles.stanford.edu/robert-hawkins" target="_blank" rel="noreferrer">
  Robert Hawkins
  </a>
@@ -81,8 +81,7 @@
  >Lab of Neural Computation + Cognition</a
  >. My research focused on understanding how humans learn and make
  decisions under uncertainty, particularly within the context of
- psychiatric disorders and with a specific emphasis on obsessive
- compulsive disorder.
+ psychiatric disorders and with a specific emphasis on obsessive-compulsive disorder.
  <img
  src="/images/ShenhavLab_Logo.png"
  alt="shenhav lab logo"
