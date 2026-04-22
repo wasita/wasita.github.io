@@ -1,5 +1,5 @@
 <svelte:head>
- <title>Contact · wasita.space</title>
+ <title>contact · wasita.space</title>
 </svelte:head>
 
 <h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl cyber-heading">

@@ -1,5 +1,5 @@
 <svelte:head>
- <title>About · wasita.space</title>
+ <title>about · wasita.space</title>
  <link rel="preload" as="image" href="/images/joji-cuddles.png" />
 </svelte:head>
 
