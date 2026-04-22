@@ -52,21 +52,30 @@
 
 <svelte:head>
  <title>wasita.space</title>
+ <meta name="description" content="Wasita Mahaphanit — PhD candidate at Dartmouth studying how people navigate uncertainty about other minds through interaction and conversation." />
+ <meta property="og:title" content="wasita.space" />
+ <meta property="og:description" content="PhD candidate at Dartmouth studying how people navigate uncertainty about other minds through interaction and conversation." />
+ <meta property="og:image" content="https://wasita.space/images/wasi_icon.jpg" />
+ <meta property="og:url" content="https://wasita.space" />
+ <meta property="og:type" content="website" />
+ <meta name="twitter:card" content="summary" />
+ <meta name="twitter:title" content="wasita.space" />
+ <meta name="twitter:description" content="PhD candidate at Dartmouth studying how people navigate uncertainty about other minds through interaction and conversation." />
+ <meta name="twitter:image" content="https://wasita.space/images/wasi_icon.jpg" />
 </svelte:head>
+
+<svelte:window onkeydown={(e) => mobileMenuOpen && e.key === "Escape" && closeMobileMenu()} />
 
 <!-- Mobile menu overlay -->
 {#if mobileMenuOpen}
- <div
- class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm lg:hidden"
+ <div class="fixed inset-0 z-50 lg:hidden">
+ <button
+ class="absolute inset-0 w-full h-full bg-black/70 backdrop-blur-sm"
  onclick={closeMobileMenu}
- onkeydown={(e) => e.key === "Escape" && closeMobileMenu()}
- role="button"
- tabindex="0"
- >
+ aria-label="Close menu"
+ ></button>
  <div
  class="absolute right-0 top-0 h-full w-80 bg-gray-100 dark:bg-[#0a0a0f] dark:border-l dark:border-purple-500/30 text-black dark:text-white p-6"
- onclick={(e) => e.stopPropagation()}
- onkeydown={() => {}}
  role="dialog"
  aria-modal="true"
  tabindex="-1"

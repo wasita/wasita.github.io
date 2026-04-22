@@ -1,3 +1,7 @@
+<svelte:head>
+ <title>404 · wasita.space</title>
+</svelte:head>
+
 <div class="text-center">
  <h1>404</h1>
  <h3>Page not found</h3>

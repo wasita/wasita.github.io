@@ -1,4 +1,5 @@
 <svelte:head>
+ <title>About · wasita.space</title>
  <link rel="preload" as="image" href="/images/joji-cuddles.png" />
 </svelte:head>
 
@@ -17,7 +18,7 @@
  />
  <div class="flex-1">
  <h2 class="font-bold text-xl lg:text-2xl">Wasita Mahaphanit</h2>
- <h4 class="text-base lg:text-lg text-gray-600 dark:text-gray-400">PhD candidate @ Dartmouth College</h4>
+ <h3 class="text-base lg:text-lg text-gray-600 dark:text-gray-400">PhD candidate @ Dartmouth College</h3>
  <p class="text-fuchsia-400 dark:text-fuchsia-300 text-base lg:text-lg mt-2">
  I study how people navigate uncertainty about other minds through interaction and conversation, and how the process of figuring each other out gives rise to social connection.
  </p>
@@ -45,22 +46,22 @@
  class="w-28 float-right ml-4 dark:invert"
  />
  I am currently a final-year PhD candidate (expected graduation: June 2026) in the
- <a href="https://pbs.dartmouth.edu/"
+ <a href="https://pbs.dartmouth.edu/" target="_blank" rel="noreferrer"
  >Psychological & Brain Sciences department</a
  >
  at Dartmouth College, working in the
- <a href="https://cosanlab.com/">
+ <a href="https://cosanlab.com/" target="_blank" rel="noreferrer">
  Computational Social Affective Neuroscience (COSAN) Lab</a
  >, where I work with
- <a href="https://pbs.dartmouth.edu/people/luke-j-chang">
+ <a href="https://pbs.dartmouth.edu/people/luke-j-chang" target="_blank" rel="noreferrer">
  Luke J. Chang</a
  >
  and collaborate with
- <a href="https://profiles.stanford.edu/robert-hawkins">
+ <a href="https://profiles.stanford.edu/robert-hawkins" target="_blank" rel="noreferrer">
  Robert Hawkins
  </a>
  and
- <a href="https://faculty-directory.dartmouth.edu/jonathan-s-phillips">
+ <a href="https://faculty-directory.dartmouth.edu/jonathan-s-phillips" target="_blank" rel="noreferrer">
  Jonathan Phillips</a
  >. See my <a href="/research">research interests</a> page for more details.
  </p>
@@ -75,8 +76,8 @@
  class="w-24 float-left mr-4 dark:invert"
  />
  Prior to graduate school, I worked as the lab manager of
- <a href="http://ski.clps.brown.edu/">Michael J. Frank</a>'s
- <a href="https://www.lnccbrown.com/"
+ <a href="https://ski.clps.brown.edu/" target="_blank" rel="noreferrer">Michael J. Frank</a>'s
+ <a href="https://www.lnccbrown.com/" target="_blank" rel="noreferrer"
  >Lab of Neural Computation + Cognition</a
  >. My research focused on understanding how humans learn and make
  decisions under uncertainty, particularly within the context of
@@ -92,7 +93,7 @@
  class="w-32 float-right dark:invert"
  />
  Before that, I also worked as an undergraduate research assistant in
- <a href="https://www.shenhavlab.org/">Amitai Shenhav's Lab</a>, where
+ <a href="https://www.shenhavlab.org/" target="_blank" rel="noreferrer">Amitai Shenhav's Lab</a>, where
  I studied performance monitoring and cognitive control within the
  context of task-switching.
  </p>
@@ -110,14 +111,14 @@
  />
  Outside of research, I enjoy ruminating while showering, cuddling with
  my kitty Joji (pictured above), and playing video games (currently
- <a href="https://www.youtube.com/watch?v=2p-5RXAitTI"
+ <a href="https://www.youtube.com/watch?v=2p-5RXAitTI" target="_blank" rel="noreferrer"
  >Baldur's Gate 3</a
  >
  and
- <a href="https://www.youtube.com/watch?v=xj-MRvcXHgw">Elden Ring</a>).
+ <a href="https://www.youtube.com/watch?v=xj-MRvcXHgw" target="_blank" rel="noreferrer">Elden Ring</a>).
  In a past life, I practiced
- <a href="https://www.instagram.com/wasiaerial/">aerial hoop/lyra</a>.
- Nowadays, I attend <a href="https://uvcircus.com/">UVCC</a> workshops when
+ <a href="https://www.instagram.com/wasiaerial/" target="_blank" rel="noreferrer">aerial hoop/lyra</a>.
+ Nowadays, I attend <a href="https://uvcircus.com/" target="_blank" rel="noreferrer">UVCC</a> workshops when
  I can.
  </p>
  </div>

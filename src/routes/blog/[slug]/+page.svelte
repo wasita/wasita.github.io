@@ -2,6 +2,10 @@
  let { data } = $props();
 </script>
 
+<svelte:head>
+ <title>{data.title} · wasita.space</title>
+</svelte:head>
+
 <article class="prose prose-lg dark:prose-invert max-w-4xl mx-auto px-4">
  <div
  class="rounded-xl text-center bg-cover mb-8 overflow-hidden"

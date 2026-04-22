@@ -2,6 +2,10 @@
  import Icon from "@iconify/svelte";
 </script>
 
+<svelte:head>
+ <title>Portfolio · wasita.space</title>
+</svelte:head>
+
 <h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl cyber-heading">
  <span class="bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">I like building stuff</span>
 </h1>
@@ -150,28 +154,15 @@
  </span>
  </div>
  <p>
- To be released soon, this project is a platform for creating dyadic
- chat apps using a server-less framework (i.e., no need for web
- sockets/socket.io for user-to-user communication).
+ A platform for creating dyadic chat apps using a server-less framework (i.e., no need for web
+ sockets/socket.io for user-to-user communication). Currently used for research; source code not yet public.
  </p>
  <p class="mt-2">
- Featured in <a href="https://osf.io/preprints/psyarxiv/g9p3e"
+ Featured in <a href="https://osf.io/preprints/psyarxiv/g9p3e" target="_blank" rel="noreferrer"
  >this preprint</a
  > and presented in a talk given at the 2023 MIND summer school in Hanover,
  NH.
  </p>
- <div class="mt-4">
- <button
- class="inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
- disabled
- aria-label="To be announced">TBA</button
- >
- <button
- class="inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
- disabled
- aria-label="GitHub repository is private">GitHub (private)</button
- >
- </div>
  </div>
  </div>
  </div>
@@ -358,26 +349,13 @@
  </span>
  </div>
  <p>
- To be released soon, this project is a platform for creating
- multi-user chat apps with synchronous video streaming. Implemented in
- both a server-less and server-based framework.
+ A platform for creating multi-user chat apps with synchronous video streaming, implemented in
+ both a server-less and server-based framework. Currently used for research; source code not yet public.
  </p>
  <p class="mt-2">
  Presented in a poster at the 2023 SANS annual meeting in Santa
  Barbara, CA.
  </p>
- <div class="mt-4">
- <button
- class="inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
- disabled
- aria-label="To be announced">TBA</button
- >
- <button
- class="inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
- disabled
- aria-label="GitHub repository is private">GitHub (private)</button
- >
- </div>
  </div>
  </div>
  </div>

@@ -1,3 +1,7 @@
+<svelte:head>
+ <title>Research · wasita.space</title>
+</svelte:head>
+
 <h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl cyber-heading">
  <span class="bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">Research Interests</span>
 </h1>
@@ -6,9 +10,9 @@
  <div class="max-w-[80ch] mx-auto">
  <div class="flex my-4">
  <div class="flex-1">
- <h3 class="text-fuchsia-400 dark:text-fuchsia-300 font-semibold text-lg lg:text-xl leading-relaxed">
+ <h2 class="text-fuchsia-400 dark:text-fuchsia-300 font-semibold text-lg lg:text-xl leading-relaxed">
  I study how people navigate uncertainty about other minds through interaction and conversation, and how the process of figuring each other out gives rise to social connection.
- </h3>
+ </h2>
  <div class="text-base lg:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
  <p class="pt-4 text-left">
  When we meet someone new, we have direct access only to our own thoughts, feelings, and experiences. Yet we routinely form impressions of others, discover what we have in common, and build genuine bonds, often remarkably quickly. How do we infer, from sparse evidence, what we likely have in common with someone? What makes some discovered commonalities feel meaningful while others feel inconsequential? And how does real interaction shape the inferences we draw about others' minds?

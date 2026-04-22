@@ -1,3 +1,7 @@
+<svelte:head>
+ <title>Contact · wasita.space</title>
+</svelte:head>
+
 <h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl cyber-heading">
  <span class="bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">Contact</span>
 </h1>
@@ -10,7 +14,7 @@
  <div class="flex flex-col gap-1">
  <label class="font-medium text-sm" for="name">Name</label>
  <input
- class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500"
+ class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-400"
  type="text"
  name="name"
  id="name"
@@ -21,7 +25,7 @@
  <div class="flex flex-col gap-1">
  <label class="font-medium text-sm" for="email">E-mail</label>
  <input
- class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500"
+ class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-400"
  type="email"
  name="_replyto"
  id="email"
@@ -32,7 +36,7 @@
  <div class="flex flex-col gap-1">
  <label class="font-medium text-sm" for="subject">Subject</label>
  <input
- class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500"
+ class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-400"
  type="text"
  name="subject"
  id="subject"
@@ -42,7 +46,7 @@
  <div class="flex flex-col gap-1">
  <label class="font-medium text-sm" for="message">Message</label>
  <textarea
- class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-500 resize-y"
+ class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 resize-y"
  name="message"
  rows="4"
  id="message"
