@@ -17,6 +17,32 @@
  </p>
 
  <h3 class="text-cyan-500 dark:text-cyan-400 font-semibold text-base lg:text-lg uppercase tracking-wider mt-4 mb-3">
+ In prep
+ </h3>
+ <ul class="space-y-5 text-base lg:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+ <li>
+ <span class="text-gray-500 dark:text-gray-400">[in prep]</span>
+ <strong>Mahaphanit, W.</strong>, Mills, K.<span class="text-cyan-500 dark:text-cyan-400">†</span>, &amp; Chang, L. J.
+ <span class="font-semibold text-gray-900 dark:text-gray-100">Beyond self-disclosure: A hierarchy of cumulative relational depth predicts social connection.</span>
+ </li>
+ <li>
+ <span class="text-gray-500 dark:text-gray-400">[in prep]</span>
+ <strong>Mahaphanit, W.</strong>, Templeton, E., &amp; Chang, L. J.
+ <span class="font-semibold text-gray-900 dark:text-gray-100">Experimentally-induced small gaps in conversation lead to stronger connection in strangers.</span>
+ </li>
+ <li>
+ <span class="text-gray-500 dark:text-gray-400">[in prep]</span>
+ <strong>Mahaphanit, W.</strong>, Mills, K.<span class="text-cyan-500 dark:text-cyan-400">†</span>, Templeton, E., &amp; Chang, L. J.
+ <span class="font-semibold text-gray-900 dark:text-gray-100">Are shared experiences blind?</span>
+ </li>
+ <li>
+ <span class="text-gray-500 dark:text-gray-400">[in prep]</span>
+ <strong>Mahaphanit, W.</strong> &amp; Chang, L. J.
+ <span class="font-semibold text-gray-900 dark:text-gray-100">Communication as behavioral annotation for naturalistic stimuli.</span>
+ </li>
+ </ul>
+
+ <h3 class="text-cyan-500 dark:text-cyan-400 font-semibold text-base lg:text-lg uppercase tracking-wider mt-8 mb-3">
  Preprints
  </h3>
  <ul class="space-y-5 text-base lg:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
