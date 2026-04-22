@@ -5,15 +5,13 @@
     <link rel="icon" href="%sveltekit.assets%/favicon.png" />
     <meta name="viewport" content="width=device-width" />
 
-    <!-- Theme initialization (default to dark) -->
+    <!-- Theme initialization: respect saved preference, fall back to system -->
     <script>
       (function() {
-        const theme = localStorage.getItem('theme');
-        // Default to dark if no preference stored
-        if (theme === 'light') {
-          document.documentElement.classList.remove('dark');
-        }
-        // If theme is 'dark' or not set, dark class is already on html element
+        const saved = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const useDark = saved ? saved === 'dark' : prefersDark;
+        document.documentElement.classList.toggle('dark', useDark);
       })();
     </script>
 

@@ -55,13 +55,15 @@
  <meta name="description" content="Wasita Mahaphanit — PhD candidate at Dartmouth studying how people navigate uncertainty about other minds through interaction and conversation." />
  <meta property="og:title" content="wasita.space" />
  <meta property="og:description" content="PhD candidate at Dartmouth studying how people navigate uncertainty about other minds through interaction and conversation." />
- <meta property="og:image" content="https://wasita.space/images/wasi_icon.jpg" />
+ <meta property="og:image" content="https://wasita.space/images/og-image.png" />
+ <meta property="og:image:width" content="1200" />
+ <meta property="og:image:height" content="630" />
  <meta property="og:url" content="https://wasita.space" />
  <meta property="og:type" content="website" />
- <meta name="twitter:card" content="summary" />
+ <meta name="twitter:card" content="summary_large_image" />
  <meta name="twitter:title" content="wasita.space" />
  <meta name="twitter:description" content="PhD candidate at Dartmouth studying how people navigate uncertainty about other minds through interaction and conversation." />
- <meta name="twitter:image" content="https://wasita.space/images/wasi_icon.jpg" />
+ <meta name="twitter:image" content="https://wasita.space/images/og-image.png" />
 </svelte:head>
 
 <svelte:window onkeydown={(e) => mobileMenuOpen && e.key === "Escape" && closeMobileMenu()} />
