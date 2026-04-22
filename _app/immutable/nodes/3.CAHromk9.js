@@ -8,4 +8,4 @@ import"../chunks/DsnmJJEf.js";import"../chunks/DJ0khdlC.js";import{a,e as i,f as
  my kitty Joji (pictured above), and playing video games (currently <a href="https://www.youtube.com/watch?v=2p-5RXAitTI" target="_blank" rel="noreferrer">Baldur's Gate 3</a> and <a href="https://www.youtube.com/watch?v=xj-MRvcXHgw" target="_blank" rel="noreferrer">Elden Ring</a>).
  In a past life, I practiced <a href="https://www.instagram.com/wasiaerial/" target="_blank" rel="noreferrer">aerial hoop/lyra</a>.
  Nowadays, I attend <a href="https://uvcircus.com/" target="_blank" rel="noreferrer">UVCC</a> workshops when
- I can.</p></div></div></div></div>`,1);function u(t){var r=d();h("cwls5q",o=>{var n=c();i(()=>{s.title="About · wasita.space"}),a(o,n)}),l(2),a(t,r)}export{u as component};
+ I can.</p></div></div></div></div>`,1);function u(t){var r=d();h("cwls5q",o=>{var n=c();i(()=>{s.title="about · wasita.space"}),a(o,n)}),l(2),a(t,r)}export{u as component};
