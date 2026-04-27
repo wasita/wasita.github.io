@@ -77,24 +77,25 @@
  aria-label="Close menu"
  ></button>
  <div
- class="absolute right-0 top-0 h-full w-80 bg-gray-100 dark:bg-[#0a0a0f] dark:border-l dark:border-purple-500/30 text-black dark:text-white p-6"
+ class="absolute right-0 top-0 h-full w-80 p-6"
  role="dialog"
  aria-modal="true"
  tabindex="-1"
+ style="background: var(--paper); color: var(--ink); border-left: 1px solid var(--rule);"
  >
  <div class="flex items-center pb-6">
- <h2 class="flex-1 font-bold text-lg text-black dark:text-purple-300">Menu</h2>
+ <h2 class="flex-1 font-bold text-lg font-display">Menu</h2>
  <button
- class="px-3 py-2 rounded-lg bg-gray-200 dark:bg-purple-900/30 dark:border dark:border-purple-500/50 hover:bg-gray-300 dark:hover:bg-purple-900/50 transition-all duration-200"
+ class="px-3 py-2 rounded-lg hover:opacity-70 transition-all duration-200"
  onclick={closeMobileMenu}
  >
- <Icon icon="mdi:close" class="text-xl dark:text-purple-300" />
+ <Icon icon="mdi:close" class="text-xl " />
  </button>
  </div>
  <ul class="space-y-2">
  <li>
  <a
- class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute === '/' ? 'bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-white shadow-lg shadow-fuchsia-400/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-fuchsia-400'}"
+ class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute === '/' ? 'active-link' : 'hover:opacity-70'}"
  href="/"
  onclick={closeMobileMenu}
  >
@@ -103,7 +104,7 @@
  </li>
  <li>
  <a
- class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/about') ? 'bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-white shadow-lg shadow-fuchsia-400/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-fuchsia-400'}"
+ class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/about') ? 'active-link' : 'hover:opacity-70'}"
  href="/about"
  onclick={closeMobileMenu}
  >
@@ -112,7 +113,7 @@
  </li>
  <li>
  <a
- class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/research') ? 'bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-white shadow-lg shadow-fuchsia-400/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-fuchsia-400'}"
+ class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/research') ? 'active-link' : 'hover:opacity-70'}"
  href="/research"
  onclick={closeMobileMenu}
  >
@@ -121,7 +122,7 @@
  </li>
  <li>
  <a
- class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/publications') ? 'bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-white shadow-lg shadow-fuchsia-400/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-fuchsia-400'}"
+ class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/publications') ? 'active-link' : 'hover:opacity-70'}"
  href="/publications"
  onclick={closeMobileMenu}
  >
@@ -130,7 +131,7 @@
  </li>
  <li>
  <a
- class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/portfolio') ? 'bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-white shadow-lg shadow-fuchsia-400/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-fuchsia-400'}"
+ class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/portfolio') ? 'active-link' : 'hover:opacity-70'}"
  href="/portfolio"
  onclick={closeMobileMenu}
  >
@@ -139,7 +140,7 @@
  </li>
  <li>
  <a
- class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/blog') ? 'bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-white shadow-lg shadow-fuchsia-400/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-fuchsia-400'}"
+ class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/blog') ? 'active-link' : 'hover:opacity-70'}"
  href="/blog"
  onclick={closeMobileMenu}
  >
@@ -148,74 +149,11 @@
  </li>
  <li>
  <a
- class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/contact') ? 'bg-gradient-to-r from-cyan-400 to-fuchsia-400 text-white shadow-lg shadow-fuchsia-400/25' : 'hover:bg-gray-200 dark:hover:bg-purple-900/30 dark:hover:border-l-2 dark:hover:border-fuchsia-400'}"
+ class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/contact') ? 'active-link' : 'hover:opacity-70'}"
  href="/contact"
  onclick={closeMobileMenu}
  >
  Contact
- </a>
- </li>
- </ul>
- <hr class="my-6 border-gray-300 dark:border-purple-500/30" />
- <ul class="grid grid-cols-3 gap-2">
- <li>
- <a
- class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-cyan-500/30 dark:hover:border-cyan-400 dark:hover:bg-purple-900/20 transition-all duration-200"
- href="https://wasita-mahaphanit-cv.netlify.app"
- target="_blank"
- rel="noreferrer"
- >
- <Icon icon="academicons:cv-square" class="text-2xl dark:text-cyan-400" />
- </a>
- </li>
- <li>
- <a
- class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-cyan-500/30 dark:hover:border-cyan-400 dark:hover:bg-purple-900/20 transition-all duration-200"
- href="https://scholar.google.com/citations?user=1tZe-1gAAAAJ"
- target="_blank"
- rel="noreferrer"
- >
- <Icon icon="academicons:google-scholar-square" class="text-2xl dark:text-cyan-400" />
- </a>
- </li>
- <li>
- <a
- class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-cyan-500/30 dark:hover:border-cyan-400 dark:hover:bg-purple-900/20 transition-all duration-200"
- href="https://bsky.app/profile/wasita.bsky.social"
- target="_blank"
- rel="noreferrer"
- >
- <Icon icon="simple-icons:bluesky" class="text-2xl dark:text-cyan-400" />
- </a>
- </li>
- <li>
- <a
- class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-cyan-500/30 dark:hover:border-cyan-400 dark:hover:bg-purple-900/20 transition-all duration-200"
- href="https://twitter.com/mahaphanit"
- target="_blank"
- rel="noreferrer"
- >
- <Icon icon="mdi:twitter" class="text-2xl dark:text-cyan-400" />
- </a>
- </li>
- <li>
- <a
- class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-cyan-500/30 dark:hover:border-cyan-400 dark:hover:bg-purple-900/20 transition-all duration-200"
- href="https://linkedin.com/in/wasita-mahaphanit"
- target="_blank"
- rel="noreferrer"
- >
- <Icon icon="mdi:linkedin" class="text-2xl dark:text-cyan-400" />
- </a>
- </li>
- <li>
- <a
- class="flex items-center justify-center px-3 py-2 rounded-lg border border-gray-300 dark:border-cyan-500/30 dark:hover:border-cyan-400 dark:hover:bg-purple-900/20 transition-all duration-200"
- href="https://github.com/wasita"
- target="_blank"
- rel="noreferrer"
- >
- <Icon icon="mdi:github" class="text-2xl dark:text-cyan-400" />
  </a>
  </li>
  </ul>
@@ -224,13 +162,13 @@
 {/if}
 
 <!-- Main layout -->
-<div class="h-full flex flex-col overflow-hidden bg-white dark:bg-[#0a0a0f] text-black dark:text-gray-100">
+<div class="h-full flex flex-col overflow-hidden" style="background: var(--paper); color: var(--ink);">
  <!-- Header -->
- <header class="sticky top-0 z-10 bg-gray-50/90 dark:bg-[#0a0a0f]/95 backdrop-blur-xl border-b border-gray-200 dark:border-purple-900/30">
+ <header class="sticky top-0 z-10 backdrop-blur-md" style="background: color-mix(in srgb, var(--paper) 88%, transparent); border-bottom: 1px solid var(--rule);">
  <div class="container mx-auto py-4 px-4 flex items-center justify-between">
  <!-- Logo -->
- <a href="/" class="group">
- <img src="/favicon.png" alt="Wasita" class="w-10 h-10 rounded-full transition-all duration-300 group-hover:ring-2 group-hover:ring-fuchsia-400 dark:group-hover:ring-cyan-400 dark:group-hover:shadow-lg dark:group-hover:shadow-cyan-500/30" />
+ <a href="/" class="group no-underline" aria-label="Home">
+ <img src="/favicon.png" alt="Wasita" class="w-9 h-9 rounded-full transition-transform duration-200 group-hover:rotate-[-4deg]" style="box-shadow: 0 0 0 2px var(--paper), 0 0 0 3px var(--rule);" />
  </a>
 
  <!-- Desktop nav + actions -->
@@ -241,7 +179,7 @@
  onclick={toggleDarkMode}
  aria-label="Toggle dark mode"
  >
- <Icon icon={isDark ? "mdi:weather-sunny" : "mdi:weather-night"} class="text-xl dark:text-cyan-400" />
+ <Icon icon={isDark ? "mdi:weather-sunny" : "mdi:weather-night"} class="text-xl" />
  </button>
 
  <!-- Desktop navigation -->
@@ -288,61 +226,6 @@
  >
  Contact
  </a>
- <span class="text-purple-500/50 dark:text-purple-400/30 mx-2">//</span>
- <a
- class="cyber-icon-btn flex"
- href="https://wasita-mahaphanit-cv.netlify.app"
- target="_blank"
- rel="noreferrer"
- title="CV"
- >
- <Icon icon="academicons:cv-square" class="text-lg dark:text-cyan-400" />
- </a>
- <a
- class="cyber-icon-btn flex"
- href="https://scholar.google.com/citations?user=1tZe-1gAAAAJ"
- target="_blank"
- rel="noreferrer"
- title="Google Scholar"
- >
- <Icon icon="academicons:google-scholar-square" class="text-lg dark:text-cyan-400" />
- </a>
- <a
- class="cyber-icon-btn flex"
- href="https://bsky.app/profile/wasita.bsky.social"
- target="_blank"
- rel="noreferrer"
- title="Bluesky"
- >
- <Icon icon="simple-icons:bluesky" class="text-lg dark:text-cyan-400" />
- </a>
- <a
- class="cyber-icon-btn flex"
- href="https://twitter.com/mahaphanit"
- target="_blank"
- rel="noreferrer"
- title="Twitter"
- >
- <Icon icon="mdi:twitter" class="text-lg dark:text-cyan-400" />
- </a>
- <a
- class="cyber-icon-btn flex"
- href="https://linkedin.com/in/wasita-mahaphanit"
- target="_blank"
- rel="noreferrer"
- title="LinkedIn"
- >
- <Icon icon="mdi:linkedin" class="text-lg dark:text-cyan-400" />
- </a>
- <a
- class="cyber-icon-btn flex"
- href="https://github.com/wasita"
- target="_blank"
- rel="noreferrer"
- title="GitHub"
- >
- <Icon icon="mdi:github" class="text-lg dark:text-cyan-400" />
- </a>
  </nav>
 
  <!-- Mobile menu button -->
@@ -351,7 +234,7 @@
  onclick={() => (mobileMenuOpen = true)}
  aria-label="Open menu"
  >
- <Icon icon="mdi:menu" class="text-2xl dark:text-cyan-400" />
+ <Icon icon="mdi:menu" class="text-2xl" />
  </button>
  </div>
  </div>
@@ -371,13 +254,68 @@
  </main>
 
  <!-- Footer -->
- <footer class="py-4 border-t border-gray-200 dark:border-purple-900/30">
- <div class="container mx-auto">
- <div class="flex items-center justify-center p-4 mx-4 rounded-xl">
- <p class="text-gray-700 dark:text-gray-300">
- Wasita Mahaphanit &copy; {currentYear} | Built with
- <span class="text-fuchsia-400 dark:text-fuchsia-300 text-xl">&#9829;</span> ft. Svelte & Tailwind
+ <footer class="py-4" style="border-top: 1px solid var(--rule);">
+ <div class="container mx-auto px-4">
+ <div class="flex flex-col sm:flex-row items-center justify-between gap-4 py-2">
+ <p class="font-mono text-xs uppercase tracking-widest" style="color: var(--ink-faint);">
+ Wasita Mahaphanit · {currentYear} · printed in Svelte <span style="color: var(--accent);">&#9829;</span>
  </p>
+ <nav class="flex items-center gap-1" aria-label="Social links">
+ <a
+ class="cyber-icon-btn flex"
+ href="https://wasita-mahaphanit-cv.netlify.app"
+ target="_blank"
+ rel="noreferrer"
+ title="CV"
+ >
+ <Icon icon="academicons:cv-square" class="text-lg" />
+ </a>
+ <a
+ class="cyber-icon-btn flex"
+ href="https://scholar.google.com/citations?user=1tZe-1gAAAAJ"
+ target="_blank"
+ rel="noreferrer"
+ title="Google Scholar"
+ >
+ <Icon icon="academicons:google-scholar-square" class="text-lg" />
+ </a>
+ <a
+ class="cyber-icon-btn flex"
+ href="https://bsky.app/profile/wasita.bsky.social"
+ target="_blank"
+ rel="noreferrer"
+ title="Bluesky"
+ >
+ <Icon icon="simple-icons:bluesky" class="text-lg" />
+ </a>
+ <a
+ class="cyber-icon-btn flex"
+ href="https://twitter.com/mahaphanit"
+ target="_blank"
+ rel="noreferrer"
+ title="Twitter"
+ >
+ <Icon icon="mdi:twitter" class="text-lg" />
+ </a>
+ <a
+ class="cyber-icon-btn flex"
+ href="https://linkedin.com/in/wasita-mahaphanit"
+ target="_blank"
+ rel="noreferrer"
+ title="LinkedIn"
+ >
+ <Icon icon="mdi:linkedin" class="text-lg" />
+ </a>
+ <a
+ class="cyber-icon-btn flex"
+ href="https://github.com/wasita"
+ target="_blank"
+ rel="noreferrer"
+ title="GitHub"
+ >
+ <Icon icon="mdi:github" class="text-lg" />
+ </a>
+ </nav>
  </div>
  </div>
  </footer>

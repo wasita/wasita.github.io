@@ -2,9 +2,7 @@
  <title>publications · wasita.space</title>
 </svelte:head>
 
-<h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl cyber-heading">
- <span class="bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">Publications</span>
-</h1>
+<h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl">Publications</h1>
 
 <div class="cyber-section p-6 lg:p-12">
  <div class="max-w-[80ch] mx-auto">
@@ -20,7 +18,7 @@
  <span class="text-cyan-500 dark:text-cyan-400">†</span> denotes trainee I mentored
  </p>
 
- <h3 class="text-cyan-500 dark:text-cyan-400 font-semibold text-base lg:text-lg uppercase tracking-wider mt-4 mb-3">
+ <h3 class="font-semibold text-base lg:text-lg uppercase tracking-wider mt-4 mb-3" style="color: var(--accent);">
  In prep
  </h3>
  <ul class="space-y-5 text-base lg:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
@@ -46,7 +44,7 @@
  </li>
  </ul>
 
- <h3 class="text-cyan-500 dark:text-cyan-400 font-semibold text-base lg:text-lg uppercase tracking-wider mt-8 mb-3">
+ <h3 class="font-semibold text-base lg:text-lg uppercase tracking-wider mt-8 mb-3" style="color: var(--accent);">
  Preprints
  </h3>
  <ul class="space-y-5 text-base lg:text-lg leading-relaxed text-gray-700 dark:text-gray-300">
@@ -66,7 +64,7 @@
  </li>
  </ul>
 
- <h3 class="text-cyan-500 dark:text-cyan-400 font-semibold text-base lg:text-lg uppercase tracking-wider mt-8 mb-3">
+ <h3 class="font-semibold text-base lg:text-lg uppercase tracking-wider mt-8 mb-3" style="color: var(--accent);">
  Peer-reviewed conference abstracts
  </h3>
  <ul class="space-y-5 text-base lg:text-lg leading-relaxed text-gray-700 dark:text-gray-300">

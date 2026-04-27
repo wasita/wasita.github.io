@@ -5,379 +5,316 @@
 /* Configure dark mode to use class strategy */
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* Color palette */
+/* ────────────────────────────────────────────────────────────────
+   Palette: paper / ink / accent.
+   One chromatic color (red), used sparingly.
+   ──────────────────────────────────────────────────────────────── */
 :root {
-  /* Palette tokens */
-  --color-primary: #22d3ee;        /* Cyan */
-  --color-secondary: #e879f9;     /* Fuchsia */
-  --color-accent: #a78bfa;        /* Purple/Violet */
-  --color-highlight: #05ffa1;     /* Neon Green */
+  --paper: #fafaf7;
+  --paper-deep: #f0efea;
+  --ink: #1a1614;
+  --ink-soft: #4a423c;
+  --ink-faint: #8a7f74;
+  --accent: #c794d2;
+  --accent-soft: #d8b1de;
+  --accent-rgb: 199, 148, 210;
+  --rule: rgba(26, 22, 20, 0.18);
 
-  /* Gradient endpoints */
-  --gradient-from: var(--color-primary);
-  --gradient-to: var(--color-secondary);
-
-  /* Legacy aliases (used in neon/cyber effects) */
-  --neon-pink: var(--color-secondary);
-  --neon-magenta: var(--color-accent);
-  --neon-purple: #22d3ee;
-  --neon-blue: #00d4ff;
-  --neon-cyan: var(--color-highlight);
-  --cyber-dark: #0a0a0f;
-  --cyber-darker: #05050a;
-  --cyber-grid: rgba(34, 211, 238, 0.1);
+  /* Legacy aliases — keep cyber-* classes from breaking, but render them in
+     paper/ink so unmigrated pages look quiet, not cyberpunk. */
+  --neon-pink: var(--accent);
+  --neon-magenta: var(--accent);
+  --neon-purple: var(--ink);
+  --neon-blue: var(--ink-soft);
+  --neon-cyan: var(--accent);
+  --cyber-dark: var(--ink);
+  --cyber-darker: var(--ink);
+  --gradient-from: var(--ink);
+  --gradient-to: var(--accent);
 }
 
-/* Same palette for dark mode */
+.dark {
+  --paper: #15110d;
+  --paper-deep: #0e0b08;
+  --ink: #ede6d6;
+  --ink-soft: #b8ad9a;
+  --ink-faint: #6e6557;
+  --accent: #e5b8e8;
+  --accent-soft: #c794d2;
+  --accent-rgb: 229, 184, 232;
+  --rule: rgba(237, 230, 214, 0.18);
+}
 
-/* Global styles */
+/* ────────────────────────────────────────────────────────────────
+   Type
+   ──────────────────────────────────────────────────────────────── */
 html,
 body {
   @apply h-full overflow-hidden;
 }
 
-/* Base text size bump */
 html {
   font-size: 17px;
+  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-feature-settings: "ss01", "cv11";
+  color: var(--ink);
+  background: var(--paper);
 }
 
-/* Cyberpunk grid background for dark mode */
+body {
+  background: var(--paper);
+  /* Subtle paper grain — lightweight inline SVG noise */
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.045 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+}
+
 .dark body {
-  background-image:
-    linear-gradient(var(--cyber-grid) 1px, transparent 1px),
-    linear-gradient(90deg, var(--cyber-grid) 1px, transparent 1px);
-  background-size: 50px 50px;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.04 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
 }
 
-/* Neon glow utilities */
-.neon-glow-pink {
-  text-shadow: 0 0 5px var(--neon-pink), 0 0 10px var(--neon-magenta), 0 0 20px var(--neon-purple);
+h1, h2, h3, h4 {
+  font-family: "Redaction 50", "Redaction", ui-serif, Georgia, serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--ink);
 }
 
-.neon-glow-blue {
-  text-shadow: 0 0 5px var(--neon-blue), 0 0 10px var(--neon-blue), 0 0 20px var(--neon-blue);
+/* Display variant for the loudest moments — uses heaviest Redaction grade (xeroxed look) */
+.font-display {
+  font-family: "Redaction 70", "Redaction 50", "Redaction", ui-serif, Georgia, serif;
 }
 
-.neon-glow-purple {
-  text-shadow: 0 0 5px var(--neon-purple), 0 0 10px var(--neon-purple), 0 0 20px var(--neon-purple);
+.font-body {
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 
-.neon-border {
-  box-shadow: 0 0 5px var(--neon-purple), 0 0 10px var(--neon-purple), inset 0 0 5px rgba(34, 211, 238, 0.1);
+/* Newsreader kept for italic pull-quote, where serif italic still earns its keep */
+.font-quote {
+  font-family: "Newsreader", ui-serif, Georgia, serif;
 }
 
-/* Custom link and button hover effects - cyberpunk style */
-/* Exclude navigation elements and buttons from the global link hover */
-/* Pre-apply padding/margin so hover doesn't shift geometry (prevents flicker) */
-a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.group):not(.cyber-btn),
-button.gradient-hover {
-  padding: 1px 4px;
-  margin: -1px -4px;
-  border-radius: 4px;
-  transition: all 0.15s ease-in-out;
+.font-mono {
+  font-family: "JetBrains Mono", ui-monospace, "SF Mono", Consolas, monospace;
 }
 
-a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.group):not(.cyber-btn):hover,
-button.gradient-hover:hover {
-  background: linear-gradient(135deg, var(--gradient-from), var(--gradient-to));
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-  box-shadow: 0 0 8px rgba(232, 121, 249, 0.4), 0 0 20px rgba(232, 121, 249, 0.3), 0 0 35px rgba(232, 121, 249, 0.2);
-  color: #fff;
+.font-marker {
+  font-family: "Caveat", "Comic Sans MS", cursive;
 }
 
-.dark a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.group):not(.cyber-btn):hover,
-.dark button.gradient-hover:hover {
-  background: linear-gradient(135deg, var(--gradient-from), var(--gradient-to));
-  text-shadow: 0 0 5px #fff, 0 0 10px var(--neon-pink), 0 0 20px var(--neon-blue);
-  box-shadow: 0 0 10px rgba(34, 211, 238, 0.5), 0 0 25px rgba(34, 211, 238, 0.3), 0 0 45px rgba(34, 211, 238, 0.2);
-  color: #fff;
+/* ────────────────────────────────────────────────────────────────
+   Links: hand-drawn underline, animated on hover
+   ──────────────────────────────────────────────────────────────── */
+a {
+  color: var(--ink);
+  text-decoration: none;
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100% 1px;
+  transition: background-size 0.2s ease, color 0.2s ease;
 }
 
-@keyframes gradient-shift {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
+a:hover {
+  color: var(--accent);
+  background-size: 100% 2px;
 }
 
-/* Scanline effect for dark mode */
-.dark .scanlines::after {
-  content: '';
+/* Don't decorate nav, icon buttons, or the home logo */
+a.cyber-nav-link,
+a.cyber-icon-btn,
+a.no-underline,
+a.group {
+  background-image: none;
+}
+
+/* ────────────────────────────────────────────────────────────────
+   Zine primitives
+   ──────────────────────────────────────────────────────────────── */
+
+/* Photo with washi-tape corners, slight off-axis rotation */
+.taped-photo {
+  position: relative;
+  display: inline-block;
+  padding: 8px;
+  background: var(--paper);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08);
+  transform: rotate(-1.5deg);
+  transition: transform 0.3s ease;
+}
+.dark .taped-photo {
+  background: var(--paper-deep);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.taped-photo:hover {
+  transform: rotate(-0.5deg) scale(1.01);
+}
+/* Default: frosted-scotch-tape look */
+.taped-photo::before,
+.taped-photo::after {
+  content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: repeating-linear-gradient(
-    0deg,
-    transparent,
-    transparent 2px,
-    rgba(0, 0, 0, 0.1) 2px,
-    rgba(0, 0, 0, 0.1) 4px
+  width: 84px;
+  height: 22px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.42) 0%,
+    rgba(255, 255, 255, 0.62) 50%,
+    rgba(255, 255, 255, 0.38) 100%
   );
+  box-shadow:
+    0 2px 5px rgba(0, 0, 0, 0.12),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.35);
   pointer-events: none;
 }
-
-/* Cyberpunk card styling */
-.cyber-card {
-  border: 1px solid rgba(34, 211, 238, 0.3);
-  background: linear-gradient(135deg, rgba(10, 10, 10, 0.9), rgba(15, 15, 15, 0.9));
+.taped-photo::before {
+  top: -10px;
+  left: 14px;
+  transform: rotate(-4deg);
+}
+.taped-photo::after {
+  bottom: -10px;
+  right: 18px;
+  transform: rotate(2.5deg);
+}
+.dark .taped-photo::before,
+.dark .taped-photo::after {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.16) 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0.14) 100%
+  );
 }
 
-.cyber-card:hover {
-  border-color: var(--neon-purple);
-  box-shadow: 0 0 20px rgba(34, 211, 238, 0.3), inset 0 0 20px rgba(34, 211, 238, 0.05);
-}
-
-/* Glitch effect for headings */
-@keyframes glitch {
-  0%, 100% { transform: translate(0); }
-  20% { transform: translate(-2px, 2px); }
-  40% { transform: translate(-2px, -2px); }
-  60% { transform: translate(2px, 2px); }
-  80% { transform: translate(2px, -2px); }
-}
-
-.glitch-hover:hover {
-  animation: glitch 0.3s ease infinite;
-}
-
-/* Cyberpunk Navigation Styles */
-.cyber-nav-link {
+/* Sticky note — Caveat on a small rotated card */
+.sticky-note {
+  display: inline-block;
+  padding: 0.5rem 0.9rem;
+  font-family: "Caveat", cursive;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  color: var(--ink);
+  background: #ffffff;
+  transform: rotate(-2deg);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
   position: relative;
-  padding: 0.5rem 1rem;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  transition: all 0.2s ease;
-  clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
 }
-
-.cyber-nav-link::before {
-  content: '';
+.dark .sticky-note {
+  background: #ede6d6;
+  color: #1a1614;
+}
+.sticky-note::before {
+  content: "";
   position: absolute;
-  bottom: 0;
+  top: -8px;
   left: 50%;
-  width: 0;
-  height: 2px;
-  background: linear-gradient(90deg, var(--gradient-from), var(--gradient-to));
-  transition: all 0.3s ease;
-  transform: translateX(-50%);
+  width: 56px;
+  height: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.42) 0%,
+    rgba(255, 255, 255, 0.62) 50%,
+    rgba(255, 255, 255, 0.38) 100%
+  );
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.12),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+  transform: translateX(-50%) rotate(-3deg);
+}
+.dark .sticky-note::before {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.16) 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0.14) 100%
+  );
 }
 
-.cyber-nav-link:hover::before,
-.cyber-nav-link.active::before {
-  width: 100%;
+/* Margin annotation in marker font */
+.margin-note {
+  font-family: "Caveat", cursive;
+  font-size: 1.05rem;
+  color: var(--accent);
+  line-height: 1.25;
 }
 
-.dark .cyber-nav-link:hover::before,
-.dark .cyber-nav-link.active::before {
-  box-shadow: 0 0 10px rgba(34, 211, 238, 0.5), 0 0 20px rgba(34, 211, 238, 0.3);
+/* Torn-paper edge — irregular bottom edge via clip-path */
+.torn-edge-bottom {
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='100' preserveAspectRatio='none' viewBox='0 0 1200 100'><path d='M0,0 L1200,0 L1200,82 L1180,90 L1160,78 L1140,92 L1120,80 L1100,88 L1080,76 L1060,90 L1040,84 L1020,92 L1000,80 L980,88 L960,76 L940,90 L920,82 L900,94 L880,80 L860,88 L840,78 L820,92 L800,84 L780,90 L760,80 L740,86 L720,76 L700,92 L680,84 L660,90 L640,80 L620,88 L600,76 L580,92 L560,82 L540,90 L520,78 L500,88 L480,80 L460,92 L440,84 L420,90 L400,80 L380,88 L360,76 L340,92 L320,84 L300,90 L280,80 L260,88 L240,76 L220,92 L200,82 L180,90 L160,78 L140,88 L120,80 L100,92 L80,84 L60,90 L40,80 L20,88 L0,80 Z' fill='black'/></svg>");
+  mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='100' preserveAspectRatio='none' viewBox='0 0 1200 100'><path d='M0,0 L1200,0 L1200,82 L1180,90 L1160,78 L1140,92 L1120,80 L1100,88 L1080,76 L1060,90 L1040,84 L1020,92 L1000,80 L980,88 L960,76 L940,90 L920,82 L900,94 L880,80 L860,88 L840,78 L820,92 L800,84 L780,90 L760,80 L740,86 L720,76 L700,92 L680,84 L660,90 L640,80 L620,88 L600,76 L580,92 L560,82 L540,90 L520,78 L500,88 L480,80 L460,92 L440,84 L420,90 L400,80 L380,88 L360,76 L340,92 L320,84 L300,90 L280,80 L260,88 L240,76 L220,92 L200,82 L180,90 L160,78 L140,88 L120,80 L100,92 L80,84 L60,90 L40,80 L20,88 L0,80 Z' fill='black'/></svg>");
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
 }
 
-.cyber-nav-link.active {
-  background: linear-gradient(135deg, color-mix(in srgb, var(--gradient-from) 15%, transparent), color-mix(in srgb, var(--gradient-to) 15%, transparent));
-  border: 1px solid color-mix(in srgb, var(--gradient-from) 30%, transparent);
+/* Section number heading: big numeral + small uppercase label, ruled line under */
+.section-number {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.section-number .num {
+  font-family: "Redaction 70", "Redaction", serif;
+  font-size: 2.25rem;
+  line-height: 1;
+  color: var(--accent);
+}
+.section-number .label {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
 }
 
-.dark .cyber-nav-link.active {
-  background: linear-gradient(135deg, color-mix(in srgb, var(--gradient-from) 20%, transparent), color-mix(in srgb, var(--gradient-to) 15%, transparent));
-  border: 1px solid color-mix(in srgb, var(--gradient-from) 50%, transparent);
-  box-shadow: 0 0 15px color-mix(in srgb, var(--gradient-from) 20%, transparent), inset 0 0 15px color-mix(in srgb, var(--gradient-from) 5%, transparent);
-}
-
-/* Cyberpunk icon button */
-.cyber-icon-btn {
+/* Safety-pin bullet for lists */
+.safety-pin-list li {
   position: relative;
-  align-items: center;
-  justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
-  border: 1px solid rgba(100, 100, 120, 0.3);
-  border-radius: 0.5rem;
-  transition: all 0.2s ease;
+  padding-left: 1.4rem;
+  margin-bottom: 0.4rem;
 }
-
-.dark .cyber-icon-btn {
-  border-color: rgba(34, 211, 238, 0.3);
-}
-
-.cyber-icon-btn:hover {
-  border-color: var(--neon-pink);
-  background: rgba(232, 121, 249, 0.1);
-}
-
-.dark .cyber-icon-btn:hover {
-  border-color: var(--neon-cyan);
-  background: rgba(34, 211, 238, 0.1);
-  box-shadow: 0 0 15px rgba(34, 211, 238, 0.3);
-}
-
-/* Decorative corner accents */
-.cyber-corner::before,
-.cyber-corner::after {
-  content: '';
+.safety-pin-list li::before {
+  content: "";
   position: absolute;
-  width: 10px;
-  height: 10px;
-  border: 2px solid var(--neon-purple);
+  left: 0;
+  top: 0.5rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  background: var(--accent);
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M3 4 L13 4 M13 4 A2 2 0 1 1 13 8 L4 8 A1.5 1.5 0 1 0 4 11' stroke='black' stroke-width='1.5' fill='none' stroke-linecap='round'/></svg>");
+  mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M3 4 L13 4 M13 4 A2 2 0 1 1 13 8 L4 8 A1.5 1.5 0 1 0 4 11' stroke='black' stroke-width='1.5' fill='none' stroke-linecap='round'/></svg>");
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
 }
 
-.cyber-corner::before {
-  top: -2px;
-  left: -2px;
-  border-right: none;
-  border-bottom: none;
-}
-
-.cyber-corner::after {
-  bottom: -2px;
-  right: -2px;
-  border-left: none;
-  border-top: none;
-}
-
-/* Animated gradient border */
-@keyframes border-glow {
-  0%, 100% { opacity: 0.5; }
-  50% { opacity: 1; }
-}
-
-.cyber-glow-border {
-  position: relative;
-}
-
-.cyber-glow-border::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border: 1px solid transparent;
-  background: linear-gradient(90deg, var(--neon-pink), var(--neon-purple), var(--neon-blue), var(--neon-cyan)) border-box;
-  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-  mask-composite: exclude;
-  animation: border-glow 2s ease-in-out infinite;
-  pointer-events: none;
-}
-
-/* Cyberpunk Page Section */
-.cyber-section {
-  position: relative;
-  padding: 2rem;
-  margin: 1rem 0;
-  background: rgba(255, 255, 255, 0.5);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.dark .cyber-section {
-  background: linear-gradient(135deg, rgba(10, 10, 10, 0.8), rgba(15, 15, 15, 0.6));
-  border: 1px solid rgba(34, 211, 238, 0.2);
-}
-
-.dark .cyber-section:hover {
-  border-color: rgba(34, 211, 238, 0.4);
-  box-shadow: 0 0 30px rgba(34, 211, 238, 0.1), inset 0 0 30px rgba(34, 211, 238, 0.02);
-}
-
-/* Corner decorations */
-.cyber-section::before,
-.cyber-section::after {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border: 2px solid transparent;
-  transition: all 0.3s ease;
-}
-
-.cyber-section::before {
-  top: -1px;
-  left: -1px;
-  border-top-color: var(--gradient-from);
-  border-left-color: var(--gradient-from);
-}
-
-.cyber-section::after {
-  bottom: -1px;
-  right: -1px;
-  border-bottom-color: var(--gradient-to);
-  border-right-color: var(--gradient-to);
-}
-
-.dark .cyber-section:hover::before {
-  box-shadow: -5px -5px 15px rgba(34, 211, 238, 0.3);
-}
-
-.dark .cyber-section:hover::after {
-  box-shadow: 5px 5px 15px rgba(34, 211, 238, 0.3);
-}
-
-/* Cyberpunk project card */
-.cyber-project-card {
-  position: relative;
-  padding: 2rem;
-  margin: 1rem 0;
-  transition: all 0.3s ease;
-}
-
-.dark .cyber-project-card {
-  background: linear-gradient(135deg, rgba(10, 10, 10, 0.6), rgba(10, 10, 15, 0.4));
-  border-left: 3px solid var(--neon-purple);
-}
-
-.dark .cyber-project-card:hover {
-  border-left-color: var(--neon-pink);
-  background: linear-gradient(135deg, rgba(12, 12, 12, 0.8), rgba(15, 10, 20, 0.6));
-  box-shadow: -5px 0 20px rgba(232, 121, 249, 0.1);
-}
-
-/* Cyberpunk decorative line */
-.cyber-line {
-  height: 1px;
-  background: linear-gradient(90deg, transparent, var(--neon-purple), var(--neon-pink), var(--neon-blue), transparent);
+/* Pull quote */
+.pull-quote {
+  font-family: "Newsreader", ui-serif, Georgia, serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: var(--accent);
+  border-left: 3px solid var(--accent);
+  padding-left: 1.25rem;
   margin: 2rem 0;
 }
 
-/* Cyberpunk image container */
-.cyber-image {
-  position: relative;
-  overflow: hidden;
+/* Drop cap for blog post first paragraph */
+.dropcap > p:first-of-type::first-letter {
+  font-family: "Redaction 70", "Redaction", serif;
+  font-size: 4.5rem;
+  line-height: 0.9;
+  float: left;
+  padding: 0.4rem 0.6rem 0 0;
+  color: var(--accent);
 }
 
-.dark .cyber-image::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, rgba(34, 211, 238, 0.1), transparent 50%, rgba(34, 211, 238, 0.1));
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.dark .cyber-image:hover::after {
-  opacity: 1;
-}
-
-/* Glowing text for headings */
-.dark .cyber-heading {
-  text-shadow: 0 0 20px rgba(232, 121, 249, 0.3), 0 0 40px rgba(34, 211, 238, 0.2);
-}
-
-/* Cyberpunk list bullets */
-.dark .cyber-list li::before {
-  content: '>';
-  color: var(--neon-cyan);
-  margin-right: 0.5rem;
-  font-family: monospace;
-}
-
-/* Terminal-style text */
-.cyber-terminal {
-  font-family: 'Courier New', Consolas, monospace;
-  letter-spacing: 0.05em;
-}
-
-/* Pulsing dot indicator */
+/* Pulse — kept for the status sticky-note interior */
 .cyber-pulse {
-  --pulse-color: var(--neon-cyan);
+  --pulse-color: var(--accent);
   display: inline-block;
   width: 8px;
   height: 8px;
@@ -385,31 +322,94 @@ button.gradient-hover:hover {
   border-radius: 50%;
   animation: pulse 2s ease-in-out infinite;
 }
-
 @keyframes pulse {
-  0%, 100% { opacity: 1; box-shadow: 0 0 5px var(--pulse-color); }
-  50% { opacity: 0.5; box-shadow: 0 0 20px var(--pulse-color); }
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
 }
 
-/* Horizontal scanner line effect */
-.cyber-scanner {
+/* ────────────────────────────────────────────────────────────────
+   Legacy cyber-* classes — neutralized to paper/ink so unmigrated
+   pages don't look cyberpunk while we migrate them.
+   ──────────────────────────────────────────────────────────────── */
+.cyber-section {
   position: relative;
-  overflow: hidden;
+  padding: 1.5rem;
+  margin: 0.5rem 0;
 }
 
-.dark .cyber-scanner::after {
-  content: '';
+.cyber-project-card {
+  position: relative;
+  padding: 1.5rem 0;
+  margin: 1rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.cyber-line {
+  height: 1px;
+  background: var(--rule);
+  margin: 2rem 0;
+}
+
+.cyber-terminal {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  letter-spacing: 0.02em;
+}
+
+.cyber-heading { /* legacy passthrough */ }
+
+.cyber-list li::before {
+  content: "→";
+  color: var(--accent);
+  margin-right: 0.5rem;
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Nav link — minimal underline-on-active */
+.cyber-nav-link {
+  position: relative;
+  padding: 0.4rem 0.8rem;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+  color: var(--ink-soft);
+  transition: color 0.15s ease;
+}
+.cyber-nav-link:hover {
+  color: var(--ink);
+}
+.cyber-nav-link.active {
+  color: var(--ink);
+}
+.cyber-nav-link.active::after {
+  content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  left: 0.8rem;
+  right: 0.8rem;
+  bottom: 0.15rem;
   height: 2px;
-  background: linear-gradient(90deg, transparent, var(--neon-cyan), transparent);
-  animation: scan 3s linear infinite;
-  opacity: 0.5;
+  background: var(--accent);
 }
 
-@keyframes scan {
-  0% { top: 0; }
-  100% { top: 100%; }
+/* Mobile menu active link */
+.active-link {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+/* Icon button — quiet square outline */
+.cyber-icon-btn {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 1px solid var(--rule);
+  border-radius: 0.25rem;
+  color: var(--ink-soft);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+.cyber-icon-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
 }

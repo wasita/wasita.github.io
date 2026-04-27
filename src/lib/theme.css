@@ -1,8 +1,8 @@
 :root {
   --global-hover-color: #000; /* This should be defined for light mode */
   /* =~= Theme Properties =~= */
-  --theme-font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --theme-font-family-heading: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --theme-font-family-base: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --theme-font-family-heading: "Redaction 50", "Redaction", ui-serif, Georgia, serif;
   --theme-font-color-base: 0 0 0;
   --theme-font-color-dark: 255 255 255;
   --theme-rounded-base: 12px;
@@ -102,18 +102,4 @@
   --regent-st-blue: #a7d8e5;
 }
 
-a:not(.cyber-btn):hover {
-  background: radial-gradient(ellipse at bottom, #99f6e4, #93c5fd, #c4b5fd);
-  text-shadow: -0.15em 0.15em 0.42em #fff, 0.15em -0.15em 0.31em #fff,
-    -0.15em -0.15em 1.3em #fff;
-  color: #000;
-  transition: all 0.1s ease-in-out 0s;
-}
-
-.dark a:not(.cyber-btn):hover {
-  background: radial-gradient(ellipse at bottom, #99f6e4, #93c5fd, #c4b5fd);
-  text-shadow: -0.15em 0.15em 0.42em #000, 0.15em -0.15em 0.31em #000,
-    -0.15em -0.15em 1.3em #000;
-  color: #fff;
-  transition: all 0.1s ease-in-out 0s;
-}
+/* link hover handled in app.css (underline grow) */

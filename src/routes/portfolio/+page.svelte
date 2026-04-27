@@ -6,9 +6,7 @@
  <title>portfolio · wasita.space</title>
 </svelte:head>
 
-<h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl cyber-heading">
- <span class="bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">I like building stuff</span>
-</h1>
+<h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl">I like building stuff</h1>
 <div class="cyber-project-card p-6 lg:p-12 my-2">
  <!-- magic-garden -->
  <div class="items-center block lg:flex">

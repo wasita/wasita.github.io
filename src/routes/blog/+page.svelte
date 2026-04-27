@@ -10,9 +10,7 @@
  <title>blog · wasita.space</title>
 </svelte:head>
 
-<h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl cyber-heading">
- <span class="bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">Blog</span>
-</h1>
+<h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl">Blog</h1>
 <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
  {#each data.posts as post}
  {#if post.meta.visible == true}

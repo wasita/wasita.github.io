@@ -2,9 +2,7 @@
  <title>contact · wasita.space</title>
 </svelte:head>
 
-<h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl cyber-heading">
- <span class="bg-gradient-to-r from-cyan-400 to-fuchsia-400 bg-clip-text text-transparent">Contact</span>
-</h1>
+<h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl">Contact</h1>
 <div class="max-w-xl mx-auto p-8 my-4 rounded-xl bg-gray-100 dark:bg-gray-800">
  <form
  action="https://formspree.io/f/xvoeogae"
