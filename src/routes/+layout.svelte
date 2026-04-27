@@ -240,6 +240,9 @@
  </div>
  </header>
 
+ <!-- Tartan strip under header — Westwood signature -->
+ <div class="tartan-strip" aria-hidden="true"></div>
+
  <!-- Page content -->
  <main id="page" class="flex-1 overflow-auto">
  {#key data.pathname}

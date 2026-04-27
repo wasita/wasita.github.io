@@ -55,8 +55,8 @@ body {
 
 html {
   font-size: 17px;
-  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  font-feature-settings: "ss01", "cv11";
+  font-family: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  font-variation-settings: "wdth" 96, "opsz" 14;
   color: var(--ink);
   background: var(--paper);
 }
@@ -72,28 +72,45 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: "Redaction 50", "Redaction", ui-serif, Georgia, serif;
-  font-weight: 400;
-  letter-spacing: -0.01em;
+  font-family: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  font-variation-settings: "wdth" 78, "opsz" 96, "wght" 800;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 0.92;
   color: var(--ink);
 }
 
-/* Display variant for the loudest moments — uses heaviest Redaction grade (xeroxed look) */
+/* Display variant for hero-scale moments — heaviest, narrowest, condensed punk-impact look */
 .font-display {
-  font-family: "Redaction 70", "Redaction 50", "Redaction", ui-serif, Georgia, serif;
+  font-family: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  font-variation-settings: "wdth" 75, "opsz" 96, "wght" 800;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 0.88;
 }
 
+/* Body — neutral grotesk for reading */
 .font-body {
-  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  font-family: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  font-variation-settings: "wdth" 96, "opsz" 14, "wght" 400;
+  font-weight: 400;
 }
 
-/* Newsreader kept for italic pull-quote, where serif italic still earns its keep */
+/* Italic pull quote — same family, italic via the italic axis (Bricolage doesn't ship true
+   italics; we lean on slightly heavier wght + slant via CSS for a confident voice) */
 .font-quote {
-  font-family: "Newsreader", ui-serif, Georgia, serif;
+  font-family: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  font-variation-settings: "wdth" 90, "opsz" 32, "wght" 500;
+  font-style: italic;
 }
 
+/* Caption / "mono" replacement — wide-tracked uppercase Bricolage */
 .font-mono {
-  font-family: "JetBrains Mono", ui-monospace, "SF Mono", Consolas, monospace;
+  font-family: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  font-variation-settings: "wdth" 90, "opsz" 12, "wght" 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-feature-settings: "tnum";
 }
 
 .font-marker {
@@ -255,13 +272,15 @@ a.group {
   margin-bottom: 1.5rem;
 }
 .section-number .num {
-  font-family: "Redaction 70", "Redaction", serif;
-  font-size: 2.25rem;
+  font-family: "Bricolage Grotesque", ui-sans-serif, sans-serif;
+  font-variation-settings: "wdth" 75, "opsz" 96, "wght" 800;
+  font-size: 2.5rem;
   line-height: 1;
   color: var(--accent);
 }
 .section-number .label {
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Bricolage Grotesque", ui-sans-serif, sans-serif;
+  font-variation-settings: "wdth" 90, "wght" 600;
   font-size: 0.7rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -292,10 +311,11 @@ a.group {
 
 /* Pull quote */
 .pull-quote {
-  font-family: "Newsreader", ui-serif, Georgia, serif;
+  font-family: "Bricolage Grotesque", ui-sans-serif, sans-serif;
+  font-variation-settings: "wdth" 88, "opsz" 32, "wght" 500;
   font-style: italic;
-  font-size: 1.5rem;
-  line-height: 1.4;
+  font-size: 1.6rem;
+  line-height: 1.3;
   color: var(--accent);
   border-left: 3px solid var(--accent);
   padding-left: 1.25rem;
@@ -304,12 +324,96 @@ a.group {
 
 /* Drop cap for blog post first paragraph */
 .dropcap > p:first-of-type::first-letter {
-  font-family: "Redaction 70", "Redaction", serif;
-  font-size: 4.5rem;
-  line-height: 0.9;
+  font-family: "Bricolage Grotesque", ui-sans-serif, sans-serif;
+  font-variation-settings: "wdth" 75, "opsz" 96, "wght" 800;
+  font-size: 5rem;
+  line-height: 0.85;
   float: left;
-  padding: 0.4rem 0.6rem 0 0;
+  padding: 0.5rem 0.6rem 0 0;
   color: var(--accent);
+}
+
+/* ────────────────────────────────────────────────────────────────
+   Decoration: hand-drawn marks, tartan
+   ──────────────────────────────────────────────────────────────── */
+
+/* Scribbled wavy underline (emphasis — not link underline) */
+.scribble-underline {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 8' preserveAspectRatio='none'><path d='M2,5 Q14,1 28,4 T54,5 T80,3 T98,5' stroke='%23c794d2' stroke-width='2.4' fill='none' stroke-linecap='round'/></svg>");
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100% 0.45em;
+  padding-bottom: 0.18em;
+}
+.dark .scribble-underline {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 8' preserveAspectRatio='none'><path d='M2,5 Q14,1 28,4 T54,5 T80,3 T98,5' stroke='%23e5b8e8' stroke-width='2.4' fill='none' stroke-linecap='round'/></svg>");
+}
+
+/* Scribbled oval around content */
+.scribble-circle {
+  position: relative;
+  display: inline-block;
+  padding: 0.05em 0.5em 0.15em;
+}
+.scribble-circle::after {
+  content: "";
+  position: absolute;
+  inset: -0.15em -0.3em -0.05em;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 80' preserveAspectRatio='none'><path d='M22,44 Q18,18 60,12 Q124,6 162,20 Q192,32 180,56 Q166,76 100,72 Q34,68 22,50 Q15,40 24,28' stroke='%23c794d2' stroke-width='2.6' fill='none' stroke-linecap='round'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  pointer-events: none;
+}
+.dark .scribble-circle::after {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 80' preserveAspectRatio='none'><path d='M22,44 Q18,18 60,12 Q124,6 162,20 Q192,32 180,56 Q166,76 100,72 Q34,68 22,50 Q15,40 24,28' stroke='%23e5b8e8' stroke-width='2.6' fill='none' stroke-linecap='round'/></svg>");
+}
+
+/* Standalone right-pointing scribble arrow */
+.mark-arrow {
+  display: inline-block;
+  width: 2.6em;
+  height: 1em;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 24'><path d='M2,12 Q14,7 28,12 T54,12 M46,5 L57,12 L46,19' stroke='%23c794d2' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  vertical-align: middle;
+}
+.dark .mark-arrow {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 24'><path d='M2,12 Q14,7 28,12 T54,12 M46,5 L57,12 L46,19' stroke='%23e5b8e8' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+}
+
+/* Asterisk burst */
+.mark-asterisk {
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><g stroke='%23c794d2' stroke-width='2.3' stroke-linecap='round'><line x1='12' y1='3' x2='12' y2='21'/><line x1='3' y1='12' x2='21' y2='12'/><line x1='5.5' y1='5.5' x2='18.5' y2='18.5'/><line x1='18.5' y1='5.5' x2='5.5' y2='18.5'/></g></svg>");
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+.dark .mark-asterisk {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><g stroke='%23e5b8e8' stroke-width='2.3' stroke-linecap='round'><line x1='12' y1='3' x2='12' y2='21'/><line x1='3' y1='12' x2='21' y2='12'/><line x1='5.5' y1='5.5' x2='18.5' y2='18.5'/><line x1='18.5' y1='5.5' x2='5.5' y2='18.5'/></g></svg>");
+}
+
+/* Tartan strip — Westwood-y thin band */
+.tartan-strip {
+  height: 16px;
+  background-color: rgba(199, 148, 210, 0.18);
+  background-image:
+    repeating-linear-gradient(90deg, transparent 0 38px, rgba(26, 22, 20, 0.4) 38px 40px),
+    repeating-linear-gradient(90deg, transparent 0 72px, rgba(199, 148, 210, 0.55) 72px 82px),
+    repeating-linear-gradient(0deg, transparent 0 5px, rgba(26, 22, 20, 0.22) 5px 6px),
+    repeating-linear-gradient(0deg, transparent 0 10px, rgba(199, 148, 210, 0.32) 10px 12px);
+}
+.dark .tartan-strip {
+  background-color: rgba(229, 184, 232, 0.14);
+  background-image:
+    repeating-linear-gradient(90deg, transparent 0 38px, rgba(237, 230, 214, 0.4) 38px 40px),
+    repeating-linear-gradient(90deg, transparent 0 72px, rgba(229, 184, 232, 0.45) 72px 82px),
+    repeating-linear-gradient(0deg, transparent 0 5px, rgba(237, 230, 214, 0.22) 5px 6px),
+    repeating-linear-gradient(0deg, transparent 0 10px, rgba(229, 184, 232, 0.28) 10px 12px);
 }
 
 /* Pulse — kept for the status sticky-note interior */
@@ -351,8 +455,9 @@ a.group {
 }
 
 .cyber-terminal {
-  font-family: "JetBrains Mono", ui-monospace, monospace;
-  letter-spacing: 0.02em;
+  font-family: "Bricolage Grotesque", ui-sans-serif, sans-serif;
+  font-variation-settings: "wdth" 90, "wght" 500;
+  letter-spacing: 0.06em;
 }
 
 .cyber-heading { /* legacy passthrough */ }
@@ -361,17 +466,17 @@ a.group {
   content: "→";
   color: var(--accent);
   margin-right: 0.5rem;
-  font-family: "JetBrains Mono", monospace;
 }
 
 /* Nav link — minimal underline-on-active */
 .cyber-nav-link {
   position: relative;
   padding: 0.4rem 0.8rem;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Bricolage Grotesque", ui-sans-serif, sans-serif;
+  font-variation-settings: "wdth" 90, "wght" 600;
   font-size: 0.8rem;
-  letter-spacing: 0.08em;
-  text-transform: lowercase;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   color: var(--ink-soft);
   transition: color 0.15s ease;
 }

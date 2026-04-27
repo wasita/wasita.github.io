@@ -3,14 +3,15 @@
  <link rel="preload" as="image" href="/images/joji-cuddles.png" />
 </svelte:head>
 
-<article class="px-6 lg:px-12 pt-8 pb-16 max-w-3xl mx-auto">
- <h1 class="font-display text-5xl md:text-6xl leading-[0.95] mb-8">
- About <span style="color: var(--accent);">me</span>.
+<article class="px-6 lg:px-12 pt-12 pb-20 max-w-5xl mx-auto">
+ <!-- Big hero with Joji photo overlapping the headline -->
+ <div class="relative mb-12">
+ <h1 class="font-display leading-[0.85]" style="font-size: clamp(4rem, 13vw, 9rem);">
+ about<br />
+ <span style="color: var(--accent);">me</span>.
  </h1>
-
- <!-- Identity card -->
- <div class="flex flex-col md:flex-row items-center md:items-start gap-8 mb-10">
- <div class="taped-photo flex-shrink-0">
+ <div class="hidden md:block absolute top-4 right-0">
+ <div class="taped-photo" style="transform: rotate(4deg);">
  <img
  src="/images/joji-cuddles.png"
  alt="Wasita with Joji"
@@ -19,15 +20,33 @@
  class="block w-44 h-44 object-cover"
  />
  </div>
- <div class="flex-1 text-center md:text-left">
- <h2 class="font-display text-3xl mb-1">Wasita Mahaphanit</h2>
- <p class="font-mono text-xs tracking-widest uppercase mb-3" style="color: var(--ink-faint);">
+ </div>
+ </div>
+
+ <!-- Mobile: Joji shows here instead -->
+ <div class="md:hidden flex justify-center mb-8">
+ <div class="taped-photo" style="transform: rotate(4deg);">
+ <img
+ src="/images/joji-cuddles.png"
+ alt="Wasita with Joji"
+ width="180"
+ height="180"
+ class="block w-44 h-44 object-cover"
+ />
+ </div>
+ </div>
+
+ <!-- Identity block -->
+ <div class="mb-12">
+ <h2 class="font-display mb-2" style="font-size: clamp(2rem, 5vw, 3.25rem); line-height: 0.95;">
+ Wasita Mahaphanit
+ </h2>
+ <p class="font-mono text-xs mb-5" style="color: var(--ink-faint);">
  PhD candidate · Dartmouth
  </p>
- <p class="pull-quote text-left">
+ <p class="pull-quote max-w-3xl">
  I study how people navigate uncertainty about other minds through interaction and conversation, and how the process of figuring each other out gives rise to social connection.
  </p>
- </div>
  </div>
 
  <!-- Bio prose -->
