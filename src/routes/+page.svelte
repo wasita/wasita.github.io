@@ -19,7 +19,7 @@
  <h1 class="font-display mb-0" style="font-size: clamp(3rem, 10vw, 8rem); line-height: 1.05;">
  hi, I'm<br />
  <span style="color: var(--accent); position: relative; display: inline-block;">
- Wasita<span class="sparkle" aria-hidden="true" style="position: absolute; top: -0.05em; right: -0.45em; width: 0.3em; height: 0.3em;"></span><span class="sparkle" aria-hidden="true" style="position: absolute; bottom: 0.15em; left: -0.25em; width: 0.22em; height: 0.22em;"></span></span><span class="saturn-orb" aria-hidden="true" style="width: 0.55em; height: 0.55em; margin-left: 0.05em; vertical-align: 0.15em;"></span><span class="sparkle" aria-hidden="true" style="width: 0.18em; height: 0.18em; margin-left: 0.05em; vertical-align: 0.55em;"></span>.
+ Wasita<span class="sparkle" aria-hidden="true" style="position: absolute; top: -0.3em; right: -0.25em; width: 0.3em; height: 0.3em;"></span><span class="sparkle" aria-hidden="true" style="position: absolute; bottom: 0.15em; left: -0.25em; width: 0.22em; height: 0.22em;"></span></span><span class="saturn-orb" aria-hidden="true" style="width: 0.55em; height: 0.55em; margin-left: 0.05em; vertical-align: 0.15em;"></span><span class="sparkle" aria-hidden="true" style="width: 0.18em; height: 0.18em; margin-left: 0.05em; vertical-align: 0.55em;"></span>.
  </h1>
  </div>
 
