@@ -9,7 +9,7 @@
  </h1>
 
  <h2 class="font-quote text-2xl lg:text-3xl leading-snug mb-12 max-w-3xl" style="color: var(--accent); border-left: 3px solid var(--accent); padding-left: 1.25rem;">
- I study how people navigate uncertainty about other minds through interaction and conversation, and how the process of figuring each other out gives rise to social connection.<span class="heart" aria-hidden="true" style="width: 0.85em; height: 0.85em; margin-left: 0.3em; vertical-align: -0.05em;"></span>
+ I study how people build shared understanding of each other through interaction and conversation, and how that grounds social connection.<span class="heart" aria-hidden="true" style="width: 0.85em; height: 0.85em; margin-left: 0.3em; vertical-align: -0.05em;"></span>
  </h2>
 
  <div class="font-body text-lg leading-relaxed max-w-3xl space-y-12" style="color: var(--ink);">
@@ -17,10 +17,10 @@
  <section>
  <header class="flex items-baseline gap-4 mb-4">
  <span class="font-display" style="font-size: 2.5rem; line-height: 1; color: var(--accent);">01</span>
- <span class="font-mono text-xs" style="color: var(--ink-faint);">the question</span>
+ <span class="font-mono text-xs" style="color: var(--ink-faint);">motivating questions</span>
  </header>
  <p>
- We only ever have direct access to our own thoughts, feelings, and experiences. Yet when we meet someone new, we routinely form impressions of them, discover what we have in common, and build genuine relationships — often remarkably quickly. How do we infer, from sparse evidence, what we likely have in common with someone? What makes some discovered commonalities feel meaningful while others feel inconsequential? And how does real interaction shape the inferences we draw about others' minds?
+ We only ever have direct access to our own thoughts, feelings, and experiences. Yet when we meet someone new, we routinely form impressions of them, discover what we have in common, and build genuine relationships — often remarkably quickly. How do we infer, from sparse evidence, what we have in common with someone? What makes some discovered commonalities feel meaningful while others feel inconsequential? And how does real interaction shape the inferences we draw about others' minds?
  </p>
  </section>
 
@@ -31,7 +31,7 @@
  <span class="font-mono text-xs" style="color: var(--ink-faint);">the dissertation</span>
  </header>
  <p>
- My dissertation work approaches these questions through the lens of social connection formation. Using custom multiplayer web experiments that I design and build, I study how people generalize from specific commonalities to broader shared understanding, how shared experiences create connection through interpretive alignment, and how statistical reasoning about social structures shapes which commonalities feel meaningful. These experiments allow causal manipulation of what people discover about each other while preserving the dynamics of real social interaction, and I analyze the resulting data using natural language processing and computational cognitive modeling.
+ My dissertation approaches these questions through the lens of how connection forms. I build custom multiplayer web experiments to study three things: how people extrapolate from sparse commonalities to a partner's broader worldview; how conversation builds a shared understanding even when experiences differ; and how perceived rarity and disclosure depth shape which commonalities feel meaningful. These experiments let me causally manipulate what people learn about each other while preserving the dynamics of real interaction, and I analyze the data using natural language processing and computational cognitive modeling.
  </p>
  </section>
 

@@ -15,7 +15,7 @@
  </p>
  <p class="font-mono text-xs mb-1" style="color: var(--ink-faint);">
  <span class="heart" aria-hidden="true" style="width: 0.85em; height: 0.85em; vertical-align: -0.1em;"></span>
- denotes co-first authorship · <span style="color: var(--accent);">†</span> denotes trainee I mentored
+ co-first authorship · <span style="color: var(--accent);">†</span> trainee I mentored
  </p>
 
  <!-- In prep -->
@@ -71,7 +71,7 @@
  <!-- Conference abstracts -->
  <header class="flex items-baseline gap-3 mt-12 mb-5">
  <span class="saturn-orb" aria-hidden="true" style="width: 1.4rem; height: 1.4rem;"></span>
- <h2 class="font-display" style="font-size: 1.75rem; line-height: 1; color: var(--accent);">peer-reviewed conference abstracts</h2>
+ <h2 class="font-display" style="font-size: 1.75rem; line-height: 1; color: var(--accent);">conference abstracts</h2>
  </header>
  <ul class="space-y-5 font-body text-base leading-relaxed" style="color: var(--ink);">
  <li>

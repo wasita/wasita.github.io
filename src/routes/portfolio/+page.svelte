@@ -45,7 +45,7 @@
  </span>
  </div>
  <p>
- A bot that automates the process of buying crops and eggs in the Magic
+ A bot that automates buying crops and eggs in the Magic
  Garden game.
  </p>
  <div class="mt-4">
@@ -96,10 +96,9 @@
  </span>
  </div>
  <p>
- This website is a simple tool that allows you to send books to your
- Kobo eReader without having to directly connect to it. Upload PDF and
- EPUB files on the website, navigate to the site on your eReader, and
- your books will be available for download.
+ Send books to your Kobo eReader without plugging it in. Upload PDF
+ and EPUB files on the site, navigate to it on your eReader, and your
+ books will be available for download.
  </p>
  <div class="mt-4">
  <a
@@ -155,8 +154,8 @@
  </span>
  </div>
  <p>
- A platform for creating dyadic chat apps using a server-less framework (i.e., no need for web
- sockets/socket.io for user-to-user communication). Currently used for research; source code not yet public.
+ A platform for creating dyadic chat apps using a serverless framework.
+ Currently used for research; source code not yet public.
  </p>
  <p class="mt-2">
  Featured in <a href="https://osf.io/preprints/psyarxiv/g9p3e" target="_blank" rel="noreferrer"
@@ -192,12 +191,10 @@
  </span>
  </div>
  <p>
- Had the opportunity to go on <a href="https://www.svelteradio.com/"
- >Svelte Radio</a
- >
+ Joined <a href="https://www.svelteradio.com/">Svelte Radio</a>
  with my dear friend/mentor/collaborator
  <a href="https://eshinjolly.com/">@ejolly</a>
- to talk about our experience with using Svelte to build interactive web
+ to talk about our experience using Svelte to build interactive web
  apps for our research!
  </p>
  <div class="mt-4">
@@ -249,7 +246,7 @@
  </span>
  </div>
  <p>
- Implementation of an interactive 2-player trust game à la
+ An interactive 2-player trust game à la
  <a
  href="https://www.sciencedirect.com/science/article/abs/pii/S0010028510000150"
  >Chang et al. (2010)</a

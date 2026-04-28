@@ -38,8 +38,7 @@
  <!-- Subtitle: left-aligned under the headline -->
  <div class="col-span-12 lg:col-span-9 order-3 mt-4 lg:mt-6">
  <p class="font-body text-xl lg:text-2xl leading-tight" style="color: var(--ink-soft);">
- PhD candidate studying how people navigate uncertainty about<br />
- other minds through interaction and conversation.
+ I study how people build shared understanding of each other through interaction and conversation, and how that grounds social connection.
  </p>
  </div>
  </div>

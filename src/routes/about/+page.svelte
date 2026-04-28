@@ -52,59 +52,67 @@
  <!-- Bio prose -->
  <div class="font-body text-lg leading-relaxed space-y-5" style="color: var(--ink);">
  <p>
+ <a href="https://cosanlab.com/" target="_blank" rel="noreferrer" class="lab-logo float-left mr-4 mt-1 w-28" aria-label="COSAN Lab">
  <img
  src="/images/cosan_logo.png"
  alt="COSAN Lab"
  width="120"
  height="100"
  loading="lazy"
- class="w-28 h-auto float-left mr-4 mt-1 opacity-90"
+ class="w-full h-auto opacity-90"
  />
+ </a>
+ <a href="https://socialinteractionlab.github.io/" target="_blank" rel="noreferrer" class="lab-logo float-right ml-4 mt-1 w-28" aria-label="Social Interaction Lab">
  <img
  src="/images/soilab.png"
  alt="Social Interaction Lab"
  width="120"
  height="100"
  loading="lazy"
- class="w-28 h-auto float-right ml-4 mt-1 opacity-90 dark:invert"
+ class="w-full h-auto opacity-90 dark:invert"
  />
- I am currently a final-year PhD candidate (expected graduation: June 2026) in the
+ </a>
+ I am a final-year PhD candidate (expected graduation: June 2026) in the
  <a href="https://pbs.dartmouth.edu/" target="_blank" rel="noreferrer">Psychological &amp; Brain Sciences department</a>
  at Dartmouth College, advised by
  <a href="https://pbs.dartmouth.edu/people/luke-j-chang" target="_blank" rel="noreferrer">Luke J. Chang</a>
  in the
  <a href="https://cosanlab.com/" target="_blank" rel="noreferrer">Computational Social Affective Neuroscience (COSAN) Lab</a>,
  and collaborating with
- <a href="https://profiles.stanford.edu/robert-hawkins" target="_blank" rel="noreferrer">Robert Hawkins</a>
- (in the <a href="https://socialinteractionlab.github.io/" target="_blank" rel="noreferrer">Social Interaction Lab</a>)
+ <a href="https://profiles.stanford.edu/robert-hawkins" target="_blank" rel="noreferrer">Robert Hawkins</a>,
+ who runs the <a href="https://socialinteractionlab.github.io/" target="_blank" rel="noreferrer">Social Interaction Lab</a> at Stanford,
  and
  <a href="https://faculty-directory.dartmouth.edu/jonathan-s-phillips" target="_blank" rel="noreferrer">Jonathan Phillips</a>.
  See my <a href="/research">research interests</a> page for more details.
  </p>
 
  <p style="clear: both;">
+ <a href="https://www.lnccbrown.com/" target="_blank" rel="noreferrer" class="lab-logo float-left mr-4 mt-1 w-24" aria-label="LNCC Brown">
  <img
  src="/images/lncc_logo.png"
  alt="LNCC Brown"
  width="100"
  height="135"
  loading="lazy"
- class="w-24 h-auto float-left mr-4 mt-1 opacity-90 dark:invert"
+ class="w-full h-auto opacity-90 dark:invert"
  />
+ </a>
+ <a href="https://www.shenhavlab.org/" target="_blank" rel="noreferrer" class="lab-logo float-right ml-4 mt-1 w-32" aria-label="Shenhav Lab">
  <img
  src="/images/ShenhavLab_Logo.png"
  alt="Shenhav Lab"
  width="140"
  height="65"
  loading="lazy"
- class="w-32 h-auto float-right ml-4 mt-1 opacity-90 dark:invert"
+ class="w-full h-auto opacity-90 dark:invert"
  />
+ </a>
  Prior to graduate school, I worked as the lab manager of
  <a href="https://ski.clps.brown.edu/" target="_blank" rel="noreferrer">Michael J. Frank</a>'s
  <a href="https://www.lnccbrown.com/" target="_blank" rel="noreferrer">Lab of Neural Computation + Cognition</a>.
- My research focused on understanding how humans learn and make decisions under uncertainty, particularly within the context of psychiatric disorders and with a specific emphasis on obsessive-compulsive disorder. Before that, I worked as an undergraduate research assistant in
+ My research focused on understanding how humans learn and make decisions under uncertainty, particularly in psychiatric contexts, with a focus on OCD. Before that, I worked as an undergraduate research assistant in
  <a href="https://www.shenhavlab.org/" target="_blank" rel="noreferrer">Amitai Shenhav's Lab</a>,
- where I studied performance monitoring and cognitive control within the context of task-switching.
+ where I studied performance monitoring and cognitive control during task-switching.
  </p>
 
  <p style="clear: both;">
@@ -134,4 +142,8 @@
  </p>
  </div>
 
+ <!-- Sign-off -->
+ <p class="margin-note text-right mt-12" style="clear: both; transform: rotate(-2deg); font-size: 1.6rem;">
+ xoxo wasita <span class="sparkle" aria-hidden="true" style="width: 0.55em; height: 0.55em; margin-left: 0.15em; vertical-align: 0.1em;"></span>
+ </p>
 </article>
