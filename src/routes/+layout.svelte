@@ -240,9 +240,6 @@
  </div>
  </header>
 
- <!-- Tartan strip under header — Westwood signature -->
- <div class="tartan-strip" aria-hidden="true"></div>
-
  <!-- Page content -->
  <main id="page" class="flex-1 overflow-auto">
  {#key data.pathname}
@@ -261,7 +258,7 @@
  <div class="container mx-auto px-4">
  <div class="flex flex-col sm:flex-row items-center justify-between gap-4 py-2">
  <p class="font-mono text-xs uppercase tracking-widest" style="color: var(--ink-faint);">
- Wasita Mahaphanit · {currentYear} · printed in Svelte <span style="color: var(--accent);">&#9829;</span>
+ Wasita Mahaphanit · {currentYear} · printed in Svelte <span class="heart" aria-hidden="true" style="width: 0.85em; height: 0.85em; vertical-align: -0.1em;"></span>
  </p>
  <nav class="flex items-center gap-1" aria-label="Social links">
  <a

@@ -2,25 +2,48 @@
  <title>research · wasita.space</title>
 </svelte:head>
 
-<div class="px-6 lg:px-12 pt-12 pb-20 max-w-5xl mx-auto">
- <h1 class="font-display leading-[0.85] mb-10" style="font-size: clamp(3.5rem, 11vw, 7.5rem);">
+<div class="px-4 lg:px-6 pt-12 pb-20 max-w-5xl mx-auto">
+ <h1 class="font-display leading-[0.95] mb-10" style="font-size: clamp(3rem, 9vw, 6.5rem);">
  research<br />
  <span style="color: var(--accent);">interests</span>.
  </h1>
 
- <h2 class="font-quote text-2xl lg:text-3xl leading-snug mb-10 max-w-3xl" style="color: var(--accent); border-left: 3px solid var(--accent); padding-left: 1.25rem;">
- I study how people navigate uncertainty about other minds through interaction and conversation, and how the process of figuring each other out gives rise to social connection.
+ <h2 class="font-quote text-2xl lg:text-3xl leading-snug mb-12 max-w-3xl" style="color: var(--accent); border-left: 3px solid var(--accent); padding-left: 1.25rem;">
+ I study how people navigate uncertainty about other minds through interaction and conversation, and how the process of figuring each other out gives rise to social connection.<span class="heart" aria-hidden="true" style="width: 0.85em; height: 0.85em; margin-left: 0.3em; vertical-align: -0.05em;"></span>
  </h2>
 
- <div class="font-body text-lg leading-relaxed space-y-5 max-w-3xl" style="color: var(--ink);">
+ <div class="font-body text-lg leading-relaxed max-w-3xl space-y-12" style="color: var(--ink);">
+ <!-- 01 / the question -->
+ <section>
+ <header class="flex items-baseline gap-4 mb-4">
+ <span class="font-display" style="font-size: 2.5rem; line-height: 1; color: var(--accent);">01</span>
+ <span class="font-mono text-xs" style="color: var(--ink-faint);">the question</span>
+ </header>
  <p>
- We only ever have direct access to our own thoughts, feelings, and experiences. Yet when we meet someone new, we routinely form impressions of them, discover what we have in common, and build genuine bonds — often remarkably quickly. How do we infer, from sparse evidence, what we likely have in common with someone? What makes some discovered commonalities feel meaningful while others feel inconsequential? And how does real interaction shape the inferences we draw about others' minds?
+ We only ever have direct access to our own thoughts, feelings, and experiences. Yet when we meet someone new, we routinely form impressions of them, discover what we have in common, and build genuine relationships — often remarkably quickly. How do we infer, from sparse evidence, what we likely have in common with someone? What makes some discovered commonalities feel meaningful while others feel inconsequential? And how does real interaction shape the inferences we draw about others' minds?
  </p>
+ </section>
+
+ <!-- 02 / the dissertation -->
+ <section>
+ <header class="flex items-baseline gap-4 mb-4">
+ <span class="font-display" style="font-size: 2.5rem; line-height: 1; color: var(--accent);">02</span>
+ <span class="font-mono text-xs" style="color: var(--ink-faint);">the dissertation</span>
+ </header>
  <p>
  My dissertation work approaches these questions through the lens of social connection formation. Using custom multiplayer web experiments that I design and build, I study how people generalize from specific commonalities to broader shared understanding, how shared experiences create connection through interpretive alignment, and how statistical reasoning about social structures shapes which commonalities feel meaningful. These experiments allow causal manipulation of what people discover about each other while preserving the dynamics of real social interaction, and I analyze the resulting data using natural language processing and computational cognitive modeling.
  </p>
+ </section>
+
+ <!-- 03 / what's next -->
+ <section>
+ <header class="flex items-baseline gap-4 mb-4">
+ <span class="font-display" style="font-size: 2.5rem; line-height: 1; color: var(--accent);">03</span>
+ <span class="font-mono text-xs" style="color: var(--ink-faint);">what's next</span>
+ </header>
  <p>
  Looking forward, I am extending this research program to how people construct and update models of other minds during joint action and planning, and what happens when this process breaks down. Social interaction requires ongoing inference about others' intentions, beliefs, and goals, and failures in this process may underlie difficulties in social functioning across a range of psychiatric conditions. By bridging social cognition, computational modeling, and clinical science, I hope to build a mechanistic account of how we come to feel, or fail to feel, truly understood by others.
  </p>
+ </section>
  </div>
 </div>

@@ -4,14 +4,13 @@
 </svelte:head>
 
 <article class="px-6 lg:px-12 pt-12 pb-20 max-w-5xl mx-auto">
- <!-- Big hero with Joji photo overlapping the headline -->
- <div class="relative mb-12">
- <h1 class="font-display leading-[0.85]" style="font-size: clamp(4rem, 13vw, 9rem);">
+ <!-- Big hero with Joji photo right next to the headline -->
+ <div class="hidden md:flex items-end gap-8 mb-12">
+ <h1 class="font-display" style="font-size: clamp(4rem, 13vw, 9rem); line-height: 1; margin: 0;">
  about<br />
- <span style="color: var(--accent);">me</span>.
+ <span style="color: var(--accent);">me</span>.<span class="sparkle-cluster" aria-hidden="true" style="width: 0.4em; height: 0.4em; margin-left: 0.1em; vertical-align: 0.65em;"></span>
  </h1>
- <div class="hidden md:block absolute top-4 right-0">
- <div class="taped-photo" style="transform: rotate(4deg);">
+ <div class="taped-photo flex-shrink-0 mb-4" style="transform: rotate(4deg);">
  <img
  src="/images/joji-cuddles.png"
  alt="Wasita with Joji"
@@ -21,7 +20,11 @@
  />
  </div>
  </div>
- </div>
+ <!-- Mobile-only header (when photo is shown separately below) -->
+ <h1 class="font-display md:hidden mb-8" style="font-size: clamp(4rem, 13vw, 9rem); line-height: 1;">
+ about<br />
+ <span style="color: var(--accent);">me</span>.
+ </h1>
 
  <!-- Mobile: Joji shows here instead -->
  <div class="md:hidden flex justify-center mb-8">
@@ -41,11 +44,8 @@
  <h2 class="font-display mb-2" style="font-size: clamp(2rem, 5vw, 3.25rem); line-height: 0.95;">
  Wasita Mahaphanit
  </h2>
- <p class="font-mono text-xs mb-5" style="color: var(--ink-faint);">
+ <p class="font-mono text-xs" style="color: var(--ink-faint);">
  PhD candidate · Dartmouth
- </p>
- <p class="pull-quote max-w-3xl">
- I study how people navigate uncertainty about other minds through interaction and conversation, and how the process of figuring each other out gives rise to social connection.
  </p>
  </div>
 
@@ -107,8 +107,9 @@
  where I studied performance monitoring and cognitive control within the context of task-switching.
  </p>
 
- <p>
- <span class="float-right ml-6 mb-2 text-center hidden sm:inline-block" style="margin-top: 0.25rem;">
+ <p style="clear: both;">
+ <span class="float-right ml-6 mb-2 text-center hidden sm:flex flex-col items-center" style="margin-top: 0.25rem;">
+ <span class="margin-note mb-4" style="transform: rotate(-3deg);">life beyond the lab ↓</span>
  <span class="taped-photo" style="transform: rotate(2.5deg);">
  <img
  src="/images/aerial_2017.webp"
@@ -120,10 +121,11 @@
  />
  </span>
  </span>
- I was born in Thailand, grew up in Maine, and then lived in Rhode Island for several years for college and work. Outside of research, I enjoy ruminating while showering, cuddling with my kitty Joji (pictured above), and playing video games (currently
- <a href="https://www.youtube.com/watch?v=2p-5RXAitTI" target="_blank" rel="noreferrer">Baldur's Gate 3</a>
+ I was born in Thailand, grew up in Maine, and then lived in Rhode Island for several years for college and work. Outside of research, I enjoy ruminating while showering, snowboarding, cuddling with my kitty Joji (pictured above), and playing video games (currently
+ <a href="https://www.youtube.com/watch?v=2p-5RXAitTI" target="_blank" rel="noreferrer">Baldur's Gate 3</a>,
+ <a href="https://www.youtube.com/watch?v=xj-MRvcXHgw" target="_blank" rel="noreferrer">Elden Ring</a>,
  and
- <a href="https://www.youtube.com/watch?v=xj-MRvcXHgw" target="_blank" rel="noreferrer">Elden Ring</a>).
+ <a href="https://www.youtube.com/watch?v=ttVtllHkb4E" target="_blank" rel="noreferrer">Slay the Spire 2</a>).
  In a past life, I practiced
  <a href="https://www.instagram.com/wasiaerial/" target="_blank" rel="noreferrer">aerial hoop/lyra</a>.
  Nowadays, I attend
@@ -131,4 +133,5 @@
  workshops when I can.
  </p>
  </div>
+
 </article>

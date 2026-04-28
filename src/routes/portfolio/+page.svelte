@@ -6,8 +6,11 @@
  <title>portfolio · wasita.space</title>
 </svelte:head>
 
-<h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl">I like building stuff</h1>
-<div class="cyber-project-card p-6 lg:p-12 my-2">
+<div class="px-4 lg:px-6 pt-12 pb-20 max-w-5xl mx-auto">
+<h1 class="font-display leading-[0.95] mb-10" style="font-size: clamp(3rem, 9vw, 6.5rem);">
+ i like <span style="color: var(--accent);">building stuff</span>.
+</h1>
+<div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- magic-garden -->
  <div class="items-center block lg:flex">
  <img
@@ -19,23 +22,23 @@
  />
  <div class="flex-1">
  <div class="block lg:pl-12">
- <h2 class="font-bold text-xl lg:text-2xl">Magic Garden Game Bot</h2>
+ <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">Magic Garden Game Bot</h2>
  <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2025-Present)</h3>
  <div class="py-2">
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="simple-icons:python" /></span>
  <span>python</span>
  </span>
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="mdi:ocr" /></span>
  <span>ocr</span>
  </span>
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="devicon-plain:opencv-wordmark" /></span>
  <span>opencv</span>
@@ -47,7 +50,7 @@
  </p>
  <div class="mt-4">
  <a
- class="cyber-btn inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
+ class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
  href="https://github.com/wasita/magic-garden"
  target="_blank"
  rel="noreferrer">GitHub</a
@@ -57,8 +60,8 @@
  </div>
  </div>
 </div>
-<div class="cyber-line"></div>
-<div class="cyber-project-card p-6 lg:p-12 my-2">
+<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- Send2Kobo -->
  <div class="items-center block lg:flex">
  <img
@@ -70,23 +73,23 @@
  />
  <div class="flex-1">
  <div class="block lg:pl-12">
- <h2 class="font-bold text-xl lg:text-2xl">Send2Kobo</h2>
+ <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">Send2Kobo</h2>
  <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2025-Present)</h3>
  <div class="py-2">
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="simple-icons:svelte" /></span>
  <span>svelte</span>
  </span>
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="mdi:tailwind" /></span>
  <span>tailwind</span>
  </span>
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="mdi:firebase" /></span>
  <span>firebase</span>
@@ -95,18 +98,18 @@
  <p>
  This website is a simple tool that allows you to send books to your
  Kobo eReader without having to directly connect to it. Upload PDF and
- EPUB files and the website, navigate to the site on your eReader, and
+ EPUB files on the website, navigate to the site on your eReader, and
  your books will be available for download.
  </p>
  <div class="mt-4">
  <a
- class="cyber-btn inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
+ class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
  href="https://send-2-kobo.web.app/"
  target="_blank"
  rel="noreferrer">Website</a
  >
  <a
- class="cyber-btn inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
+ class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
  href="https://github.com/wasita/send2kobo"
  target="_blank"
  rel="noreferrer">GitHub</a
@@ -116,8 +119,8 @@
  </div>
  </div>
 </div>
-<div class="cyber-line"></div>
-<div class="cyber-project-card p-6 lg:p-12 my-2">
+<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- Dyadic chat app -->
  <div class="items-center block lg:flex">
  <img
@@ -129,23 +132,23 @@
  />
  <div class="flex-1">
  <div class="block lg:pl-12">
- <h2 class="font-bold text-xl lg:text-2xl">Real-time dyadic chat app template</h2>
+ <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">Real-time dyadic chat app template</h2>
  <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2023-Present)</h3>
  <div class="py-2">
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="simple-icons:svelte" /></span>
  <span>svelte</span>
  </span>
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="mdi:tailwind" /></span>
  <span>tailwind</span>
  </span>
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="mdi:firebase" /></span>
  <span>firebase</span>
@@ -165,8 +168,8 @@
  </div>
  </div>
 </div>
-<div class="cyber-line"></div>
-<div class="cyber-project-card p-6 lg:p-12 my-2">
+<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- Svelte Radio Podcast -->
  <div class="items-center block lg:flex">
  <img
@@ -178,11 +181,11 @@
  />
  <div class="flex-1">
  <div class="block lg:pl-12">
- <h2 class="font-bold text-xl lg:text-2xl">Svelte Radio Podcast</h2>
+ <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">Svelte Radio Podcast</h2>
  <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Episode Guest (2023)</h3>
  <div class="py-2">
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="simple-icons:svelte" /></span>
  <span>svelte</span>
@@ -199,7 +202,7 @@
  </p>
  <div class="mt-4">
  <a
- class="cyber-btn inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
+ class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
  href="https://open.spotify.com/episode/3JzRDzPOylvhBSIj7jZLDz?si=3YDIJX3PQPisAHVLlMPK3Q"
  target="_blank"
  rel="noreferrer"
@@ -210,8 +213,8 @@
  </div>
  </div>
 </div>
-<div class="cyber-line"></div>
-<div class="cyber-project-card p-6 lg:p-12 my-2">
+<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- Interactive 2-player trust game -->
  <div class="items-center block lg:flex">
  <img
@@ -223,23 +226,23 @@
  />
  <div class="flex-1">
  <div class="block lg:pl-12">
- <h2 class="font-bold text-xl lg:text-2xl">Interactive 2-player trust game</h2>
+ <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">Interactive 2-player trust game</h2>
  <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2023-Present)</h3>
  <div class="py-2">
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="simple-icons:svelte" /></span>
  <span>svelte</span>
  </span>
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="mdi:tailwind" /></span>
  <span>tailwind</span>
  </span>
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="mdi:firebase" /></span>
  <span>firebase</span>
@@ -257,19 +260,25 @@
  </p>
  <div class="mt-4">
  <a
- class="cyber-btn inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
+ class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
  href="https://youtu.be/yQ6VOOd73MA?si=QDu3Q8fdWO6NlCal&t=1464"
  target="_blank"
  rel="noreferrer"
  >Watch the episode
  </a>
+ <a
+ class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
+ href="https://github.com/cosanlab/trust-game"
+ target="_blank"
+ rel="noreferrer">GitHub</a
+ >
  </div>
  </div>
  </div>
  </div>
 </div>
-<div class="cyber-line"></div>
-<div class="cyber-project-card p-6 lg:p-12 my-2">
+<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- WiNS members database -->
  <div class="items-center block lg:flex">
  <img
@@ -281,19 +290,19 @@
  />
  <div class="flex-1">
  <div class="block lg:pl-12">
- <h2 class="font-bold text-xl lg:text-2xl">
+ <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">
  Women in Network Science (WiNS) Society members database
  </h2>
  <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2022-Present)</h3>
  <div class="py-2">
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="ri:javascript-line" /></span>
  <span>javascript</span>
  </span>
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="carbon:html" /></span>
  <span>html</span>
@@ -305,7 +314,7 @@
  </p>
  <div class="mt-4">
  <a
- class="cyber-btn inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
+ class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
  href="https://sites.google.com/view/womeninnetworkscience/society/membership/membership-list?authuser=0"
  target="_blank"
  rel="noreferrer">Visit the WiNS members database</a
@@ -315,32 +324,32 @@
  </div>
  </div>
 </div>
-<div class="cyber-line"></div>
-<div class="cyber-project-card p-6 lg:p-12 my-2">
+<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- Multi-user synchronous video streaming & chat app platform -->
  <div class="items-center block lg:flex">
  <img src="/images/svsca.png" alt="chat app icon" loading="lazy" decoding="async" class="w-full lg:w-1/4" />
  <div class="flex-1">
  <div class="block lg:pl-12">
- <h2 class="font-bold text-xl lg:text-2xl">
+ <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">
  Multi-user synchronous video streaming & chat app platform
  </h2>
  <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2021-Present)</h3>
  <div class="py-2">
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="simple-icons:svelte" /></span>
  <span>svelte</span>
  </span>
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="mdi:tailwind" /></span>
  <span>tailwind</span>
  </span>
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="mdi:firebase" /></span>
  <span>firebase</span>
@@ -358,8 +367,8 @@
  </div>
  </div>
 </div>
-<div class="cyber-line"></div>
-<div class="cyber-project-card p-6 lg:p-12 my-2">
+<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- DartBrains: Intro to fMRI -->
  <div class="items-center block lg:flex">
  <img
@@ -371,11 +380,11 @@
  />
  <div class="flex-1">
  <div class="block lg:pl-12">
- <h2 class="font-bold text-xl lg:text-2xl">DartBrains: Intro to fMRI</h2>
+ <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">DartBrains: Intro to fMRI</h2>
  <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Contributor (2021-Present)</h3>
  <div class="py-2">
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="simple-icons:jupyter" /></span>
  <span>jupyter book</span>
@@ -384,13 +393,13 @@
  <p>An introduction to fMRI preprocessing & analysis.</p>
  <div class="mt-4">
  <a
- class="cyber-btn inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
+ class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
  href="https://dartbrains.org/content/intro.html"
  target="_blank"
  rel="noreferrer">Visit DartBrains</a
  >
  <a
- class="cyber-btn inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
+ class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
  href="https://github.com/ljchang/dartbrains"
  target="_blank"
  rel="noreferrer">GitHub</a
@@ -400,8 +409,8 @@
  </div>
  </div>
 </div>
-<div class="cyber-line"></div>
-<div class="cyber-project-card p-6 lg:p-12 my-2">
+<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- Info theory for Social Neuroscientists -->
  <div class="items-center block lg:flex">
  <img
@@ -413,11 +422,11 @@
  />
  <div class="flex-1">
  <div class="block lg:pl-12">
- <h2 class="font-bold text-xl lg:text-2xl">Info theory for Social Neuroscientists</h2>
+ <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">Info theory for Social Neuroscientists</h2>
  <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Contributor (2022)</h3>
  <div class="py-2">
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="simple-icons:jupyter" /></span>
  <span>jupyter book</span>
@@ -429,13 +438,13 @@
  </p>
  <div class="mt-4">
  <a
- class="cyber-btn inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
+ class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
  href="https://cosanlab.github.io/info-theory-book/intro.html"
  target="_blank"
  rel="noreferrer">Visit site</a
  >
  <a
- class="cyber-btn inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
+ class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
  href="https://github.com/cosanlab/info-theory-book"
  target="_blank"
  rel="noreferrer">GitHub</a
@@ -445,8 +454,8 @@
  </div>
  </div>
 </div>
-<div class="cyber-line"></div>
-<div class="cyber-project-card p-6 lg:p-12 my-2">
+<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- Honeycomb -->
  <div class="items-center block lg:flex">
  <img
@@ -458,23 +467,23 @@
  />
  <div class="flex-1">
  <div class="block lg:pl-12">
- <h2 class="font-bold text-xl lg:text-2xl">Honeycomb</h2>
+ <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">Honeycomb</h2>
  <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Software Developer (2019-2021)</h3>
  <div class="py-2">
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="mdi:react" /></span>
  <span>react</span>
  </span>
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="logos:electron" /></span>
  <span>electron</span>
  </span>
  <span
- class="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-cyan-400 dark:border-cyan-400/50 text-cyan-500 dark:text-cyan-400 text-sm mr-1 mb-1 transition-colors"
+ class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
  >
  <span><Icon icon="mdi:firebase" /></span>
  <span>firebase</span>
@@ -491,21 +500,21 @@
  </p>
  <div class="mt-4">
  <a
- class="cyber-btn inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
+ class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
  href="https://pubmed.ncbi.nlm.nih.gov/34320125/"
  target="_blank"
  rel="noreferrer"
  >Paper
  </a>
  <a
- class="cyber-btn inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
+ class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
  href="https://brown-ccv.github.io/honeycomb-docs/"
  target="_blank"
  rel="noreferrer"
  >Documentation
  </a>
  <a
- class="cyber-btn inline-block px-4 py-2 rounded-lg border border-cyan-400 dark:border-fuchsia-400/50 text-cyan-500 dark:text-fuchsia-300 hover:bg-gradient-to-r hover:from-cyan-400 hover:to-fuchsia-400 hover:text-white hover:border-transparent transition-all duration-200 mr-2 mb-2 dark:hover:shadow-lg dark:hover:shadow-fuchsia-400/20"
+ class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
  href="https://github.com/brown-ccv/honeycomb"
  target="_blank"
  rel="noreferrer"
@@ -515,4 +524,5 @@
  </div>
  </div>
  </div>
+</div>
 </div>

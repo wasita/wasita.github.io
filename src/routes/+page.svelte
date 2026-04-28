@@ -7,13 +7,14 @@
 </script>
 
 <!-- Home / hero — album-cover scale, asymmetric -->
-<div class="px-6 lg:px-12 pt-12 pb-16 max-w-6xl mx-auto">
- <div class="grid grid-cols-12 gap-6 lg:gap-10">
+<div class="px-4 lg:px-6 pt-12 pb-16 max-w-6xl mx-auto">
+ <div class="grid grid-cols-12 gap-0 lg:gap-1">
  <!-- Headline: spans most of the row -->
  <div class="col-span-12 lg:col-span-9 order-2 lg:order-1">
- <h1 class="font-display leading-[0.85] mb-0" style="font-size: clamp(4rem, 14vw, 11rem);">
+ <h1 class="font-display mb-0" style="font-size: clamp(3rem, 10vw, 8rem); line-height: 1.05;">
  hi, I'm<br />
- <span style="color: var(--accent);">Wasita</span>.
+ <span style="color: var(--accent); position: relative; display: inline-block;">
+ Wasita<span class="sparkle" aria-hidden="true" style="position: absolute; top: -0.05em; right: -0.45em; width: 0.3em; height: 0.3em;"></span><span class="sparkle" aria-hidden="true" style="position: absolute; bottom: 0.15em; left: -0.25em; width: 0.22em; height: 0.22em;"></span></span><span class="saturn-orb" aria-hidden="true" style="width: 0.55em; height: 0.55em; margin-left: 0.05em; vertical-align: 0.15em;"></span><span class="sparkle" aria-hidden="true" style="width: 0.18em; height: 0.18em; margin-left: 0.05em; vertical-align: 0.55em;"></span>.
  </h1>
  </div>
 
@@ -34,29 +35,30 @@
  </div>
  </div>
 
- <!-- Subtitle hung in the margin under the portrait, offset right -->
- <div class="col-span-12 lg:col-start-5 lg:col-span-7 order-3 mt-6 lg:mt-10">
+ <!-- Subtitle: left-aligned under the headline -->
+ <div class="col-span-12 lg:col-span-9 order-3 mt-4 lg:mt-6">
  <p class="font-body text-xl lg:text-2xl leading-tight" style="color: var(--ink-soft);">
- PhD candidate studying how people navigate uncertainty about other minds through interaction and conversation.
+ PhD candidate studying how people navigate uncertainty about<br />
+ other minds through interaction and conversation.
  </p>
  </div>
  </div>
 </div>
 
-<!-- Latest musings — overlapping label treatment -->
+<!-- Latest musings — same alignment + padding as hero so the column reads continuous -->
 {#if latestPost || drafts.length > 0}
- <section class="px-6 lg:px-12 pb-20 max-w-6xl mx-auto">
- <h2 class="font-display leading-[0.85] mb-8" style="font-size: clamp(3rem, 8vw, 6rem); color: var(--ink);">
- latest <span style="color: var(--accent);">musings</span>
+ <section class="px-4 lg:px-6 pb-20 max-w-6xl mx-auto">
+ <h2 class="font-display mb-6 lg:mb-8" style="font-size: clamp(2.25rem, 5vw, 3.5rem); line-height: 1; color: var(--ink);">
+ latest <span style="color: var(--accent);">musings</span><span class="star" aria-hidden="true" style="width: 0.5em; height: 0.5em; margin-left: 0.2em; vertical-align: 0.5em;"></span>
  </h2>
 
- <div class="grid grid-cols-12 gap-6">
+ <div class="max-w-3xl">
  {#if latestPost}
- <a href="/{latestPost.path}" class="col-span-12 lg:col-span-8 lg:col-start-3 block mb-2 no-underline group">
+ <a href="/{latestPost.path}" class="block mb-6 no-underline group">
  <p class="font-mono text-xs mb-2" style="color: var(--ink-faint);">
  {latestPost.meta.date}
  </p>
- <h3 class="font-display mb-3 leading-[0.95]" style="font-size: clamp(2rem, 5vw, 3.5rem);">
+ <h3 class="font-display mb-3" style="font-size: clamp(1.75rem, 3.5vw, 2.5rem); line-height: 1; color: var(--ink);">
  <span class="group-hover:[background-size:100%_3px]" style="background-image: linear-gradient(var(--accent), var(--accent)); background-repeat: no-repeat; background-position: 0 100%; background-size: 0 3px; transition: background-size 0.3s ease; padding-bottom: 4px;">
  {latestPost.meta.title}
  </span>
@@ -70,12 +72,10 @@
  {/if}
 
  {#if drafts.length > 0}
- <div class="col-span-12 lg:col-span-8 lg:col-start-3 mt-4 pt-4" style="border-top: 1px solid var(--rule);">
- <p class="font-body text-sm leading-relaxed" style="color: var(--ink-soft);">
+ <p class="font-body text-sm leading-relaxed mt-4" style="color: var(--ink-soft);">
  <span class="font-marker text-lg" style="color: var(--accent); margin-right: 0.5rem;">↳ in the works:</span>
- {#each drafts as d, i}<em style="color: var(--ink);">{d.meta.title}</em>{#if i < drafts.length - 1}{', '}{/if}{/each}
+ {#each drafts as d, i}<em style="color: var(--ink);">{d.meta.title}</em><span class="font-marker" style="color: var(--ink-faint); margin-left: 0.3rem; font-size: 0.95rem;">(draft)</span>{#if i < drafts.length - 1}{', '}{/if}{/each}
  </p>
- </div>
  {/if}
  </div>
  </section>

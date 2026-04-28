@@ -43,6 +43,6 @@
  <a href="/blog" class="font-mono uppercase tracking-widest text-xs no-underline" style="color: var(--ink-soft);">
  ← all musings
  </a>
- <p class="margin-note">— wasita</p>
+ <p class="margin-note">xoxo wasita</p>
  </div>
 </article>

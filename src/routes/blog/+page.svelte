@@ -1,6 +1,4 @@
-<!-- blog page layout
-	currently displays each blog post as a card with 2 columns
--->
+<!-- blog index — single-column editorial cards, taped covers -->
 
 <script lang="ts">
  let { data } = $props();
@@ -10,34 +8,50 @@
  <title>blog · wasita.space</title>
 </svelte:head>
 
-<h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl">Blog</h1>
-<div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+<div class="px-4 lg:px-6 pt-12 pb-20 max-w-5xl mx-auto">
+ <h1 class="font-display leading-[0.95] mb-12" style="font-size: clamp(3rem, 9vw, 6.5rem);">
+ the <span style="color: var(--accent);">musings</span>.
+ </h1>
+
+ <div class="space-y-16 max-w-3xl">
  {#each data.posts as post}
  {#if post.meta.visible == true}
  <a
- class="group block overflow-hidden rounded-xl bg-gray-100 dark:bg-gray-800 hover:shadow-[0_0_12px_rgba(99,87,222,0.3),0_0_24px_rgba(99,87,222,0.2),0_0_36px_rgba(246,177,215,0.15)] hover:scale-[1.02] transition-all duration-200"
+ class="block no-underline group"
  href={post.path}
  >
- <header>
+ <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 items-start">
+ {#if post.meta.cover}
+ <div class="md:col-span-1">
+ <div class="taped-photo" style="transform: rotate(-2deg);">
  <img
  src={post.meta.cover}
  alt={post.meta.title}
  loading="lazy"
  decoding="async"
- class="object-cover w-full h-48"
+ class="block w-full h-44 object-cover"
  />
- </header>
- <div class="p-4 space-y-2">
- <h4 class="font-bold text-lg">{post.meta.title}</h4>
- <p class="text-gray-600 dark:text-gray-300 text-sm">
+ </div>
+ </div>
+ {/if}
+ <div class="md:col-span-2">
+ <p class="font-mono text-xs mb-2" style="color: var(--ink-faint);">
+ {post.meta.date}
+ </p>
+ <h2 class="font-display mb-3" style="font-size: clamp(1.75rem, 3.5vw, 2.5rem); line-height: 1; color: var(--ink);">
+ <span class="group-hover:[background-size:100%_3px]" style="background-image: linear-gradient(var(--accent), var(--accent)); background-repeat: no-repeat; background-position: 0 100%; background-size: 0 3px; transition: background-size 0.3s ease; padding-bottom: 4px;">
+ {post.meta.title}
+ </span>
+ </h2>
+ {#if post.meta.excerpt}
+ <p class="font-body text-base leading-relaxed" style="color: var(--ink-soft);">
  {post.meta.excerpt}
  </p>
+ {/if}
  </div>
- <footer class="px-4 pb-4">
- <hr class="opacity-30 mb-3" />
- <small class="text-gray-700 dark:text-gray-300">Last updated: {post.meta.date}</small>
- </footer>
+ </div>
  </a>
  {/if}
  {/each}
+ </div>
 </div>

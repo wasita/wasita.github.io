@@ -2,17 +2,24 @@
  <title>contact · wasita.space</title>
 </svelte:head>
 
-<h1 class="pt-4 pb-8 font-bold text-2xl lg:text-3xl">Contact</h1>
-<div class="max-w-xl mx-auto p-8 my-4 rounded-xl bg-gray-100 dark:bg-gray-800">
+<div class="px-4 lg:px-6 pt-12 pb-20 max-w-3xl mx-auto">
+ <h1 class="font-display leading-[0.95] mb-6" style="font-size: clamp(3rem, 9vw, 6.5rem);">
+ say <span style="color: var(--accent);">hi</span>.<span class="sparkle" aria-hidden="true" style="width: 0.18em; height: 0.18em; margin-left: 0.15em; vertical-align: 0.55em;"></span>
+ </h1>
+
+ <p class="font-body text-lg leading-relaxed mb-10 max-w-2xl" style="color: var(--ink-soft);">
+ If you'd like to talk research, reach out about a project, or just send a postcard from the internet — drop a note here and I'll write back.
+ </p>
+
  <form
  action="https://formspree.io/f/xvoeogae"
  method="POST"
- class="flex flex-col gap-4"
+ class="flex flex-col gap-5 max-w-xl"
  >
- <div class="flex flex-col gap-1">
- <label class="font-medium text-sm" for="name">Name</label>
+ <div class="flex flex-col gap-1.5">
+ <label class="font-mono text-xs" for="name" style="color: var(--ink-faint);">name</label>
  <input
- class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-400"
+ class="contact-input"
  type="text"
  name="name"
  id="name"
@@ -20,43 +27,65 @@
  required
  />
  </div>
- <div class="flex flex-col gap-1">
- <label class="font-medium text-sm" for="email">E-mail</label>
+ <div class="flex flex-col gap-1.5">
+ <label class="font-mono text-xs" for="email" style="color: var(--ink-faint);">e-mail</label>
  <input
- class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-400"
+ class="contact-input"
  type="email"
  name="_replyto"
  id="email"
- placeholder="youremail@provider.com"
+ placeholder="you@provider.com"
  required
  />
  </div>
- <div class="flex flex-col gap-1">
- <label class="font-medium text-sm" for="subject">Subject</label>
+ <div class="flex flex-col gap-1.5">
+ <label class="font-mono text-xs" for="subject" style="color: var(--ink-faint);">subject</label>
  <input
- class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-400"
+ class="contact-input"
  type="text"
  name="subject"
  id="subject"
- placeholder="subject"
+ placeholder="re:"
  />
  </div>
- <div class="flex flex-col gap-1">
- <label class="font-medium text-sm" for="message">Message</label>
+ <div class="flex flex-col gap-1.5">
+ <label class="font-mono text-xs" for="message" style="color: var(--ink-faint);">message</label>
  <textarea
- class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 resize-y"
+ class="contact-input resize-y"
  name="message"
- rows="4"
+ rows="6"
  id="message"
- placeholder="write your message here..."
+ placeholder="say hello..."
  required
  ></textarea>
  </div>
  <button
- class="gradient-hover mt-2 inline-block px-4 py-2 rounded-lg border border-purple-500 text-purple-500 transition-colors"
+ class="btn-accent self-start mt-3 px-6 py-2 rounded-lg font-mono text-sm"
  type="submit"
  >
- Send
+ send <span class="heart" aria-hidden="true" style="width: 0.85em; height: 0.85em; vertical-align: -0.1em; margin-left: 0.3em;"></span>
  </button>
  </form>
 </div>
+
+<style>
+ :global(.contact-input) {
+   width: 100%;
+   padding: 0.6rem 0.9rem;
+   background: var(--paper);
+   border: 1px solid var(--rule);
+   color: var(--ink);
+   font-family: "DM Sans", ui-sans-serif, sans-serif;
+   font-size: 1rem;
+   border-radius: 0.25rem;
+   transition: border-color 0.15s ease, box-shadow 0.15s ease;
+ }
+ :global(.contact-input::placeholder) {
+   color: var(--ink-faint);
+ }
+ :global(.contact-input:focus) {
+   outline: none;
+   border-color: var(--accent);
+   box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent);
+ }
+</style>
