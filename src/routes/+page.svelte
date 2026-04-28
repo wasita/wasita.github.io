@@ -24,7 +24,7 @@
  </div>
 
  <!-- Portrait: smaller column, hangs into the headline area -->
- <div class="col-span-12 lg:col-span-3 order-1 lg:order-2 relative flex lg:block justify-center">
+ <div class="col-span-12 lg:col-span-3 order-1 lg:order-2 relative flex lg:block justify-center mb-10 lg:mb-0">
  <div class="relative" style="lg:margin-top: -1rem;">
  <div class="taped-photo" style="transform: rotate(-3.5deg);">
  <img

@@ -18,7 +18,7 @@
  alt="magic-garden icon"
  loading="lazy"
  decoding="async"
- class="w-full lg:w-1/4 dark:invert"
+ class="w-full lg:w-1/4"
  />
  <div class="flex-1">
  <div class="block lg:pl-12">
@@ -69,7 +69,7 @@
  alt="eReader icon"
  loading="lazy"
  decoding="async"
- class="w-full lg:w-1/4 dark:invert"
+ class="w-full lg:w-1/4"
  />
  <div class="flex-1">
  <div class="block lg:pl-12">
@@ -283,7 +283,7 @@
  alt="wins"
  loading="lazy"
  decoding="async"
- class="w-full lg:w-1/4 dark:invert"
+ class="w-full lg:w-1/4"
  />
  <div class="flex-1">
  <div class="block lg:pl-12">
