@@ -1,0 +1,1 @@
+import{c as y,b as u,V as _,W as g,h as t,C as o,N as l,k as i,s as d,l as p,g as m}from"./BREX7hXv.js";function C(n,r){let s=null,E=t;var a;if(t){s=p;for(var e=m(document.head);e!==null&&(e.nodeType!==o||e.data!==n);)e=l(e);if(e===null)i(!1);else{var f=l(e);e.remove(),d(f)}}t||(a=document.head.appendChild(y()));try{u(()=>r(a),_|g)}finally{E&&(i(!0),d(s))}}export{C as h};
