@@ -245,8 +245,8 @@
  {#key data.pathname}
  <div
  class="container px-4 mx-auto"
- in:fly={{ easing: cubicOut, y: 10, duration: 150, delay: 200 }}
- out:fly={{ easing: cubicIn, y: 10, duration: 150 }}
+ in:fly={{ easing: cubicOut, y: 8, duration: 120 }}
+ out:fly={{ easing: cubicIn, y: 8, duration: 80 }}
  >
  {@render children()}
  </div>

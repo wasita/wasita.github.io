@@ -6,6 +6,11 @@
  let drafts = $derived(data.posts.filter((p) => p.meta.visible !== true));
 </script>
 
+<svelte:head>
+ <link rel="preload" as="image" href="/images/wasi_icon.webp" />
+ <link rel="prefetch" as="image" href="/images/joji-cuddles.webp" />
+</svelte:head>
+
 <!-- Home / hero — album-cover scale, asymmetric -->
 <div class="px-4 lg:px-6 pt-12 pb-16 max-w-6xl mx-auto">
  <div class="grid grid-cols-12 gap-0 lg:gap-1">
@@ -23,8 +28,10 @@
  <div class="relative" style="lg:margin-top: -1rem;">
  <div class="taped-photo" style="transform: rotate(-3.5deg);">
  <img
- src="/images/wasi_icon.jpg"
+ src="/images/wasi_icon.webp"
  alt="wasita"
+ fetchpriority="high"
+ decoding="async"
  class="block w-44 h-44 md:w-56 md:h-56 lg:w-full lg:h-auto object-cover"
  />
  </div>

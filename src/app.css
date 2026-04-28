@@ -39,9 +39,9 @@
   --ink: #ede6d6;
   --ink-soft: #b8ad9a;
   --ink-faint: #6e6557;
-  --accent: #e5b8e8;
-  --accent-soft: #c794d2;
-  --accent-rgb: 229, 184, 232;
+  --accent: #cfb5ec;
+  --accent-soft: #b89cd8;
+  --accent-rgb: 207, 181, 236;
   --rule: rgba(237, 230, 214, 0.18);
 }
 
@@ -353,7 +353,7 @@ a.group {
   padding-bottom: 0.18em;
 }
 .dark .scribble-underline {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 8' preserveAspectRatio='none'><path d='M2,5 Q14,1 28,4 T54,5 T80,3 T98,5' stroke='%23e5b8e8' stroke-width='2.4' fill='none' stroke-linecap='round'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 8' preserveAspectRatio='none'><path d='M2,5 Q14,1 28,4 T54,5 T80,3 T98,5' stroke='%23cfb5ec' stroke-width='2.4' fill='none' stroke-linecap='round'/></svg>");
 }
 
 /* Scribbled oval around content */
@@ -372,7 +372,7 @@ a.group {
   pointer-events: none;
 }
 .dark .scribble-circle::after {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 80' preserveAspectRatio='none'><path d='M22,44 Q18,18 60,12 Q124,6 162,20 Q192,32 180,56 Q166,76 100,72 Q34,68 22,50 Q15,40 24,28' stroke='%23e5b8e8' stroke-width='2.6' fill='none' stroke-linecap='round'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 80' preserveAspectRatio='none'><path d='M22,44 Q18,18 60,12 Q124,6 162,20 Q192,32 180,56 Q166,76 100,72 Q34,68 22,50 Q15,40 24,28' stroke='%23cfb5ec' stroke-width='2.6' fill='none' stroke-linecap='round'/></svg>");
 }
 
 /* Standalone right-pointing scribble arrow */
@@ -387,7 +387,7 @@ a.group {
   vertical-align: middle;
 }
 .dark .mark-arrow {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 24'><path d='M2,12 Q14,7 28,12 T54,12 M46,5 L57,12 L46,19' stroke='%23e5b8e8' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 24'><path d='M2,12 Q14,7 28,12 T54,12 M46,5 L57,12 L46,19' stroke='%23cfb5ec' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>");
 }
 
 /* Asterisk burst */
@@ -401,7 +401,7 @@ a.group {
   vertical-align: middle;
 }
 .dark .mark-asterisk {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><g stroke='%23e5b8e8' stroke-width='2.3' stroke-linecap='round'><line x1='12' y1='3' x2='12' y2='21'/><line x1='3' y1='12' x2='21' y2='12'/><line x1='5.5' y1='5.5' x2='18.5' y2='18.5'/><line x1='18.5' y1='5.5' x2='5.5' y2='18.5'/></g></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><g stroke='%23cfb5ec' stroke-width='2.3' stroke-linecap='round'><line x1='12' y1='3' x2='12' y2='21'/><line x1='3' y1='12' x2='21' y2='12'/><line x1='5.5' y1='5.5' x2='18.5' y2='18.5'/><line x1='18.5' y1='5.5' x2='5.5' y2='18.5'/></g></svg>");
 }
 
 /* Saturn orb — Sovereign's-Orb / planet-with-cross motif. Centuries-old iconography
@@ -420,28 +420,33 @@ a.group {
   vertical-align: middle;
 }
 .dark .saturn-orb {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><g fill='none' stroke='%23e5b8e8' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><ellipse cx='32' cy='38' rx='24' ry='5' transform='rotate(-10 32 38)'/><line x1='32' y1='9' x2='32' y2='30'/><line x1='26' y1='15' x2='38' y2='15'/><circle cx='32' cy='38' r='12' fill='%2315110d'/></g></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><g fill='none' stroke='%23cfb5ec' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><ellipse cx='32' cy='38' rx='24' ry='5' transform='rotate(-10 32 38)'/><line x1='32' y1='9' x2='32' y2='30'/><line x1='26' y1='15' x2='38' y2='15'/><circle cx='32' cy='38' r='12' fill='%2315110d'/></g></svg>");
 }
 
-/* Lab logo link — sparkly-reverb hover (pulsing accent ring + twinkling
-   sparkles around the corners + slight scale) */
-.lab-logo {
+/* Sparkly-reverb interactive hover — applied to lab logos (.lab-logo) and
+   accent buttons (.btn-accent). Pulsing accent ring + slight scale-rotate +
+   twinkling sparkles in two corners. */
+.lab-logo,
+.btn-accent {
   position: relative;
   display: inline-block;
   cursor: pointer;
   background-image: none !important; /* override the global underline-style on <a> */
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, color 0.2s ease, border-color 0.2s ease;
   border-radius: 4px;
 }
 .lab-logo img {
   transition: filter 0.3s ease;
   display: block;
 }
-.lab-logo:hover {
+.lab-logo:hover,
+.btn-accent:hover {
   transform: scale(1.06) rotate(-1deg);
   animation: lab-reverb 1.6s ease-out infinite;
-}
-.lab-logo:hover img {
+  background: transparent; /* no fill — sparkles + ring carry the feedback */
+  color: var(--accent);
+  /* drop-shadow on the parent (not the img) so it stacks with dark:invert
+     instead of overriding the img filter and reverting the invert */
   filter: drop-shadow(0 0 6px color-mix(in srgb, var(--accent) 60%, transparent));
 }
 @keyframes lab-reverb {
@@ -458,7 +463,9 @@ a.group {
 }
 /* Sparkles in two corners — fade in + twinkle on hover */
 .lab-logo::before,
-.lab-logo::after {
+.lab-logo::after,
+.btn-accent::before,
+.btn-accent::after {
   content: "";
   position: absolute;
   width: 12px;
@@ -471,24 +478,30 @@ a.group {
   transition: opacity 0.25s ease;
 }
 .dark .lab-logo::before,
-.dark .lab-logo::after {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M 8 0 Q 8.6 6 16 8 Q 8.6 10 8 16 Q 7.4 10 0 8 Q 7.4 6 8 0 Z' fill='%23e5b8e8'/></svg>");
+.dark .lab-logo::after,
+.dark .btn-accent::before,
+.dark .btn-accent::after {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M 8 0 Q 8.6 6 16 8 Q 8.6 10 8 16 Q 7.4 10 0 8 Q 7.4 6 8 0 Z' fill='%23cfb5ec'/></svg>");
 }
-.lab-logo::before {
+.lab-logo::before,
+.btn-accent::before {
   top: -10px;
   right: -10px;
 }
-.lab-logo::after {
+.lab-logo::after,
+.btn-accent::after {
   bottom: -8px;
   left: -10px;
   width: 9px;
   height: 9px;
 }
-.lab-logo:hover::before {
+.lab-logo:hover::before,
+.btn-accent:hover::before {
   opacity: 1;
   animation: lab-twinkle 1.1s ease-in-out infinite;
 }
-.lab-logo:hover::after {
+.lab-logo:hover::after,
+.btn-accent:hover::after {
   opacity: 1;
   animation: lab-twinkle 1.4s ease-in-out infinite 0.3s;
 }
@@ -509,7 +522,7 @@ a.group {
   vertical-align: middle;
 }
 .dark .crescent-moon {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path d='M 36 8 A 26 26 0 1 0 36 56 A 22 22 0 1 1 36 8 Z' fill='none' stroke='%23e5b8e8' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path d='M 36 8 A 26 26 0 1 0 36 56 A 22 22 0 1 1 36 8 Z' fill='none' stroke='%23cfb5ec' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/></svg>");
 }
 
 /* Sparkle — 4-pointed star, used as magical-girl twinkle and punk-zine flair */
@@ -524,7 +537,7 @@ a.group {
   vertical-align: middle;
 }
 .dark .sparkle {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M 8 0 Q 8.6 6 16 8 Q 8.6 10 8 16 Q 7.4 10 0 8 Q 7.4 6 8 0 Z' fill='%23e5b8e8'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M 8 0 Q 8.6 6 16 8 Q 8.6 10 8 16 Q 7.4 10 0 8 Q 7.4 6 8 0 Z' fill='%23cfb5ec'/></svg>");
 }
 
 /* Heart — line-art, Sailor-Moon-meets-zine */
@@ -539,7 +552,7 @@ a.group {
   vertical-align: middle;
 }
 .dark .heart {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M 12 21 C 6 16 2 12 2 8 C 2 5 4 3 7 3 C 9 3 11 4 12 6 C 13 4 15 3 17 3 C 20 3 22 5 22 8 C 22 12 18 16 12 21 Z' fill='none' stroke='%23e5b8e8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M 12 21 C 6 16 2 12 2 8 C 2 5 4 3 7 3 C 9 3 11 4 12 6 C 13 4 15 3 17 3 C 20 3 22 5 22 8 C 22 12 18 16 12 21 Z' fill='none' stroke='%23cfb5ec' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>");
 }
 
 /* Filled 5-pointed star — anime/magical-girl flair */
@@ -554,7 +567,7 @@ a.group {
   vertical-align: middle;
 }
 .dark .star {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><polygon points='12,2 14.6,8.6 22,9.3 16.5,14.5 18,21.5 12,17.7 6,21.5 7.5,14.5 2,9.3 9.4,8.6' fill='%23e5b8e8'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><polygon points='12,2 14.6,8.6 22,9.3 16.5,14.5 18,21.5 12,17.7 6,21.5 7.5,14.5 2,9.3 9.4,8.6' fill='%23cfb5ec'/></svg>");
 }
 
 /* Sparkle cluster — three sparkles in a "transformation" arrangement */
@@ -569,7 +582,7 @@ a.group {
   vertical-align: middle;
 }
 .dark .sparkle-cluster {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><g fill='%23e5b8e8'><path d='M 8 4 Q 8.5 8.5 13 9 Q 8.5 9.5 8 14 Q 7.5 9.5 3 9 Q 7.5 8.5 8 4 Z'/><path d='M 22 11 Q 22.4 14.4 25.5 14.7 Q 22.4 15 22 18 Q 21.6 15 18.5 14.7 Q 21.6 14.4 22 11 Z'/><path d='M 13 22 Q 13.3 24.5 15.5 24.7 Q 13.3 25 13 27 Q 12.7 25 10.5 24.7 Q 12.7 24.5 13 22 Z'/></g></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><g fill='%23cfb5ec'><path d='M 8 4 Q 8.5 8.5 13 9 Q 8.5 9.5 8 14 Q 7.5 9.5 3 9 Q 7.5 8.5 8 4 Z'/><path d='M 22 11 Q 22.4 14.4 25.5 14.7 Q 22.4 15 22 18 Q 21.6 15 18.5 14.7 Q 21.6 14.4 22 11 Z'/><path d='M 13 22 Q 13.3 24.5 15.5 24.7 Q 13.3 25 13 27 Q 12.7 25 10.5 24.7 Q 12.7 24.5 13 22 Z'/></g></svg>");
 }
 
 /* Tartan strip — Westwood-y thin band */
@@ -683,7 +696,7 @@ a.group {
   background-position: center;
 }
 .dark .cyber-nav-link.active::before {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M 8 0 Q 8.6 6 16 8 Q 8.6 10 8 16 Q 7.4 10 0 8 Q 7.4 6 8 0 Z' fill='%23e5b8e8'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M 8 0 Q 8.6 6 16 8 Q 8.6 10 8 16 Q 7.4 10 0 8 Q 7.4 6 8 0 Z' fill='%23cfb5ec'/></svg>");
 }
 
 /* Portfolio tag pill + link button — accent-colored */
@@ -691,14 +704,10 @@ a.group {
   border: 1px solid var(--accent);
   color: var(--accent);
 }
+/* .btn-accent base styling — hover behavior handled by the shared sparkly-reverb block above */
 .btn-accent {
   border: 1px solid var(--accent);
   color: var(--accent);
-  transition: all 0.2s ease;
-}
-.btn-accent:hover {
-  background: var(--accent);
-  color: var(--paper);
 }
 
 /* Mobile menu active link */
