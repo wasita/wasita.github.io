@@ -9,40 +9,49 @@
  </h1>
 
  <h2 class="font-quote text-2xl lg:text-3xl leading-snug mb-12 max-w-3xl" style="color: var(--accent); border-left: 3px solid var(--accent); padding-left: 1.25rem;">
- I study how people build shared understanding of each other through interaction and conversation, and how that grounds social connection.<span class="heart" aria-hidden="true" style="width: 0.85em; height: 0.85em; margin-left: 0.3em; vertical-align: -0.05em;"></span>
+ I study the cognitive mechanisms of how people infer another person's inner world — their beliefs, values, and interpretations — from sparse evidence in conversation,
+ and when those inferences produce feelings of connection.
+ <span class="heart" aria-hidden="true" style="width: 0.85em; height: 0.85em; margin-left: 0.3em; vertical-align: -0.05em;"></span>
  </h2>
 
  <div class="font-body text-lg leading-relaxed max-w-3xl space-y-12" style="color: var(--ink);">
  <!-- 01 / the question -->
  <section>
- <header class="flex items-baseline gap-4 mb-4">
- <span class="font-display" style="font-size: 2.5rem; line-height: 1; color: var(--accent);">01</span>
- <span class="font-mono text-xs" style="color: var(--ink-faint);">motivating questions</span>
+ <header class="mb-4">
+ <span class="font-display" style="font-size: clamp(1.75rem, 4vw, 2.5rem); line-height: 1; color: var(--accent);">motivating questions</span>
  </header>
  <p>
- We only ever have direct access to our own thoughts, feelings, and experiences. Yet when we meet someone new, we routinely form impressions of them, discover what we have in common, and build genuine relationships — often remarkably quickly. How do we infer, from sparse evidence, what we have in common with someone? What makes some discovered commonalities feel meaningful while others feel inconsequential? And how does real interaction shape the inferences we draw about others' minds?
+ We only ever have direct access to our own thoughts, feelings, and experiences. 
+ Yet from a stated opinion, a shared remark or commentary about a TV show character's actions,
+ or a single disclosure, we routinely infer what someone else thinks, feels, and values — and sometimes feel genuinely connected as a result.
+ What cognitive process turns sparse information we learn from one another through conversation into the experience of social connection?
+ Why do some discovered commonalities produce felt closeness while others fall flat? 
+ And how does real interaction shape the inferences we draw about each other?
  </p>
  </section>
 
  <!-- 02 / the dissertation -->
  <section>
- <header class="flex items-baseline gap-4 mb-4">
- <span class="font-display" style="font-size: 2.5rem; line-height: 1; color: var(--accent);">02</span>
- <span class="font-mono text-xs" style="color: var(--ink-faint);">the dissertation</span>
+ <header class="mb-4">
+ <span class="font-display" style="font-size: clamp(1.75rem, 4vw, 2.5rem); line-height: 1; color: var(--accent);">the dissertation</span>
  </header>
  <p>
- My dissertation approaches these questions through the lens of how connection forms. I build custom multiplayer web experiments to study three things: how people extrapolate from sparse commonalities to a partner's broader worldview; how conversation builds a shared understanding even when experiences differ; and how perceived rarity and disclosure depth shape which commonalities feel meaningful. These experiments let me causally manipulate what people learn about each other while preserving the dynamics of real interaction, and I analyze the data using natural language processing and computational cognitive modeling.
+ My dissertation work combines multiplayer web apps with computational modeling and NLP tools.
+ My approach preserves real-time interaction while letting me manipulate what people discover about each other:
+ a stance on a topic, real-time commentary on a third party's behavior, and the perceived rarity of a disclosed experience.
+ Across three studies, my work shows that connection emerges not from tallying overlapping features but from the inferences people draw on top of them.
  </p>
  </section>
 
  <!-- 03 / what's next -->
  <section>
- <header class="flex items-baseline gap-4 mb-4">
- <span class="font-display" style="font-size: 2.5rem; line-height: 1; color: var(--accent);">03</span>
- <span class="font-mono text-xs" style="color: var(--ink-faint);">what's next</span>
+ <header class="mb-4">
+ <span class="font-display" style="font-size: clamp(1.75rem, 4vw, 2.5rem); line-height: 1; color: var(--accent);">what's next</span>
  </header>
  <p>
- Looking forward, I am extending this research program to how people construct and update models of other minds during joint action and planning, and what happens when this process breaks down. Social interaction requires ongoing inference about others' intentions, beliefs, and goals, and failures in this process may underlie difficulties in social functioning across a range of psychiatric conditions. By bridging social cognition, computational modeling, and clinical science, I hope to build a mechanistic account of how we come to feel, or fail to feel, truly understood by others.
+ Looking forward, I am extending this research program to how people construct and update models of other minds during joint action and planning, and what happens when this process breaks down.
+ Social interaction requires ongoing inference about others' intentions, beliefs, and goals, and failures in this process may underlie difficulties in social functioning across a range of psychiatric conditions.
+ By bridging social cognition, computational cognitive modeling, and clinical science, I hope to build a mechanistic account of how we come to feel, or fail to feel, truly understood by others.
  </p>
  </section>
  </div>
