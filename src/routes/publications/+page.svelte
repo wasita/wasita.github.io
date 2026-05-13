@@ -27,7 +27,7 @@
  <li>
  <span style="color: var(--ink-faint);">[in prep]</span>
  <strong>Mahaphanit, W.</strong>, Mills, K.<span style="color: var(--accent);">†</span>, &amp; Chang, L. J.
- <span class="font-semibold">Decomposing commonality: depth and rarity jointly shape the bonding power of "me too."</span>
+ <span class="font-semibold">Decomposing commonality: Bonding through 'me too' depends on perceived rarity at the moment of disclosure.</span>
  </li>
  <li>
  <span style="color: var(--ink-faint);">[in prep]</span>
