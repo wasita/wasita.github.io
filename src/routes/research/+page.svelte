@@ -24,7 +24,7 @@
  We only ever have direct access to our own thoughts, feelings, and experiences. 
  Yet from a stated opinion, a shared remark or commentary about a TV show character's actions,
  or a single disclosure, we routinely infer what someone else thinks, feels, and values — and sometimes feel genuinely connected as a result.
- What cognitive process turns sparse information we learn from one another through conversation into the experience of social connection?
+ What cognitive process turns sparse information we learn from one another through conversation into feelings of connection?
  Why do some discovered commonalities produce felt closeness while others fall flat? 
  And how does real interaction shape the inferences we draw about each other?
  </p>

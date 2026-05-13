@@ -133,7 +133,7 @@
  and
  <a href="https://www.youtube.com/watch?v=ttVtllHkb4E" target="_blank" rel="noreferrer">Slay the Spire 2</a>).
  In a past life, I practiced
- <a href="https://www.instagram.com/wasiaerial/" target="_blank" rel="noreferrer">aerial hoop/lyra</a>.
+ <a href="https://www.instagram.com/wasiaerial/" target="_blank" rel="noreferrer">aerial hoop</a>.
  Nowadays, I attend
  <a href="https://uvcircus.com/" target="_blank" rel="noreferrer">UVCC</a>
  workshops when I can.
