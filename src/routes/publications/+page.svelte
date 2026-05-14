@@ -14,7 +14,7 @@
  or <a href="https://wasita-mahaphanit-cv.netlify.app" target="_blank" rel="noreferrer">CV</a>.
  </p>
  <p class="font-mono text-xs mb-1" style="color: var(--ink-faint);">
- <span class="heart" aria-hidden="true" style="width: 0.85em; height: 0.85em; vertical-align: -0.1em;"></span>
+ <span class="star" aria-hidden="true" style="width: 0.85em; height: 0.85em; vertical-align: -0.1em;"></span>
  co-first authorship · <span style="color: var(--accent);">†</span> trainee I mentored
  </p>
 
@@ -54,13 +54,13 @@
  <ul class="space-y-5 font-body text-base leading-relaxed" style="color: var(--ink);">
  <li>
  <span style="color: var(--ink-faint);">[2026]</span>
- <strong>Mahaphanit, W.</strong><span class="heart" aria-hidden="true" style="width: 0.7em; height: 0.7em; vertical-align: -0.05em; margin: 0 0.05em;"></span>, Welker, C.<span class="heart" aria-hidden="true" style="width: 0.7em; height: 0.7em; vertical-align: -0.05em; margin: 0 0.05em;"></span>, Schmidt, H., Houlihan, S. D., Chang, L. J., &amp; Hawkins, R. D.
+ <strong>Mahaphanit, W.</strong><span class="star" aria-hidden="true" style="width: 0.7em; height: 0.7em; vertical-align: -0.05em; margin: 0 0.05em;"></span>, Welker, C.<span class="star" aria-hidden="true" style="width: 0.7em; height: 0.7em; vertical-align: -0.05em; margin: 0 0.05em;"></span>, Schmidt, H., Houlihan, S. D., Chang, L. J., &amp; Hawkins, R. D.
  <span class="font-semibold">Generalized shared reality arises in brief interactions from structured social inferences about commonality.</span>
  <em>PsyArXiv.</em>
  <a href="https://osf.io/preprints/psyarxiv/3xzpe_v2" target="_blank" rel="noreferrer">[preprint]</a>
  <span class="block text-sm mt-2 pl-4 border-l-2" style="color: var(--ink-soft); border-color: var(--accent-soft);">
  Expanded from the peer-reviewed conference version:
- <strong>Mahaphanit, W.</strong><span class="heart" aria-hidden="true" style="width: 0.65em; height: 0.65em; vertical-align: -0.05em; margin: 0 0.05em;"></span>, Welker, C.<span class="heart" aria-hidden="true" style="width: 0.65em; height: 0.65em; vertical-align: -0.05em; margin: 0 0.05em;"></span>, Schmidt, H., Chang, L. J., &amp; Hawkins, R. D. (2024).
+ <strong>Mahaphanit, W.</strong><span class="star" aria-hidden="true" style="width: 0.65em; height: 0.65em; vertical-align: -0.05em; margin: 0 0.05em;"></span>, Welker, C.<span class="star" aria-hidden="true" style="width: 0.65em; height: 0.65em; vertical-align: -0.05em; margin: 0 0.05em;"></span>, Schmidt, H., Chang, L. J., &amp; Hawkins, R. D. (2024).
  When and why does shared reality generalize?
  <em>Proceedings of the Annual Meeting of the Cognitive Science Society, 46.</em>
  <a href="https://escholarship.org/uc/item/6t6195s5" target="_blank" rel="noreferrer">[paper]</a>
@@ -68,12 +68,19 @@
  </li>
  </ul>
 
- <!-- Conference abstracts -->
+ <!-- Conference proceedings -->
  <header class="flex items-baseline gap-3 mt-12 mb-5">
  <span class="saturn-orb" aria-hidden="true" style="width: 1.4rem; height: 1.4rem;"></span>
- <h2 class="font-display" style="font-size: 1.75rem; line-height: 1; color: var(--accent);">conference abstracts</h2>
+ <h2 class="font-display" style="font-size: 1.75rem; line-height: 1; color: var(--accent);">conference proceedings</h2>
  </header>
  <ul class="space-y-5 font-body text-base leading-relaxed" style="color: var(--ink);">
+ <li>
+ <span style="color: var(--ink-faint);">[2026]</span>
+ Brockbank, E., Dee, N., O'Keeffe, M., <strong>Mahaphanit, W.</strong>, Gerstenberg, T., Fan, J., &amp; Hawkins, R. D.
+ <span class="font-semibold">Asking the right questions? What people learn about strangers in conversation.</span>
+ <em>Proceedings of the Annual Meeting of the Cognitive Science Society, 48.</em>
+ <a href="https://osf.io/preprints/psyarxiv/rxq5u_v1" target="_blank" rel="noreferrer">[preprint]</a>
+ </li>
  <li>
  <span style="color: var(--ink-faint);">[2025]</span>
  <strong>Mahaphanit, W.</strong>, Keller, B.<span style="color: var(--accent);">†</span>, Hawkins, R. D., Phillips, J. S., &amp; Chang, L. J.
