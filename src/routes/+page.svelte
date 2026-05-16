@@ -65,7 +65,7 @@
  {latestPost.meta.date}
  </p>
  <h3 class="font-display mb-3" style="font-size: clamp(1.75rem, 3.5vw, 2.5rem); line-height: 1; color: var(--ink);">
- <span class="group-hover:[background-size:100%_3px]" style="background-image: linear-gradient(var(--accent), var(--accent)); background-repeat: no-repeat; background-position: 0 100%; background-size: 0 3px; transition: background-size 0.3s ease; padding-bottom: 4px;">
+ <span class="starry-link group-hover:[background-size:100%_3px]" style="background-image: linear-gradient(var(--accent), var(--accent)); background-repeat: no-repeat; background-position: 0 100%; background-size: 100% 2px; transition: background-size 0.3s ease; padding-bottom: 4px;">
  {latestPost.meta.title}
  </span>
  </h3>
