@@ -360,7 +360,7 @@ a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.
   position: relative;
 }
 .dark .sticky-note {
-  background: #ede6d6;
+  background: #f5f5f5;
   color: #1a1614;
 }
 .sticky-note::before {
