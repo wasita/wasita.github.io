@@ -34,11 +34,11 @@
 }
 
 .dark {
-  --paper: #15110d;
-  --paper-deep: #0e0b08;
+  --paper: #0a0807;
+  --paper-deep: #050403;
   --ink: #ffffff;
-  --ink-soft: #b8ad9a;
-  --ink-faint: #6e6557;
+  --ink-soft: #ece4d3;
+  --ink-faint: #b8ad9a;
   --accent: #cfb5ec;
   --accent-soft: #b89cd8;
   --accent-rgb: 207, 181, 236;
@@ -279,6 +279,71 @@ a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.
     rgba(255, 255, 255, 0.3) 50%,
     rgba(255, 255, 255, 0.14) 100%
   );
+}
+
+/* Glittery wisteria/lavender tape — sparkly variant */
+.taped-photo.glittery::before,
+.taped-photo.glittery::after {
+  background-image:
+    radial-gradient(circle at 12% 28%, rgba(255, 255, 255, 0.95) 0.6px, transparent 1.2px),
+    radial-gradient(circle at 38% 70%, rgba(255, 255, 255, 0.9) 0.5px, transparent 1.1px),
+    radial-gradient(circle at 62% 22%, rgba(255, 255, 255, 0.95) 0.7px, transparent 1.3px),
+    radial-gradient(circle at 82% 64%, rgba(255, 255, 255, 0.85) 0.5px, transparent 1px),
+    radial-gradient(circle at 25% 82%, rgba(255, 240, 255, 0.9) 0.5px, transparent 1px),
+    radial-gradient(circle at 72% 88%, rgba(255, 255, 255, 0.9) 0.6px, transparent 1.1px),
+    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.8) 0.4px, transparent 0.9px),
+    linear-gradient(
+      120deg,
+      rgba(207, 181, 236, 0.85) 0%,
+      rgba(216, 167, 202, 0.85) 35%,
+      rgba(181, 126, 220, 0.85) 65%,
+      rgba(201, 160, 220, 0.85) 100%
+    );
+  background-size:
+    40px 40px,
+    35px 35px,
+    45px 45px,
+    30px 30px,
+    38px 38px,
+    42px 42px,
+    25px 25px,
+    200% 200%;
+  background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0% 50%;
+  box-shadow:
+    0 2px 6px rgba(120, 60, 180, 0.25),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.35),
+    inset 0 0 10px rgba(255, 255, 255, 0.2);
+  animation: glitter-shimmer 4s ease-in-out infinite;
+}
+.dark .taped-photo.glittery::before,
+.dark .taped-photo.glittery::after {
+  background-image:
+    radial-gradient(circle at 12% 28%, rgba(255, 255, 255, 1) 0.6px, transparent 1.2px),
+    radial-gradient(circle at 38% 70%, rgba(255, 255, 255, 0.95) 0.5px, transparent 1.1px),
+    radial-gradient(circle at 62% 22%, rgba(255, 255, 255, 1) 0.7px, transparent 1.3px),
+    radial-gradient(circle at 82% 64%, rgba(255, 255, 255, 0.9) 0.5px, transparent 1px),
+    radial-gradient(circle at 25% 82%, rgba(255, 240, 255, 0.95) 0.5px, transparent 1px),
+    radial-gradient(circle at 72% 88%, rgba(255, 255, 255, 0.95) 0.6px, transparent 1.1px),
+    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.85) 0.4px, transparent 0.9px),
+    linear-gradient(
+      120deg,
+      rgba(207, 181, 236, 0.7) 0%,
+      rgba(216, 167, 202, 0.7) 35%,
+      rgba(181, 126, 220, 0.7) 65%,
+      rgba(201, 160, 220, 0.7) 100%
+    );
+  box-shadow:
+    0 2px 8px rgba(180, 120, 230, 0.35),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.25),
+    inset 0 0 10px rgba(255, 255, 255, 0.15);
+}
+@keyframes glitter-shimmer {
+  0%, 100% {
+    background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0% 50%;
+  }
+  50% {
+    background-position: 4px 2px, -3px 4px, 5px -2px, -2px 3px, 3px -3px, -4px -2px, 2px 2px, 100% 50%;
+  }
 }
 
 /* Sticky note — Caveat on a small rotated card */

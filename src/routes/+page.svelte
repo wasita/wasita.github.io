@@ -17,16 +17,16 @@
  <!-- Headline: spans most of the row -->
  <div class="col-span-12 lg:col-span-9 order-2 lg:order-1">
  <h1 class="font-display mb-0" style="font-size: clamp(3rem, 10vw, 8rem); line-height: 1.05;">
- hi, I'm<br />
+ hi, i'm<br />
  <span style="color: var(--accent); position: relative; display: inline-block;">
- Wasita<span class="sparkle" aria-hidden="true" style="position: absolute; top: -0.3em; right: -0.25em; width: 0.3em; height: 0.3em;"></span><span class="sparkle" aria-hidden="true" style="position: absolute; bottom: 0.15em; left: -0.25em; width: 0.22em; height: 0.22em;"></span></span><span class="saturn-orb" aria-hidden="true" style="width: 0.55em; height: 0.55em; margin-left: 0.05em; vertical-align: 0.15em;"></span><span class="sparkle" aria-hidden="true" style="width: 0.18em; height: 0.18em; margin-left: 0.05em; vertical-align: 0.55em;"></span>.
+ wasita<span class="sparkle" aria-hidden="true" style="position: absolute; top: -0.3em; right: -0.25em; width: 0.3em; height: 0.3em;"></span><span class="sparkle" aria-hidden="true" style="position: absolute; bottom: 0.15em; left: -0.25em; width: 0.22em; height: 0.22em;"></span></span><span class="saturn-orb" aria-hidden="true" style="width: 0.55em; height: 0.55em; margin-left: 0.05em; vertical-align: 0.15em;"></span><span class="sparkle" aria-hidden="true" style="width: 0.18em; height: 0.18em; margin-left: 0.05em; vertical-align: 0.55em;"></span>.
  </h1>
  </div>
 
  <!-- Portrait: smaller column, hangs into the headline area -->
  <div class="col-span-12 lg:col-span-3 order-1 lg:order-2 relative flex lg:block justify-center mb-10 lg:mb-0">
  <div class="relative" style="lg:margin-top: -1rem;">
- <div class="taped-photo" style="transform: rotate(-3.5deg);">
+ <div class="taped-photo glittery" style="transform: rotate(-3.5deg);">
  <img
  src="/images/wasi_icon.webp"
  alt="wasita"

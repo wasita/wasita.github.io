@@ -257,8 +257,8 @@
  <footer class="py-4" style="border-top: 1px solid var(--rule);">
  <div class="container mx-auto px-4">
  <div class="flex flex-col sm:flex-row items-center justify-between gap-4 py-2">
- <p class="font-mono text-xs uppercase tracking-widest" style="color: var(--ink-faint);">
- Wasita Mahaphanit · {currentYear} · printed in Svelte <span class="heart" aria-hidden="true" style="width: 0.85em; height: 0.85em; vertical-align: -0.1em;"></span>
+ <p class="font-mono text-xs uppercase tracking-widest" style="color: var(--ink);">
+ Wasita Mahaphanit ({currentYear}) · printed in Svelte <span class="heart" aria-hidden="true" style="width: 0.85em; height: 0.85em; vertical-align: -0.1em;"></span>
  </p>
  <nav class="flex items-center gap-1" aria-label="Social links">
  <a
