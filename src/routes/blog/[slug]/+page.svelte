@@ -16,7 +16,7 @@
 
  {#if data.cover}
  <div class="mb-12 flex justify-center">
- <div class="taped-photo" style="max-width: 480px;">
+ <div class="taped-photo glittery" style="max-width: 480px;">
  <img src={data.cover} alt={data.title} class="block w-full h-auto object-cover" />
  </div>
  </div>

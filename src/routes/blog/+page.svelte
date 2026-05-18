@@ -23,7 +23,7 @@
  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 items-start">
  {#if post.meta.cover}
  <div class="md:col-span-1">
- <div class="taped-photo" style="transform: rotate(-2deg);">
+ <div class="taped-photo glittery" style="transform: rotate(-2deg);">
  <img
  src={post.meta.cover}
  alt={post.meta.title}
