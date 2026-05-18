@@ -13,7 +13,7 @@
  <a href="https://scholar.google.com/citations?user=1tZe-1gAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
  or <a href="https://wasita-mahaphanit-cv.netlify.app" target="_blank" rel="noreferrer">CV</a>.
  </p>
- <p class="font-mono text-xs mb-1" style="color: var(--ink-faint);">
+ <p class="font-mono text-xs mb-1" style="color: var(--caption-ink);">
  <span class="star" aria-hidden="true" style="width: 0.85em; height: 0.85em; vertical-align: -0.1em;"></span>
  co-first authorship · <span style="color: var(--accent);">†</span> trainee I mentored
  </p>

@@ -61,7 +61,7 @@ I study the cognitive mechanisms of how people infer another person's inner worl
  <div class="max-w-3xl">
  {#if latestPost}
  <a href="/{latestPost.path}" class="block mb-6 no-underline group">
- <p class="font-mono text-xs mb-2" style="color: var(--ink-faint);">
+ <p class="font-mono text-xs mb-2" style="color: var(--caption-ink);">
  {latestPost.meta.date}
  </p>
  <h3 class="font-display mb-3" style="font-size: clamp(1.75rem, 3.5vw, 2.5rem); line-height: 1; color: var(--ink);">

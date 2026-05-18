@@ -44,7 +44,7 @@
  <h2 class="font-display mb-4" style="font-size: clamp(2rem, 5vw, 3.25rem); line-height: 0.95;">
  Wasita Mahaphanit
  </h2>
- <p class="font-mono text-xs" style="color: var(--ink-faint);">
+ <p class="font-mono text-xs" style="color: var(--caption-ink);">
  PhD candidate @ Dartmouth
  </p>
  </div>

@@ -7,7 +7,7 @@
 </svelte:head>
 
 <article class="px-6 lg:px-12 pt-12 pb-20 max-w-3xl mx-auto">
- <p class="font-mono text-xs mb-3" style="color: var(--ink-faint);">
+ <p class="font-mono text-xs mb-3" style="color: var(--caption-ink);">
  {data.date}
  </p>
  <h1 class="font-display leading-[0.88] mb-10" style="font-size: clamp(2.5rem, 7vw, 5rem); color: var(--ink);">

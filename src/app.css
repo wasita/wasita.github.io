@@ -18,6 +18,7 @@
   --accent: #c794d2;
   --accent-soft: #d8b1de;
   --accent-rgb: 199, 148, 210;
+  --caption-ink: #6b6fd9;
   --rule: rgba(26, 22, 20, 0.18);
 
   /* Legacy aliases — keep cyber-* classes from breaking, but render them in
@@ -42,6 +43,7 @@
   --accent: #cfb5ec;
   --accent-soft: #b89cd8;
   --accent-rgb: 207, 181, 236;
+  --caption-ink: #b8bdee;
   --rule: rgba(237, 230, 214, 0.18);
 }
 
@@ -109,9 +111,9 @@ h3, h4 {
   font-style: italic;
 }
 
-/* Caption — wide-tracked uppercase DM Sans */
+/* Caption — wide-tracked uppercase Helvetica Neue */
 .font-mono {
-  font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, ui-sans-serif, system-ui, sans-serif;
   font-weight: 600;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -424,7 +426,7 @@ a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.
   color: var(--accent);
 }
 .section-number .label {
-  font-family: "DM Sans", ui-sans-serif, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, ui-sans-serif, sans-serif;
   font-weight: 600;
   font-size: 0.7rem;
   letter-spacing: 0.18em;
@@ -799,7 +801,7 @@ a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.
 .cyber-nav-link {
   position: relative;
   padding: 0.4rem 0.8rem;
-  font-family: "DM Sans", ui-sans-serif, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, ui-sans-serif, sans-serif;
   font-weight: 600;
   font-size: 0.8rem;
   letter-spacing: 0.12em;
