@@ -9,7 +9,7 @@
  </h1>
 
  <h2 class="font-quote text-2xl lg:text-3xl leading-snug mb-12 max-w-3xl" style="color: var(--accent); border-left: 3px solid var(--accent); padding-left: 1.25rem;">
- I study the cognitive mechanisms of how people infer another person's inner world -- their beliefs, interpretations, and lived experiences -- from sparse evidence in conversation,
+ I study the cognitive mechanisms of how people infer another person's inner world — their beliefs, interpretations, and lived experiences — from sparse evidence in conversation,
  and when those inferences produce feelings of connection.
  <span class="heart" aria-hidden="true" style="width: 0.85em; height: 0.85em; margin-left: 0.3em; vertical-align: -0.05em;"></span>
  </h2>
@@ -22,7 +22,7 @@
  </header>
  <p>
 We only ever have direct access to our own thoughts, feelings, and experiences.
-Yet from sparse signals in conversation, we routinely infer what someone else thinks, feels, and values -- and sometimes feel genuinely connected as a result.
+Yet from sparse signals in conversation, we routinely infer what someone else thinks, feels, and values — and sometimes feel genuinely connected as a result.
 What cognitive process turns these into feelings of connection?
 Why do some discovered commonalities produce closeness while others fall flat?
  </p>
@@ -35,7 +35,7 @@ Why do some discovered commonalities produce closeness while others fall flat?
  </header>
  <p>
 My dissertation builds an inferential account of social connection, a framework for how people infer another's inner world from 
-the limited signals available -- a single stance on a topic, a partner's commentary during a co-watched event as it unfolds, the rarity and depth of a disclosed commonality.
+the limited signals available — a single stance on a topic, a partner's commentary during a co-watched event as it unfolds, the rarity and depth of a disclosed commonality.
 I combine multiplayer web apps with computational modeling and NLP tools to study these inferences inside genuine real-time interactions.
 Across three studies, I show that connection emerges not from the quantity of commonalities but from the inferences people draw on top of them.
  </p>
