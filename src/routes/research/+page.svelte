@@ -9,7 +9,7 @@
  </h1>
 
  <h2 class="font-quote text-2xl lg:text-3xl leading-snug mb-12 max-w-3xl" style="color: var(--accent); border-left: 3px solid var(--accent); padding-left: 1.25rem;">
- I study the cognitive mechanisms of how people infer another person's inner world — their beliefs, values, and interpretations — from sparse evidence in conversation,
+ I study the cognitive mechanisms of how people infer another person's inner world -- their beliefs, interpretations, and lived experiences -- from sparse evidence in conversation,
  and when those inferences produce feelings of connection.
  <span class="heart" aria-hidden="true" style="width: 0.85em; height: 0.85em; margin-left: 0.3em; vertical-align: -0.05em;"></span>
  </h2>
@@ -21,12 +21,10 @@
  <span class="font-display" style="font-size: clamp(1.75rem, 4vw, 2.5rem); line-height: 1; color: var(--accent);">motivating questions</span>
  </header>
  <p>
- We only ever have direct access to our own thoughts, feelings, and experiences. 
- Yet from a stated opinion, a shared remark or commentary about a TV show character's actions,
- or a single disclosure, we routinely infer what someone else thinks, feels, and values — and sometimes feel genuinely connected as a result.
- What cognitive process turns sparse information we learn from one another through conversation into feelings of connection?
- Why do some discovered commonalities produce felt closeness while others fall flat? 
- And how does real interaction shape the inferences we draw about each other?
+We only ever have direct access to our own thoughts, feelings, and experiences.
+Yet from sparse signals in conversation, we routinely infer what someone else thinks, feels, and values -- and sometimes feel genuinely connected as a result.
+What cognitive process turns these into feelings of connection?
+Why do some discovered commonalities produce closeness while others fall flat?
  </p>
  </section>
 
@@ -36,10 +34,10 @@
  <span class="font-display" style="font-size: clamp(1.75rem, 4vw, 2.5rem); line-height: 1; color: var(--accent);">the dissertation</span>
  </header>
  <p>
- My dissertation work combines multiplayer web apps with computational modeling and NLP tools.
- My approach preserves real-time interaction while letting me manipulate what people discover about each other:
- a stance on a topic, real-time commentary on a third party's behavior, and the perceived rarity of a disclosed experience.
- Across three studies, my work shows that connection emerges not from tallying overlapping features but from the inferences people draw on top of them.
+My dissertation builds an inferential account of social connection, a framework for how people infer another's inner world from 
+the limited signals available -- a single stance on a topic, a partner's commentary during a co-watched event as it unfolds, the rarity and depth of a disclosed commonality.
+I combine multiplayer web apps with computational modeling and NLP tools to study these inferences inside genuine real-time interactions.
+Across three studies, I show that connection emerges not from the quantity of commonalities but from the inferences people draw on top of them.
  </p>
  </section>
 
@@ -49,7 +47,8 @@
  <span class="font-display" style="font-size: clamp(1.75rem, 4vw, 2.5rem); line-height: 1; color: var(--accent);">what's next</span>
  </header>
  <p>
- Looking forward, I am extending this research program to how people construct and update models of other minds during joint action and planning, and what happens when this process breaks down.
+ Looking forward, I am extending this research program to how people construct and update models of other minds during joint action and planning, 
+ and what happens when this process breaks down.
  Social interaction requires ongoing inference about others' intentions, beliefs, and goals, and failures in this process may underlie difficulties in social functioning across a range of psychiatric conditions.
  By bridging social cognition, computational cognitive modeling, and clinical science, I hope to build a mechanistic account of how we come to feel, or fail to feel, truly understood by others.
  </p>

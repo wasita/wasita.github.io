@@ -45,7 +45,7 @@
  <!-- Subtitle: left-aligned under the headline -->
  <div class="col-span-12 lg:col-span-9 order-3 mt-4 lg:mt-6">
  <p class="font-body text-xl lg:text-2xl leading-tight" style="color: var(--ink-soft);">
- I study the cognitive mechanisms of how people infer another person's inner world — their beliefs, values, and interpretations — from sparse evidence in conversation, and when those inferences produce feelings of connection.
+I study the cognitive mechanisms of how people infer another person's inner world -- their beliefs, interpretations, and lived experiences -- from sparse evidence in conversation, and when those inferences produce feelings of connection.
  </p>
  </div>
  </div>
