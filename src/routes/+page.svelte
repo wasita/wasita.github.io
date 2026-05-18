@@ -80,7 +80,7 @@ I study the cognitive mechanisms of how people infer another person's inner worl
  {#if drafts.length > 0}
  <p class="font-body text-sm leading-relaxed mt-4" style="color: var(--ink-soft);">
  <span class="font-marker text-lg" style="color: var(--accent); margin-right: 0.5rem;">↳ in the works:</span>
- {#each drafts as d, i}<em style="color: var(--ink);">{d.meta.title}</em><span class="font-marker" style="color: var(--ink-faint); margin-left: 0.3rem; font-size: 0.95rem;">(draft)</span>{#if i < drafts.length - 1}{', '}{/if}{/each}
+ {#each drafts as d, i}<em style="color: var(--ink);">{d.meta.title}</em><span class="font-mono text-xs" style="color: var(--caption-ink); margin-left: 0.3rem;">(draft)</span>{#if i < drafts.length - 1}{', '}{/if}{/each}
  </p>
  {/if}
  </div>
