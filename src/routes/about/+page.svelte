@@ -10,7 +10,7 @@
  about<br />
  <span style="color: var(--accent);">me</span>.<span class="sparkle-cluster" aria-hidden="true" style="width: 0.4em; height: 0.4em; margin-left: 0.1em; vertical-align: 0.65em;"></span>
  </h1>
- <div class="taped-photo flex-shrink-0 mb-4" style="transform: rotate(4deg);">
+ <div class="taped-photo glittery flex-shrink-0 mb-4" style="transform: rotate(4deg);">
  <img
  src="/images/joji-cuddles.webp"
  alt="Wasita with Joji"
@@ -28,7 +28,7 @@
 
  <!-- Mobile: Joji shows here instead -->
  <div class="md:hidden flex justify-center mb-8">
- <div class="taped-photo" style="transform: rotate(4deg);">
+ <div class="taped-photo glittery" style="transform: rotate(4deg);">
  <img
  src="/images/joji-cuddles.webp"
  alt="Wasita with Joji"
@@ -116,7 +116,7 @@
  <p style="clear: both;">
  <span class="float-right ml-6 mb-2 text-center hidden sm:flex flex-col items-center" style="margin-top: 0.25rem;">
  <span class="margin-note mb-4" style="transform: rotate(-3deg);">life beyond the lab ↓</span>
- <span class="taped-photo" style="transform: rotate(2.5deg);">
+ <span class="taped-photo glittery" style="transform: rotate(2.5deg);">
  <img
  src="/images/aerial_2017.webp"
  alt="aerial hoop"
