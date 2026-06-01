@@ -65,7 +65,7 @@ I used to walk to class with earbuds in, listening to the playlist of songs I wa
 
 But that creativity did not emerge in a vacuum. It was shaped by my constraints. What I could physically pull off without injury. My routines were built around the edges of my ability, which meant they were uniquely mine. The limitations did not hinder the work. They shaped it.
 
-One of the paradoxically liberating and anxiety-inducing things about graduate school is how little structure there really is. There is no universal PhD syllabus, no choreography to follow. Every PhD is largely shaped by the individual. Just you, your tools, your questions, your constraints. Maybe your dataset is messy. Maybe your modeling skills are not where you want them to be. That is exactly what makes your work yours.
+One of the paradoxically liberating and anxiety-inducing things about graduate school is how little structure there really is. There is no universal PhD syllabus, no choreography to follow. Every PhD is the same in that it is largely shaped by the individual. Just you, your tools, your questions, your constraints. Maybe your dataset is messy. Maybe your modeling skills are not where you want them to be. That is exactly what makes your work yours.
 
 ![K and I performing our Tweedle Dee move on the lyra](/images/tweedle_dee.gif)
 _K (above) and I (below) performing our "Tweedle Dee" move on the lyra (which is another name for aerial hoop!)_
