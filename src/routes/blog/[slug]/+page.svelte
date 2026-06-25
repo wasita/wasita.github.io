@@ -7,7 +7,7 @@
 </svelte:head>
 
 <article class="px-6 lg:px-12 pt-12 pb-20 max-w-3xl mx-auto">
- <p class="font-mono text-xs mb-3" style="color: var(--caption-ink);">
+ <p class="font-label text-xs mb-3" style="color: var(--caption-ink);">
  {data.date}
  </p>
  <h1 class="font-display leading-[0.88] mb-10" style="font-size: clamp(2.5rem, 7vw, 5rem); color: var(--ink);">
@@ -40,7 +40,7 @@
  <hr class="mt-16 mb-8" style="border-color: var(--rule);" />
 
  <div class="flex items-center justify-between text-sm">
- <a href="/blog" class="font-mono uppercase tracking-widest text-xs no-underline" style="color: var(--ink-soft);">
+ <a href="/blog" class="font-label uppercase tracking-widest text-xs no-underline" style="color: var(--ink-soft);">
  ← all musings
  </a>
  <p class="margin-note">xoxo wasita</p>

@@ -17,7 +17,7 @@
  class="flex flex-col gap-5 max-w-xl"
  >
  <div class="flex flex-col gap-1.5">
- <label class="font-mono text-xs" for="name" style="color: var(--caption-ink);">name</label>
+ <label class="font-label text-xs" for="name" style="color: var(--caption-ink);">name</label>
  <input
  class="contact-input"
  type="text"
@@ -28,7 +28,7 @@
  />
  </div>
  <div class="flex flex-col gap-1.5">
- <label class="font-mono text-xs" for="email" style="color: var(--caption-ink);">e-mail</label>
+ <label class="font-label text-xs" for="email" style="color: var(--caption-ink);">e-mail</label>
  <input
  class="contact-input"
  type="email"
@@ -39,7 +39,7 @@
  />
  </div>
  <div class="flex flex-col gap-1.5">
- <label class="font-mono text-xs" for="subject" style="color: var(--caption-ink);">subject</label>
+ <label class="font-label text-xs" for="subject" style="color: var(--caption-ink);">subject</label>
  <input
  class="contact-input"
  type="text"
@@ -49,7 +49,7 @@
  />
  </div>
  <div class="flex flex-col gap-1.5">
- <label class="font-mono text-xs" for="message" style="color: var(--caption-ink);">message</label>
+ <label class="font-label text-xs" for="message" style="color: var(--caption-ink);">message</label>
  <textarea
  class="contact-input resize-y"
  name="message"
@@ -60,7 +60,7 @@
  ></textarea>
  </div>
  <button
- class="btn-accent self-start mt-3 px-6 py-2 rounded-lg font-mono text-sm"
+ class="btn-accent self-start mt-3 px-6 py-2 font-label text-sm"
  type="submit"
  >
  send <span class="heart" aria-hidden="true" style="width: 0.85em; height: 0.85em; vertical-align: -0.1em; margin-left: 0.3em;"></span>

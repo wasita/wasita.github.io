@@ -35,7 +35,7 @@
  </div>
  {/if}
  <div class="md:col-span-2">
- <p class="font-mono text-xs mb-2" style="color: var(--caption-ink);">
+ <p class="font-label text-xs mb-2" style="color: var(--caption-ink);">
  {post.meta.date}
  </p>
  <h2 class="font-display mb-3" style="font-size: clamp(1.75rem, 3.5vw, 2.5rem); line-height: 1; color: var(--ink);">

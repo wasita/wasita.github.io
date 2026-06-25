@@ -86,16 +86,16 @@
  <div class="flex items-center pb-6">
  <h2 class="flex-1 font-bold text-lg font-display">Menu</h2>
  <button
- class="px-3 py-2 rounded-lg hover:opacity-70 transition-all duration-200"
+ class="px-3 py-2 transition-colors hover:text-[color:var(--accent)]"
  onclick={closeMobileMenu}
  >
  <Icon icon="mdi:close" class="text-xl " />
  </button>
  </div>
- <ul class="space-y-2">
+ <ul class="space-y-2 lowercase">
  <li>
  <a
- class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute === '/' ? 'active-link' : 'hover:opacity-70'}"
+ class="block py-3 px-4 transition-colors {currentRoute === '/' ? 'active-link' : 'hover:text-[color:var(--accent)]'}"
  href="/"
  onclick={closeMobileMenu}
  >
@@ -104,7 +104,7 @@
  </li>
  <li>
  <a
- class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/about') ? 'active-link' : 'hover:opacity-70'}"
+ class="block py-3 px-4 transition-colors {currentRoute.includes('/about') ? 'active-link' : 'hover:text-[color:var(--accent)]'}"
  href="/about"
  onclick={closeMobileMenu}
  >
@@ -113,7 +113,7 @@
  </li>
  <li>
  <a
- class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/research') ? 'active-link' : 'hover:opacity-70'}"
+ class="block py-3 px-4 transition-colors {currentRoute.includes('/research') ? 'active-link' : 'hover:text-[color:var(--accent)]'}"
  href="/research"
  onclick={closeMobileMenu}
  >
@@ -122,7 +122,7 @@
  </li>
  <li>
  <a
- class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/publications') ? 'active-link' : 'hover:opacity-70'}"
+ class="block py-3 px-4 transition-colors {currentRoute.includes('/publications') ? 'active-link' : 'hover:text-[color:var(--accent)]'}"
  href="/publications"
  onclick={closeMobileMenu}
  >
@@ -131,7 +131,7 @@
  </li>
  <li>
  <a
- class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/portfolio') ? 'active-link' : 'hover:opacity-70'}"
+ class="block py-3 px-4 transition-colors {currentRoute.includes('/portfolio') ? 'active-link' : 'hover:text-[color:var(--accent)]'}"
  href="/portfolio"
  onclick={closeMobileMenu}
  >
@@ -140,7 +140,7 @@
  </li>
  <li>
  <a
- class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/blog') ? 'active-link' : 'hover:opacity-70'}"
+ class="block py-3 px-4 transition-colors {currentRoute.includes('/blog') ? 'active-link' : 'hover:text-[color:var(--accent)]'}"
  href="/blog"
  onclick={closeMobileMenu}
  >
@@ -149,7 +149,7 @@
  </li>
  <li>
  <a
- class="block py-3 px-4 rounded-lg transition-all duration-200 {currentRoute.includes('/contact') ? 'active-link' : 'hover:opacity-70'}"
+ class="block py-3 px-4 transition-colors {currentRoute.includes('/contact') ? 'active-link' : 'hover:text-[color:var(--accent)]'}"
  href="/contact"
  onclick={closeMobileMenu}
  >
@@ -257,7 +257,7 @@
  <footer class="py-4" style="border-top: 1px solid var(--rule);">
  <div class="container mx-auto px-4">
  <div class="flex flex-col sm:flex-row items-center justify-between gap-4 py-2">
- <p class="font-mono text-xs uppercase tracking-widest" style="color: var(--ink);">
+ <p class="font-label text-xs" style="color: var(--ink);">
  Wasita Mahaphanit ({currentYear}) · printed in Svelte <span class="heart" aria-hidden="true" style="width: 0.85em; height: 0.85em; vertical-align: -0.1em;"></span>
  </p>
  <nav class="flex items-center gap-1" aria-label="Social links">

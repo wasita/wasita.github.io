@@ -50,7 +50,7 @@
  </p>
  <div class="mt-4">
  <a
- class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
+ class="btn-accent inline-block px-4 py-2 mr-2 mb-2"
  href="https://github.com/wasita/magic-garden"
  target="_blank"
  rel="noreferrer">GitHub</a
@@ -102,13 +102,13 @@
  </p>
  <div class="mt-4">
  <a
- class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
+ class="btn-accent inline-block px-4 py-2 mr-2 mb-2"
  href="https://send-2-kobo.web.app/"
  target="_blank"
  rel="noreferrer">Website</a
  >
  <a
- class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
+ class="btn-accent inline-block px-4 py-2 mr-2 mb-2"
  href="https://github.com/wasita/send2kobo"
  target="_blank"
  rel="noreferrer">GitHub</a
@@ -199,7 +199,7 @@
  </p>
  <div class="mt-4">
  <a
- class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
+ class="btn-accent inline-block px-4 py-2 mr-2 mb-2"
  href="https://open.spotify.com/episode/3JzRDzPOylvhBSIj7jZLDz?si=3YDIJX3PQPisAHVLlMPK3Q"
  target="_blank"
  rel="noreferrer"
@@ -257,14 +257,14 @@
  </p>
  <div class="mt-4">
  <a
- class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
+ class="btn-accent inline-block px-4 py-2 mr-2 mb-2"
  href="https://youtu.be/yQ6VOOd73MA?si=QDu3Q8fdWO6NlCal&t=1464"
  target="_blank"
  rel="noreferrer"
  >Watch the episode
  </a>
  <a
- class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
+ class="btn-accent inline-block px-4 py-2 mr-2 mb-2"
  href="https://github.com/cosanlab/trust-game"
  target="_blank"
  rel="noreferrer">GitHub</a
@@ -311,7 +311,7 @@
  </p>
  <div class="mt-4">
  <a
- class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
+ class="btn-accent inline-block px-4 py-2 mr-2 mb-2"
  href="https://sites.google.com/view/womeninnetworkscience/society/membership/membership-list?authuser=0"
  target="_blank"
  rel="noreferrer">Visit the WiNS members database</a
@@ -390,13 +390,13 @@
  <p>An introduction to fMRI preprocessing & analysis.</p>
  <div class="mt-4">
  <a
- class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
+ class="btn-accent inline-block px-4 py-2 mr-2 mb-2"
  href="https://dartbrains.org/content/intro.html"
  target="_blank"
  rel="noreferrer">Visit DartBrains</a
  >
  <a
- class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
+ class="btn-accent inline-block px-4 py-2 mr-2 mb-2"
  href="https://github.com/ljchang/dartbrains"
  target="_blank"
  rel="noreferrer">GitHub</a
@@ -435,13 +435,13 @@
  </p>
  <div class="mt-4">
  <a
- class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
+ class="btn-accent inline-block px-4 py-2 mr-2 mb-2"
  href="https://cosanlab.github.io/info-theory-book/intro.html"
  target="_blank"
  rel="noreferrer">Visit site</a
  >
  <a
- class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
+ class="btn-accent inline-block px-4 py-2 mr-2 mb-2"
  href="https://github.com/cosanlab/info-theory-book"
  target="_blank"
  rel="noreferrer">GitHub</a
@@ -497,21 +497,21 @@
  </p>
  <div class="mt-4">
  <a
- class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
+ class="btn-accent inline-block px-4 py-2 mr-2 mb-2"
  href="https://pubmed.ncbi.nlm.nih.gov/34320125/"
  target="_blank"
  rel="noreferrer"
  >Paper
  </a>
  <a
- class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
+ class="btn-accent inline-block px-4 py-2 mr-2 mb-2"
  href="https://brown-ccv.github.io/honeycomb-docs/"
  target="_blank"
  rel="noreferrer"
  >Documentation
  </a>
  <a
- class="btn-accent inline-block px-4 py-2 rounded-lg mr-2 mb-2"
+ class="btn-accent inline-block px-4 py-2 mr-2 mb-2"
  href="https://github.com/brown-ccv/honeycomb"
  target="_blank"
  rel="noreferrer"

@@ -13,7 +13,7 @@
  <a href="https://scholar.google.com/citations?user=1tZe-1gAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
  or <a href="https://wasita-mahaphanit-cv.netlify.app" target="_blank" rel="noreferrer">CV</a>.
  </p>
- <p class="font-mono text-xs mb-1" style="color: var(--caption-ink);">
+ <p class="font-label text-xs mb-1" style="color: var(--caption-ink);">
  <span class="star" aria-hidden="true" style="width: 0.85em; height: 0.85em; vertical-align: -0.1em;"></span>
  co-first authorship · <span style="color: var(--accent);">†</span> trainee I mentored
  </p>
@@ -25,22 +25,22 @@
  </header>
  <ul class="space-y-5 font-body text-base leading-relaxed" style="color: var(--ink);">
  <li>
- <span class="font-mono text-xs" style="color: var(--caption-ink);">[in prep]</span>
+ <span class="font-label text-xs" style="color: var(--caption-ink);">[in prep]</span>
  <strong>Mahaphanit, W.</strong>, Mills, K.<span style="color: var(--accent);">†</span>, &amp; Chang, L. J.
  <span class="font-semibold">Decomposing commonality: Bonding through 'me too' depends on perceived rarity at the moment of disclosure.</span>
  </li>
  <li>
- <span class="font-mono text-xs" style="color: var(--caption-ink);">[in prep]</span>
+ <span class="font-label text-xs" style="color: var(--caption-ink);">[in prep]</span>
  <strong>Mahaphanit, W.</strong>, Templeton, E., &amp; Chang, L. J.
  <span class="font-semibold">Experimentally-induced small gaps in conversation lead to stronger connection in strangers.</span>
  </li>
  <li>
- <span class="font-mono text-xs" style="color: var(--caption-ink);">[in prep]</span>
+ <span class="font-label text-xs" style="color: var(--caption-ink);">[in prep]</span>
  <strong>Mahaphanit, W.</strong>, Mills, K.<span style="color: var(--accent);">†</span>, Templeton, E., &amp; Chang, L. J.
  <span class="font-semibold">Are shared experiences blind?</span>
  </li>
  <li>
- <span class="font-mono text-xs" style="color: var(--caption-ink);">[in prep]</span>
+ <span class="font-label text-xs" style="color: var(--caption-ink);">[in prep]</span>
  <strong>Mahaphanit, W.</strong> &amp; Chang, L. J.
  <span class="font-semibold">Communication as behavioral annotation for naturalistic stimuli.</span>
  </li>
@@ -53,7 +53,7 @@
  </header>
  <ul class="space-y-5 font-body text-base leading-relaxed" style="color: var(--ink);">
  <li>
- <span class="font-mono text-xs" style="color: var(--caption-ink);">[2026]</span>
+ <span class="font-label text-xs" style="color: var(--caption-ink);">[2026]</span>
  <strong>Mahaphanit, W.</strong><span class="star" aria-hidden="true" style="width: 0.7em; height: 0.7em; vertical-align: -0.05em; margin: 0 0.05em;"></span>, Welker, C.<span class="star" aria-hidden="true" style="width: 0.7em; height: 0.7em; vertical-align: -0.05em; margin: 0 0.05em;"></span>, Schmidt, H., Houlihan, S. D., Chang, L. J., &amp; Hawkins, R. D.
  <span class="font-semibold">Generalized shared reality arises in brief interactions from structured social inferences about commonality.</span>
  <em>PsyArXiv.</em>
@@ -75,21 +75,21 @@
  </header>
  <ul class="space-y-5 font-body text-base leading-relaxed" style="color: var(--ink);">
  <li>
- <span class="font-mono text-xs" style="color: var(--caption-ink);">[2026]</span>
+ <span class="font-label text-xs" style="color: var(--caption-ink);">[2026]</span>
  Brockbank, E., Dee, N., O'Keeffe, M., <strong>Mahaphanit, W.</strong>, Gerstenberg, T., Fan, J., &amp; Hawkins, R. D.
  <span class="font-semibold">Asking the right questions? What people learn about strangers in conversation.</span>
  <em>Proceedings of the Annual Meeting of the Cognitive Science Society, 48.</em>
  <a href="https://osf.io/preprints/psyarxiv/rxq5u_v1" target="_blank" rel="noreferrer">[preprint]</a>
  </li>
  <li>
- <span class="font-mono text-xs" style="color: var(--caption-ink);">[2025]</span>
+ <span class="font-label text-xs" style="color: var(--caption-ink);">[2025]</span>
  <strong>Mahaphanit, W.</strong>, Keller, B.<span style="color: var(--accent);">†</span>, Hawkins, R. D., Phillips, J. S., &amp; Chang, L. J.
  <span class="font-semibold">Learning to communicate a shared wavelength.</span>
  <em>Proceedings of the Annual Meeting of the Cognitive Science Society, 47.</em>
  <a href="https://escholarship.org/uc/item/1nt550nz" target="_blank" rel="noreferrer">[abstract]</a>
  </li>
  <li>
- <span class="font-mono text-xs" style="color: var(--caption-ink);">[2023]</span>
+ <span class="font-label text-xs" style="color: var(--caption-ink);">[2023]</span>
  <strong>Mahaphanit, W.</strong> &amp; Chang, L. J.
  <span class="font-semibold">Shared experiences strengthen social connectedness through shared impression formation and communication behavior.</span>
  <em>Proceedings of the Annual Meeting of the Cognitive Science Society, 45.</em>
