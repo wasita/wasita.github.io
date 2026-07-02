@@ -23,7 +23,7 @@
  <div class="flex-1">
  <div class="block lg:pl-12">
  <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">Magic Garden Game Bot</h2>
- <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2025-Present)</h3>
+ <h3 class="mt-2 text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2025-Present)</h3>
  <div class="py-2">
  <span
  class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
@@ -74,7 +74,7 @@
  <div class="flex-1">
  <div class="block lg:pl-12">
  <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">Send2Kobo</h2>
- <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2025-Present)</h3>
+ <h3 class="mt-2 text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2025-Present)</h3>
  <div class="py-2">
  <span
  class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
@@ -132,7 +132,7 @@
  <div class="flex-1">
  <div class="block lg:pl-12">
  <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">Real-time dyadic chat app template</h2>
- <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2023-Present)</h3>
+ <h3 class="mt-2 text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2023-Present)</h3>
  <div class="py-2">
  <span
  class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
@@ -181,7 +181,7 @@
  <div class="flex-1">
  <div class="block lg:pl-12">
  <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">Svelte Radio Podcast</h2>
- <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Episode Guest (2023)</h3>
+ <h3 class="mt-2 text-base lg:text-lg text-gray-700 dark:text-gray-300">Episode Guest (2023)</h3>
  <div class="py-2">
  <span
  class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
@@ -224,7 +224,7 @@
  <div class="flex-1">
  <div class="block lg:pl-12">
  <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">Interactive 2-player trust game</h2>
- <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2023-Present)</h3>
+ <h3 class="mt-2 text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2023-Present)</h3>
  <div class="py-2">
  <span
  class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
@@ -290,7 +290,7 @@
  <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">
  Women in Network Science (WiNS) Society members database
  </h2>
- <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2022-Present)</h3>
+ <h3 class="mt-2 text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2022-Present)</h3>
  <div class="py-2">
  <span
  class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
@@ -312,7 +312,7 @@
  <div class="mt-4">
  <a
  class="btn-accent inline-block px-4 py-2 mr-2 mb-2"
- href="https://sites.google.com/view/womeninnetworkscience/society/membership/membership-list?authuser=0"
+ href="https://sites.google.com/view/womeninnetworkscience/about-wins/membership/membership-list?authuser=0"
  target="_blank"
  rel="noreferrer">Visit the WiNS members database</a
  >
@@ -331,7 +331,7 @@
  <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">
  Multi-user synchronous video streaming & chat app platform
  </h2>
- <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2021-Present)</h3>
+ <h3 class="mt-2 text-base lg:text-lg text-gray-700 dark:text-gray-300">Project Author (2021-Present)</h3>
  <div class="py-2">
  <span
  class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
@@ -378,7 +378,7 @@
  <div class="flex-1">
  <div class="block lg:pl-12">
  <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">DartBrains: Intro to fMRI</h2>
- <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Contributor (2021-Present)</h3>
+ <h3 class="mt-2 text-base lg:text-lg text-gray-700 dark:text-gray-300">Contributor (2021-Present)</h3>
  <div class="py-2">
  <span
  class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
@@ -420,7 +420,7 @@
  <div class="flex-1">
  <div class="block lg:pl-12">
  <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">Info theory for Social Neuroscientists</h2>
- <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Contributor (2022)</h3>
+ <h3 class="mt-2 text-base lg:text-lg text-gray-700 dark:text-gray-300">Contributor (2022)</h3>
  <div class="py-2">
  <span
  class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
@@ -465,7 +465,7 @@
  <div class="flex-1">
  <div class="block lg:pl-12">
  <h2 class="font-display" style="font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.05;">Honeycomb</h2>
- <h3 class="text-base lg:text-lg text-gray-700 dark:text-gray-300">Software Developer (2019-2021)</h3>
+ <h3 class="mt-2 text-base lg:text-lg text-gray-700 dark:text-gray-300">Software Developer (2019-2021)</h3>
  <div class="py-2">
  <span
  class="pill-accent inline-flex items-center gap-1 px-3 py-1 rounded-full text-sm mr-1 mb-1 transition-colors"
