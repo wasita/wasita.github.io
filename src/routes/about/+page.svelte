@@ -5,24 +5,24 @@
 
 <article class="px-6 lg:px-12 pt-12 pb-20 max-w-5xl mx-auto">
  <!-- Big hero with Joji photo right next to the headline -->
- <div class="hidden md:flex items-end justify-between gap-8 mb-12">
- <h1 class="font-display" style="font-size: clamp(4rem, 13vw, 9rem); line-height: 0.9; margin: 0;">
- about<br />
+ <div class="hidden md:flex items-end justify-start gap-8 lg:gap-12 mb-12">
+ <h1 class="font-display flex-shrink-0" style="font-size: clamp(3rem, 9vw, 6.5rem); line-height: 0.95; margin: 0;">
+ about
  <span style="color: var(--accent);">me</span>.<span class="sparkle-cluster" aria-hidden="true" style="width: 0.4em; height: 0.4em; margin-left: 0.1em; vertical-align: 0.65em;"></span>
  </h1>
- <div class="taped-photo glittery flex-shrink-0 mb-4" style="transform: rotate(4deg);">
+ <div class="taped-photo glittery flex-shrink-0 mb-3" style="transform: rotate(4deg);">
  <img
  src="/images/joji-cuddles.webp"
  alt="Wasita with Joji"
  width="180"
  height="180"
- class="block w-44 h-44 object-cover"
+ class="block w-48 h-48 object-cover"
  />
  </div>
  </div>
  <!-- Mobile-only header (when photo is shown separately below) -->
- <h1 class="font-display md:hidden mb-8" style="font-size: clamp(4rem, 13vw, 9rem); line-height: 1;">
- about<br />
+ <h1 class="font-display md:hidden mb-8" style="font-size: clamp(3rem, 9vw, 6.5rem); line-height: 0.95;">
+ about
  <span style="color: var(--accent);">me</span>.
  </h1>
 

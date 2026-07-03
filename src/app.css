@@ -42,6 +42,16 @@
 /* ────────────────────────────────────────────────────────────────
    Type
    ──────────────────────────────────────────────────────────────── */
+/* Monas — display face (Monas Demo, personal use). Self-hosted;
+   used for headers. Not on Google Fonts. */
+@font-face {
+  font-family: "Monas";
+  src: url("/fonts/monas.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 html,
 body {
   @apply h-full overflow-hidden;
@@ -65,11 +75,13 @@ body {
 }
 
 h1, h2 {
-  font-family: "Bodoni Moda", ui-serif, Georgia, serif;
-  font-variation-settings: "opsz" 96;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  line-height: 0.92;
+  font-family: "Monas", "Bodoni Moda", ui-serif, Georgia, serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 0.98;
+  /* Monas ships a buggy kern table (spurious gap in "ts", e.g. "preprints").
+     Its default spacing is clean, so drop kerning. */
+  font-kerning: none;
   color: var(--ink);
 }
 
@@ -81,13 +93,13 @@ h3, h4 {
   color: var(--ink);
 }
 
-/* Display variant — Bodoni Moda at hero scale (high-contrast didone) */
+/* Display variant — Monas at hero scale */
 .font-display {
-  font-family: "Bodoni Moda", ui-serif, Georgia, serif;
-  font-variation-settings: "opsz" 96;
-  font-weight: 800;
-  letter-spacing: -0.025em;
-  line-height: 0.88;
+  font-family: "Monas", "Bodoni Moda", ui-serif, Georgia, serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 0.95;
+  font-kerning: none;
 }
 
 /* Body — DM Sans */

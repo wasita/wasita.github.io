@@ -13,19 +13,22 @@
 
 <!-- Home / hero — album-cover scale, asymmetric -->
 <div class="px-4 lg:px-6 pt-12 pb-16 max-w-6xl mx-auto">
- <div class="grid grid-cols-12 gap-0 lg:gap-1">
- <!-- Headline: spans most of the row -->
- <div class="col-span-12 lg:col-span-9 order-2 lg:order-1">
- <h1 class="font-display mb-0" style="font-size: clamp(3rem, 10vw, 8rem); line-height: 1.05;">
+ <div class="grid grid-cols-12 gap-8 lg:gap-10 items-center">
+ <!-- Left: headline + blurb stacked so the blurb sits right under the head -->
+ <div class="col-span-12 lg:col-span-8 order-2 lg:order-1">
+ <h1 class="font-display mb-0" style="font-size: clamp(3rem, 9vw, 6.5rem); line-height: 0.95;">
  hi, i'm<br />
  <span style="color: var(--accent); position: relative; display: inline-block;">
  wasita<span class="sparkle" aria-hidden="true" style="position: absolute; top: -0.3em; right: -0.25em; width: 0.3em; height: 0.3em;"></span><span class="sparkle" aria-hidden="true" style="position: absolute; bottom: 0.15em; left: -0.25em; width: 0.22em; height: 0.22em;"></span></span><span class="saturn-orb" aria-hidden="true" style="width: 0.55em; height: 0.55em; margin-left: 0.05em; vertical-align: 0.15em;"></span><span class="sparkle" aria-hidden="true" style="width: 0.18em; height: 0.18em; margin-left: 0.05em; vertical-align: 0.55em;"></span>.
  </h1>
+ <p class="font-body text-xl lg:text-2xl leading-tight mt-5 lg:mt-7" style="color: var(--ink-soft); max-width: 42ch;">
+I study the cognitive mechanisms of how people infer another person's inner world — their beliefs, interpretations, and lived experiences — from sparse evidence in conversation, and when those inferences produce feelings of connection.
+ </p>
  </div>
 
- <!-- Portrait: smaller column, hangs into the headline area -->
- <div class="col-span-12 lg:col-span-3 order-1 lg:order-2 relative flex lg:block justify-center mb-10 lg:mb-0">
- <div class="relative" style="lg:margin-top: -1rem;">
+ <!-- Right: portrait, vertically centered against the left stack -->
+ <div class="col-span-12 lg:col-span-4 order-1 lg:order-2 flex justify-center lg:justify-end">
+ <div class="relative" style="max-width: 17rem;">
  <div class="taped-photo glittery" style="transform: rotate(-3.5deg);">
  <img
  src="/images/wasi_icon.webp"
@@ -40,13 +43,6 @@
  status: dissertating
  </div>
  </div>
- </div>
-
- <!-- Subtitle: left-aligned under the headline -->
- <div class="col-span-12 lg:col-span-9 order-3 mt-4 lg:mt-6">
- <p class="font-body text-xl lg:text-2xl leading-tight" style="color: var(--ink-soft);">
-I study the cognitive mechanisms of how people infer another person's inner world — their beliefs, interpretations, and lived experiences — from sparse evidence in conversation, and when those inferences produce feelings of connection.
- </p>
  </div>
  </div>
 </div>
