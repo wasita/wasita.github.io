@@ -75,7 +75,7 @@ body {
 }
 
 h1, h2 {
-  font-family: "Monas", "Bodoni Moda", ui-serif, Georgia, serif;
+  font-family: "Monas", ui-serif, Georgia, serif;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 0.98;
@@ -95,7 +95,7 @@ h3, h4 {
 
 /* Display variant — Monas at hero scale */
 .font-display {
-  font-family: "Monas", "Bodoni Moda", ui-serif, Georgia, serif;
+  font-family: "Monas", ui-serif, Georgia, serif;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 0.95;
@@ -424,9 +424,8 @@ a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.
   margin-bottom: 1.5rem;
 }
 .section-number .num {
-  font-family: "Bodoni Moda", ui-serif, serif;
-  font-variation-settings: "opsz" 96;
-  font-weight: 800;
+  font-family: "Monas", ui-serif, serif;
+  font-weight: 400;
   font-size: 2.5rem;
   line-height: 1;
   color: var(--accent);
@@ -477,9 +476,8 @@ a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.
 
 /* Drop cap for blog post first paragraph */
 .dropcap > p:first-of-type::first-letter {
-  font-family: "Bodoni Moda", ui-serif, serif;
-  font-variation-settings: "opsz" 96;
-  font-weight: 800;
+  font-family: "Monas", ui-serif, serif;
+  font-weight: 400;
   font-size: 5rem;
   line-height: 0.85;
   float: left;
