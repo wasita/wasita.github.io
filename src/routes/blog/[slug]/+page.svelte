@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
- <title>{data.title} · wasita.space</title>
+ <title>{data.title} | wasita.space</title>
 </svelte:head>
 
 <article class="px-6 lg:px-12 pt-12 pb-20 max-w-3xl mx-auto">

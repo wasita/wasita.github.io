@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
- <title>blog · wasita.space</title>
+ <title>blog | wasita.space</title>
 </svelte:head>
 
 <div class="px-4 lg:px-6 pt-12 pb-20 max-w-5xl mx-auto">

@@ -1,5 +1,5 @@
 <svelte:head>
- <title>contact · wasita.space</title>
+ <title>contact | wasita.space</title>
 </svelte:head>
 
 <div class="px-4 lg:px-6 pt-12 pb-20 max-w-3xl mx-auto">
