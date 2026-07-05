@@ -3,8 +3,8 @@
 </svelte:head>
 
 <div class="px-4 lg:px-6 pt-12 pb-20 max-w-5xl mx-auto">
- <h1 class="font-display leading-[0.95] mb-10" style="font-size: clamp(3rem, 9vw, 6.5rem);">
- research<br />
+ <h1 class="font-display leading-[0.95] mb-10 whitespace-nowrap" style="font-size: clamp(2.5rem, 8vw, 6.5rem);">
+ research
  <span style="color: var(--accent);">interests</span>.
  </h1>
 
