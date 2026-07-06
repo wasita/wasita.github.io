@@ -62,7 +62,7 @@
  class="w-full h-auto opacity-90"
  />
  </a>
- <a href="https://socialinteractionlab.github.io/" target="_blank" rel="noreferrer" class="lab-logo float-right ml-4 mt-1 w-28" aria-label="Social Interaction Lab">
+ <a href="https://social-interaction-lab.org/" target="_blank" rel="noreferrer" class="lab-logo float-right ml-4 mt-1 w-28" aria-label="Social Interaction Lab">
  <img
  src="/images/soilab.png"
  alt="Social Interaction Lab"
@@ -78,7 +78,7 @@
  <a href="https://cosanlab.com/" target="_blank" rel="noreferrer">Computational Social Affective Neuroscience (COSAN) Lab</a>,
  and collaborating with
  <a href="https://profiles.stanford.edu/robert-hawkins" target="_blank" rel="noreferrer">Robert Hawkins</a>,
- who runs the <a href="https://socialinteractionlab.github.io/" target="_blank" rel="noreferrer">Social Interaction Lab</a> at Stanford,
+ who runs the <a href="https://social-interaction-lab.org/" target="_blank" rel="noreferrer">Social Interaction Lab</a> at Stanford,
  and
  <a href="https://faculty-directory.dartmouth.edu/jonathan-s-phillips" target="_blank" rel="noreferrer">Jonathan Phillips</a>.
  See my <a href="/research">research interests</a> page for more details.
