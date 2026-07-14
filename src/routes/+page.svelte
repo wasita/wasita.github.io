@@ -40,7 +40,7 @@ I study the cognitive mechanisms of how people infer another person's inner worl
  </div>
  <div class="absolute -bottom-7 -right-3 sticky-note">
  <span class="cyber-pulse" style="vertical-align: middle; margin-right: 6px;"></span>
- status: dissertating
+ status: it's dr. to you
  </div>
  </div>
  </div>

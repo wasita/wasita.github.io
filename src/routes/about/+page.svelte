@@ -45,13 +45,41 @@
  Wasita Mahaphanit
  </h2>
  <p class="font-label text-xs" style="color: var(--caption-ink);">
- PhD candidate @ Dartmouth
+ incoming postdoc @ NYU &amp; Mt. Sinai
  </p>
  </div>
 
  <!-- Bio prose -->
  <div class="font-body text-lg leading-relaxed space-y-5" style="color: var(--ink);">
  <p>
+ <a href="https://codec-lab.github.io/" target="_blank" rel="noreferrer" class="lab-logo float-left mr-4 mt-1 w-24" aria-label="CoDec Lab">
+ <img
+ src="/images/codec_logo.svg"
+ alt="CoDec Lab"
+ width="100"
+ height="100"
+ loading="lazy"
+ class="w-full h-auto opacity-90 dark:invert"
+ />
+ </a>
+ <a href="https://sinclaboratory.com/" target="_blank" rel="noreferrer" class="lab-logo float-right ml-4 mt-1 w-28" aria-label="SINC Lab">
+ <img
+ src="/images/sinclab_logo.svg"
+ alt="SINC Lab"
+ width="123"
+ height="80"
+ loading="lazy"
+ class="w-full h-auto opacity-90 dark:invert"
+ />
+ </a>
+ I am an incoming postdoctoral researcher at NYU and the
+ <a href="https://icahn.mssm.edu/research/center-for-computational-psychiatry" target="_blank" rel="noreferrer">Center for Computational Psychiatry</a>
+ at the Icahn School of Medicine at Mt. Sinai, working with
+ <a href="https://markkho.github.io/" target="_blank" rel="noreferrer">Mark Ho</a> and
+ <a href="https://shawnrhoadsphd.com/" target="_blank" rel="noreferrer">Shawn Rhoads</a>, respectively.
+ </p>
+
+ <p style="clear: both;">
  <a href="https://cosanlab.com/" target="_blank" rel="noreferrer" class="lab-logo float-left mr-4 mt-1 w-28" aria-label="COSAN Lab">
  <img
  src="/images/cosan_logo.png"
@@ -72,11 +100,11 @@
  class="w-full h-auto opacity-90 dark:invert"
  />
  </a>
- I am a final-year PhD candidate (expected graduation: June 2026) at Dartmouth, working with
+ I completed my PhD in Cognitive Neuroscience at Dartmouth in summer 2026, where I worked with
  <a href="https://pbs.dartmouth.edu/people/luke-j-chang" target="_blank" rel="noreferrer">Luke Chang</a>
  in the
  <a href="https://cosanlab.com/" target="_blank" rel="noreferrer">Computational Social Affective Neuroscience (COSAN) Lab</a>,
- and collaborating with
+ and collaborated with
  <a href="https://profiles.stanford.edu/robert-hawkins" target="_blank" rel="noreferrer">Robert Hawkins</a>,
  who runs the <a href="https://social-interaction-lab.org/" target="_blank" rel="noreferrer">Social Interaction Lab</a> at Stanford,
  and
