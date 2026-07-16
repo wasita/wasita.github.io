@@ -13,7 +13,7 @@
 
 <!-- Home / hero — album-cover scale, asymmetric -->
 <div class="px-4 lg:px-6 pt-12 pb-16 max-w-6xl mx-auto">
- <div class="grid grid-cols-12 gap-8 lg:gap-10 items-center">
+ <div class="grid grid-cols-12 gap-y-8 lg:gap-10 items-center">
  <!-- Left: headline + blurb stacked so the blurb sits right under the head -->
  <div class="col-span-12 lg:col-span-8 order-2 lg:order-1">
  <h1 class="font-display mb-0" style="font-size: clamp(3rem, 9vw, 6.5rem); line-height: 0.95;">
@@ -27,7 +27,7 @@ I study the cognitive mechanisms of how people infer another person's inner worl
  </div>
 
  <!-- Right: portrait, vertically centered against the left stack -->
- <div class="col-span-12 lg:col-span-4 order-1 lg:order-2 flex justify-center lg:justify-end">
+ <div class="col-span-12 lg:col-span-4 order-1 lg:order-2 flex justify-center lg:justify-end mb-8 lg:mb-0">
  <div class="relative" style="max-width: 17rem;">
  <div class="taped-photo glittery" style="transform: rotate(-3.5deg);">
  <img
