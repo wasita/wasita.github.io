@@ -27,16 +27,16 @@
  <li>
  <span class="font-label text-xs" style="color: var(--caption-ink);">[in prep]</span>
  <strong>Mahaphanit, W.</strong>, Mills, K.<span style="color: var(--accent);">†</span>, &amp; Chang, L. J.
- <span class="font-semibold">Decomposing commonality: Bonding through 'me too' depends on perceived rarity at the moment of disclosure.</span>
+ <span class="font-semibold">Decomposing commonality: Rare resonance and revealing disclosures drive social connection.</span>
  </li>
  <li>
  <span class="font-label text-xs" style="color: var(--caption-ink);">[in prep]</span>
  <strong>Mahaphanit, W.</strong>, Templeton, E., &amp; Chang, L. J.
- <span class="font-semibold">Experimentally-induced small gaps in conversation lead to stronger connection in strangers.</span>
+ <span class="font-semibold">Short gaps between conversational turns causally strengthen connection between strangers.</span>
  </li>
  <li>
  <span class="font-label text-xs" style="color: var(--caption-ink);">[in prep]</span>
- <strong>Mahaphanit, W.</strong>, Mills, K.<span style="color: var(--accent);">†</span>, Templeton, E., &amp; Chang, L. J.
+ <strong>Mahaphanit, W.</strong>, Mills, K.<span style="color: var(--accent);">†</span>, &amp; Chang, L. J.
  <span class="font-semibold">Are shared experiences blind?</span>
  </li>
  <li>
@@ -55,7 +55,7 @@
  <li>
  <span class="font-label text-xs" style="color: var(--caption-ink);">[2026]</span>
  <strong>Mahaphanit, W.</strong><span class="star" aria-hidden="true" style="width: 0.7em; height: 0.7em; vertical-align: -0.05em; margin: 0 0.05em;"></span>, Welker, C.<span class="star" aria-hidden="true" style="width: 0.7em; height: 0.7em; vertical-align: -0.05em; margin: 0 0.05em;"></span>, Schmidt, H., Houlihan, S. D., Chang, L. J., &amp; Hawkins, R. D.
- <span class="font-semibold">Generalized shared reality arises in brief interactions from structured social inferences about commonality.</span>
+ <span class="font-semibold">Brief conversations build a shared worldview through structured inferences about commonality.</span>
  <em>PsyArXiv.</em>
  <a href="https://osf.io/preprints/psyarxiv/3xzpe_v2" target="_blank" rel="noreferrer">[preprint]</a>
  <span class="block text-sm mt-2 pl-4 border-l-2" style="color: var(--ink-soft); border-color: var(--accent-soft);">
