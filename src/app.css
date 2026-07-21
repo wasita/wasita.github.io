@@ -584,6 +584,25 @@ a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.
   transition: filter 0.3s ease;
   display: block;
 }
+/* Desktop: wrapper is layout-transparent so the logos float in the paragraph.
+   Narrow screens: floats leave no room for text to wrap, so the wrapper
+   becomes a centered row above the paragraph text instead. */
+.lab-logo-row {
+  display: contents;
+}
+@media (max-width: 639px) {
+  .lab-logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .lab-logo {
+    float: none;
+    margin: 0;
+  }
+}
 .lab-logo:hover,
 .btn-accent:hover {
   transform: scale(1.06) rotate(-1deg);

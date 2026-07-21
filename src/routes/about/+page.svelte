@@ -52,6 +52,7 @@
  <!-- Bio prose -->
  <div class="font-body text-lg leading-relaxed space-y-5" style="color: var(--ink);">
  <p>
+ <span class="lab-logo-row">
  <a href="https://codec-lab.github.io/" target="_blank" rel="noreferrer" class="lab-logo float-left mr-4 mt-1 w-24" aria-label="CoDec Lab">
  <img
  src="/images/codec_logo.svg"
@@ -72,6 +73,7 @@
  class="w-full h-auto opacity-90 dark:invert"
  />
  </a>
+ </span>
  I am an incoming postdoctoral researcher at NYU and the
  <a href="https://icahn.mssm.edu/research/center-for-computational-psychiatry" target="_blank" rel="noreferrer">Center for Computational Psychiatry</a>
  at the Icahn School of Medicine at Mt. Sinai, working with
@@ -80,6 +82,7 @@
  </p>
 
  <p style="clear: both;">
+ <span class="lab-logo-row">
  <a href="https://cosanlab.com/" target="_blank" rel="noreferrer" class="lab-logo float-left mr-4 mt-1 w-28" aria-label="COSAN Lab">
  <img
  src="/images/cosan_logo.png"
@@ -100,6 +103,7 @@
  class="w-full h-auto opacity-90 dark:invert"
  />
  </a>
+ </span>
  I completed my PhD in Cognitive Neuroscience at Dartmouth in summer 2026, where I worked with
  <a href="https://pbs.dartmouth.edu/people/luke-j-chang" target="_blank" rel="noreferrer">Luke Chang</a>
  in the
@@ -113,6 +117,7 @@
  </p>
 
  <p style="clear: both;">
+ <span class="lab-logo-row">
  <a href="https://www.lnccbrown.com/" target="_blank" rel="noreferrer" class="lab-logo float-left mr-4 mt-1 w-24" aria-label="LNCC Brown">
  <img
  src="/images/lncc_logo.png"
@@ -133,6 +138,7 @@
  class="w-full h-auto opacity-90 dark:invert"
  />
  </a>
+ </span>
  Prior to graduate school, I worked as the lab manager of
  <a href="https://ski.clps.brown.edu/" target="_blank" rel="noreferrer">Michael J. Frank</a>'s
  <a href="https://www.lnccbrown.com/" target="_blank" rel="noreferrer">Lab of Neural Computation + Cognition</a>.
