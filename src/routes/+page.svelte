@@ -22,7 +22,7 @@
  wasita<span class="sparkle" aria-hidden="true" style="position: absolute; top: -0.3em; right: -0.25em; width: 0.3em; height: 0.3em;"></span><span class="sparkle" aria-hidden="true" style="position: absolute; bottom: 0.15em; left: -0.25em; width: 0.22em; height: 0.22em;"></span></span><span class="saturn-orb" aria-hidden="true" style="width: 0.55em; height: 0.55em; margin-left: 0.05em; vertical-align: 0.15em;"></span><span class="sparkle" aria-hidden="true" style="width: 0.18em; height: 0.18em; margin-left: 0.05em; vertical-align: 0.55em;"></span>.
  </h1>
  <p class="font-body text-xl lg:text-2xl leading-tight mt-5 lg:mt-7" style="color: var(--ink-soft); max-width: 42ch;">
-I study the cognitive mechanisms of how people infer another person's inner world — their beliefs, interpretations, and lived experiences — from sparse evidence in conversation, and when those inferences produce feelings of connection.
+I study how people read another person's inner world from the glimpses conversation gives us — a stated opinion, a well-timed reaction, a story they choose to tell — and when those glimpses become feelings of connection.
  </p>
  </div>
 
