@@ -60,7 +60,7 @@
  </div>
  </div>
 </div>
-<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="sparkle-divider my-10" role="separator" aria-hidden="true"><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span><span class="star" style="width: 0.85em; height: 0.85em;"></span><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span></div>
 <div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- Send2Kobo -->
  <div class="items-center block lg:flex">
@@ -118,7 +118,7 @@
  </div>
  </div>
 </div>
-<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="sparkle-divider my-10" role="separator" aria-hidden="true"><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span><span class="star" style="width: 0.85em; height: 0.85em;"></span><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span></div>
 <div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- Dyadic chat app -->
  <div class="items-center block lg:flex">
@@ -167,7 +167,7 @@
  </div>
  </div>
 </div>
-<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="sparkle-divider my-10" role="separator" aria-hidden="true"><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span><span class="star" style="width: 0.85em; height: 0.85em;"></span><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span></div>
 <div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- Svelte Radio Podcast -->
  <div class="items-center block lg:flex">
@@ -210,7 +210,7 @@
  </div>
  </div>
 </div>
-<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="sparkle-divider my-10" role="separator" aria-hidden="true"><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span><span class="star" style="width: 0.85em; height: 0.85em;"></span><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span></div>
 <div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- Interactive 2-player trust game -->
  <div class="items-center block lg:flex">
@@ -274,7 +274,7 @@
  </div>
  </div>
 </div>
-<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="sparkle-divider my-10" role="separator" aria-hidden="true"><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span><span class="star" style="width: 0.85em; height: 0.85em;"></span><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span></div>
 <div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- WiNS members database -->
  <div class="items-center block lg:flex">
@@ -321,7 +321,7 @@
  </div>
  </div>
 </div>
-<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="sparkle-divider my-10" role="separator" aria-hidden="true"><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span><span class="star" style="width: 0.85em; height: 0.85em;"></span><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span></div>
 <div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- Multi-user synchronous video streaming & chat app platform -->
  <div class="items-center block lg:flex">
@@ -364,7 +364,7 @@
  </div>
  </div>
 </div>
-<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="sparkle-divider my-10" role="separator" aria-hidden="true"><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span><span class="star" style="width: 0.85em; height: 0.85em;"></span><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span></div>
 <div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- DartBrains: Intro to fMRI -->
  <div class="items-center block lg:flex">
@@ -406,7 +406,7 @@
  </div>
  </div>
 </div>
-<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="sparkle-divider my-10" role="separator" aria-hidden="true"><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span><span class="star" style="width: 0.85em; height: 0.85em;"></span><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span></div>
 <div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- Info theory for Social Neuroscientists -->
  <div class="items-center block lg:flex">
@@ -451,7 +451,7 @@
  </div>
  </div>
 </div>
-<hr class="my-10" style="border: none; border-top: 1px solid var(--rule);" />
+<div class="sparkle-divider my-10" role="separator" aria-hidden="true"><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span><span class="star" style="width: 0.85em; height: 0.85em;"></span><span class="sparkle" style="width: 0.55em; height: 0.55em;"></span></div>
 <div class="cyber-project-card p-3 lg:p-6 my-2">
  <!-- Honeycomb -->
  <div class="items-center block lg:flex">

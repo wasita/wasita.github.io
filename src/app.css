@@ -30,7 +30,7 @@
   --paper: #0a0807;
   --paper-deep: #050403;
   --ink: #ffffff;
-  --ink-soft: #ece4d3;
+  --ink-soft: #ede6f4;
   --ink-faint: #b8ad9a;
   --accent: #cfb5ec;
   --accent-soft: #b89cd8;
@@ -783,12 +783,35 @@ a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.
   50% { opacity: 0.5; }
 }
 
-/* Portfolio project card — ruled separator between entries */
+/* Portfolio project card — separation handled by .sparkle-divider between entries */
 .cyber-project-card {
   position: relative;
   padding: 1.5rem 0;
   margin: 1rem 0;
-  border-bottom: 1px solid var(--rule);
+}
+
+/* Sparkle divider — magical-girl section break: hairline rules fade into a
+   sparkle ✦ star ✦ sparkle trio at center */
+.sparkle-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1rem;
+}
+.sparkle-divider::before,
+.sparkle-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+}
+.sparkle-divider::before {
+  background: linear-gradient(90deg, transparent, var(--rule));
+}
+.sparkle-divider::after {
+  background: linear-gradient(90deg, var(--rule), transparent);
+}
+.sparkle-divider .sparkle {
+  opacity: 0.65;
 }
 
 /* Nav link — minimal underline-on-active */
