@@ -163,8 +163,8 @@ a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.
 a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.lab-logo):not(.btn-accent)::after {
   content: "";
   display: inline-block;
-  width: 0.5em;
-  height: 0.5em;
+  width: 0;
+  height: 0.6em;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M 8 0 Q 8.6 6 16 8 Q 8.6 10 8 16 Q 7.4 10 0 8 Q 7.4 6 8 0 Z' fill='%23c794d2'/></svg>");
   background-repeat: no-repeat;
   background-size: contain;
@@ -172,13 +172,7 @@ a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.
   opacity: 0;
   pointer-events: none;
   vertical-align: middle;
-  transition: opacity 0.25s ease;
-}
-a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.lab-logo):not(.btn-accent)::before {
-  margin-right: 0.15em;
-}
-a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.lab-logo):not(.btn-accent)::after {
-  margin-left: 0.15em;
+  transition: opacity 0.25s ease, width 0.25s ease, margin-left 0.25s ease, margin-right 0.25s ease;
 }
 .dark a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.lab-logo):not(.btn-accent)::before,
 .dark a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.lab-logo):not(.btn-accent)::after {
@@ -186,10 +180,14 @@ a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.
 }
 a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.lab-logo):not(.btn-accent):hover::before {
   opacity: 1;
+  width: 0.6em;
+  margin-right: 0.25em;
   animation: link-sparkle-pop-l 0.55s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.lab-logo):not(.btn-accent):hover::after {
   opacity: 1;
+  width: 0.6em;
+  margin-left: 0.25em;
   animation: link-sparkle-pop-r 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) 0.05s;
 }
 @keyframes link-sparkle-pop-r {
