@@ -4,19 +4,30 @@
 </svelte:head>
 
 <article class="px-6 lg:px-12 pt-12 pb-20 max-w-5xl mx-auto">
-  <!-- Big hero with Joji photo right next to the headline -->
-  <div class="hidden md:flex items-center justify-start gap-8 lg:gap-12 mb-12">
-    <h1
-      class="font-display shrink-0"
-      style="font-size: clamp(3rem, 9vw, 6.5rem); line-height: 0.95; margin: 0;"
-    >
-      about
-      <span style="color: var(--accent);">me</span>.<span
-        class="sparkle-cluster"
-        aria-hidden="true"
-        style="width: 0.4em; height: 0.4em; margin-left: 0.1em; vertical-align: 0.65em;"
-      ></span>
-    </h1>
+  <!-- Desktop hero: text column (H1 + identity) beside Joji, photo vertically centered -->
+  <div class="hidden md:flex items-center gap-8 lg:gap-12 mb-12">
+    <div class="flex flex-col">
+      <h1
+        class="font-display mb-8"
+        style="font-size: clamp(3rem, 9vw, 6.5rem); line-height: 0.95; margin-top: 0;"
+      >
+        about
+        <span style="color: var(--accent);">me</span>.<span
+          class="sparkle-cluster"
+          aria-hidden="true"
+          style="width: 0.4em; height: 0.4em; margin-left: 0.1em; vertical-align: 0.65em;"
+        ></span>
+      </h1>
+      <h2
+        class="font-display mb-4"
+        style="font-size: clamp(2rem, 5vw, 3.25rem); line-height: 0.95;"
+      >
+        Wasita Mahaphanit
+      </h2>
+      <p class="font-label text-xs" style="color: var(--caption-ink);">
+        incoming postdoc @ NYU &amp; Mt. Sinai
+      </p>
+    </div>
     <div
       class="taped-photo glittery shrink-0"
       style="transform: rotate(4deg);"
@@ -30,7 +41,8 @@
       />
     </div>
   </div>
-  <!-- Mobile-only header (when photo is shown separately below) -->
+
+  <!-- Mobile: H1, photo, identity stacked -->
   <h1
     class="font-display md:hidden mb-8"
     style="font-size: clamp(3rem, 9vw, 6.5rem); line-height: 0.95;"
@@ -39,7 +51,6 @@
     <span style="color: var(--accent);">me</span>.
   </h1>
 
-  <!-- Mobile: Joji shows here instead -->
   <div class="md:hidden flex justify-center mb-8">
     <div class="taped-photo glittery" style="transform: rotate(4deg);">
       <img
@@ -52,8 +63,7 @@
     </div>
   </div>
 
-  <!-- Identity block -->
-  <div class="mb-12">
+  <div class="md:hidden mb-12">
     <h2
       class="font-display mb-4"
       style="font-size: clamp(2rem, 5vw, 3.25rem); line-height: 0.95;"
