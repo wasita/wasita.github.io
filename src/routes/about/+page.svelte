@@ -4,9 +4,9 @@
 </svelte:head>
 
 <article class="px-6 lg:px-12 pt-12 pb-20 max-w-5xl mx-auto">
-  <!-- Desktop hero: text column (H1 + identity) beside Joji, photo vertically centered -->
-  <div class="hidden md:flex items-center gap-8 lg:gap-12 mb-12">
-    <div class="flex flex-col">
+  <!-- Desktop hero: text column (H1 + identity) beside Joji; photo vertically centered on text stack and horizontally centered in the space beside it -->
+  <div class="hidden md:flex items-center mb-12">
+    <div class="flex flex-col shrink-0">
       <h1
         class="font-display mb-8"
         style="font-size: clamp(3rem, 9vw, 6.5rem); line-height: 0.95; margin-top: 0;"
@@ -28,17 +28,19 @@
         incoming postdoc @ NYU &amp; Mt. Sinai
       </p>
     </div>
-    <div
-      class="taped-photo glittery shrink-0"
-      style="transform: rotate(4deg);"
-    >
-      <img
-        src="/images/joji-cuddles.webp"
-        width="180"
-        height="180"
-        class="block w-48 h-48 object-cover"
-        alt="Wasi cuddling with her black cat Joji"
-      />
+    <div class="flex-1 flex justify-center">
+      <div
+        class="taped-photo glittery shrink-0"
+        style="transform: rotate(4deg);"
+      >
+        <img
+          src="/images/joji-cuddles.webp"
+          width="180"
+          height="180"
+          class="block w-48 h-48 object-cover"
+          alt="Wasi cuddling with her black cat Joji"
+        />
+      </div>
     </div>
   </div>
 
