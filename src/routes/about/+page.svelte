@@ -5,7 +5,7 @@
 
 <article class="px-6 lg:px-12 pt-12 pb-20 max-w-5xl mx-auto">
   <!-- Big hero with Joji photo right next to the headline -->
-  <div class="hidden md:flex items-end justify-start gap-8 lg:gap-12 mb-12">
+  <div class="hidden md:flex items-center justify-start gap-8 lg:gap-12 mb-12">
     <h1
       class="font-display shrink-0"
       style="font-size: clamp(3rem, 9vw, 6.5rem); line-height: 0.95; margin: 0;"
@@ -18,7 +18,7 @@
       ></span>
     </h1>
     <div
-      class="taped-photo glittery shrink-0 mb-3"
+      class="taped-photo glittery shrink-0"
       style="transform: rotate(4deg);"
     >
       <img
