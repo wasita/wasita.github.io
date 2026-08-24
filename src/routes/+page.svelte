@@ -51,7 +51,7 @@
         style="color: var(--ink-soft); max-width: 42ch;"
       >
         I'm a cognitive scientist studying what goes on in our minds during
-        real social interaction.
+        social interaction.
       </p>
     </div>
 
