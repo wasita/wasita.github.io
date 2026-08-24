@@ -159,31 +159,25 @@ a.group {
 /* Fun sparkles that pop in on BOTH sides of inline text links on hover.
    Excludes the same set of links that don't get the underline (nav, icon buttons,
    wrapped image/card anchors). */
-a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.lab-logo):not(.btn-accent) {
-  position: relative;
-}
 a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.lab-logo):not(.btn-accent)::before,
 a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.lab-logo):not(.btn-accent)::after {
   content: "";
-  position: absolute;
-  top: 50%;
-  width: 0.6em;
-  height: 0.6em;
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M 8 0 Q 8.6 6 16 8 Q 8.6 10 8 16 Q 7.4 10 0 8 Q 7.4 6 8 0 Z' fill='%23c794d2'/></svg>");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   opacity: 0;
   pointer-events: none;
-  transform: translateY(-50%);
+  vertical-align: middle;
   transition: opacity 0.25s ease;
 }
 a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.lab-logo):not(.btn-accent)::before {
-  right: 100%;
   margin-right: 0.15em;
 }
 a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.lab-logo):not(.btn-accent)::after {
-  left: 100%;
   margin-left: 0.15em;
 }
 .dark a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.lab-logo):not(.btn-accent)::before,
@@ -199,14 +193,14 @@ a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.
   animation: link-sparkle-pop-r 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) 0.05s;
 }
 @keyframes link-sparkle-pop-r {
-  0% { transform: translateY(-50%) scale(0.3) rotate(-30deg); }
-  60% { transform: translateY(-50%) scale(1.25) rotate(15deg); }
-  100% { transform: translateY(-50%) scale(1) rotate(0deg); }
+  0% { transform: scale(0.3) rotate(-30deg); }
+  60% { transform: scale(1.25) rotate(15deg); }
+  100% { transform: scale(1) rotate(0deg); }
 }
 @keyframes link-sparkle-pop-l {
-  0% { transform: translateY(-50%) scale(0.3) rotate(30deg); }
-  60% { transform: translateY(-50%) scale(1.25) rotate(-15deg); }
-  100% { transform: translateY(-50%) scale(1) rotate(0deg); }
+  0% { transform: scale(0.3) rotate(30deg); }
+  60% { transform: scale(1.25) rotate(-15deg); }
+  100% { transform: scale(1) rotate(0deg); }
 }
 
 /* Sparkle decoration for inner spans inside a `.group` hover-link
