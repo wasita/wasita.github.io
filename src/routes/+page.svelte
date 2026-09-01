@@ -74,7 +74,7 @@
             class="cyber-pulse"
             style="vertical-align: middle; margin-right: 6px;"
           ></span>
-          status: between chapters
+          status: postdoc-ing @ nyu + sinai
         </div>
       </div>
     </div>
