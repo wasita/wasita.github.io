@@ -25,7 +25,7 @@
         Wasita Mahaphanit
       </h2>
       <p class="font-label text-xs" style="color: var(--caption-ink);">
-        incoming postdoc @ NYU &amp; Mt. Sinai
+        postdoc @ NYU &amp; Mt. Sinai
       </p>
     </div>
     <div class="flex-1 flex justify-center">
@@ -73,7 +73,7 @@
       Wasita Mahaphanit
     </h2>
     <p class="font-label text-xs" style="color: var(--caption-ink);">
-      incoming postdoc @ NYU &amp; Mt. Sinai
+      postdoc @ NYU &amp; Mt. Sinai
     </p>
   </div>
 
@@ -117,7 +117,7 @@
           />
         </a>
       </span>
-      I am an incoming postdoctoral researcher at NYU and the
+      I am a postdoctoral researcher at NYU and the
       <a
         href="https://icahn.mssm.edu/research/center-for-computational-psychiatry"
         target="_blank"
