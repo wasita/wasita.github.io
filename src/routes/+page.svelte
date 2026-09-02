@@ -74,7 +74,7 @@
             class="cyber-pulse"
             style="vertical-align: middle; margin-right: 6px;"
           ></span>
-          status: postdoc-ing @ nyu + sinai
+          status: postdoc-ing @ nyu + mt. sinai
         </div>
       </div>
     </div>
