@@ -14,10 +14,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Node 📦
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -25,6 +25,7 @@ jobs:
       - name: Install, Build & deploy
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/wasita/wasita.github.io.git
+          npm install -g npm@11.11.0
           npm ci
           npm run gh-pages -- -u "github-actions-bot <support+actions@github.com>"
         env:
