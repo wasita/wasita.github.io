@@ -290,9 +290,10 @@
         href="https://www.instagram.com/wasiaerial/"
         target="_blank"
         rel="noreferrer">aerial hoop</a
-      >. Nowadays, I attend
-      <a href="https://uvcircus.com/" target="_blank" rel="noreferrer">UVCC</a>
-      workshops when I can.
+      >. Nowadays, I attend classes at
+      <a href="https://www.omfactory.yoga" target="_blank" rel="noreferrer"
+        >OM Factory</a
+      > when I can.
     </p>
   </div>
 
