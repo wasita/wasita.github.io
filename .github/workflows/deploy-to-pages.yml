@@ -25,6 +25,7 @@ jobs:
       - name: Install, Build & deploy
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/wasita/wasita.github.io.git
+          npm install -g npm@11.11.0
           npm ci
           npm run gh-pages -- -u "github-actions-bot <support+actions@github.com>"
         env:
