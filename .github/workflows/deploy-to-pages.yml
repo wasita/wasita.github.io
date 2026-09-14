@@ -9,8 +9,33 @@ on:
 permissions:
   contents: write
 jobs:
-  build-and-deploy:
-    concurrency: ci-${{ github.ref }}
+  build:
+    concurrency:
+      group: build-${{ github.ref }}
+      cancel-in-progress: true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v7
+
+      - name: Setup Node 📦
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install & build
+        run: |
+          npm install -g npm@11.11.0
+          npm ci
+          npm run build
+
+  deploy:
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    concurrency:
+      group: gh-pages-deploy
+      cancel-in-progress: true
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
