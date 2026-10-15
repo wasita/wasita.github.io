@@ -239,19 +239,14 @@ a:not(.cyber-nav-link):not(.cyber-icon-btn):not(.no-underline):not(.group):not(.
   position: relative;
   display: inline-block;
   padding: 8px;
-  background: var(--paper);
+  /* White polaroid frame in both light and dark mode */
+  background: #fff;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08);
   transform: rotate(-1.5deg);
   transition: transform 0.3s ease;
 }
 .dark .taped-photo {
-  background: var(--paper-deep);
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
-}
-/* Polaroid variant: stays white in dark mode */
-.taped-photo.polaroid,
-.dark .taped-photo.polaroid {
-  background: #fff;
 }
 .taped-photo:hover {
   transform: rotate(-0.5deg) scale(1.01);
