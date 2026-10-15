@@ -60,7 +60,7 @@
       class="col-span-12 lg:col-span-4 order-1 lg:order-2 flex justify-center lg:justify-end mb-8 lg:mb-0"
     >
       <div class="relative" style="max-width: 17rem;">
-        <div class="taped-photo glittery" style="transform: rotate(-3.5deg);">
+        <div class="taped-photo glittery polaroid" style="transform: rotate(-3.5deg);">
           <img
             src="/images/wasi_icon.webp"
             alt="wasita"
